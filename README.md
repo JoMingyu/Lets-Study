@@ -24,6 +24,7 @@ a useful collection of studying anything of software
 - <a href="http://www.haruair.com/blog/4108">ipify: 300억 요청 처리, 그 너머로</a>
 - <a href="https://brunch.co.kr/@leehosung/43">코드 커버리지 80% 넘긴 썰</a>
 - <a href="http://www.bloter.net/archives/197960">초보 개발자가 오픈소스에 기여하는 5단계</a>
+- <a href="https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/">Best Practices for Code Review</a>
 ---
 ## Git
 ### 책
@@ -41,6 +42,17 @@ a useful collection of studying anything of software
 - <a href="https://www.haruair.com/blog/2683">커밋 메시지에 대해</a>
 - <a href="https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지" 말라</a>
 - <a href="http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/">[초보용] Git 되돌리기( Reset, Revert )</a>
+---
+## 소프트웨어 공학
+### 책
+- <a href="http://www.yes24.com/24/goods/23343477?scode=032&OzSrank=1">쉽게 배우는 소프트웨어 공학</a>
+- <a href="http://www.yes24.com/24/goods/15895886?scode=032&OzSrank=4">새로 쓴 소프트웨어 공학</a>
+### 가이드
+- <a href="https://brunch.co.kr/@insuk/5">애자일이 무엇인가요?</a>
+- <a href="https://ko.atlassian.com/agile">Atlassian : 애자일 코치</a>
+### 읽을거리
+- <a href="https://brunch.co.kr/@bradlee/4">칸반(Kanban) 5개월 사용 후기</a>
+- <a href="https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699">잘 가요 스크럼, 반가워요 칸반</a>
 ---
 ## Docker
 ### 책
