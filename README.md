@@ -54,6 +54,18 @@ a useful collection of studying anything of software
 - <a href="https://brunch.co.kr/@bradlee/4">칸반(Kanban) 5개월 사용 후기</a>
 - <a href="https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699">잘 가요 스크럼, 반가워요 칸반</a>
 ---
+## AWS
+### 책
+- <a href="http://www.pyrasis.com/private/2014/09/30/publish-the-art-of-amazon-web-services-book">[Ebook] 아마존 웹 서비스를 다루는 기술</a>
+- <a href="http://www.yes24.com/24/goods/45022640?scode=032&OzSrank=1">실전 AWS 워크북</a>
+- <a href="http://www.yes24.com/24/goods/33998771?scode=032&OzSrank=4">AWS 패턴별 구축, 운용 가이드</a>
+- <a href="http://www.yes24.com/24/goods/38615856?scode=032&OzSrank=7">(예제를 통해 쉽게 따라하는) 아마존 웹 서비스</a>
+- <a href="http://www.yes24.com/24/Goods/39011465">아마존 웹 서비스 인 액션</a>
+### 가이드
+- <a href="https://aws.amazon.com/ko/getting-started/">AWS 공식 가이드</a>
+### 읽을거리
+- <a href="https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774">AWS 기반 백엔드 구축</a>
+---
 ## Docker
 ### 책
 - <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
