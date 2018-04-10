@@ -114,3 +114,12 @@ a useful collection of studying anything of software
 - <a href="https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134">GraphQL을 오해하다</a>
 - <a href="https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/">채점 현황 속도 올리기 - 스타트링크</a>
 - <a href="http://d2.naver.com/helloworld/605418">대용량 세션을 위한 로드밸런서</a>
+# 기타
+## Android
+### 책
+- <a href="http://kkangsnote.tistory.com/13">[Ebook] 깡샘의 안드로이드 프로그래밍</a>
+### 가이드
+- <a href="https://developer.android.com/guide/index.html?hl=ko">Android 공식 가이드</a>
+### 읽을거리
+- <a href="https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp">Android와 개발 패턴</a>
+- <a href="https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/">Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들</a>
