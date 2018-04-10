@@ -78,6 +78,30 @@ a useful collection of studying anything of software
 ### 읽을거리
 - <a href="https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774">AWS 기반 백엔드 구축</a>
 ---
+## 데이터베이스
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Linux
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## 데이터 과학
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
 ## Docker
 ### 책
 - <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
@@ -114,6 +138,64 @@ a useful collection of studying anything of software
 - <a href="https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134">GraphQL을 오해하다</a>
 - <a href="https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/">채점 현황 속도 올리기 - 스타트링크</a>
 - <a href="http://d2.naver.com/helloworld/605418">대용량 세션을 위한 로드밸런서</a>
+---
+# 프로그래밍 언어
+## Python
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Node.js
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## JavaScript
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Golang
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Java
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Kotlin
+### 책
+- <a href="http://kkangsnote.tistory.com/53?category=784212">[Ebook] 깡샘의 코틀린 프로그래밍</a>
+### 가이드
+- 
+### 읽을거리
+- 
+---
+## Scala
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- <a href="https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9">Scala의 도입을 회고하며</a>
+---
 # 기타
 ## Android
 ### 책
@@ -123,3 +205,10 @@ a useful collection of studying anything of software
 ### 읽을거리
 - <a href="https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp">Android와 개발 패턴</a>
 - <a href="https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/">Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들</a>
+## 프론트엔드
+### 책
+- 
+### 가이드
+- 
+### 읽을거리
+- <a href="https://taegon.kim/archives/4810">프론트엔드 개발자는 왜 구하기 어렵나요?</a>
