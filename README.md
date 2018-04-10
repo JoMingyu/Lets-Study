@@ -31,11 +31,41 @@ Table of Contents
 # 프로그래밍 언어
 ## Python
 ### 책
-- 
+- <a href="http://www.yes24.com/24/goods/24567417?scode=032&OzSrank=1">Do it! 점프 투 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/59317494?scode=032&OzSrank=6">러닝 파이썬 1, 2권</a>
+- <a href="http://www.yes24.com/24/goods/6694057?scode=032&OzSrank=1">파이썬 완벽 가이드</a>
+- <a href="http://www.yes24.com/24/goods/23335438?scode=032&OzSrank=1">처음 시작하는 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/38097960?scode=032&OzSrank=10">처음 만나는 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/55997735?scode=032&OzSrank=5">개발자를 위한 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/56900453?scode=032&OzSrank=3">엔지니어를 위한 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/30231768?scode=032&OzSrank=4">전문가를 위한 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/15418826?scode=032&OzSrank=2">실전 파이썬 프로그래밍</a>
+- <a href="http://www.yes24.com/24/goods/30231783?scode=032&OzSrank=1">고성능 파이썬</a>
+- <a href="http://www.yes24.com/24/goods/55258117?scode=032&OzSrank=1">파이썬을 여행하는 히치하이커를 위한 안내서</a>
+- <a href="http://www.yes24.com/24/goods/25138160?scode=032&OzSrank=1">Effective Python(파이썬 코딩의 기술)</a>
 ### 가이드
-- 
+- <a href="https://docs.python.org/3/tutorial/">Python 공식 튜토리얼</a>
+- <a href="https://wikidocs.net/book/1">점프 투 파이썬</a>
+- <a href="http://tcpschool.com/python/intro">TCPSchool : Python</a>
+- <a href="http://pythonstudy.xyz/">예제로 배우는 Python 프로그래밍</a>
+- <a href="https://wikidocs.net/13967">구글 docstring 가이드</a>
+- <a href="https://www.python.org/dev/peps/pep-0008/">PEP 8 Style Guide</a>
 ### 읽을거리
-- 
+- <a href="https://stackoverflow.com/questions/101268/hidden-features-of-python">Hidden features of Python</a>
+- <a href="http://book.pythontips.com/en/latest/index.html">Intermediate Python</a>
+- <a href="https://github.com/faif/python-patterns">A collection of design patterns/idioms in Python</a>
+- <a href="https://github.com/satwikkansal/wtfpython">wtfpython</a>
+- <a href="https://github.com/SigmaQuan/Better-Python-59-Ways">Better Python 59 Ways(Effective Python 코드 샘플)</a>
+- <a href="https://mingrammer.com/translation-asynchronous-python/">비동기 파이썬</a>
+- <a href="https://soooprmx.com/archives/5622">제너레이터와 코루틴</a>
+- <a href="https://www.haruair.com/blog/3735">파이썬 @memoize 고립된 환경에서 사용하기</a>
+- <a href="https://www.haruair.com/blog/3719">setup.py와 requirements.txt의 차이점과 사용 방법</a>
+- <a href="https://www.haruair.com/blog/3725">파이썬 리스트 vs. 튜플</a>
+- <a href="https://winterj.me/python-gc/">Python GC가 작동하는 원리</a>
+- <a href="https://mingrammer.com/underscore-in-python/">파이썬 언더스코어(_)에 대하여</a>
+- <a href="https://tech.ssut.me/2017/04/06/yes-python-is-slow-and-i-dont-care/">네 Python은 느립니다. 하지만 저는 신경쓰지 않습니다.</a>
+- <a href="https://winterj.me/alice-in-python-projectland/">파이썬 나라의 앨리스</a>
+- <a href="https://awesome-python.com/">Awesome Python</a>
 
 
 ## Node.js
