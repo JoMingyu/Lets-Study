@@ -34,11 +34,24 @@ a useful collection of studying anything of software
 - <a href="http://www.yes24.com/24/goods/30741673?scode=032&OzSrank=4">팀을 위한 Git</a>
 ### 가이드
 - <a href="https://backlog.com/git-tutorial/kr/">누구나 쉽게 이해할 수 있는 Git 입문</a>
+### 읽을거리
 - <a href="http://meetup.toast.com/posts/106">좋은 git 커밋 메시지를 작성하기 위한 7가지 약속</a>
 - <a href="https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/">Git 커밋 메시지 작성법</a>
 - <a href="https://tech.ssut.me/2015/06/24/write-a-good-git-commit-message/">좋은 깃(Git) 커밋 메시지 작성하기</a>
-### 읽을거리
 - <a href="https://www.haruair.com/blog/2683">커밋 메시지에 대해</a>
 - <a href="https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지" 말라</a>
 - <a href="http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/">[초보용] Git 되돌리기( Reset, Revert )</a>
 ---
+## Docker
+### 책
+- <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
+- <a href="http://www.yes24.com/24/goods/15291084?scode=032&OzSrank=1">가장 빨리 만나는 도커(Docker)</a>
+- <a href="http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book">[Ebook] 가장 빨리 만나는 도커(Docker)</a>
+### 가이드
+- <a href="https://docs.docker.com/get-started/">Docker 공식 가이드</a>
+- <a href="http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/">도커(Docker) 튜토리얼 : 깐 김에 배포까지</a>
+- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">초보를 위한 도커 안내서 - 도커란 무엇인가?</a>
+- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html">초보를 위한 도커 안내서 - 설치하고 컨테이너 실행하기</a>
+- <a href="https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html">초보를 위한 도커 안내서 - 이미지 만들고 배포하기</a>
+### 읽을거리
+- <a href="http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/">개발자가 처음 Docker 접할 때 오는 멘붕 몇가지</a>
