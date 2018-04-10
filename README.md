@@ -51,7 +51,6 @@ a useful collection of studying anything of software
 - <a href="https://brunch.co.kr/@leehosung/43">코드 커버리지 80% 넘긴 썰</a>
 - <a href="http://www.bloter.net/archives/197960">초보 개발자가 오픈소스에 기여하는 5단계</a>
 - <a href="https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/">Best Practices for Code Review</a>
----
 ## Git
 ### 책
 - <a href="http://www.yes24.com/24/goods/19684104?scode=032&OzSrank=7">만들면서 배우는 Git+GitHub 입문</a>
@@ -68,7 +67,6 @@ a useful collection of studying anything of software
 - <a href="https://www.haruair.com/blog/2683">커밋 메시지에 대해</a>
 - <a href="https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지" 말라</a>
 - <a href="http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/">[초보용] Git 되돌리기( Reset, Revert )</a>
----
 ## 자료구조 & 알고리즘
 ### 책
 - <a href="http://www.yes24.com/24/Goods/8921236">미래를 바꾼 아홉 가지 알고리즘</a>
@@ -78,7 +76,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - <a href="https://medium.com/@jwyeom63/%EB%B2%88%EC%97%AD-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B3%BC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%A6%90%EA%B2%81%EA%B2%8C-%EB%B0%B0%EC%9A%B8-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%95%98%EB%8B%A4-641462409bc7">알고리즘과 자료구조를 즐겁게 배울 수 있는 앱을 만들어 보았다</a>
----
 ## 소프트웨어 공학
 ### 책
 - <a href="http://www.yes24.com/24/goods/23343477?scode=032&OzSrank=1">쉽게 배우는 소프트웨어 공학</a>
@@ -89,7 +86,6 @@ a useful collection of studying anything of software
 ### 읽을거리
 - <a href="https://brunch.co.kr/@bradlee/4">칸반(Kanban) 5개월 사용 후기</a>
 - <a href="https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699">잘 가요 스크럼, 반가워요 칸반</a>
----
 ## AWS
 ### 책
 - <a href="http://www.pyrasis.com/private/2014/09/30/publish-the-art-of-amazon-web-services-book">[Ebook] 아마존 웹 서비스를 다루는 기술</a>
@@ -101,15 +97,12 @@ a useful collection of studying anything of software
 - <a href="https://aws.amazon.com/ko/getting-started/">AWS 공식 가이드</a>
 ### 읽을거리
 - <a href="https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774">AWS 기반 백엔드 구축</a>
----
 ## 데이터베이스
 ### 책
 - 
 ### 가이드
 - 
 ### 읽을거리
-- 
----
 ## Linux
 ### 책
 - 
@@ -117,7 +110,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## 데이터 과학
 ### 책
 - 
@@ -125,7 +117,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Docker
 ### 책
 - <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
@@ -139,7 +130,6 @@ a useful collection of studying anything of software
 - <a href="https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html">초보를 위한 도커 안내서 - 이미지 만들고 배포하기</a>
 ### 읽을거리
 - <a href="http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/">개발자가 처음 Docker 접할 때 오는 멘붕 몇가지</a>
----
 ## 백엔드 엔지니어링
 ### 책
 - <a href="http://www.yes24.com/24/Goods/3377489">24시간 365일 서버/인프라를 지탱하는 기술</a>
@@ -162,7 +152,6 @@ a useful collection of studying anything of software
 - <a href="https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134">GraphQL을 오해하다</a>
 - <a href="https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/">채점 현황 속도 올리기 - 스타트링크</a>
 - <a href="http://d2.naver.com/helloworld/605418">대용량 세션을 위한 로드밸런서</a>
----
 # 프로그래밍 언어
 ## Python
 ### 책
@@ -171,7 +160,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Node.js
 ### 책
 - 
@@ -179,7 +167,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## JavaScript
 ### 책
 - 
@@ -187,7 +174,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Golang
 ### 책
 - 
@@ -195,7 +181,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Java
 ### 책
 - 
@@ -203,7 +188,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Kotlin
 ### 책
 - <a href="http://kkangsnote.tistory.com/53?category=784212">[Ebook] 깡샘의 코틀린 프로그래밍</a>
@@ -211,7 +195,6 @@ a useful collection of studying anything of software
 - 
 ### 읽을거리
 - 
----
 ## Scala
 ### 책
 - 
