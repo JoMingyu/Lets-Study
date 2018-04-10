@@ -7,12 +7,14 @@ a useful collection of studying anything of software
 # 배경지식
 ## 프로그래밍
 ### 책
+- <a href="http://www.yes24.com/24/Goods/37974984">프로그래밍이 보이는 그림책</a>
 - <a href="http://www.yes24.com/24/goods/17926925?scode=032&OzSrank=1">유지보수하기 어렵게 코딩하는 방법</a>
 - <a href="http://www.yes24.com/24/Goods/12246033">테스트 주도 개발</a>
 - <a href="http://www.yes24.com/24/goods/27750871?CategoryNumber=001001003031004&Pcode=011">DDD Start!</a>
 - <a href="http://www.yes24.com/24/Goods/11681152">Clean Code 클린 코드</a>
 - <a href="http://www.yes24.com/24/Goods/36962739">퀄리티 코드</a>
 - <a href="http://www.yes24.com/24/Goods/7951038">리팩토링 : 코드 품질을 개선하는 객체지향 사고법</a>
+- <a href="http://www.yes24.com/24/Goods/55254076">프로그래밍의 정석 : 프로그래머가 반드시 알아야 할 101가지 원리 원칙</a>
 - <a href="http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004">소프트웨어 아키텍처 설계</a>
 - <a href="http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1">함수형 사고</a>
 ### 가이드
