@@ -45,6 +45,16 @@ a useful collection of studying anything of software
 - <a href="https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지" 말라</a>
 - <a href="http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/">[초보용] Git 되돌리기( Reset, Revert )</a>
 ---
+## 자료구조 & 알고리즘
+### 책
+- <a href="http://www.yes24.com/24/Goods/8921236">미래를 바꾼 아홉 가지 알고리즘</a>
+- <a href="http://www.yes24.com/24/Goods/22380570">누워서 읽는 알고리즘</a>
+- <a href="http://www.yes24.com/24/goods/58815816?scode=032&OzSrank=2">알고리즘, 인생을 계산하다</a>
+### 가이드
+- 
+### 읽을거리
+- <a href="https://medium.com/@jwyeom63/%EB%B2%88%EC%97%AD-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B3%BC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%A6%90%EA%B2%81%EA%B2%8C-%EB%B0%B0%EC%9A%B8-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%95%98%EB%8B%A4-641462409bc7">알고리즘과 자료구조를 즐겁게 배울 수 있는 앱을 만들어 보았다</a>
+---
 ## 소프트웨어 공학
 ### 책
 - <a href="http://www.yes24.com/24/goods/23343477?scode=032&OzSrank=1">쉽게 배우는 소프트웨어 공학</a>
