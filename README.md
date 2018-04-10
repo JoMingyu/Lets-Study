@@ -103,6 +103,7 @@ a useful collection of studying anything of software
 ### 가이드
 - 
 ### 읽을거리
+- <a href="https://www.haruair.com/blog/3055">MongoDB 스키마 디자인을 위한 6가지 규칙 요약</a>
 ## Linux
 ### 책
 - 
