@@ -91,3 +91,26 @@ a useful collection of studying anything of software
 - <a href="https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html">초보를 위한 도커 안내서 - 이미지 만들고 배포하기</a>
 ### 읽을거리
 - <a href="http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/">개발자가 처음 Docker 접할 때 오는 멘붕 몇가지</a>
+---
+## 백엔드 엔지니어링
+### 책
+- <a href="http://www.yes24.com/24/Goods/3377489">24시간 365일 서버/인프라를 지탱하는 기술</a>
+- <a href="http://www.yes24.com/24/Goods/37240058">서버/인프라 엔지니어를 위한 DevOps</a>
+- <a href="http://www.yes24.com/24/Goods/13486433">인프라 엔지니어의 교과서</a>
+- <a href="http://www.yes24.com/24/Goods/15381085">HTTP 완벽 가이드</a>
+- <a href="http://www.yes24.com/24/Goods/20103050">RESTful Web API</a>
+### 가이드
+- <a href="http://meetup.toast.com/posts/92">REST API 제대로 알고 사용하기</a>
+- <a href="https://velopert.com/category/dev-log/tech-log/graphql">GraphQL 강좌</a>
+- <a href="https://httpstatuses.com/">HTTP Status Codes</a>
+### 읽을거리
+- <a href="https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md">API Security Checklist-ko</a>
+- <a href="https://github.com/yosriady/api-development-tools">API development tools</a>
+- <a href="https://www.slideshare.net/sublee/spof-mmorpg">[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버</a>
+- <a href="https://www.slideshare.net/sublee/lt-vol-2">[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)</a>
+- <a href="http://slides.com/eungjun/rest#/">그런 REST API로 충분한가</a>
+- <a href="https://tech.ssut.me/2017/05/07/https-is-faster-than-http/">HTTPS는 HTTP보다 빠르다</a>
+- <a href="http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/">나만 모르고 있던 HTTP2</a>
+- <a href="https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134">GraphQL을 오해하다</a>
+- <a href="https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/">채점 현황 속도 올리기 - 스타트링크</a>
+- <a href="http://d2.naver.com/helloworld/605418">대용량 세션을 위한 로드밸런서</a>
