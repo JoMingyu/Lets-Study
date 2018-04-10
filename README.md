@@ -208,11 +208,18 @@ a useful collection of studying anything of software
 ## Android
 ### 책
 - <a href="http://kkangsnote.tistory.com/13">[Ebook] 깡샘의 안드로이드 프로그래밍</a>
+- <a href="http://www.yes24.com/24/goods/58281083?scode=032&OzSrank=1">Do it! 안드로이드 앱 프로그래밍</a>
+- <a href="http://www.yes24.com/24/goods/24135865">안드로이드 프로그래밍 정복</a>
 ### 가이드
 - <a href="https://developer.android.com/guide/index.html?hl=ko">Android 공식 가이드</a>
+- <a href="http://www.vogella.com/tutorials/Retrofit/article.html">Using Retrofit 2.x as REST client</a>
 ### 읽을거리
 - <a href="https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp">Android와 개발 패턴</a>
 - <a href="https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/">Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들</a>
+- <a href="http://d2.naver.com/helloworld/472196">Android의 ORM</a>
+- <a href="http://d2.naver.com/helloworld/377316">Android의 HTTP 클라이언트 라이브러리</a>
+- <a href="http://d2.naver.com/helloworld/429368">Android의 이미지로딩 라이브러리</a>
+- <a href="http://d2.naver.com/helloworld/539525">Android 앱 메모리 최적화</a>
 ## 프론트엔드
 ### 책
 - 
