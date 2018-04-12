@@ -85,9 +85,16 @@ Table of Contents
 ### 책
 - ​
 ### 가이드
-- ​
+- <a href="https://developer.mozilla.org/ko/">MDN 웹 문서</a>
 ### 읽을거리
-- 
+- <a href="https://www.haruair.com/blog/2975">JavaScript 부분 어플리케이션</a>
+- <a href="https://www.haruair.com/blog/2993">JavaScript에서 커링 함수 작성하기</a>
+- <a href="https://www.haruair.com/blog/2986">JavaScript 모나드</a>
+- <a href="https://medium.com/@pitzcarraldo/javascript%EB%8A%94-%EC%9E%98%EB%AA%BB%EC%9D%B4-%EC%97%86%EB%8B%A4-%EC%A0%95%EB%A7%90%EB%A1%9C-fb9b8e033b10">JavaScript는 잘못이 없다. 정말로.</a>
+- <a href="https://taegon.kim/archives/6690">GitLab은 왜 Vue.js를 선택했나</a>
+- <a href="https://rhostem.github.io/posts/2018-01-25-top-java-script-libraries-tech-to-learn-in-2018/">2018년에 배워야 할 최고의 자바스크립트 라이브러리와 기술</a>
+- <a href="https://rhostem.github.io/posts/2017-09-how-i-rediscovered-my-love-for-java-script-after-throwing-90-of-it-in-the-trash/">자바스크립트에 대한 애정을 언어의 90%를 쓰레기통에 버리면서 다시 발견했던 과정</a>
+- <a href="https://hudi.kr/%EB%B9%84%EB%8F%99%EA%B8%B0%EC%A0%81-javascript-%EC%8B%B1%EA%B8%80%EC%8A%A4%EB%A0%88%EB%93%9C-%EA%B8%B0%EB%B0%98-js%EC%9D%98-%EB%B9%84%EB%8F%99%EA%B8%B0-%EC%B2%98%EB%A6%AC-%EB%B0%A9%EB%B2%95/">비동기적 JavaScript</a>
 
 
 ## Golang
@@ -182,10 +189,9 @@ Table of Contents
 - <a href="http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004">소프트웨어 아키텍처 설계</a>
 - <a href="http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1">함수형 사고</a>
 ### 가이드
-- <a href="http://ocw.sookmyung.ac.kr/?course=1577">프로그래밍개론 I : 숙명여자대학교 OCW</a>
-- <a href="http://ocw.sookmyung.ac.kr/?course=1703">프로그래밍개론 II : 숙명여자대학교 OCW</a>
-- <a href="https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d">Microservices with gRPC</a>
+- 
 ### 읽을거리
+- <a href="https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d">Microservices with gRPC</a>
 - <a href="https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e">함수형 프로그래밍이란?</a>
 - <a href="http://www.haruair.com/blog/4108">ipify: 300억 요청 처리, 그 너머로</a>
 - <a href="https://brunch.co.kr/@leehosung/43">코드 커버리지 80% 넘긴 썰</a>
@@ -202,6 +208,7 @@ Table of Contents
 - <a href="http://www.yes24.com/24/goods/30741673?scode=032&OzSrank=4">팀을 위한 Git</a>
 ### 가이드
 - <a href="https://backlog.com/git-tutorial/kr/">누구나 쉽게 이해할 수 있는 Git 입문</a>
+- <a href="https://rogerdudler.github.io/git-guide/index.ko.html">git - 간편 안내서</a>
 ### 읽을거리
 - <a href="http://meetup.toast.com/posts/106">좋은 git 커밋 메시지를 작성하기 위한 7가지 약속</a>
 - <a href="https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/">Git 커밋 메시지 작성법</a>
