@@ -1,7 +1,6 @@
 # Lets-Study
 a useful collection of studying anything of software  
 소프트웨어 관련 공부를 위한 유용한 자료 모음
-
 Table of Contents
 =================
 * [배경지식](#배경지식)
@@ -21,23 +20,35 @@ Table of Contents
 * [웹 프론트엔드](#웹-프론트엔드)
     * [HTML/CSS/VanillaJS](#htmlcssvanillajs)
     * [Webpack](#webpack)
-    * [React.js](#reactjs)
-    * [Vue.js](#vuejs)
-* [데이터베이스](#데이터베이스)
-    * [MongoDB](#mongodb)
+    * [프레임워크](#프레임워크)
+        * [React.js](#reactjs)
+        * [Vue.js](#vuejs)
 * [백엔드](#백엔드)
     * [백엔드 엔지니어링](#백엔드-엔지니어링)
-    * [AWS](#aws)
-    * [Docker](#docker)
-* [백엔드 프레임워크](#백엔드-프레임워크)
-    * [Flask](#flask)
-    * [Django](#django)
-    * [Ruby on Rails](#ruby-on-rails)
-    * [Spring](#spring)
-    * [Spring MVC](#spring-mvc)
-    * [Spring Boot](#spring-boot)
-    * [Vert.x](#vertx)
-    * [Express.js](#expressjs)
+    * [데이터베이스](#데이터베이스)
+        * [MySQL](#mysql)
+        * [PostgreSQL](#postgresql)
+        * [MongoDB](#mongodb)
+        * [Redis](#redis)
+        * [Memcached](#memcached)
+        * [Aerospike](#aerospike)
+        * [Neo4j](#neo4j)
+    * [클라우드 컴퓨팅](#클라우드-컴퓨팅)
+        * [AWS](#aws)
+        * [GCP](#gcp)
+        * [Azure](#azure)
+    * [컨테이너](#컨테이너)
+        * [Docker](#docker)
+        * [Kubernetes](#kubernetes)
+    * [프레임워크](#프레임워크-1)
+        * [Flask](#flask)
+        * [Django](#django)
+        * [Ruby on Rails](#ruby-on-rails)
+        * [Spring](#spring)
+        * [Spring MVC](#spring-mvc)
+        * [Spring Boot](#spring-boot)
+        * [Vert.x](#vertx)
+        * [Express.js](#expressjs)
 * [기타](#기타)
     * [데이터 과학](#데이터-과학)
     * [Android](#android)
@@ -55,8 +66,6 @@ Table of Contents
 - [프로그래밍의 정석 : 프로그래머가 반드시 알아야 할 101가지 원리 원칙](http://www.yes24.com/24/Goods/55254076)
 - [소프트웨어 아키텍처 설계](http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004)
 - [함수형 사고](http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1)
-### 가이드
-- 
 ### 읽을거리
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
@@ -210,18 +219,18 @@ Table of Contents
 
 ## Webpack
 
-
-## React.js
-### 책
+## 프레임워크
+### React.js
+#### 책
 - [Learning React](http://shop.oreilly.com/product/0636920049579.do)
 
-### 가이드
+#### 가이드
 - [Learning React 얘제 한국어 번역](https://github.com/enshahar/learning-react-kor)
 - [한국어로 배우는 리엑트](https://github.com/reactkr/learn-react-in-korean)
 - [React Bit](https://github.com/vasanthk/react-bits)
 - [Velopert님 리엑트 초심자 강좌](https://velopert.com/3613)
 
-### 읽을거리
+#### 읽을거리
 - [Awesome React Components](https://github.com/brillout/awesome-react-components)
 - [네이버 메일 모바일웹 리엑트 적용기](http://d2.naver.com/helloworld/4966453)
 - [React 인가 Vue 인가?](https://joshua1988.github.io/web_dev/vue-or-react/)
@@ -229,30 +238,21 @@ Table of Contents
 - [React 프로젝트의 디렉토리 구조](https://medium.com/@FourwingsY/react-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0-bb183c0a426e)
 - [webpack3 + postcss 설정하기](https://medium.com/@FourwingsY/webpack-postcss-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-34f9c486093a)
 
-## Vue.js
-
-# 데이터베이스
-## MongoDB
-### 책
-- ​
-### 가이드
-- ​
-### 읽을거리
-- [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
+### Vue.js
 
 # 백엔드
 ## 백엔드 엔지니어링
-### 책
+#### 책
 - [24시간 365일 서버/인프라를 지탱하는 기술](http://www.yes24.com/24/Goods/3377489)
 - [서버/인프라 엔지니어를 위한 DevOps](http://www.yes24.com/24/Goods/37240058)
 - [인프라 엔지니어의 교과서](http://www.yes24.com/24/Goods/13486433)
 - [HTTP 완벽 가이드](http://www.yes24.com/24/Goods/15381085)
 - [RESTful Web API](http://www.yes24.com/24/Goods/20103050)
-### 가이드
+#### 가이드
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - [GraphQL 강좌](https://velopert.com/category/dev-log/tech-log/graphql)
 - [HTTP Status Codes](https://httpstatuses.com/)
-### 읽을거리
+#### 읽을거리
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
 - [API development tools](https://github.com/yosriady/api-development-tools)
 - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
@@ -265,43 +265,64 @@ Table of Contents
 - [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 
+## 데이터베이스
+### MySQL
+### PostgreSQL
+### MongoDB
+#### 책
+- ​
+#### 가이드
+- ​
+#### 읽을거리
+- [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
+### Redis
+### Memcached
+### Aerospike
+### Neo4j
 
-## AWS
-### 책
+## 클라우드 컴퓨팅
+### AWS
+#### 책
 - [[Ebook] 아마존 웹 서비스를 다루는 기술](http://www.pyrasis.com/private/2014/09/30/publish-the-art-of-amazon-web-services-book)
 - [실전 AWS 워크북](http://www.yes24.com/24/goods/45022640?scode=032&OzSrank=1)
 - [AWS 패턴별 구축, 운용 가이드](http://www.yes24.com/24/goods/33998771?scode=032&OzSrank=4)
 - [(예제를 통해 쉽게 따라하는) 아마존 웹 서비스](http://www.yes24.com/24/goods/38615856?scode=032&OzSrank=7)
 - [아마존 웹 서비스 인 액션](http://www.yes24.com/24/Goods/39011465)
-### 가이드
+#### 가이드
 - [AWS 공식 가이드](https://aws.amazon.com/ko/getting-started/)
-### 읽을거리
+#### 읽을거리
 - [AWS 기반 백엔드 구축](https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774)
 
+### GCP
 
-## Docker
-### 책
+### Azure
+
+## 컨테이너
+### Docker
+#### 책
 - [(완벽한 IT 인프라 구축을 위한) Docker](http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1)
 - [가장 빨리 만나는 도커(Docker)](http://www.yes24.com/24/goods/15291084?scode=032&OzSrank=1)
 - [[Ebook] 가장 빨리 만나는 도커(Docker)](http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book)
-### 가이드
+#### 가이드
 - [Docker 공식 가이드](https://docs.docker.com/get-started/)
 - [도커(Docker) 튜토리얼 : 깐 김에 배포까지](http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/)
 - [초보를 위한 도커 안내서 - 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
 - [초보를 위한 도커 안내서 - 이미지 만들고 배포하기](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
-### 읽을거리
+#### 읽을거리
 - [개발자가 처음 Docker 접할 때 오는 멘붕 몇가지](http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/)
 
-# 백엔드 프레임워크
-## Flask
-## Django
-## Ruby on Rails
-## Spring
-## Spring MVC
-## Spring Boot
-## Vert.x
-## Express.js
+### Kubernetes
+
+## 프레임워크
+### Flask
+### Django
+### Ruby on Rails
+### Spring
+### Spring MVC
+### Spring Boot
+### Vert.x
+### Express.js
 
 
 # 기타
@@ -309,14 +330,14 @@ Table of Contents
 
 
 ## Android
-### 책
+#### 책
 - [[Ebook] 깡샘의 안드로이드 프로그래밍](http://kkangsnote.tistory.com/13)
 - [Do it! 안드로이드 앱 프로그래밍](http://www.yes24.com/24/goods/58281083?scode=032&OzSrank=1)
 - [안드로이드 프로그래밍 정복](http://www.yes24.com/24/goods/24135865)
-### 가이드
+#### 가이드
 - [Android 공식 가이드](https://developer.android.com/guide/index.html?hl=ko)
 - [Using Retrofit 2.x as REST client](http://www.vogella.com/tutorials/Retrofit/article.html)
-### 읽을거리
+#### 읽을거리
 - [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들](https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/)
 - [Android의 ORM](http://d2.naver.com/helloworld/472196)
