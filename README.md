@@ -6,6 +6,12 @@ a useful collection of studying anything of software
 
 Table of Contents
 =================
+* [배경지식](#배경지식)
+    * [프로그래밍](#프로그래밍)
+    * [Git](#git)
+    * [자료구조 &amp; 알고리즘](#자료구조--알고리즘)
+    * [소프트웨어 공학](#소프트웨어-공학)
+    * [Linux](#linux)
 * [프로그래밍 언어](#프로그래밍-언어)
     * [Python](#python)
     * [Node.js](#nodejs)
@@ -14,19 +20,29 @@ Table of Contents
     * [Java](#java)
     * [Kotlin](#kotlin)
     * [Scala](#scala)
-* [기타](#기타)
-    * [프로그래밍](#프로그래밍)
-    * [Git](#git)
-    * [자료구조 &amp; 알고리즘](#자료구조--알고리즘)
-    * [소프트웨어 공학](#소프트웨어-공학)
-    * [AWS](#aws)
-    * [데이터베이스](#데이터베이스)
-    * [Linux](#linux)
-    * [데이터 과학](#데이터-과학)
-    * [Docker](#docker)
-    * [Android](#android)
-    * [프론트엔드](#프론트엔드)
+* [웹 프론트엔드](#웹-프론트엔드)
+    * [HTML/CSS/VanillaJS](#htmlcssvanillajs)
+    * [Webpack](#webpack)
+    * [React.js](#reactjs)
+    * [Vue.js](#vuejs)
+* [데이터베이스](#데이터베이스)
+    * [MongoDB](#mongodb)
+* [백엔드](#백엔드)
     * [백엔드 엔지니어링](#백엔드-엔지니어링)
+    * [AWS](#aws)
+    * [Docker](#docker)
+* [백엔드 프레임워크](#백엔드-프레임워크)
+    * [Flask](#flask)
+    * [Django](#django)
+    * [Ruby on Rails](#ruby-on-rails)
+    * [Spring](#spring)
+    * [Spring MVC](#spring-mvc)
+    * [Spring Boot](#spring-boot)
+    * [Vert.x](#vertx)
+    * [Express.js](#expressjs)
+* [기타](#기타)
+    * [데이터 과학](#데이터-과학)
+    * [Android](#android)
 
 # 배경지식
 ## 프로그래밍
@@ -94,22 +110,7 @@ Table of Contents
 - <a href="https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699">잘 가요 스크럼, 반가워요 칸반</a>
 
 
-## 데이터베이스
-### 책
-- 
-### 가이드
-- 
-### 읽을거리
-- <a href="https://www.haruair.com/blog/3055">MongoDB 스키마 디자인을 위한 6가지 규칙 요약</a>
-
-
 ## Linux
-### 책
-- 
-### 가이드
-- 
-### 읽을거리
-- 
 
 
 # 프로그래밍 언어
@@ -153,17 +154,11 @@ Table of Contents
 
 
 ## Node.js
-### 책
-- 
-### 가이드
-- 
-### 읽을거리
-- 
 
 
 ## JavaScript
 ### 책
-- 
+- ​
 ### 가이드
 - <a href="https://developer.mozilla.org/ko/">MDN 웹 문서</a>
 ### 읽을거리
@@ -192,96 +187,69 @@ Table of Contents
 
 
 ## Java
-### 책
-- 
-### 가이드
-- 
-### 읽을거리
-- 
 
 
 ## Kotlin
 ### 책
 - <a href="http://kkangsnote.tistory.com/53?category=784212">[Ebook] 깡샘의 코틀린 프로그래밍</a>
 ### 가이드
-- 
+- ​
 ### 읽을거리
 - 
 
 
 ## Scala
 ### 책
-- 
+- ​
 ### 가이드
-- 
+- ​
 ### 읽을거리
 - <a href="https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9">Scala의 도입을 회고하며</a>
 
 
-# 기타
-## AWS
+# 웹 프론트엔드
+## HTML/CSS/VanillaJS
 ### 책
-- <a href="http://www.pyrasis.com/private/2014/09/30/publish-the-art-of-amazon-web-services-book">[Ebook] 아마존 웹 서비스를 다루는 기술</a>
-- <a href="http://www.yes24.com/24/goods/45022640?scode=032&OzSrank=1">실전 AWS 워크북</a>
-- <a href="http://www.yes24.com/24/goods/33998771?scode=032&OzSrank=4">AWS 패턴별 구축, 운용 가이드</a>
-- <a href="http://www.yes24.com/24/goods/38615856?scode=032&OzSrank=7">(예제를 통해 쉽게 따라하는) 아마존 웹 서비스</a>
-- <a href="http://www.yes24.com/24/Goods/39011465">아마존 웹 서비스 인 액션</a>
+- ​
 ### 가이드
-- <a href="https://aws.amazon.com/ko/getting-started/">AWS 공식 가이드</a>
-### 읽을거리
-- <a href="https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774">AWS 기반 백엔드 구축</a>
-
-
-## 데이터 과학
-### 책
-- 
-### 가이드
-- 
-### 읽을거리
-- 
-
-
-## Docker
-### 책
-- <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
-- <a href="http://www.yes24.com/24/goods/15291084?scode=032&OzSrank=1">가장 빨리 만나는 도커(Docker)</a>
-- <a href="http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book">[Ebook] 가장 빨리 만나는 도커(Docker)</a>
-### 가이드
-- <a href="https://docs.docker.com/get-started/">Docker 공식 가이드</a>
-- <a href="http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/">도커(Docker) 튜토리얼 : 깐 김에 배포까지</a>
-- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">초보를 위한 도커 안내서 - 도커란 무엇인가?</a>
-- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html">초보를 위한 도커 안내서 - 설치하고 컨테이너 실행하기</a>
-- <a href="https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html">초보를 위한 도커 안내서 - 이미지 만들고 배포하기</a>
-### 읽을거리
-- <a href="http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/">개발자가 처음 Docker 접할 때 오는 멘붕 몇가지</a>
-
-
-## Android
-### 책
-- <a href="http://kkangsnote.tistory.com/13">[Ebook] 깡샘의 안드로이드 프로그래밍</a>
-- <a href="http://www.yes24.com/24/goods/58281083?scode=032&OzSrank=1">Do it! 안드로이드 앱 프로그래밍</a>
-- <a href="http://www.yes24.com/24/goods/24135865">안드로이드 프로그래밍 정복</a>
-### 가이드
-- <a href="https://developer.android.com/guide/index.html?hl=ko">Android 공식 가이드</a>
-- <a href="http://www.vogella.com/tutorials/Retrofit/article.html">Using Retrofit 2.x as REST client</a>
-### 읽을거리
-- <a href="https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp">Android와 개발 패턴</a>
-- <a href="https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/">Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들</a>
-- <a href="http://d2.naver.com/helloworld/472196">Android의 ORM</a>
-- <a href="http://d2.naver.com/helloworld/377316">Android의 HTTP 클라이언트 라이브러리</a>
-- <a href="http://d2.naver.com/helloworld/429368">Android의 이미지로딩 라이브러리</a>
-- <a href="http://d2.naver.com/helloworld/539525">Android 앱 메모리 최적화</a>
-
-
-## 프론트엔드
-### 책
-- 
-### 가이드
-- 
+- ​
 ### 읽을거리
 - <a href="https://taegon.kim/archives/4810">프론트엔드 개발자는 왜 구하기 어렵나요?</a>
 
 
+## Webpack
+
+
+## React.js
+### 책
+- [Learning React](http://shop.oreilly.com/product/0636920049579.do)
+
+### 가이드
+- [Learning React 얘제 한국어 번역](https://github.com/enshahar/learning-react-kor)
+- [한국어로 배우는 리엑트](https://github.com/reactkr/learn-react-in-korean)
+- [React Bit](https://github.com/vasanthk/react-bits)
+- [Velopert님 리엑트 초심자 강좌](https://velopert.com/3613)
+
+### 읽을거리
+- [Awesome React Components](https://github.com/brillout/awesome-react-components)
+- [네이버 메일 모바일웹 리엑트 적용기](http://d2.naver.com/helloworld/4966453)
+- [React 인가 Vue 인가?](https://joshua1988.github.io/web_dev/vue-or-react/)
+- [[번역] React를 본격적으로 하기 전 알면 좋은 6가지](https://jaeyeophan.github.io/2018/01/02/React-tips-for-beginners/)
+- [React 프로젝트의 디렉토리 구조](https://medium.com/@FourwingsY/react-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8%EC%9D%98-%EB%94%94%EB%A0%89%ED%86%A0%EB%A6%AC-%EA%B5%AC%EC%A1%B0-bb183c0a426e)
+- [webpack3 + postcss 설정하기](https://medium.com/@FourwingsY/webpack-postcss-%EC%84%A4%EC%A0%95%ED%95%98%EA%B8%B0-34f9c486093a)
+
+## Vue.js
+
+# 데이터베이스
+## MongoDB
+### 책
+- ​
+### 가이드
+- ​
+### 읽을거리
+- <a href="https://www.haruair.com/blog/3055">MongoDB 스키마 디자인을 위한 6가지 규칙 요약</a>
+
+# 백엔드
 ## 백엔드 엔지니어링
 ### 책
 - <a href="http://www.yes24.com/24/Goods/3377489">24시간 365일 서버/인프라를 지탱하는 기술</a>
@@ -304,3 +272,62 @@ Table of Contents
 - <a href="https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134">GraphQL을 오해하다</a>
 - <a href="https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/">채점 현황 속도 올리기 - 스타트링크</a>
 - <a href="http://d2.naver.com/helloworld/605418">대용량 세션을 위한 로드밸런서</a>
+
+
+## AWS
+### 책
+- <a href="http://www.pyrasis.com/private/2014/09/30/publish-the-art-of-amazon-web-services-book">[Ebook] 아마존 웹 서비스를 다루는 기술</a>
+- <a href="http://www.yes24.com/24/goods/45022640?scode=032&OzSrank=1">실전 AWS 워크북</a>
+- <a href="http://www.yes24.com/24/goods/33998771?scode=032&OzSrank=4">AWS 패턴별 구축, 운용 가이드</a>
+- <a href="http://www.yes24.com/24/goods/38615856?scode=032&OzSrank=7">(예제를 통해 쉽게 따라하는) 아마존 웹 서비스</a>
+- <a href="http://www.yes24.com/24/Goods/39011465">아마존 웹 서비스 인 액션</a>
+### 가이드
+- <a href="https://aws.amazon.com/ko/getting-started/">AWS 공식 가이드</a>
+### 읽을거리
+- <a href="https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774">AWS 기반 백엔드 구축</a>
+
+
+## Docker
+### 책
+- <a href="http://www.yes24.com/24/goods/32393162?scode=032&OzSrank=1">(완벽한 IT 인프라 구축을 위한) Docker</a>
+- <a href="http://www.yes24.com/24/goods/15291084?scode=032&OzSrank=1">가장 빨리 만나는 도커(Docker)</a>
+- <a href="http://www.pyrasis.com/private/2014/11/30/publish-docker-for-the-really-impatient-book">[Ebook] 가장 빨리 만나는 도커(Docker)</a>
+### 가이드
+- <a href="https://docs.docker.com/get-started/">Docker 공식 가이드</a>
+- <a href="http://blog.nacyot.com/articles/2014-01-27-easy-deploy-with-docker/">도커(Docker) 튜토리얼 : 깐 김에 배포까지</a>
+- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html">초보를 위한 도커 안내서 - 도커란 무엇인가?</a>
+- <a href="https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html">초보를 위한 도커 안내서 - 설치하고 컨테이너 실행하기</a>
+- <a href="https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html">초보를 위한 도커 안내서 - 이미지 만들고 배포하기</a>
+### 읽을거리
+- <a href="http://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/">개발자가 처음 Docker 접할 때 오는 멘붕 몇가지</a>
+
+# 백엔드 프레임워크
+## Flask
+## Django
+## Ruby on Rails
+## Spring
+## Spring MVC
+## Spring Boot
+## Vert.x
+## Express.js
+
+
+# 기타
+## 데이터 과학
+
+
+## Android
+### 책
+- <a href="http://kkangsnote.tistory.com/13">[Ebook] 깡샘의 안드로이드 프로그래밍</a>
+- <a href="http://www.yes24.com/24/goods/58281083?scode=032&OzSrank=1">Do it! 안드로이드 앱 프로그래밍</a>
+- <a href="http://www.yes24.com/24/goods/24135865">안드로이드 프로그래밍 정복</a>
+### 가이드
+- <a href="https://developer.android.com/guide/index.html?hl=ko">Android 공식 가이드</a>
+- <a href="http://www.vogella.com/tutorials/Retrofit/article.html">Using Retrofit 2.x as REST client</a>
+### 읽을거리
+- <a href="https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp">Android와 개발 패턴</a>
+- <a href="https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/">Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들</a>
+- <a href="http://d2.naver.com/helloworld/472196">Android의 ORM</a>
+- <a href="http://d2.naver.com/helloworld/377316">Android의 HTTP 클라이언트 라이브러리</a>
+- <a href="http://d2.naver.com/helloworld/429368">Android의 이미지로딩 라이브러리</a>
+- <a href="http://d2.naver.com/helloworld/539525">Android 앱 메모리 최적화</a>
