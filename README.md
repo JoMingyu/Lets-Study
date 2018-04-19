@@ -350,3 +350,4 @@ Table of Contents
 - [Android의 HTTP 클라이언트 라이브러리](http://d2.naver.com/helloworld/377316)
 - [Android의 이미지로딩 라이브러리](http://d2.naver.com/helloworld/429368)
 - [Android 앱 메모리 최적화](http://d2.naver.com/helloworld/539525)
+- [ConstraintLayout과 함께 안드로이드 앱 편하게 개발하기](https://academy.realm.io/kr/posts/cool-constraintlayout-droidcon-boston-2017)
