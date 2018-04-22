@@ -90,7 +90,7 @@ Table of Contents
 - [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
 - [좋은 깃(Git) 커밋 메시지 작성하기](https://tech.ssut.me/2015/06/24/write-a-good-git-commit-message/)
 - [커밋 메시지에 대해](https://www.haruair.com/blog/2683)
-- [당신의 Pull Request를 "떠넘기지" 말라](https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지)
+- [당신의 Pull Request를 "떠넘기지" 말라](https://www.haruair.com/blog/2721)
 - [[초보용] Git 되돌리기( Reset, Revert )](http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/)
 
 
