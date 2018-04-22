@@ -92,6 +92,7 @@ Table of Contents
 - [커밋 메시지에 대해](https://www.haruair.com/blog/2683)
 - [당신의 Pull Request를 "떠넘기지" 말라](https://www.haruair.com/blog/2721)
 - [[초보용] Git 되돌리기( Reset, Revert )](http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/)
+- [오픈소스 메인테이너는 당신에게 빚진 적 없다.](https://www.haruair.com/blog/4417)
 
 
 ## 자료구조 & 알고리즘
