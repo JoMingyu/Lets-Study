@@ -73,7 +73,7 @@ Table of Contents
 - [코드 커버리지 80% 넘긴 썰](https://brunch.co.kr/@leehosung/43)
 - [초보 개발자가 오픈소스에 기여하는 5단계](http://www.bloter.net/archives/197960)
 - [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
-
+- [[Ebook] 유지보수하기 어렵게 코딩하는 방법](http://cfile9.uf.tistory.com/attach/175A3A4850DAB8AC12CCB7)
 
 ## Git
 ### 책
@@ -90,7 +90,7 @@ Table of Contents
 - [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
 - [좋은 깃(Git) 커밋 메시지 작성하기](https://tech.ssut.me/2015/06/24/write-a-good-git-commit-message/)
 - [커밋 메시지에 대해](https://www.haruair.com/blog/2683)
-- [당신의 Pull Request를 "떠넘기지" 말라](https://www.haruair.com/blog/2721">당신의 Pull Request를 "떠넘기지)
+- [당신의 Pull Request를 "떠넘기지" 말라](https://www.haruair.com/blog/2721")
 - [[초보용] Git 되돌리기( Reset, Revert )](http://www.devpools.kr/2017/02/05/%EC%B4%88%EB%B3%B4%EC%9A%A9-git-%EB%90%98%EB%8F%8C%EB%A6%AC%EA%B8%B0-reset-revert/)
 
 
@@ -158,7 +158,7 @@ Table of Contents
 - [네 Python은 느립니다. 하지만 저는 신경쓰지 않습니다.](https://tech.ssut.me/2017/04/06/yes-python-is-slow-and-i-dont-care/)
 - [파이썬 나라의 앨리스](https://winterj.me/alice-in-python-projectland/)
 - [Awesome Python](https://awesome-python.com/)
-
+- [Python의 용어들](https://docs.python.org/3/glossary.html)
 
 ## Node.js
 
@@ -184,6 +184,7 @@ Table of Contents
 - [[Ebook] Go 프로그래밍 입문](http://www.codingnuri.com/golang-book/index.html)
 - [[Ebook] Go 언어 웹 프로그래밍 철저 입문](https://thebook.io/006806/)
 - [[Ebook] 가장 빨리 만나는 Go언어](http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book)
+- [[Ebook] Effective Go in Korean](https://gosudaweb.gitbooks.io/effective-go-in-korean/content/)
 ### 가이드
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
 - [예제로 배우는 Go 프로그래밍](http://golang.site/)
@@ -338,6 +339,7 @@ Table of Contents
 #### 가이드
 - [Android 공식 가이드](https://developer.android.com/guide/index.html?hl=ko)
 - [Using Retrofit 2.x as REST client](http://www.vogella.com/tutorials/Retrofit/article.html)
+- [Realm Academy](https://academy.realm.io/)
 #### 읽을거리
 - [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들](https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/)
