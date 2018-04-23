@@ -194,7 +194,7 @@ Table of Contents
 ### 책
 - [[Ebook] 깡샘의 코틀린 프로그래밍](http://kkangsnote.tistory.com/53?category=784212)
 ### 가이드
-- ​
+- ​[Kotlin 1.2 레퍼런스 문서 한글판](http://javacan.tistory.com/466)
 ### 읽을거리
 - 
 
