@@ -27,13 +27,6 @@ Table of Contents
 * [백엔드](#백엔드)
     * [백엔드 엔지니어링](#백엔드-엔지니어링)
     * [데이터베이스](#데이터베이스)
-        * [MySQL](#mysql)
-        * [PostgreSQL](#postgresql)
-        * [MongoDB](#mongodb)
-        * [Redis](#redis)
-        * [Memcached](#memcached)
-        * [Aerospike](#aerospike)
-        * [Neo4j](#neo4j)
     * [클라우드 컴퓨팅](#클라우드-컴퓨팅)
         * [AWS](#aws)
         * [GCP](#gcp)
@@ -269,19 +262,12 @@ Table of Contents
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 
 ## 데이터베이스
-### MySQL
-### PostgreSQL
-### MongoDB
-#### 책
+### 책
 - ​
-#### 가이드
+### 가이드
 - ​
-#### 읽을거리
+### 읽을거리
 - [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
-### Redis
-### Memcached
-### Aerospike
-### Neo4j
 
 ## 클라우드 컴퓨팅
 ### AWS
