@@ -312,9 +312,13 @@ Table of Contents
 ### Spring Boot
 #### Spring Boot 튜토리얼
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
+- [Gradle + SpringBoot + Travis CI + Coveralls + 텔레그램 연동하기](http://jojoldu.tistory.com/275)
+- [스프링 부트 2.0 레퍼런스 코딩](https://github.com/keesun/study/blob/master/spring-boot-reference-coding.md)
 #### Spring Security
 - [JWT 기반 로그인 구현 예제](https://github.com/szerhusenBC/jwt-spring-security-demo)
 - [폼 기반 인증 구현 튜토리얼](http://cusonar.tistory.com/8?category=607756)
+#### 읽을거리
+- [MVC 구조에서 service와 serviceImpl을 왜 만드는가](http://multifrontgarden.tistory.com/97)
 ### Vert.x
 ### Express.js
 
