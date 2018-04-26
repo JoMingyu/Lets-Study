@@ -46,10 +46,11 @@ Table of Contents
 * [기타](#기타)
     * [데이터 과학](#데이터-과학)
     * [Android](#android)
+    * [블록체인](#블록체인)
 
 # 배경지식
 ## 프로그래밍
-### 책
+#### 책
 - [프로그래밍이 보이는 그림책](http://www.yes24.com/24/Goods/37974984)
 - [유지보수하기 어렵게 코딩하는 방법](http://www.yes24.com/24/goods/17926925?scode=032&OzSrank=1)
 - [테스트 주도 개발](http://www.yes24.com/24/Goods/12246033)
@@ -61,7 +62,7 @@ Table of Contents
 - [소프트웨어 아키텍처 설계](http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004)
 - [함수형 사고](http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1)
 - [[Ebook] 유지보수하기 어렵게 코딩하는 방법](http://cfile9.uf.tistory.com/attach/175A3A4850DAB8AC12CCB7)
-### 읽을거리
+#### 읽을거리
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
 - [코드 커버리지 80% 넘긴 썰](https://brunch.co.kr/@leehosung/43)
@@ -70,16 +71,16 @@ Table of Contents
 - [regexr](https://regexr.com/)
 
 ## Git
-### 책
+#### 책
 - [만들면서 배우는 Git+GitHub 입문](http://www.yes24.com/24/goods/19684104?scode=032&OzSrank=7)
 - [프로 Git 2판](http://www.yes24.com/24/goods/24841824?scode=032&OzSrank=1)
 - [[Ebook] Git-scm : Pro Git 2nd Edition](https://git-scm.com/book/ko/v2)
 - [인간다운 Git](http://www.yes24.com/24/goods/58214924?scode=032&OzSrank=2)
 - [팀을 위한 Git](http://www.yes24.com/24/goods/30741673?scode=032&OzSrank=4)
-### 가이드
+#### 가이드
 - [누구나 쉽게 이해할 수 있는 Git 입문](https://backlog.com/git-tutorial/kr/)
 - [git - 간편 안내서](https://rogerdudler.github.io/git-guide/index.ko.html)
-### 읽을거리
+#### 읽을거리
 - [좋은 git 커밋 메시지를 작성하기 위한 7가지 약속](http://meetup.toast.com/posts/106)
 - [Git 커밋 메시지 작성법](https://item4.github.io/2016-11-01/How-to-Write-a-Git-Commit-Message/)
 - [좋은 깃(Git) 커밋 메시지 작성하기](https://tech.ssut.me/2015/06/24/write-a-good-git-commit-message/)
@@ -90,23 +91,23 @@ Table of Contents
 
 
 ## 자료구조 & 알고리즘
-### 책
+#### 책
 - [미래를 바꾼 아홉 가지 알고리즘](http://www.yes24.com/24/Goods/8921236)
 - [누워서 읽는 알고리즘](http://www.yes24.com/24/Goods/22380570)
 - [알고리즘, 인생을 계산하다](http://www.yes24.com/24/goods/58815816?scode=032&OzSrank=2)
-### 가이드
+#### 가이드
 - 
-### 읽을거리
+#### 읽을거리
 - [알고리즘과 자료구조를 즐겁게 배울 수 있는 앱을 만들어 보았다](https://medium.com/@jwyeom63/%EB%B2%88%EC%97%AD-%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B3%BC-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EB%A5%BC-%EC%A6%90%EA%B2%81%EA%B2%8C-%EB%B0%B0%EC%9A%B8-%EC%88%98-%EC%9E%88%EB%8A%94-%EC%95%B1%EC%9D%84-%EB%A7%8C%EB%93%A4%EC%96%B4-%EB%B3%B4%EC%95%98%EB%8B%A4-641462409bc7)
 
 
 ## 소프트웨어 공학
-### 책
+#### 책
 - [쉽게 배우는 소프트웨어 공학](http://www.yes24.com/24/goods/23343477?scode=032&OzSrank=1)
 - [새로 쓴 소프트웨어 공학](http://www.yes24.com/24/goods/15895886?scode=032&OzSrank=4)
-### 가이드
+#### 가이드
 - [Atlassian : 애자일 코치](https://ko.atlassian.com/agile)
-### 읽을거리
+#### 읽을거리
 - [애자일이 무엇인가요?](https://brunch.co.kr/@insuk/5)
 - [칸반(Kanban) 5개월 사용 후기](https://brunch.co.kr/@bradlee/4)
 - [잘 가요 스크럼, 반가워요 칸반](https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699)
@@ -117,7 +118,7 @@ Table of Contents
 
 # 프로그래밍 언어
 ## Python
-### 책
+#### 책
 - [Do it! 점프 투 파이썬](http://www.yes24.com/24/goods/24567417?scode=032&OzSrank=1)
 - [러닝 파이썬 1, 2권](http://www.yes24.com/24/goods/59317494?scode=032&OzSrank=6)
 - [파이썬 완벽 가이드](http://www.yes24.com/24/goods/6694057?scode=032&OzSrank=1)
@@ -130,14 +131,14 @@ Table of Contents
 - [고성능 파이썬](http://www.yes24.com/24/goods/30231783?scode=032&OzSrank=1)
 - [파이썬을 여행하는 히치하이커를 위한 안내서](http://www.yes24.com/24/goods/55258117?scode=032&OzSrank=1)
 - [Effective Python(파이썬 코딩의 기술)](http://www.yes24.com/24/goods/25138160?scode=032&OzSrank=1)
-### 가이드
+#### 가이드
 - [Python 공식 튜토리얼](https://docs.python.org/3/tutorial/)
 - [점프 투 파이썬](https://wikidocs.net/book/1)
 - [TCPSchool : Python](http://tcpschool.com/python/intro)
 - [예제로 배우는 Python 프로그래밍](http://pythonstudy.xyz/)
 - [구글 docstring 가이드](https://wikidocs.net/13967)
 - [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
-### 읽을거리
+#### 읽을거리
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
@@ -159,11 +160,11 @@ Table of Contents
 
 
 ## JavaScript
-### 책
+#### 책
 - ​
-### 가이드
+#### 가이드
 - [MDN 웹 문서](https://developer.mozilla.org/ko/)
-### 읽을거리
+#### 읽을거리
 - [JavaScript 부분 어플리케이션](https://www.haruair.com/blog/2975)
 - [JavaScript에서 커링 함수 작성하기](https://www.haruair.com/blog/2993)
 - [JavaScript 모나드](https://www.haruair.com/blog/2986)
@@ -175,15 +176,15 @@ Table of Contents
 
 
 ## Golang
-### 책
+#### 책
 - [[Ebook] Go 프로그래밍 입문](http://www.codingnuri.com/golang-book/index.html)
 - [[Ebook] Go 언어 웹 프로그래밍 철저 입문](https://thebook.io/006806/)
 - [[Ebook] 가장 빨리 만나는 Go언어](http://www.pyrasis.com/private/2015/06/01/publish-go-for-the-really-impatient-book)
 - [[Ebook] Effective Go in Korean](https://gosudaweb.gitbooks.io/effective-go-in-korean/content/)
-### 가이드
+#### 가이드
 - [A Tour of Go](http://go-tour-kr.appspot.com/#1)
 - [예제로 배우는 Go 프로그래밍](http://golang.site/)
-### 읽을거리
+#### 읽을거리
 - [고루틴은 어떻게 동작하는가?](https://stonzeteam.github.io/How-Goroutines-Work/)
 - [Golang 프로젝트에 TDD 도입하기](https://golangkorea.github.io/post/tdd-with-golang/)
 
@@ -192,20 +193,20 @@ Table of Contents
 
 
 ## Kotlin
-### 책
+#### 책
 - [[Ebook] 깡샘의 코틀린 프로그래밍](http://kkangsnote.tistory.com/53?category=784212)
-### 가이드
+#### 가이드
 - ​[Kotlin 1.2 레퍼런스 문서 한글판](http://javacan.tistory.com/466)
-### 읽을거리
+#### 읽을거리
 - 
 
 
 ## Scala
-### 책
+#### 책
 - ​
-### 가이드
+#### 가이드
 - ​
-### 읽을거리
+#### 읽을거리
 - [Scala의 도입을 회고하며](https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9)
 
 
@@ -264,11 +265,11 @@ Table of Contents
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 
 ## 데이터베이스
-### 책
+#### 책
 - ​
-### 가이드
+#### 가이드
 - ​
-### 읽을거리
+#### 읽을거리
 - [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
 
 ## 클라우드 컴퓨팅
@@ -345,3 +346,7 @@ Table of Contents
 - [Android의 HTTP 클라이언트 라이브러리](http://d2.naver.com/helloworld/377316)
 - [Android의 이미지로딩 라이브러리](http://d2.naver.com/helloworld/429368)
 - [Android 앱 메모리 최적화](http://d2.naver.com/helloworld/539525)
+
+## 블록체인
+#### 읽을거리
+- [4월 23일, 중국에서 누군가가 쏘아올린 작은 트랜잭션](http://www.hashedpost.com/2018/04/hashed-report-4-23.html?m=1)
