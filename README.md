@@ -350,3 +350,9 @@ Table of Contents
 ## 블록체인
 #### 읽을거리
 - [4월 23일, 중국에서 누군가가 쏘아올린 작은 트랜잭션](http://www.hashedpost.com/2018/04/hashed-report-4-23.html?m=1)
+
+## 취업
+#### 읽을거리
+- [주니어 개발자를 위한 취업 정보(repository)](https://github.com/jojoldu/junior-recruit-scheduler)
+- [실리콘밸리 top5 회사 합격 후기](https://medium.com/@jubileekim/%EC%8B%A4%EB%A6%AC%EC%BD%98%EB%B0%B8%EB%A6%AC-top5-%ED%9A%8C%EC%82%AC-%ED%95%A9%EA%B2%A9-%ED%9B%84%EA%B8%B0-c50640b26eab)
+- [내가 구글 인터뷰를 풀 타임으로 8 개월 동안 공부한 이유(Why I studied full-time for 8 months for a Google interview)](https://www.vobour.com/%EB%82%B4%EA%B0%80-%EA%B5%AC%EA%B8%80-%EC%9D%B8%ED%84%B0%EB%B7%B0%EB%A5%BC-%ED%92%80-%ED%83%80%EC%9E%84%EC%9C%BC%EB%A1%9C-8-%EA%B0%9C%EC%9B%94-%EB%8F%99%EC%95%88-%EA%B3%B5%EB%B6%80%ED%95%9C-%EC%9D%B4%EC%9C%A0-why-i-s)
