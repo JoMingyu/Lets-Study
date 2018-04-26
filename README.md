@@ -60,13 +60,14 @@ Table of Contents
 - [프로그래밍의 정석 : 프로그래머가 반드시 알아야 할 101가지 원리 원칙](http://www.yes24.com/24/Goods/55254076)
 - [소프트웨어 아키텍처 설계](http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004)
 - [함수형 사고](http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1)
+- [[Ebook] 유지보수하기 어렵게 코딩하는 방법](http://cfile9.uf.tistory.com/attach/175A3A4850DAB8AC12CCB7)
 ### 읽을거리
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
 - [코드 커버리지 80% 넘긴 썰](https://brunch.co.kr/@leehosung/43)
 - [초보 개발자가 오픈소스에 기여하는 5단계](http://www.bloter.net/archives/197960)
 - [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
-- [[Ebook] 유지보수하기 어렵게 코딩하는 방법](http://cfile9.uf.tistory.com/attach/175A3A4850DAB8AC12CCB7)
+- [regexr](https://regexr.com/)
 
 ## Git
 ### 책
