@@ -213,6 +213,8 @@ Table of Contents
 # 웹 프론트엔드
 - [프론트엔드 개발자는 왜 구하기 어렵나요?](https://taegon.kim/archives/4810)
 ## HTML/CSS/VanillaJS
+#### 읽을거리
+- [PostCSS](https://medium.com/@FourwingsY/postcss-%EC%86%8C%EA%B0%9C-727310aa6505)
 
 
 ## Webpack
@@ -259,6 +261,7 @@ Table of Contents
 - [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
 - [HTTPS는 HTTP보다 빠르다](https://tech.ssut.me/2017/05/07/https-is-faster-than-http/)
 - [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)
+- [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)
 - [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
@@ -308,6 +311,8 @@ Table of Contents
 
 ## 프레임워크
 ### Flask
+#### 읽을거리
+- [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
 ### Django
 ### Ruby on Rails
 ### Spring
