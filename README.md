@@ -9,6 +9,7 @@ Table of Contents
     * [Git](#git)
     * [자료구조 &amp; 알고리즘](#자료구조--알고리즘)
     * [소프트웨어 공학](#소프트웨어-공학)
+    * [데이터 과학](#데이터-과학)
     * [Linux](#linux)
 * [프로그래밍 언어](#프로그래밍-언어)
     * [Python](#python)
@@ -44,7 +45,6 @@ Table of Contents
         * [Vert.x](#vertx)
         * [Express.js](#expressjs)
 * [기타](#기타)
-    * [데이터 과학](#데이터-과학)
     * [Android](#android)
     * [블록체인](#블록체인)
 
@@ -68,6 +68,7 @@ Table of Contents
 - [코드 커버리지 80% 넘긴 썰](https://brunch.co.kr/@leehosung/43)
 - [초보 개발자가 오픈소스에 기여하는 5단계](http://www.bloter.net/archives/197960)
 - [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
+- [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
 - [regexr](https://regexr.com/)
 
 ## Git
@@ -112,9 +113,19 @@ Table of Contents
 - [칸반(Kanban) 5개월 사용 후기](https://brunch.co.kr/@bradlee/4)
 - [잘 가요 스크럼, 반가워요 칸반](https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699)
 
+## 데이터 과학
+#### 읽을거리
+- [베이시안 통계 첫걸음](https://medium.com/@deepvalidation/%EB%B2%A0%EC%9D%B4%EC%8B%9C%EC%95%88-%ED%86%B5%EA%B3%84-%EC%B2%AB%EA%B1%B8%EC%9D%8C-7e7e1a5f5adc)
+- [베이시안 통계 둘째 걸음](https://medium.com/@deepvalidation/%EB%B2%A0%EC%9D%B4%EC%8B%9C%EC%95%88-%ED%86%B5%EA%B3%84-%EB%91%98%EC%A7%B8-%EA%B1%B8%EC%9D%8C-b486aa23d68b)
+- [월마트의 매출을 예측해 봅시다](https://medium.com/@deepvalidation/%EC%9B%94%EB%A7%88%ED%8A%B8%EC%9D%98-%EB%A7%A4%EC%B6%9C%EC%9D%84-%EC%98%88%EC%B8%A1%ED%95%B4-%EB%B4%85%EC%8B%9C%EB%8B%A4-73faf8dc7db)
+- [Airbnb 는 머신러닝을 이용하여 어떻게 호스트 선호도를 알 수 있을까?](https://medium.com/@deepvalidation/airbnb-%EB%8A%94-%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%98%EC%97%AC-%EC%96%B4%EB%96%BB%EA%B2%8C-%ED%98%B8%EC%8A%A4%ED%8A%B8-%EC%84%A0%ED%98%B8%EB%8F%84%EB%A5%BC-%EC%95%8C-%EC%88%98-%EC%9E%88%EC%9D%84%EA%B9%8C-3e4881ad3214)
+- [facebook, 세계를 연결하라: 사람들은 어디에?](https://medium.com/@deepvalidation/facebook-%EC%84%B8%EA%B3%84%EB%A5%BC-%EC%97%B0%EA%B2%B0%ED%95%98%EB%9D%BC-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%80-%EC%96%B4%EB%94%94%EC%97%90-af62a5362e92)
+- [당신의 기업은 안녕하십니까? — Airbnb 의 고객 충성도 측정법](https://medium.com/@deepvalidation/%EB%8B%B9%EC%8B%A0%EC%9D%98-%EA%B8%B0%EC%97%85%EC%9D%80-%EC%95%88%EB%85%95%ED%95%98%EC%8B%AD%EB%8B%88%EA%B9%8C-airbnb-%EC%9D%98-%EA%B3%A0%EA%B0%9D-%EC%B6%A9%EC%84%B1%EB%8F%84-%EC%B8%A1%EC%A0%95%EB%B2%95-7cc5dc5945b7)
+- [단어를 숫자로! Google의 Word2Vec](https://medium.com/@deepvalidation/%EB%8B%A8%EC%96%B4%EB%A5%BC-%EC%88%AB%EC%9E%90%EB%A1%9C-google%EC%9D%98-word2vec-18a4b14f8730)
+- [군중은 똑똑하다 - Random Forest](https://medium.com/@deepvalidation/title-3b0e263605de)
+- [군중은 똑똑하다2 - AdaBoost](https://medium.com/@deepvalidation/%EA%B5%B0%EC%A4%91%EC%9D%80-%EB%98%91%EB%98%91%ED%95%98%EB%8B%A42-adaboost-ba0122500034)
 
 ## Linux
-
 
 # 프로그래밍 언어
 ## Python
@@ -133,6 +144,7 @@ Table of Contents
 - [Effective Python(파이썬 코딩의 기술)](http://www.yes24.com/24/goods/25138160?scode=032&OzSrank=1)
 #### 가이드
 - [Python 공식 튜토리얼](https://docs.python.org/3/tutorial/)
+- [Python 공식 튜토리얼 한국어 문서](https://docs.python.org/ko/3.6/index.html)
 - [점프 투 파이썬](https://wikidocs.net/book/1)
 - [TCPSchool : Python](http://tcpschool.com/python/intro)
 - [예제로 배우는 Python 프로그래밍](http://pythonstudy.xyz/)
@@ -274,6 +286,8 @@ Table of Contents
 - ​
 #### 읽을거리
 - [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
+- [오픈소스 데이터베이스, 은행 서비스에 첫발을 내밀다](https://www.slideshare.net/deview/135-80845610)
+- [http://d2.naver.com/helloworld/14822](NHN의 안과 밖: Sharding Platform)
 
 ## 클라우드 컴퓨팅
 ### AWS
@@ -311,8 +325,26 @@ Table of Contents
 
 ## 프레임워크
 ### Flask
+#### 책
+- [플라스크 웹 개발 : 파이썬을 이용한 웹 어플리케이션 프로그래밍](http://www.yes24.com/24/Goods/30669136)
+#### 가이드
+- [Flask 1.0 Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/)
+- [Flask 1.0 공식 튜토리얼](http://flask.pocoo.org/docs/1.0/tutorial/)
 #### 읽을거리
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
+- [Flask 1.0 API Reference](http://flask.pocoo.org/docs/1.0/api/)
+- [Patterns for Flask 1.0](http://flask.pocoo.org/docs/1.0/patterns/)
+- [[Github] pallets/flask](https://github.com/pallets/flask)
+- [Explore Flask - Organizing your project](http://exploreflask.com/en/latest/organizing.html)
+- [Flask hacks and best practices](http://slides.skien.cc/flask-hacks-and-best-practices/)
+- [[Github] yoshiya0503/Flask-Best-Practices (일본어)](https://github.com/yoshiya0503/Flask-Best-Practices/wiki)
+- [[Github] JackStouffer/Flask-Foundation - A solid foundation for your flask app](https://github.com/yoshiya0503/Flask-Best-Practices/wiki)
+- [[Github] Robpol86/Flask-Large-Application-Example](https://github.com/Robpol86/Flask-Large-Application-Example)
+- [REST API Best Practices : Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/)
+- [How to Structure Large Flask Applications](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
+- [Flask(uWSGI)를 nginx에 연결하기](https://www.haruair.com/blog/1900)
+- [Flask Howto Series](https://damyanon.net/tags/flask/)
+
 ### Django
 ### Ruby on Rails
 ### Spring
@@ -332,8 +364,6 @@ Table of Contents
 
 
 # 기타
-## 데이터 과학
-
 
 ## Android
 #### 책
