@@ -151,6 +151,8 @@ Table of Contents
 - [구글 docstring 가이드](https://wikidocs.net/13967)
 - [PEP 8 Style Guide](https://www.python.org/dev/peps/pep-0008/)
 #### 읽을거리
+- [Awesome Python](https://awesome-python.com/)
+- [Python의 용어들](https://docs.python.org/3/glossary.html)
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
@@ -165,8 +167,8 @@ Table of Contents
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
 - [네 Python은 느립니다. 하지만 저는 신경쓰지 않습니다.](https://tech.ssut.me/2017/04/06/yes-python-is-slow-and-i-dont-care/)
 - [파이썬 나라의 앨리스](https://winterj.me/alice-in-python-projectland/)
-- [Awesome Python](https://awesome-python.com/)
-- [Python의 용어들](https://docs.python.org/3/glossary.html)
+- [2017년 12월 파이썬 세미나 - 나는 올해 얼마나 큰 꿈을 꾸었나](http://blog.pycon.kr/2017/12/27/python-seminar/)
+- [Pycon Korea 2017 전체 발표자료](https://www.pycon.kr/2017/program/list/)
 
 ## Node.js
 
@@ -301,6 +303,7 @@ Table of Contents
 - [AWS 공식 가이드](https://aws.amazon.com/ko/getting-started/)
 #### 읽을거리
 - [AWS 기반 백엔드 구축](https://medium.com/ibare-story/aws-%EA%B8%B0%EB%B0%98-%EB%B0%B1%EC%95%A4%EB%93%9C-%EA%B5%AC%EC%B6%95-ee935a232774)
+- [AWS Summit Seoul 2017 강연자료](http://www.awssummit.kr/)
 
 ### GCP
 
