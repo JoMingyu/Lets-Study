@@ -163,6 +163,7 @@ Table of Contents
 - [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [파이썬 @memoize 고립된 환경에서 사용하기](https://www.haruair.com/blog/3735)
 - [setup.py와 requirements.txt의 차이점과 사용 방법](https://www.haruair.com/blog/3719)
+- [파이썬 가상환경을 품은 패키지 관리자, pipenv](https://graspthegist.com/post/python-pipenv/)
 - [파이썬 리스트 vs. 튜플](https://www.haruair.com/blog/3725)
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
