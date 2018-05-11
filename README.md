@@ -69,6 +69,8 @@ Table of Contents
 - [초보 개발자가 오픈소스에 기여하는 5단계](http://www.bloter.net/archives/197960)
 - [Best Practices for Code Review](https://smartbear.com/learn/code-review/best-practices-for-peer-code-review/)
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
+- [체스 세계 챔피언, 컴퓨터에게 지다](http://blog.nexoncomputermuseum.org/221273079900)
+- [Stackshare - 기술스택 비교, 발견 서비스](https://stackshare.io/)
 - [regexr](https://regexr.com/)
 
 ## Git
