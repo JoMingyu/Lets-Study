@@ -285,6 +285,7 @@ Table of Contents
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)
 - [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
+- [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
 
 ## 데이터베이스
 #### 책
