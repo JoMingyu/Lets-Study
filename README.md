@@ -295,7 +295,9 @@ Table of Contents
 #### 책
 - ​
 #### 가이드
-- ​
+- [MongoDB Manual](https://docs.mongodb.com/manual/)
+- ​[Redis Documentation](https://redis.io/documentation)
+- [Redis Command reference](https://redis.io/commands)
 #### 읽을거리
 - [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
 - [오픈소스 데이터베이스, 은행 서비스에 첫발을 내밀다](https://www.slideshare.net/deview/135-80845610)
