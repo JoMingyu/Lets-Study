@@ -62,6 +62,8 @@ Table of Contents
 - [소프트웨어 아키텍처 설계](http://www.yes24.com/24/goods/36124313?CategoryNumber=001001003031004)
 - [함수형 사고](http://www.yes24.com/24/goods/29029252?scode=032&OzSrank=1)
 - [[Ebook] 유지보수하기 어렵게 코딩하는 방법](http://cfile9.uf.tistory.com/attach/175A3A4850DAB8AC12CCB7)
+#### 가이드
+- [Source Making : Design Patterns & Refactoring](https://sourcemaking.com/)
 #### 읽을거리
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
@@ -72,6 +74,8 @@ Table of Contents
 - [체스 세계 챔피언, 컴퓨터에게 지다](http://blog.nexoncomputermuseum.org/221273079900)
 - [Stackshare - 기술스택 비교, 발견 서비스](https://stackshare.io/)
 - [regexr](https://regexr.com/)
+- [실리콘밸리를 그리다 매거진 - 37. 내가 굳이 실리콘 밸리로 이직할 필요가 있을까?](https://brunch.co.kr/@svillustrated/40)
+- [공변성과 반공변성은 무엇인가?](https://www.haruair.com/blog/4458)
 
 ## Git
 #### 책
