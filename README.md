@@ -293,7 +293,7 @@ Table of Contents
 
 ## 데이터베이스
 #### 책
-- ​
+- [[Ebook] Redis in Action](https://redislabs.com/ebook)
 #### 가이드
 - [MongoDB Manual](https://docs.mongodb.com/manual/)
 - ​[Redis Documentation](https://redis.io/documentation)
