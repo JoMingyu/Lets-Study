@@ -291,6 +291,7 @@ Table of Contents
 - [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 - [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
+- [알아둬야 할 HTTP 요청 헤더](https://www.zerocho.com/category/HTTP/post/5b3ba2d0b3dabd001b53b9db)
 
 ## 데이터베이스
 #### 책
