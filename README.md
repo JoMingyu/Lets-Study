@@ -239,6 +239,7 @@ Table of Contents
 ## HTML/CSS/VanillaJS
 #### 읽을거리
 - [PostCSS](https://medium.com/@FourwingsY/postcss-%EC%86%8C%EA%B0%9C-727310aa6505)
+- [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
 
 
 ## Webpack
