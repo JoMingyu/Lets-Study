@@ -120,6 +120,7 @@ Table of Contents
 - [애자일이 무엇인가요?](https://brunch.co.kr/@insuk/5)
 - [칸반(Kanban) 5개월 사용 후기](https://brunch.co.kr/@bradlee/4)
 - [잘 가요 스크럼, 반가워요 칸반](https://medium.com/@pitzcarraldo/%EB%B2%88%EC%97%AD-%EC%9E%98-%EA%B0%80%EC%9A%94-%EC%8A%A4%ED%81%AC%EB%9F%BC-%EB%B0%98%EA%B0%80%EC%9B%8C%EC%9A%94-%EC%B9%B8%EB%B0%98-e27d1db15699)
+- [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
 
 ## 데이터 과학
 #### 읽을거리
