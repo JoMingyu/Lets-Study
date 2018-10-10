@@ -1,4 +1,4 @@
-# Lets-Study
+﻿# Lets-Study
 a useful collection of studying anything of software  
 소프트웨어 관련 공부를 위한 유용한 자료 모음
 
@@ -305,7 +305,7 @@ Table of Contents
 #### 읽을거리
 - [MongoDB 스키마 디자인을 위한 6가지 규칙 요약](https://www.haruair.com/blog/3055)
 - [오픈소스 데이터베이스, 은행 서비스에 첫발을 내밀다](https://www.slideshare.net/deview/135-80845610)
-- [http://d2.naver.com/helloworld/14822](NHN의 안과 밖: Sharding Platform)
+- [NHN의 안과 밖: Sharding Platform](http://d2.naver.com/helloworld/14822)
 
 ## 클라우드 컴퓨팅
 ### AWS
