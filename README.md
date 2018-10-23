@@ -77,6 +77,7 @@ Table of Contents
 - [regexr](https://regexr.com/)
 - [실리콘밸리를 그리다 매거진 - 37. 내가 굳이 실리콘 밸리로 이직할 필요가 있을까?](https://brunch.co.kr/@svillustrated/40)
 - [공변성과 반공변성은 무엇인가?](https://www.haruair.com/blog/4458)
+- [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)
 
 ## Git
 #### 책
