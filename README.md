@@ -323,6 +323,8 @@ Table of Contents
 - [AWS Summit Seoul 2017 강연자료](http://www.awssummit.kr/)
 
 ### GCP
+#### 가이드
+- [Map AWS services to Google Cloud Platform products](https://cloud.google.com/free/docs/map-aws-google-cloud-platform)
 
 ### Azure
 
