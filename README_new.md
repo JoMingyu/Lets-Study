@@ -24,7 +24,8 @@
 - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
-- [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)
+- [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
+    백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겼습니다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같습니다.
 - [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 - [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
@@ -67,11 +68,11 @@
     파이썬을 사용하며 생길 수 있는 해프닝들의 모음인데, 흥미로운 주제들이 많이 정리되어 있다.
 - [Better Python 59 Ways](https://github.com/SigmaQuan/Better-Python-59-Ways)  
     한국에서는 '파이썬 코딩의 기술'이라고 이름지어진, 'Effective Python'이라는 도서에서 사용된 59가지 예제 모음
+- [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
-    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 그린 스레드부터 콜백 스타일, async/await까지 차근차근 설명되어 있다.
+    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
-- [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [파이썬 리스트 vs. 튜플](https://www.haruair.com/blog/3725)  
     '문화적인 차이'를 설명하는 부분이 매우 와닿았다.
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
@@ -151,7 +152,7 @@
 ### Express.js
 - [Express에서 Sequelize를 사용할 때 Circular Import Problem을 해결하는 방법 - sequelize/express-example](https://github.com/sequelize/express-example)
 
-## 재미난 회고록이나 글
+## 뭔가 어디 카테고리에 특별히 넣어두기 애매한데 재미는 있는 회고록이나 글
 - [Scala의 도입을 회고하며](https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9)
 - [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
 - [프론트엔드 개발자는 왜 구하기 어렵나요?](https://taegon.kim/archives/4810)
