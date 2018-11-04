@@ -88,6 +88,7 @@
     위 링크에서는 pipenv가 제공하는 명령어들에 대한 추가적인 설명이 없어서 두루뭉실했는데, 이 글이 그런 점을 해결해주는 듯.
 #### 표준 라이브러리
 #### 외부 라이브러리
+- [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 #### SQLAlchemy
 #### Peewee
 #### MongoEngine
