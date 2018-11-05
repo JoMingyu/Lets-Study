@@ -102,6 +102,8 @@
 ## 데이터베이스에 관련된
 ### SQL
 ### MySQL
+- [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
+    DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 발생하는 문제에 대한 SOF 질문
 ### MongoDB
 ### SQLite
 ### Redis
