@@ -92,6 +92,14 @@
 #### MongoEngine
 #### Zappa
 #### boto3
+- [When to use a boto3 client and when to use a boto3 resource?](https://stackoverflow.com/questions/39272744/when-to-use-a-boto3-client-and-when-to-use-a-boto3-resource/39273710)  
+    boto3.resource는 단지 boto3.client를 wrapping한 high level API이며, boto3.resource는 boto3.client의 모든 API를 래핑하지 않으므로 어쩔수 없이 boto3.client나 boto3.resource.meta.client를 사용해야 한다는 것을 잘 요약해준 것 같다.
+- [boto3 - credentials](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html#configuring-credentials)  
+    boto3가 credential을 어디서 가져오는지, 우선순위는 어떤지에 대한 문서.
+- [Upload-Download File From S3 with Boto3](https://qiita.com/hengsokvisal/items/329924dd9e3f65dd48e7)  
+    boto3로 S3에 객체를 업로드하고, 다운로드하는 기본적인 인터랙션에 대한 가이드.
+- [How do I get the file/key size in boto S3?](https://stackoverflow.com/questions/5315603/how-do-i-get-the-file-key-size-in-boto-s3)  
+    버킷에서 특정 객체의 size를 얻어오기 위한 방법. s3 client 객체의 head_object로 객체에 HEAD 요청을 보내면 된다.
 
 ### Golang
 #### 언어 자체에 대한 이야기
