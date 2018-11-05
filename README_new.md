@@ -25,18 +25,19 @@
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
-    백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겼습니다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같습니다.
-- [대용량 세션을 위한 로드밸런서](http://d2.naver.com/helloworld/605418)
-- [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
-- [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
+    백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겼습니다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같다.
+- [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)  
+    IP 주소 검색 서비스인 [ipify](https://www.ipify.org/)를 Node.js로 개발하고, 성능에 문제를 겪은 뒤, Go로 API를 다시 작성해 문제를 해결한 이야기. 월간 200 달러로 300억 요청 처리. Go에 뽐뿌가 오게 만드는 글이다. 근데 Node.js가 왜 훨씬 느렸는지가 구체적으로 안 나와 있어서 아쉬웠다. ab라는 벤치마킹 툴을 새로 알게 되어 좋았음.
+- [ab - HTTP 서버 벤치마킹 툴](https://httpd.apache.org/docs/2.4/en/programs/ab.html)  
+    학교에서 한창 기숙사 관련 웹 서비스의 백엔드를 개발할 때 벤치마킹 코드를 직접 작성했었던 적 있는데, 그 때 이 도구를 알았으면 덜 삽질했었을텐데 싶다.
 
 ### HTTP에 가까운
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [HTTPS는 HTTP보다 빠르다](https://tech.ssut.me/2017/05/07/https-is-faster-than-http/)
-- [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)
-- [알아둬야 할 HTTP 요청 헤더](https://www.zerocho.com/category/HTTP/post/5b3ba2d0b3dabd001b53b9db)
+- [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)  
+    아니 뭐 이렇게까지 HTTP/1.1을 까고 HTTP/2를 찬양하나 싶었는데, 이유 있는 비판인 것 같다. HTTP/2가 SPDY를 기반으로 개발되었고, 구글이 HTTP/2가 SPDY를 대체할 것이라고 발표한 것은 처음 알았다.
 
 ### 코딩이나 패턴에 관한 얘기
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
@@ -76,15 +77,13 @@
 - [파이썬 리스트 vs. 튜플](https://www.haruair.com/blog/3725)  
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
-- [네 Python은 느립니다. 하지만 저는 신경쓰지 않습니다.](https://tech.ssut.me/2017/04/06/yes-python-is-slow-and-i-dont-care/)
-- [파이썬 나라의 앨리스](https://winterj.me/alice-in-python-projectland/)
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
-    virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개
+    virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개. pyenv가 설치되어 있으면 알아서 필요한 버전을 설치하고 가상 환경을 열어준다는 게 정말 맘에 든다. pyenv 설치하고, pyenv-virtualenv 설치하고, requirements.txt를 dev와 production에 나눠 만들 필요가 없으니 정말 편한 도구.
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)  
-    pipenv가 제공하는 명령어들에 대한 구체적인 설명이 들어 있습니다.
+    글 자체가 깔끔하게 정리되어 있기도 하고, pipenv가 제공하는 명령어들에 대한 구체적인 설명이 들어 있어서 초심자에게 더 좋은듯.
 #### 표준 라이브러리
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
@@ -136,14 +135,7 @@
 - [Flask 1.0 Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/)
 - [Flask 1.0 공식 튜토리얼](http://flask.pocoo.org/docs/1.0/tutorial/)
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
-- [Flask 1.0 API Reference](http://flask.pocoo.org/docs/1.0/api/)
 - [Patterns for Flask 1.0](http://flask.pocoo.org/docs/1.0/patterns/)
-- [Explore Flask - Organizing your project](http://exploreflask.com/en/latest/organizing.html)
-- [Flask hacks and best practices](http://slides.skien.cc/flask-hacks-and-best-practices/)
-- [REST API Best Practices : Python & Flask Tutorial](http://polyglot.ninja/rest-api-best-practices-python-flask-tutorial/)
-- [How to Structure Large Flask Applications](https://www.digitalocean.com/community/tutorials/how-to-structure-large-flask-applications)
-- [Flask(uWSGI)를 nginx에 연결하기](https://www.haruair.com/blog/1900)
-- [Flask Howto Series](https://damyanon.net/tags/flask/)
 ### Spring
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
 - [Gradle + SpringBoot + Travis CI + Coveralls + 텔레그램 연동하기](http://jojoldu.tistory.com/275)
@@ -158,3 +150,4 @@
 - [Scala의 도입을 회고하며](https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9)
 - [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
 - [프론트엔드 개발자는 왜 구하기 어렵나요?](https://taegon.kim/archives/4810)
+- [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
