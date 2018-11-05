@@ -39,7 +39,7 @@
 - [알아둬야 할 HTTP 요청 헤더](https://www.zerocho.com/category/HTTP/post/5b3ba2d0b3dabd001b53b9db)
 
 ### 코딩이나 패턴에 관한 얘기
-- [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)
+- [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
     전역 변수가 왜 나쁜지에 대한 이야기
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
@@ -74,7 +74,6 @@
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 - [파이썬 리스트 vs. 튜플](https://www.haruair.com/blog/3725)  
-    '문화적인 차이'를 설명하는 부분이 매우 와닿았다.
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
 - [네 Python은 느립니다. 하지만 저는 신경쓰지 않습니다.](https://tech.ssut.me/2017/04/06/yes-python-is-slow-and-i-dont-care/)
@@ -83,9 +82,9 @@
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
-    virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개다.
+    virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)  
-    위 링크에서는 pipenv가 제공하는 명령어들에 대한 추가적인 설명이 없어서 두루뭉실했는데, 이 글이 그런 점을 해결해주는 듯.
+    pipenv가 제공하는 명령어들에 대한 구체적인 설명이 들어 있습니다.
 #### 표준 라이브러리
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
