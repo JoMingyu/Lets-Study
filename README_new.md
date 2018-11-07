@@ -88,6 +88,36 @@
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 #### SQLAlchemy
+- [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
+    잘 정리된 SQLAlchemy 한글 튜토리얼
+- [Literal SELECT](https://stackoverflow.com/questions/7533146/how-do-i-select-literal-values-in-an-sqlalchemy-query)  
+    UNION 쿼리 등에서 자주 사용되는 literal SELECT를 SQLAlchemy에서는 어떻게 표현하는지에 대한 질문이다.
+- [Query 객체로 WHERE절 작성하기(Common filter operators)](https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators)  
+    SQLAlchemy의 Query 객체에서는 WHERE 절을 filter 메소드로 표현하는데, 여기에 들어가는 일반적인 operator들에 대한 정리다.
+- [How to pass a not like operator in a sqlalchemy ORM query](https://stackoverflow.com/questions/5018694/how-to-pass-a-not-like-operator-in-a-sqlalchemy-orm-query)  
+    Bitwise not operator가 아니라, `sqlalchemy.not_` 함수를 사용해서도 NOT을 표현할 수 있다.
+- [sqlalchemy.orm.query.Query.slice(start, stop)](https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.slice)  
+    Query 객체에서 LIMIT 쿼리를 표현하려면, slice 메소드를 사용하거나, __getitem__에 슬라이싱이 지원되므로 빌트인 슬라이싱 연산을 사용할 수 있다. 이건 [all 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2835-L2841)와 [__getitem__ 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2666-L2690), 그 바로 밑에 있는 [slice 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2693-L2732)를 살펴보면 도움이 많이 된다.
+- [How to union two subqueries in SQLAlchemy](https://stackoverflow.com/questions/20024744/how-to-union-two-subqueries-in-sqlalchemy-and-postgresql)  
+    Query 객체의 union이나 union_all 메소드를 통해 UNION, UNION ALL 쿼리를 표현할 수 있다.
+- [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/questions/34322471/sqlalchemy-engine-connection-and-session-difference)  
+    engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
+- [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/questions/14799189/avoiding-boilerplate-session-handling-code-in-sqlalchemy-functions)  
+    contextlib.contextmanager를 통해 session을 다루는 보일러플레이트를 with-as 문으로 관리하도록 만드는 패턴
+- [Contextual/Thread-local Sessions](https://docs.sqlalchemy.org/en/latest/orm/contextual.html)  
+    context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드
+- [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/questions/17972020/how-to-execute-raw-sql-in-sqlalchemy-flask-app)  
+    raw SQL을 실행하는 방법
+- [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
+    데이터 타입이 Generic Types/SQL Standard and Multiple Vendor Types/Vendor-Specific Types로 나뉜다는 것을 알게 됐다. Vendor-Specific Types는 한번쯤 써볼만한 것 같음.
+- ['select as' in SQLAlchemy](https://stackoverflow.com/questions/9187530/using-alias-for-select-as-in-sqlalchemy)  
+    Column.label 메소드로 aliasing(SELECT AS)를 표현하는 방법
+- [SQLAlchemy simple example of sum, average, min, max](https://stackoverflow.com/questions/11830980/sqlalchemy-simple-example-of-sum-average-min-max)  
+    sqlalchemy.sql.functions 모듈의 함수를 이용해 aggregation을 하는 방법
+- [Dealing with duplicate primary keys on insert in SQLAlchemy](https://stackoverflow.com/questions/10322514/dealing-with-duplicate-primary-keys-on-insert-in-sqlalchemy-declarative-style)  
+    질문이 굉장히 세세한데, 결론은 `session.add` 대신 `session.merge` 메소드를 사용하면 primary key duplicate 시 알아서 update하도록 만들 수 있다는 것이다.
+- [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/questions/10822635/get-the-number-of-rows-in-table-using-sqlalchemy)  
+    쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
 #### Peewee
 #### MongoEngine
 #### Zappa
@@ -159,3 +189,4 @@
 - [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
 - [프론트엔드 개발자는 왜 구하기 어렵나요?](https://taegon.kim/archives/4810)
 - [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
+- [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
