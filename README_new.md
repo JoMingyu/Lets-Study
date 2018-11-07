@@ -105,7 +105,7 @@
 - [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/questions/14799189/avoiding-boilerplate-session-handling-code-in-sqlalchemy-functions)  
     contextlib.contextmanager를 통해 session을 다루는 보일러플레이트를 with-as 문으로 관리하도록 만드는 패턴
 - [Contextual/Thread-local Sessions](https://docs.sqlalchemy.org/en/latest/orm/contextual.html)  
-    context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드
+    context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드. 하나의 스레드에서 동일한 세션을 이용해 여러 작업을 처리하는 경우, 함수에 session을 파라미터로 넘겨줘서 session을 유지하는 경우가 많은데 scoped_session을 사용하면 이러한 문제가 줄어든다.
 - [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/questions/17972020/how-to-execute-raw-sql-in-sqlalchemy-flask-app)  
     raw SQL을 실행하는 방법
 - [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
