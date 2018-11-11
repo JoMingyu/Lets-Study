@@ -3,7 +3,7 @@
 
 의식의 흐름으로 나눈 카테고리에, 링크로 이루어진 리스트 형태로 구성됩니다. 일단 링크 막 모아두고, 한번 읽고 나면 이게 어떤 글이고 왜 추천하는지를 간략하게 작성하고 있습니다.
 
-여러분도 북마크에 나만 보기 아까운 게 있다면 몇 개만 공유해 주세요. 레포 주인이 공부하는 분야가 넓지 않아서, 별 거 아닌 것처럼 보이는 기여더라도 큰 도움이 됩니다.
+여러분도 북마크에서 몇 개만 공유해 주세요. 레포 주인이 공부하는 분야가 넓지 않아서, 별 거 아닌 것처럼 보이는 기여더라도 큰 도움이 됩니다.
 
 ## 배경지식
 ### 그냥 배경지식
@@ -74,11 +74,14 @@
 - [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
     Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
-- [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
-- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
-- [파이썬 리스트 vs. 튜플](https://www.haruair.com/blog/3725)  
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
+- [Removing duplicates in lists](https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists)  
+    리스트에서 중복된 요소를 제거하는 방법에 대한 이야기다. 알아두면 요긴하게 써먹을 수 있음.
+- [Difference between append vs. extend list methods in Python](https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python)  
+    list를 확장하는 메소드로 append와 extend가 있는데, 이 둘의 차이. 3번째 답변이 오버로딩된 연산자와 timeit을 통한 시간 복잡도까지 잘 설명하고 있다.
+- [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
+    Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
@@ -87,10 +90,13 @@
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)  
     글 자체가 깔끔하게 정리되어 있기도 하고, pipenv가 제공하는 명령어들에 대한 구체적인 설명이 들어 있어서 초심자에게 더 좋은듯.
 #### 표준 라이브러리
+- [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
+- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 - [collection.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
     내 생각엔 OrderedDict를 써볼만한 case가 그리 많진 않을 것 같은데, OrderedDict를 써야 하는 적은 case 입장에서는 정말 개이득인 컨테이너 타입인 것 같다.(메인 언어로 파이썬 쓴지 1년 넘는 동안 딱 2번 써봤지만, 그때마다 OrderedDict 덕분에 정말 편-안했음) 단지 넣은 순서대로 dictionary가 유지된다는 것 뿐이지, 자동으로 sort는 해주지 않는다는 것을 인지하고 있어야 한다.
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
+#### 테스팅
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
     잘 정리된 SQLAlchemy 한글 튜토리얼
