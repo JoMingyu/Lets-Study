@@ -13,6 +13,12 @@
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)  
     sooop님의 블로그는 개념에 대한 정의가 깔끔하고, 쉬운 설명에 비해 많은 지식이 들어오는 가성비 높은 글 천지라 개인적으로 마음속 1순위 블로그인데, 감사하게도 정규 표현식에 대해서도 써 주셨다.
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
+- [협정 세계시(UTC)](https://ko.wikipedia.org/wiki/%ED%98%91%EC%A0%95_%EC%84%B8%EA%B3%84%EC%8B%9C)  
+    세계 표준시. 우리나라는 여기에 9시간을 더한 KST라는 한국 표준시를 사용한다.
+- [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
+    `2018-11-13T22:36:38+09:00`처럼 생겨먹은, 시간에 대한 i18n 처리를 할 때 거론되는 날짜와 시간에 관련된 국제 표준. format이 한가지 종류가 아니라는 점(날짜를 YYYY-MM-DD로 표현하는 경우도 있고, YYYYMMDD로 표현하는 경우도 있으며 시간이 UTC라면 +00:00 대신 Z를 쓸 수 있다.)과 timezone에 대한 표기 없이 UTC와의 시간 간격만 표현한다는 점이 흥미로웠다. 어딘가 시간이 들어가는 곳에서는 그냥 KST로 저장하고 `2018-11-13 15:31:10`처럼 표현했는데, 모든 시간을 UTC로 저장하고 ISO 8601 포맷을 사용하는 게 가장 확장성이 높을 듯. 동일한 시간대에서 통신 시 지역 시간을 가정하는 것이 편할지라도, 서로 다른 시간대 간의 통신에서는 애매할 수 있을테니 UTC에서 얼마를 더해 이 시각이 나왔는지를 알려주는 것이 좋을 것이다.
+- [유닉스 시간](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)  
+    Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 unix time이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
@@ -150,6 +156,7 @@
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 발생하는 문제에 대한 SOF 질문
+### PrestoDB
 ### MongoDB
 ### SQLite
 ### Redis
