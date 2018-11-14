@@ -16,20 +16,19 @@
 - [협정 세계시(UTC)](https://ko.wikipedia.org/wiki/%ED%98%91%EC%A0%95_%EC%84%B8%EA%B3%84%EC%8B%9C)  
     세계 표준시. 우리나라는 여기에 9시간을 더한 KST라는 한국 표준시를 사용한다.
 - [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
-    `2018-11-13T22:36:38+09:00`처럼 생겨먹은, 시간에 대한 i18n 처리를 할 때 거론되는 날짜와 시간에 관련된 국제 표준. format이 한가지 종류가 아니라는 점(날짜를 YYYY-MM-DD로 표현하는 경우도 있고, YYYYMMDD로 표현하는 경우도 있으며 시간이 UTC라면 +00:00 대신 Z를 쓸 수 있다.)과 timezone에 대한 표기 없이 UTC와의 시간 간격만 표현한다는 점이 흥미로웠다. 어딘가 시간이 들어가는 곳에서는 그냥 KST로 저장하고 `2018-11-13 15:31:10`처럼 표현했는데, 모든 시간을 UTC로 저장하고 ISO 8601 포맷을 사용하는 게 가장 확장성이 높을 듯. 동일한 시간대에서 통신 시 지역 시간을 가정하는 것이 편할지라도, 서로 다른 시간대 간의 통신에서는 애매할 수 있을테니 UTC에서 얼마를 더해 이 시각이 나왔는지를 알려주는 것이 좋을 것이다.
+    `2018-11-13T22:36:38+09:00`처럼 생겨먹은, 시간에 대한 i18n 처리를 할 때 거론되는 날짜와 시간에 관련된 국제 표준. format이 한가지 종류가 아니라는 점(날짜를 YYYY-MM-DD로 표현하는 경우도 있고, YYYYMMDD로 표현하는 경우도 있으며 시간이 UTC라면 +00:00 대신 Z를 쓸 수 있다.)과 timezone에 대한 표기 없이 UTC와의 시차만 표현한다는 점이 흥미로웠다. 어딘가 시간이 들어가는 곳에서는 그냥 KST로 저장하고 `2018-11-13 15:31:10`처럼 표현했는데, 모든 시간을 UTC로 저장하고 ISO 8601 포맷을 사용하는 게 가장 확장성이 높을 듯. 동일한 시간대에서 통신 시 지역 시간을 가정하는 것이 편할지라도, 서로 다른 시간대 간의 통신에서는 애매할 수 있을테니 ISO 8601 포맷을 사용하여 UTC에서 얼마를 더해 이 시각이 나왔는지를 알려주는 것이 좋을 것이다.
 - [유닉스 시간](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)  
-    Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 unix time이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
+    Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 [unix time](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
+- [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
+    시각을 표기하는 곳에서 KST, CST, EDT같이 timezone에 대해서는 약어만 마주치며 살다가, PrestoDB에서 `Asia/Seoul`같은 표현을 보고 이리저리 찾아보니 timezone의 약어는 표준이 따로 없다고 한다. 그래서 timezone 약어 목록으로 가장 유명한 [Time Zone Abbreviations](https://www.timeanddate.com/time/zones/)를 찾아봤더니 `CST`가 미국 중부 표준시, 중국 표준시, 쿠바 표준시를 모두 나타내는 등의 모호함이 있었다. tz database time zones라는 이름을 가진 해당 링크는 그 이름처럼 [IANA TZDB](https://www.iana.org/time-zones)에서 사용하는 타임존 목록을 그대로 가져와 정리한 것인데, 약어 대신 `Asia/Tokyo`, `Europe/Lisbon`처럼 지역명을 사용하고 있다. 이게 타임존을 다루는 데에 사실상 가장 현실적인 방안이라고들 생각하는 것 같다.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
 - [초보를 위한 도커 안내서 - 3. 이미지 만들고 배포하기](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
 - [Map AWS services to Google Cloud Platform products](https://cloud.google.com/free/docs/map-aws-google-cloud-platform)
-- [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
-- [API development tools](https://github.com/yosriady/api-development-tools)
 - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
-- [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
     백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겼습니다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같다.
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)  
@@ -38,9 +37,12 @@
     학교에서 한창 기숙사 관련 웹 서비스의 백엔드를 개발할 때 벤치마킹 코드를 직접 작성했었던 적 있는데, 그 때 이 도구를 알았으면 덜 삽질했었을텐데 싶다.
 
 ### HTTP에 가까운
+- [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
+- [API development tools](https://github.com/yosriady/api-development-tools)
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
+- [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
 - [HTTPS는 HTTP보다 빠르다](https://tech.ssut.me/2017/05/07/https-is-faster-than-http/)
 - [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)  
     아니 뭐 이렇게까지 HTTP/1.1을 까고 HTTP/2를 찬양하나 싶었는데, 이유 있는 비판인 것 같다. HTTP/2가 SPDY를 기반으로 개발되었고, 구글이 HTTP/2가 SPDY를 대체할 것이라고 발표한 것은 처음 알았다.
@@ -156,6 +158,8 @@
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 발생하는 문제에 대한 SOF 질문
+- [Insert into a MySQL table or update if exists](https://stackoverflow.com/questions/4205181/insert-into-a-mysql-table-or-update-if-exists)  
+    key duplication이 없다면 insert하고, 있으면 update를 MySQL에서 어떻게 하는지에 대한 SOF 질문. 다른 데이터베이스 엔진에서는 `UPSERT`나 `MERGE`라는 이름으로 사용되고 있는 것 같다.
 ### PrestoDB
 ### MongoDB
 ### SQLite
