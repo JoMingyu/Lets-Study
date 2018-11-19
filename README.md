@@ -174,11 +174,13 @@
 
 ## Android
 - [Android 공식 가이드](https://developer.android.com/guide/index.html?hl=ko)
+- [Android의 HTTP 클라이언트 라이브러리](http://d2.naver.com/helloworld/377316)
 - [Using Retrofit 2.x as REST client](http://www.vogella.com/tutorials/Retrofit/article.html)
+- [Retrofit 2와 함께하는 정말 쉬운 HTTP](https://academy.realm.io/kr/posts/droidcon-jake-wharton-simple-http-retrofit-2/)  
+    Realm academy같은 게 백엔드에는 없는게 너무 아쉽다. 내가 못 찾는건가..
 - [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들](https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/)
 - [Android의 ORM](http://d2.naver.com/helloworld/472196)
-- [Android의 HTTP 클라이언트 라이브러리](http://d2.naver.com/helloworld/377316)
 - [Android의 이미지로딩 라이브러리](http://d2.naver.com/helloworld/429368)
 - [Android 앱 메모리 최적화](http://d2.naver.com/helloworld/539525)
 
