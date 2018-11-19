@@ -183,6 +183,8 @@
 - [Android의 ORM](http://d2.naver.com/helloworld/472196)
 - [Android의 이미지로딩 라이브러리](http://d2.naver.com/helloworld/429368)
 - [Android 앱 메모리 최적화](http://d2.naver.com/helloworld/539525)
+- [안드로이드 BadTokenException의 원인과 해결방법](https://blog.sangyoung.me/2016/12/28/BadTokenException/)  
+    context알못에게 큰 시련과도 같은 BadTokenException. 내 경우 retrofit의 onResponse에서 다이얼로그를 띄울 때 ContextWrapper.getApplicationContext()의 반환을 전달했더니 났던 오류다.
 
 ## 웹 프론트엔드
 - [PostCSS](https://medium.com/@FourwingsY/postcss-%EC%86%8C%EA%B0%9C-727310aa6505)
