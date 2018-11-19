@@ -50,6 +50,7 @@
     아니 뭐 이렇게까지 HTTP/1.1을 까고 HTTP/2를 찬양하나 싶었는데, 이유 있는 비판인 것 같다. HTTP/2가 SPDY를 기반으로 개발되었고, 구글이 HTTP/2가 SPDY를 대체할 것이라고 발표한 것은 처음 알았다.
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
     결국 웹소켓의 요지는 polling을 push 방식으로 만든다는 건데, HTTP/2.0의 server push 기능이 어느정도 웹소켓을 흉내낼 수 있지 않을까 싶었다.
+- [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
 
 ### 코딩이나 패턴에 관한 얘기
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
