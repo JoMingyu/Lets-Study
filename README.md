@@ -32,7 +32,7 @@
 - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
-    백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겼습니다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같다.
+    백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겨 있다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같다.
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)  
     IP 주소 검색 서비스인 [ipify](https://www.ipify.org/)를 Node.js로 개발하고, 성능에 문제를 겪은 뒤, Go로 API를 다시 작성해 문제를 해결한 이야기. 월간 200 달러로 300억 요청 처리. Go에 뽐뿌가 오게 만드는 글이다. 근데 Node.js가 왜 훨씬 느렸는지가 구체적으로 안 나와 있어서 아쉬웠다. ab라는 벤치마킹 툴을 새로 알게 되어 좋았음.
 - [ab - HTTP 서버 벤치마킹 툴](https://httpd.apache.org/docs/2.4/en/programs/ab.html)  
@@ -142,6 +142,8 @@
     질문이 굉장히 세세한데, 결론은 `session.add` 대신 `session.merge` 메소드를 사용하면 primary key duplicate 시 알아서 update하도록 만들 수 있다는 것이다.
 - [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/questions/10822635/get-the-number-of-rows-in-table-using-sqlalchemy)  
     쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
+- [SQLAlchemy Transaction 관리 Practice 공유](https://blog.qodot.me/post/sqlalchemy-transaction-%EA%B4%80%EB%A6%AC-practice-%EA%B3%B5%EC%9C%A0/)  
+    데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
 #### Peewee
 #### MongoEngine
 #### Zappa
