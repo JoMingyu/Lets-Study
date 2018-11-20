@@ -162,6 +162,10 @@
 - [고루틴은 어떻게 동작하는가?](https://stonzeteam.github.io/How-Goroutines-Work/)
 
 ## 데이터베이스에 관련된
+- [What is an ORM and where can I learn more about it?](https://stackoverflow.com/questions/1279613/what-is-an-orm-and-where-can-i-learn-more-about-it)  
+    ORM이 무엇이고, 장점과 단점은 무엇인지에 대한 설명. ORM 라이브러리는 대부분 무겁고 러닝커브가 생기긴 하지만, 상황에 따라 동적으로 SELECT 쿼리를 빌드하는 머리아픈 경험을 해 봤다면 ORM이 이만큼 유연할 수가 없다. 복잡한 쿼리가 아니라면 성능 문제도 딱히 없는 것 같다. 이래저래 논쟁을 끌고 다니는 기술이긴 한데, 단점을 감당하지 않기 위해서 ORM으로 얻을 수 있는 메리트를 모두 포기하고 raw SQL을 쓸 이유가 딱히 없지 않을까 싶다. 물론 대용량 데이터를 다룰 때는 raw SQL을 쓰는 것이 마음 편한 듯.
+- [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)  
+    CUBRID의 개발을 이끌고 있는 엔지니어가 쓴, 트랜잭션의 관리를 DBMS 레벨에서 설명한 글. ACID 성질부터 UNDO와 REDO, 상태 로깅과 전이 로깅, 커밋을 하면 어떤 일이 일어나는지, group commit과 트랜잭션 철회 등이 정말 잘 정리되었다. 역시 기술은 해본 사람이 잘 아는 것 같다.
 ### SQL
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
@@ -220,6 +224,7 @@
 ## 뭔가 어디 카테고리에 특별히 넣어두기 애매한데 재미는 있는 회고록이나 글
 - [Scala의 도입을 회고하며](https://medium.com/rainist-engineering/%EC%8A%A4%EC%B9%BC%EB%9D%BC%EC%9D%98-%EB%8F%84%EC%9E%85%EC%9D%84-%ED%9A%8C%EA%B3%A0%ED%95%98%EB%A9%B0-d491125abeb9)
 - [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
-- [프론트엔드 개발자는 왜 구하기 어렵나요?](https://taegon.kim/archives/4810)
 - [OP.GG 오픈부터의 1년을 되돌아보며](http://log.op.gg/op-gg-1%EB%85%84-%EC%8A%A4%ED%86%A0%EB%A6%AC/)
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
+- [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
+    결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
