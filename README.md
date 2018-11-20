@@ -69,6 +69,9 @@
 ### 자료구조
 
 ## 언어
+### 공통
+- [Programming Notes for Professionals Books](https://goalkicker.com/)
+    48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
 ### Python
 #### 언어 자체에 대한 이야기
 - [Glossary](https://docs.python.org/3/glossary.html)  
