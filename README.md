@@ -174,9 +174,9 @@
 - [A Detailed Guide to Database Denormalization with Examples](https://rubygarage.org/blog/database-denormalization-with-examples)  
     역정규화는 정규화된 데이터베이스에서 데이터를 묶거나 중복 적재하는 등 쓰기 작업을 더 많이 수행해서, 읽기 속도를 향상시키는 일이다. 많은 JOIN이나 aggregation이 이뤄지는 읽기 쿼리는 속도가 느려지기 마련인데, 데이터를 중복해서 적재하거나, pre-joined 구조의 스키마를 작성하는 등의 역정규화로 이를 해결하는 경우가 있다. 위 가이드는 역정규화의 몇가지 사례들을 쉬운 예제와 함께 잘 설명해주고 있다.
 - [How does database indexing work?](https://stackoverflow.com/questions/1108/how-does-database-indexing-work)  
-    Index는 특정 레코드를 찾는 데에 linear search하던 걸, 레코드들을 정렬해서 range search하도록 만들고, 이를 통해 block access count를 줄이는 것이라고 보면 되는 것 같다. 너무 추상적인 것 같아 더 파보니 클러스터/비클러스터 인덱스 등등 더 깊게 뻗어나갈 수 있을듯.
+    Index는 특정 레코드를 찾는 데에 linear search하던 걸, 레코드들을 정렬한 별도의 자료 구조를 만들어 여기에 range search하도록 만들고, 이를 통해 block access count를 줄이는 것이라고 보면 되는 것 같다. 너무 추상적인 것 같아 더 파보니 클러스터/비클러스터 인덱스 등등 더 깊게 뻗어나갈 수 있을듯.
 - [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/questions/1251636/what-do-clustered-and-non-clustered-index-actually-mean)  
-    인덱스의 아키텍처는 클러스터형/비클러스터형 인덱스로 나뉜다. 클러스터형 인덱스는 unique row를 컬럼 순서에 맞춰 물리적인 레벨에서 ordering하여 적재하는 인덱스라고 한다. PK를 기준으로 판단하며 따라서 테이블 당 하나씩 가질 수 있음. B-Tree 인덱스나 hash table이 클러스터형 인덱스에 주로 쓰인다고 한다. 비클러스터형 인덱스는 물리적으로 데이터를 정렬하진 않고, 인덱스만 정렬한다. JOIN, WHERE, ORDER BY 절에서 사용된 비 PK 컬럼 위에 만들어진다고 함. insert와 update, point query(한두개만 select) operation에 있어서는 클러스터형 인덱스보다 빠르다고 한다.
+    인덱스의 아키텍처는 클러스터형/비클러스터형 인덱스로 나뉜다. 클러스터형 인덱스는 unique row를 컬럼 순서에 맞춰 물리적인 레벨에서 ordering하여 적재하는 인덱스라고 한다. PK를 기준으로 판단하며 따라서 테이블 당 하나씩 가질 수 있음. PK를 만들면 알아서 클러스터형 인덱스가 생긴다. B-Tree 인덱스나 hash table이 클러스터형 인덱스에 주로 쓰인다고 한다. 비클러스터형 인덱스는 물리적으로 데이터를 정렬하진 않고, 인덱스만 정렬한다. JOIN, WHERE, ORDER BY 절에서 사용된 비 PK 컬럼 위에 만들어진다고 함. insert와 update, point query(한두개만 select) operation에 있어서는 클러스터형 인덱스보다 빠르다고 한다.
     
     \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/questions/91688/what-are-the-differences-between-a-clustered-and-a-non-clustered-index)
 ### SQL
