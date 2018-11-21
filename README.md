@@ -171,6 +171,14 @@
     ORM이 무엇이고, 장점과 단점은 무엇인지에 대한 설명. ORM 라이브러리는 대부분 무겁고 러닝커브가 생기긴 하지만, 상황에 따라 동적으로 SELECT 쿼리를 빌드하는 머리아픈 경험을 해 봤다면 ORM이 이만큼 유연할 수가 없다. 복잡한 쿼리가 아니라면 성능 문제도 딱히 없는 것 같다. 이래저래 논쟁을 끌고 다니는 기술이긴 한데, 단점을 감당하지 않기 위해서 ORM으로 얻을 수 있는 메리트를 모두 포기하고 raw SQL을 쓸 이유가 딱히 없지 않을까 싶다. 물론 대용량 데이터를 다룰 때는 raw SQL을 쓰는 것이 마음 편한 듯.
 - [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)  
     CUBRID의 개발을 이끌고 있는 엔지니어가 쓴, 트랜잭션의 관리를 DBMS 레벨에서 설명한 글. ACID 성질부터 UNDO와 REDO, 상태 로깅과 전이 로깅, 커밋을 하면 어떤 일이 일어나는지, group commit과 트랜잭션 철회 등이 정말 잘 정리되었다. 역시 기술은 해본 사람이 잘 아는 것 같다.
+- [A Detailed Guide to Database Denormalization with Examples](https://rubygarage.org/blog/database-denormalization-with-examples)  
+    역정규화는 정규화된 데이터베이스에서 데이터를 묶거나 중복 적재하는 등 쓰기 작업을 더 많이 수행해서, 읽기 속도를 향상시키는 일이다. 많은 JOIN이나 aggregation이 이뤄지는 읽기 쿼리는 속도가 느려지기 마련인데, 데이터를 중복해서 적재하거나, pre-joined 구조의 스키마를 작성하는 등의 역정규화로 이를 해결하는 경우가 있다. 위 가이드는 역정규화의 몇가지 사례들을 쉬운 예제와 함께 잘 설명해주고 있다.
+- [How does database indexing work?](https://stackoverflow.com/questions/1108/how-does-database-indexing-work)  
+    Index는 특정 레코드를 찾는 데에 linear search하던 걸, 레코드들을 정렬해서 range search하도록 만들고, 이를 통해 block access count를 줄이는 것이라고 보면 되는 것 같다. 너무 추상적인 것 같아 더 파보니 클러스터/비클러스터 인덱스 등등 더 깊게 뻗어나갈 수 있을듯.
+- [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/questions/1251636/what-do-clustered-and-non-clustered-index-actually-mean)  
+    인덱스의 아키텍처는 클러스터형/비클러스터형 인덱스로 나뉜다. 클러스터형 인덱스는 unique row를 컬럼 순서에 맞춰 물리적인 레벨에서 ordering하여 적재하는 인덱스라고 한다. PK를 기준으로 판단하며 따라서 테이블 당 하나씩 가질 수 있음. B-Tree 인덱스나 hash table이 클러스터형 인덱스에 주로 쓰인다고 한다. 비클러스터형 인덱스는 물리적으로 데이터를 정렬하진 않고, 인덱스만 정렬한다. JOIN, WHERE, ORDER BY 절에서 사용된 비 PK 컬럼 위에 만들어진다고 함. insert와 update, point query(한두개만 select) operation에 있어서는 클러스터형 인덱스보다 빠르다고 한다.
+    
+    \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/questions/91688/what-are-the-differences-between-a-clustered-and-a-non-clustered-index)
 ### SQL
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
@@ -182,7 +190,6 @@
 ### SQLite
 ### Redis
 ### Memcached
-
 
 ## 모바일
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
