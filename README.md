@@ -62,7 +62,7 @@
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
 - [Higher-order-function(고차함수) with Kotlin](https://medium.com/@lazysoul/high-order-function-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-22b147d0c4a5)  
     인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
-- [Programming Notes for Professionals Books](https://goalkicker.com/)
+- [Programming Notes for Professionals Books](https://goalkicker.com/)  
     48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
 
 ### 소프트웨어 공학
