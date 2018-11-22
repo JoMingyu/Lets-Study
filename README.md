@@ -23,6 +23,10 @@
     시각을 표기하는 곳에서 KST, CST, EDT같이 timezone에 대해서는 약어만 마주치며 살다가, PrestoDB에서 `Asia/Seoul`같은 표현을 보고 이리저리 찾아보니 timezone의 약어는 표준이 따로 없다고 한다. 그래서 timezone 약어 목록으로 가장 유명한 [Time Zone Abbreviations](https://www.timeanddate.com/time/zones/)를 찾아봤더니 `CST`가 미국 중부 표준시, 중국 표준시, 쿠바 표준시를 모두 나타내는 등의 모호함이 있었다. tz database time zones라는 이름을 가진 해당 링크는 그 이름처럼 [IANA TZDB](https://www.iana.org/time-zones)에서 사용하는 타임존 목록을 그대로 가져와 정리한 것인데, 약어 대신 `Asia/Tokyo`, `Europe/Lisbon`처럼 지역명을 사용하고 있다. 이게 타임존을 다루는 데에 사실상 가장 현실적인 방안이라고들 생각하는 것 같다.
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
     JSON payload를 검증하는 데에 쓸 수 있는 JSONschema. 처음 봤을땐 뭐 이런 TMI 스펙이 다있어? 싶었는데 이젠 이거 없으면 validation이 어렵다.
+- [JSONSchema - object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
+    property name이 dynamic한 경우, pattern properties를 사용해볼 수 있다.
+- [JSONSchema - object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
+    JSONSchema object에서 dependency는 '프로퍼티 A가 있으면 프로퍼티 B도 있어야 한다'와 같은 개념이다. property dependencies를 사용할 수도 있으나, schema dependencies는 그 내부에 있는 dependecy들에 대해서도 스키마를 적용할 수 있어 확장성이 더 높다.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
@@ -39,6 +43,8 @@
     학교에서 한창 기숙사 관련 웹 서비스의 백엔드를 개발할 때 벤치마킹 코드를 직접 작성했었던 적 있는데, 그 때 이 도구를 알았으면 덜 삽질했었을텐데 싶다.
 - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
     결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
+- [Blue/Green Deployment: What It Is and How it Reduces Your Risk](https://rollout.io/blog/blue-green-deployment/)  
+    무중단 배포 전략 중 하나로, 기존의 어플리케이션을 green version이라고 부르고, 업그레이드하고자 하는 버전의 어플리케이션을 blue version이라고 이름짓는다. production에서 green version만 존재한 채 트래픽을 처리하다가 -> blue version이 새로 생겨나 트래픽을 둘이 함께 처리하고 -> blue version이 모든 트래픽을 처리하도록 만든 후 -> green version을 제거하고 blue version을 새로운 green version으로 만드는 방식이다. 다만 잠시동안 두 버전의 어플리케이션을 동시에 띄워야 하니 비용 문제가 발생할 수는 있으나 대부분 이런 방식을 많이 쓰는 것 같다.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
