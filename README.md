@@ -73,6 +73,14 @@
     인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
 - [Programming Notes for Professionals Books](https://goalkicker.com/)  
     48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
+- [PluralSight](https://www.pluralsight.com/)
+    대다수 기술의 IQ를 측정하며 자신의 강점과 약점을 파악할 수 있고, 이를 통한 강좌를 제공하여 자신에 대한 되돌아보기가 가능한 서비스이다.
+
+### 데이터 과학
+- [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
+    데이터 시각화를 위한 수많은 그래프들의 특징, 기능, 장단점, 사용처 등이 알차게 정리되어 있어 그래프를 고를 때 유용하게 사용할 수 있는 목록. 어떤 그래프를 사용해야될지 감이 오지 않을때 참고하도록 하자.
+- [Kaggle](https://www.kaggle.com/)
+    데이터 분석 및 예측 부류의 가장 유명한 competition 제공 사이트. competition 말고도 kernel과 discussion을 제공하여 데이터 관련 개념들을 알차게 배울 수 있도록 설계되어 있다. 데이터 관련 강의도 추가로 제공한다.
 
 ### 소프트웨어 공학
 ### AWS
