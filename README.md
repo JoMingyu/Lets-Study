@@ -45,6 +45,9 @@
     결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
 - [Blue/Green Deployment: What It Is and How it Reduces Your Risk](https://rollout.io/blog/blue-green-deployment/)  
     무중단 배포 전략 중 하나로, 기존의 어플리케이션을 green version이라고 부르고, 업그레이드하고자 하는 버전의 어플리케이션을 blue version이라고 이름짓는다. production에서 green version만 존재한 채 트래픽을 처리하다가 -> blue version이 새로 생겨나 트래픽을 둘이 함께 처리하고 -> blue version이 모든 트래픽을 처리하도록 만든 후 -> green version을 제거하고 blue version을 새로운 green version으로 만드는 방식이다. 다만 잠시동안 두 버전의 어플리케이션을 동시에 띄워야 하니 비용 문제가 발생할 수는 있으나 대부분 이런 방식을 많이 쓰는 것 같다.
+- [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
+    web server는 static content에 적합하고, app server는 dynamic content에 적합하므로 web server는 app server의 리버스 프록시 역할을 할 수 있다는 설명이 있다.
+- [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -99,9 +102,9 @@
     Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
-- [Removing duplicates in lists](https://stackoverflow.com/questions/7961363/removing-duplicates-in-lists)  
+- [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
     리스트에서 중복된 요소를 제거하는 방법에 대한 이야기다. 알아두면 요긴하게 써먹을 수 있음.
-- [Difference between append vs. extend list methods in Python](https://stackoverflow.com/questions/252703/difference-between-append-vs-extend-list-methods-in-python)  
+- [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
     list를 확장하는 메소드로 append와 extend가 있는데, 이 둘의 차이. 3번째 답변이 오버로딩된 연산자와 timeit을 통한 시간 복잡도까지 잘 설명하고 있다.
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
@@ -117,7 +120,7 @@
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 - [collection.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
     내 생각엔 OrderedDict를 써볼만한 case가 그리 많진 않을 것 같은데, OrderedDict를 써야 하는 적은 case 입장에서는 정말 개이득인 컨테이너 타입인 것 같다.(메인 언어로 파이썬 쓴지 1년 넘는 동안 딱 2번 써봤지만, 그때마다 OrderedDict 덕분에 정말 편-안했음) 단지 넣은 순서대로 dictionary가 유지된다는 것 뿐이지, 자동으로 sort는 해주지 않는다는 것을 인지하고 있어야 한다.
-- [Find Monday's date with Python](https://stackoverflow.com/questions/1622038/find-mondays-date-with-python)  
+- [Find Monday's date with Python](https://stackoverflow.com/a/1622052)  
     특정 datetime 객체를 기준으로 다음주 월요일과 저번주 월요일에 대한 datetime 객체를 가져오는 방법. timedelta로 weekday만큼을 day에 빼주면 'datetime 객체가 속한 week의 월요일'이 되고, 여기에 week를 1 더하면 다음주 월요일, week를 1 빼면 저번주 월요일이 된다. datetime에서 월요일을 0으로 사용한다는 것을 응용함. 다른 예로 datetime 객체가 속한 week의 화요일에 대한 datetime을 원한다면 weekday + 1만큼을 day에서 빼주면 된다. 언제든 적재될 수 있는 어떤 데이터가 매주 월요일에 지워져야 하는 경우, expire를 계산할 때 유용할 것 같다. 다음주 월요일 0시 0분의 시각과 현재 시각의 delta를 사용하면 되니까.
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
@@ -125,33 +128,33 @@
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
     잘 정리된 SQLAlchemy 한글 튜토리얼
-- [Literal SELECT](https://stackoverflow.com/questions/7533146/how-do-i-select-literal-values-in-an-sqlalchemy-query)  
+- [Literal SELECT](https://stackoverflow.com/a/7546802)  
     UNION 쿼리 등에서 자주 사용되는 literal SELECT를 SQLAlchemy에서는 어떻게 표현하는지에 대한 질문이다.
 - [Query 객체로 WHERE절 작성하기(Common filter operators)](https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators)  
     SQLAlchemy의 Query 객체에서는 WHERE 절을 filter 메소드로 표현하는데, 여기에 들어가는 일반적인 operator들에 대한 정리다.
-- [How to pass a not like operator in a sqlalchemy ORM query](https://stackoverflow.com/questions/5018694/how-to-pass-a-not-like-operator-in-a-sqlalchemy-orm-query)  
+- [How to pass a not like operator in a sqlalchemy ORM query](https://stackoverflow.com/a/5019427)  
     Bitwise not operator가 아니라, `sqlalchemy.not_` 함수를 사용해서도 NOT을 표현할 수 있다.
 - [sqlalchemy.orm.query.Query.slice(start, stop)](https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.slice)  
     Query 객체에서 LIMIT 쿼리를 표현하려면, slice 메소드를 사용하거나, __getitem__에 슬라이싱이 지원되므로 빌트인 슬라이싱 연산을 사용할 수 있다. 이건 [all 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2835-L2841)와 [\_\_getitem\_\_ 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2666-L2690), 그 바로 밑에 있는 [slice 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2693-L2732)를 살펴보면 도움이 많이 된다.
-- [How to union two subqueries in SQLAlchemy](https://stackoverflow.com/questions/20024744/how-to-union-two-subqueries-in-sqlalchemy-and-postgresql)  
+- [How to union two subqueries in SQLAlchemy](https://stackoverflow.com/a/20032394)  
     Query 객체의 union이나 union_all 메소드를 통해 UNION, UNION ALL 쿼리를 표현할 수 있다.
-- [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/questions/34322471/sqlalchemy-engine-connection-and-session-difference)  
+- [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/a/34364247)  
     engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
-- [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/questions/14799189/avoiding-boilerplate-session-handling-code-in-sqlalchemy-functions)  
+- [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/a/29805305)  
     contextlib.contextmanager를 통해 session을 다루는 보일러플레이트를 with-as 문으로 관리하도록 만드는 패턴
 - [Contextual/Thread-local Sessions](https://docs.sqlalchemy.org/en/latest/orm/contextual.html)  
     context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드. 하나의 스레드에서 동일한 세션을 이용해 여러 작업을 처리하는 경우, 함수에 session을 파라미터로 넘겨줘서 session을 유지하는 경우가 많은데 scoped_session을 사용하면 이러한 문제가 줄어든다.
-- [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/questions/17972020/how-to-execute-raw-sql-in-sqlalchemy-flask-app)  
+- [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/a/17987782)  
     raw SQL을 실행하는 방법
 - [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
     데이터 타입이 Generic Types/SQL Standard and Multiple Vendor Types/Vendor-Specific Types로 나뉜다는 것을 알게 됐다. Vendor-Specific Types는 한번쯤 써볼만한 것 같음.
-- ['select as' in SQLAlchemy](https://stackoverflow.com/questions/9187530/using-alias-for-select-as-in-sqlalchemy)  
+- ['select as' in SQLAlchemy](https://stackoverflow.com/a/9187589)  
     Column.label 메소드로 aliasing(SELECT AS)를 표현하는 방법
-- [SQLAlchemy simple example of sum, average, min, max](https://stackoverflow.com/questions/11830980/sqlalchemy-simple-example-of-sum-average-min-max)  
+- [SQLAlchemy simple example of sum, average, min, max](https://stackoverflow.com/a/11832380)  
     sqlalchemy.sql.functions 모듈의 함수를 이용해 aggregation을 하는 방법
-- [Dealing with duplicate primary keys on insert in SQLAlchemy](https://stackoverflow.com/questions/10322514/dealing-with-duplicate-primary-keys-on-insert-in-sqlalchemy-declarative-style)  
+- [Dealing with duplicate primary keys on insert in SQLAlchemy](https://stackoverflow.com/a/11620706)  
     질문이 굉장히 세세한데, 결론은 `session.add` 대신 `session.merge` 메소드를 사용하면 primary key duplicate 시 알아서 update하도록 만들 수 있다는 것이다.
-- [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/questions/10822635/get-the-number-of-rows-in-table-using-sqlalchemy)  
+- [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/a/10822842)  
     쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
 - [SQLAlchemy Transaction 관리 Practice 공유](https://blog.qodot.me/post/sqlalchemy-transaction-%EA%B4%80%EB%A6%AC-practice-%EA%B3%B5%EC%9C%A0/)  
     데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
@@ -159,13 +162,13 @@
 #### MongoEngine
 #### Zappa
 #### boto3
-- [When to use a boto3 client and when to use a boto3 resource?](https://stackoverflow.com/questions/39272744/when-to-use-a-boto3-client-and-when-to-use-a-boto3-resource/39273710)  
+- [When to use a boto3 client and when to use a boto3 resource?](https://stackoverflow.com/a/39273710)  
     boto3.resource는 단지 boto3.client를 wrapping한 high level API이며, boto3.resource는 boto3.client의 모든 API를 래핑하지 않으므로 어쩔수 없이 boto3.client나 boto3.resource.meta.client를 사용해야 한다는 것을 잘 요약해준 것 같다.
 - [boto3 - credentials](https://boto3.amazonaws.com/v1/documentation/api/latest/guide/configuration.html#configuring-credentials)  
     boto3가 credential을 어디서 가져오는지, 우선순위는 어떤지에 대한 문서.
 - [Upload-Download File From S3 with Boto3](https://qiita.com/hengsokvisal/items/329924dd9e3f65dd48e7)  
     boto3로 S3에 객체를 업로드하고, 다운로드하는 기본적인 인터랙션에 대한 가이드.
-- [How do I get the file/key size in boto S3?](https://stackoverflow.com/questions/5315603/how-do-i-get-the-file-key-size-in-boto-s3)  
+- [How do I get the file/key size in boto S3?](https://stackoverflow.com/a/5498841)  
     버킷에서 특정 객체의 size를 얻어오기 위한 방법. s3 client 객체의 head_object로 객체에 HEAD 요청을 보내면 된다.
 
 ### Golang
@@ -173,23 +176,23 @@
 - [고루틴은 어떻게 동작하는가?](https://stonzeteam.github.io/How-Goroutines-Work/)
 
 ## 데이터베이스에 관련된
-- [What is an ORM and where can I learn more about it?](https://stackoverflow.com/questions/1279613/what-is-an-orm-and-where-can-i-learn-more-about-it)  
+- [What is an ORM and where can I learn more about it?](https://stackoverflow.com/a/1279678)  
     ORM이 무엇이고, 장점과 단점은 무엇인지에 대한 설명. ORM 라이브러리는 대부분 무겁고 러닝커브가 생기긴 하지만, 상황에 따라 동적으로 SELECT 쿼리를 빌드하는 머리아픈 경험을 해 봤다면 ORM이 이만큼 유연할 수가 없다. 복잡한 쿼리가 아니라면 성능 문제도 딱히 없는 것 같다. 이래저래 논쟁을 끌고 다니는 기술이긴 한데, 단점을 감당하지 않기 위해서 ORM으로 얻을 수 있는 메리트를 모두 포기하고 raw SQL을 쓸 이유가 딱히 없지 않을까 싶다. 물론 대용량 데이터를 다룰 때는 raw SQL을 쓰는 것이 마음 편한 듯.
 - [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)  
     CUBRID의 개발을 이끌고 있는 엔지니어가 쓴, 트랜잭션의 관리를 DBMS 레벨에서 설명한 글. ACID 성질부터 UNDO와 REDO, 상태 로깅과 전이 로깅, 커밋을 하면 어떤 일이 일어나는지, group commit과 트랜잭션 철회 등이 정말 잘 정리되었다. 역시 기술은 해본 사람이 잘 아는 것 같다.
 - [A Detailed Guide to Database Denormalization with Examples](https://rubygarage.org/blog/database-denormalization-with-examples)  
     역정규화는 정규화된 데이터베이스에서 데이터를 묶거나 중복 적재하는 등 쓰기 작업을 더 많이 수행해서, 읽기 속도를 향상시키는 일이다. 많은 JOIN이나 aggregation이 이뤄지는 읽기 쿼리는 속도가 느려지기 마련인데, 데이터를 중복해서 적재하거나, pre-joined 구조의 스키마를 작성하는 등의 역정규화로 이를 해결하는 경우가 있다. 위 가이드는 역정규화의 몇가지 사례들을 쉬운 예제와 함께 잘 설명해주고 있다.
-- [How does database indexing work?](https://stackoverflow.com/questions/1108/how-does-database-indexing-work)  
+- [How does database indexing work?](https://stackoverflow.com/a/1130)  
     Index는 특정 레코드를 찾는 데에 linear search하던 걸, 레코드들을 정렬한 별도의 자료 구조를 만들어 여기에 range search하도록 만들고, 이를 통해 block access count를 줄이는 것이라고 보면 되는 것 같다. 너무 추상적인 것 같아 더 파보니 클러스터/비클러스터 인덱스 등등 더 깊게 뻗어나갈 수 있을듯.
-- [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/questions/1251636/what-do-clustered-and-non-clustered-index-actually-mean)  
+- [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/a/1251652)  
     인덱스의 아키텍처는 클러스터형/비클러스터형 인덱스로 나뉜다. 클러스터형 인덱스는 unique row를 컬럼 순서에 맞춰 물리적인 레벨에서 ordering하여 적재하는 인덱스라고 한다. PK를 기준으로 판단하며 따라서 테이블 당 하나씩 가질 수 있음. PK를 만들면 알아서 클러스터형 인덱스가 생긴다. B-Tree 인덱스나 hash table이 클러스터형 인덱스에 주로 쓰인다고 한다. 비클러스터형 인덱스는 물리적으로 데이터를 정렬하진 않고, 인덱스만 정렬한다. JOIN, WHERE, ORDER BY 절에서 사용된 비 PK 컬럼 위에 만들어진다고 함. insert와 update, point query(한두개만 select) operation에 있어서는 클러스터형 인덱스보다 빠르다고 한다.
     
-    \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/questions/91688/what-are-the-differences-between-a-clustered-and-a-non-clustered-index)
+    \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/a/91725)
 ### SQL
 ### MySQL
-- [Illegal mix of collations for operation 'like'](https://stackoverflow.com/questions/18629094/illegal-mix-of-collations-for-operation-like-while-searching-with-ignited-data)  
+- [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 발생하는 문제에 대한 SOF 질문
-- [Insert into a MySQL table or update if exists](https://stackoverflow.com/questions/4205181/insert-into-a-mysql-table-or-update-if-exists)  
+- [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
     key duplication이 없다면 insert하고, 있으면 update를 MySQL에서 어떻게 하는지에 대한 SOF 질문. 다른 데이터베이스 엔진에서는 `UPSERT`나 `MERGE`라는 이름으로 사용되고 있는 것 같다.
 ### PrestoDB
 ### MongoDB
