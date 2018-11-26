@@ -77,6 +77,10 @@
     48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
 - [PluralSight](https://www.pluralsight.com/)
     대다수 기술의 IQ를 측정하며 자신의 강점과 약점을 파악할 수 있고, 이를 통한 강좌를 제공하여 자신에 대한 되돌아보기가 가능한 서비스이다.
+- [Currying](http://planbs.tistory.com/entry/Currying)  
+    f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
+- [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
+    partial application, currying의 소개와 둘의 차이를 설명한다. partial application은 특정 인자를 고정시킨 새로운 함수를 만드는 기법. 수학의 부분 정의 함수와 연관이 있는 것 같다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
