@@ -116,6 +116,9 @@
     list를 확장하는 메소드로 append와 extend가 있는데, 이 둘의 차이. 3번째 답변이 오버로딩된 연산자와 timeit을 통한 시간 복잡도까지 잘 설명하고 있다.
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
+- [Python __getitem__과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)  
+    getitem 과 slice 에 대한 내용 뿐만아니라, "Ellipsis" 라는 개념이 등장한다. Ellipsis 는 null statement로 pass 대신 쓰이는 경우도 있다.
+    
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
