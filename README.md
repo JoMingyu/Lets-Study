@@ -83,6 +83,11 @@
     partial application, currying의 소개와 둘의 차이를 설명한다. partial application은 특정 인자를 고정시킨 새로운 함수를 만드는 기법. 수학의 부분 정의 함수와 연관이 있는 것 같다.
 - [람다, 익명 함수, 클로저](https://hyunseob.github.io/2016/09/17/lambda-anonymous-function-closure/)  
     람다, 익명 함수, 클로저를 연관지어 매우 깔끔하게 설명해 두었다. 클로저는 closer가 아니고 closure(폐쇄)이며, 함수형 트릭이 아니라 개념(함수와 그 함수가 선언된 lexical scope의 조합)이다. 클로저는 자신이 정의된 문맥에서 주변의 변수와 상수들을 캡처한다.
+- [Exression verses Statement](https://stackoverflow.com/a/19224)  
+    expression은 identifier, literal, operator만을 포함하며 value를 산출하는 식이고, statement는 동작을 수행하는 문이다.  
+    - Python의 삼항 연산자는 expression이다. - `res = 1 if True else 0`
+    - JavaScript에서 함수는 expression으로 사용할 수 있다. - `const sum = function(a, b) { return a + b; };`
+    - Kotlin의 when 절은 expression과 statement로 모두 사용할 수 있다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
