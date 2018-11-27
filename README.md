@@ -81,6 +81,8 @@
     f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
 - [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
     partial application, currying의 소개와 둘의 차이를 설명한다. partial application은 특정 인자를 고정시킨 새로운 함수를 만드는 기법. 수학의 부분 정의 함수와 연관이 있는 것 같다.
+- [람다, 익명 함수, 클로저](https://hyunseob.github.io/2016/09/17/lambda-anonymous-function-closure/)  
+    람다, 익명 함수, 클로저를 연관지어 매우 깔끔하게 설명해 두었다. 클로저는 closer가 아니고 closure(폐쇄)이며, 함수형 트릭이 아니라 개념(함수와 그 함수가 선언된 lexical scope의 조합)이다. 클로저는 자신이 정의된 문맥에서 주변의 변수와 상수들을 캡처한다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -141,6 +143,8 @@
     특정 datetime 객체를 기준으로 다음주 월요일과 저번주 월요일에 대한 datetime 객체를 가져오는 방법. timedelta로 weekday만큼을 day에 빼주면 'datetime 객체가 속한 week의 월요일'이 되고, 여기에 week를 1 더하면 다음주 월요일, week를 1 빼면 저번주 월요일이 된다. datetime에서 월요일을 0으로 사용한다는 것을 응용함. 다른 예로 datetime 객체가 속한 week의 화요일에 대한 datetime을 원한다면 weekday + 1만큼을 day에서 빼주면 된다. 언제든 적재될 수 있는 어떤 데이터가 매주 월요일에 지워져야 하는 경우, expire를 계산할 때 유용할 것 같다. 다음주 월요일 0시 0분의 시각과 현재 시각의 delta를 사용하면 되니까.
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
+- [Arrow](https://arrow.readthedocs.io/en/latest/)  
+    datetime으로 타임존과 싸우는 건 사람이 할 짓이 아니다. arrow는 기본적으로 시간을 ISO 8601 format으로 다루기 때문에 타임존 conversion이 쉽고, time shifting이나 humanize 기능도 잘 준비되어 있다.
 #### 테스팅
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
