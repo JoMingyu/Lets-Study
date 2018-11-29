@@ -88,6 +88,8 @@
     - Python의 삼항 연산자는 expression이다. - `res = 1 if True else 0`
     - JavaScript에서 함수는 expression으로 사용할 수 있다. - `const sum = function(a, b) { return a + b; };`
     - Kotlin의 when 절은 expression과 statement로 모두 사용할 수 있다.
+- [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)  
+    이게 참 프로그래밍 자체에 전반적으로 이야기할 수 있는 개념인데 클로저나 스코프같은 건 JS에서 많이 이야기하고, Higher order function같은 건 kotlin에서 많이 이야기하고, 코루틴은 go에서 많이 이야기하고 그런 경향이 있어서 어쩔 수 없이 호이스팅에 자바스크립트 얘기를 가져왔다. 웬만한 언어에서 declaration은 호이스팅되고, assignment는 호이스팅되지 않는 것 같다. 대부분 호이스팅이 '작성한 코드의 상단으로 옮겨지는' 것으로 설명되지만, 그냥 컴파일 단계에서 평가되기 때문에 그렇게 보여지는 것이다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -95,8 +97,13 @@
 - [Kaggle](https://www.kaggle.com/)
     데이터 분석 및 예측 부류의 가장 유명한 competition 제공 사이트. competition 말고도 kernel과 discussion을 제공하여 데이터 관련 개념들을 알차게 배울 수 있도록 설계되어 있다. 데이터 관련 강의도 추가로 제공한다.
 
+### 애드테크
+- []
+
 ### 소프트웨어 공학
 ### AWS
+- [TimeStream](https://aws.amazon.com/ko/timestream/)  
+    2018 AWS re:invent때 공개된 완전 관리형 time series 데이터베이스. 완전 좋아 보이는데 일단 써봐야 알 것 같다. 1000X faster at 1/10th the cost 뭐 이러는데 일단 SQL-like 쿼리 인터페이스가 있다는 거랑 서버리스로 구성돼 있어서 관리 포인트가 줄어든다는 게 좋은 것 같다. ELK는 비싸고 대안이 딱히 없는 것 같아서 InfluxDB 쓰는데 이제 이거 EC2에 프로비저닝 안해도 되겠당. 물론 써봐야 알겠지만. grafana같은 time series visualize 툴들이 timestream 대응하느라 바빠질듯.
 ### Git
 ### Linux
 
@@ -215,6 +222,8 @@
     인덱스의 아키텍처는 클러스터형/비클러스터형 인덱스로 나뉜다. 클러스터형 인덱스는 unique row를 컬럼 순서에 맞춰 물리적인 레벨에서 ordering하여 적재하는 인덱스라고 한다. PK를 기준으로 판단하며 따라서 테이블 당 하나씩 가질 수 있음. PK를 만들면 알아서 클러스터형 인덱스가 생긴다. B-Tree 인덱스나 hash table이 클러스터형 인덱스에 주로 쓰인다고 한다. 비클러스터형 인덱스는 물리적으로 데이터를 정렬하진 않고, 인덱스만 정렬한다. JOIN, WHERE, ORDER BY 절에서 사용된 비 PK 컬럼 위에 만들어진다고 함. insert와 update, point query(한두개만 select) operation에 있어서는 클러스터형 인덱스보다 빠르다고 한다.
     
     \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/a/91725)
+- [Why do you create a View in a database?](https://stackoverflow.com/a/1278620)  
+    두 테이블을 JOIN하는 복잡한 서브 쿼리를 제거하기 위해 처음으로 사용했었던 것 같다. 실제로 복잡성을 숨기기 위해 사용된다고도 한다. 테이블의 특정 컬럼을 보호하기 위한 메커니즘으로 사용할 수 있다는 DBA의 관점도 있다. View는 '쿼리를 캡슐화하여 aliasing한다'라고 이야기할 수 있을 것 같다.
 ### 안 RDB 얘기
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다..
