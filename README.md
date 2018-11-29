@@ -64,6 +64,7 @@
 - [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
 - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
     SPDY가 비표준 프로토콜이라는 말을 듣고 굉장히 의문적이었는데, 실험용 프로토콜이었구나. HTTP/1.1의 성능 제한을 해결해 웹페이지의 레이턴시를 줄이는 것을 목표로 SPDY가 만들어지기 시작했고, HTTP/2의 새로운 기능과 제안을 테스트하기 위해 SPDY가 계속해서 실험 수단으로 사용되었다. 이제는 SPDY가 가지고 있던 대부분의 장점이 포함된 HTTP/2가 표준으로 받아들여지면서 SPDY는 deprecated되었다고 함. high level API는 HTTP/1.x와 동일하게 유지되고, low level의 변경이 성능 문제를 해결했다. 바이너리 프레이밍 계층, 요청/응답 멀티플렉싱, 스트림과 스트림 우선순위 지정, server push, 헤더 압축 등등 + HTTP/1.x의 image sprite, 도메인 샤딩과 같은 임시 방편을 제거하고 최적화하는 기능이 들어 있다.
+- [GraphQL 뮤테이션 디자인](https://dev-blog.apollodata.com/designing-graphql-mutations-e09de826ed97)
 
 ### 코딩이나 패턴에 관한 얘기
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
@@ -271,6 +272,7 @@
 - [Flask 1.0 공식 튜토리얼](http://flask.pocoo.org/docs/1.0/tutorial/)
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
 - [Patterns for Flask 1.0](http://flask.pocoo.org/docs/1.0/patterns/)
+- [Flask의 프록시 오브젝트](http://pynash.org/2013/02/12/proxy-objects/)
 ### Spring
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
 - [Gradle + SpringBoot + Travis CI + Coveralls + 텔레그램 연동하기](http://jojoldu.tistory.com/275)
