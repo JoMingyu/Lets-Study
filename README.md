@@ -27,6 +27,14 @@
     property name이 dynamic한 경우, pattern properties를 사용해볼 수 있다.
 - [JSONSchema - object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
     JSONSchema object에서 dependency는 '프로퍼티 A가 있으면 프로퍼티 B도 있어야 한다'와 같은 개념이다. property dependencies를 사용할 수도 있으나, schema dependencies는 그 내부에 있는 dependecy들에 대해서도 스키마를 적용할 수 있어 확장성이 더 높다.
+- [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
+    JWT는 사용 사례가 워낙 다양해서 선뜻 말하기 어렵지만, 내 경우엔
+    1. access token의 expire는 1시간 미만, refresh token의 expire는 2주 미만으로 둔다.
+    2. refresh할 때 refresh token의 expire가 얼마 안 남았으면 refresh token도 함께 건네주는 식으로 토큰 refresh lifecycle을 구성한다. refresh token의 수명이 다하면 재로그인을 해야 하는 상황을 피하기 위해.
+    3. JTI&토큰 암호화에 사용한 secret key&유저 ID 매핑을 데이터베이스에 저장하는 식으로 사용한다. 여기서 JTI가 primary key. 따라서 JWT가 필요한 API에서는 그 전에 무조건 데이터베이스에 질의가 한 번 수행되는 식. / 토큰에 'identity'같은 custom claim을 써서 사용자 식별 정보를 담아두는 방법도 있다.
+    4. expire가 남아 있는 토큰을 고의적으로 invalid하게 만들어야 하는 상황이 있다. 예를 들어 로그아웃 시에는 요청자가 가지고 있던 토큰을 무효하게 만들어야 하고, 비밀번호 변경 시에는 그 유저에 해당하는 모든 토큰을 무효하게 만들어야 하는데, DB에서 토큰을 관리한다면 레코드 하나만 삭제하면 되고, DB에서 토큰을 관리하지 않는다면 무효화시킬 토큰을 blacklisting하는 방식을 사용한다.
+    5. 사용자 당 1토큰은 유연하지 않고, 한 사용자가 토큰을 엄청나게 많이 가지고 있도록 하면 위험하지 않을까 싶어서, 사용자-user agent 단위로 토큰을 발급하는 방식을 쓰고 있다. 어떤 사용자가 한 브라우저에 대해 가질 수 있는 토큰의 최대 갯수가 1개가 되도록. DB에서 토큰을 관리하지 않는다면 아마도 불가능할 로직. 요청자 ID와 user agent에 대해 이미 토큰이 나갔는지 안나갔는지 알 수 없을테니까.
+    6. 토큰은 지속적으로 refresh되기 때문에 어쩔수 없이 데이터의 양이 수직적으로 증가한다. 이 때문에 토큰 데이터를 DB에 넣을 때 해당 토큰의 expire만큼 레코드에도 expire를 두고 있다.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
@@ -48,6 +56,8 @@
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
     web server는 static content에 적합하고, app server는 dynamic content에 적합하므로 web server는 app server의 리버스 프록시 역할을 할 수 있다는 설명이 있다.
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
+- [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)  
+    이거 진짜 글이 너무 좋다. Complete Guide라고 자신있게 말하는 이유가 있는 것 같다. DevOps를 위주로 일하는 에반젤리스트같은데, Splunk라는 선택지를 두고 왜 ELK를 쓰는지, 왜 유명한지, 로깅은 왜 해야 하는지, 기본적인 ELK stack부터 중간에 redis나 kafka를 써서 버퍼링하는 구조까지 설명하고 있다. 글이 좀 많이 긴데 정말 읽어볼만 하다. ELK는 웬만하면 log shipper로 Beats가 껴 있어서, Elastic에서는 이를 Elastic Stack이라는 이름으로 브랜딩하고 있다.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
