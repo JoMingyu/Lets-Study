@@ -58,6 +58,8 @@
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 - [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)  
     이거 진짜 글이 너무 좋다. Complete Guide라고 자신있게 말하는 이유가 있는 것 같다. DevOps를 위주로 일하는 에반젤리스트같은데, Splunk라는 선택지를 두고 왜 ELK를 쓰는지, 왜 유명한지, 로깅은 왜 해야 하는지, 기본적인 ELK stack부터 중간에 redis나 kafka를 써서 버퍼링하는 구조까지 설명하고 있다. 글이 좀 많이 긴데 정말 읽어볼만 하다. ELK는 웬만하면 log shipper로 Beats가 껴 있어서, Elastic에서는 이를 Elastic Stack이라는 이름으로 브랜딩하고 있다.
+- [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)  
+    로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -238,6 +240,8 @@
 ### 안 RDB 얘기
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다..
+- [StatsD](https://github.com/etsy/statsd)  
+    Node.js 런타임에서 동작하는 로그 aggregation 프록시. 단위 시간 안의 API 응답 시간 평균과 같은 것들은 일차적으로 aggregation을 해두면 로그 DB의 부하 방지에 좋을 것 같다. Mongo, Graphite, InfluxDB, Zabbix, CouchDB 등 백엔드 지원도 잘 되어 있다.
 ### SQL
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
