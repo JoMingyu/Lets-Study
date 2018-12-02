@@ -57,7 +57,7 @@
     web server는 static content에 적합하고, app server는 dynamic content에 적합하므로 web server는 app server의 리버스 프록시 역할을 할 수 있다는 설명이 있다.
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 - [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)  
-    이거 진짜 글이 너무 좋다. Complete Guide라고 자신있게 말하는 이유가 있는 것 같다. DevOps를 위주로 일하는 에반젤리스트같은데, Splunk라는 선택지를 두고 왜 ELK를 쓰는지, 왜 유명한지, 로깅은 왜 해야 하는지, 기본적인 ELK stack부터 중간에 redis나 kafka를 써서 버퍼링하는 구조까지 설명하고 있다. 글이 좀 많이 긴데 정말 읽어볼만 하다. ELK는 웬만하면 log shipper로 Beats가 껴 있어서, Elastic에서는 이를 Elastic Stack이라는 이름으로 브랜딩하고 있다.
+    이거 진짜 글이 너무 좋다. Complete Guide라고 자신있게 말하는 이유가 있는 것 같다. DevOps를 위주로 일하는 에반젤리스트같은데, Splunk라는 선택지를 두고 왜 ELK를 쓰는지, 왜 유명한지, 로깅은 왜 해야 하는지, 기본적인 ELK stack부터 중간에 redis나 kafka를 써서 버퍼링하는 구조까지 설명하고 있다. 글이 좀 많이 긴데 정말 읽어볼만 하다. ELK는 웬만하면 log shipper로 Beats가 껴 있어서, Elastic에서는 이를 Elastic Stack이라는 이름으로 브랜딩하고 있다. Lucene 검색 엔진 기반의 NoSQL 데이터베이스인 ElasticSearch, 로그 transformation 프록시인 Logstash, 시각화 툴인 Kibana가 기본이 되는 모니터링 스택이다.
 - [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)  
     로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
 
