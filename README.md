@@ -62,6 +62,8 @@
     로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)  
     네트워크는 물리적으로 가까운 위치에 있을수록 응답 속도가 빠르다. hop count가 줄어들기 때문이다. CDN은 정적 데이터(css, js, 이미지 등)를 다른 리전의 서버에 캐싱해 둬서, 멀리 사는 사용자에게 컨텐츠를 제공하는 퍼포먼스를 향상시키는 기술. Amazon Cloudfront같은 서비스가 CDN을 제공한다.
+- [Differences between the A and CNAME recods](https://support.dnsimple.com/articles/differences-a-cname-records/)  
+    A record는 특정 IP에 대해 매핑된 유일한 도메인을 의미하고, CNAME은 Canonical Name의 약자로 타 도메인에 대한 alias를 의미한다.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
