@@ -64,6 +64,10 @@
     네트워크는 물리적으로 가까운 위치에 있을수록 응답 속도가 빠르다. hop count가 줄어들기 때문이다. CDN은 정적 데이터(css, js, 이미지 등)를 다른 리전의 서버에 캐싱해 둬서, 멀리 사는 사용자에게 컨텐츠를 제공하는 퍼포먼스를 향상시키는 기술. Amazon Cloudfront같은 서비스가 CDN을 제공한다.
 - [Differences between the A and CNAME recods](https://support.dnsimple.com/articles/differences-a-cname-records/)  
     A record는 특정 IP에 대해 매핑된 유일한 도메인을 의미하고, CNAME은 Canonical Name의 약자로 타 도메인에 대한 alias를 의미한다.
+- [runscope](https://www.runscope.com)  
+    API 모니터링 SaaS. 정해둔 스케줄과 step에 따라 API를 호출하고 validation을 수행한다. pagerduty같은 on-call alert 서비스와의 integration을 지원해서, API에 500이 발생했을 때 내 핸드폰으로 전화가 오게 만들 수도 있다.
+- [druid](http://druid.io/druid.html)  
+    OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
