@@ -131,6 +131,8 @@
     2018 AWS re:invent때 공개된 완전 관리형 time series 데이터베이스. 완전 좋아 보이는데 일단 써봐야 알 것 같다. 1000X faster at 1/10th the cost 뭐 이러는데 일단 SQL-like 쿼리 인터페이스가 있다는 거랑 서버리스로 구성돼 있어서 관리 포인트가 줄어든다는 게 좋은 것 같다. ELK는 비싸고 대안이 딱히 없는 것 같아서 InfluxDB 쓰는데 이제 이거 EC2에 프로비저닝 안해도 되겠당. 물론 써봐야 알겠지만. grafana같은 time series visualize 툴들이 timestream 대응하느라 바빠질듯.
 - [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
     AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
+- [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
+    모니터링 도구인 CloudWatch에는 Events라는 하위 기능이 있다. 이벤트 패턴이나 일정을 이벤트 소스로 선택하고, 이벤트가 발생했을 때 lambda, step function, EC2 인스턴스 재부팅 등 타 AWS 서비스를 호출할 수 있다. 이 문서는 일정을 이벤트 소스로 트리거하는 CloudWatch 이벤트 규칙을 생성하는 방법을 다룬다. Linux의 cron과 비슷한 용도로 사용할 수 있다.
 ### Git
 ### Linux
 
