@@ -37,6 +37,12 @@
     6. 토큰은 지속적으로 refresh되기 때문에 어쩔수 없이 데이터의 양이 수직적으로 증가한다. 이 때문에 토큰 데이터를 DB에 넣을 때 해당 토큰의 expire만큼 레코드에도 expire를 두고 있다.
 - [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
     파일이나 네트워크 등과 같은 I/O bound 작업에 대해 처리의 완료를 기다리지 않고, 후속 작업을 처리하는 부분만 콜백이나 await 등을 통해 따로 정의해둔 채 CPU를 다른데서 계속 써먹으며 자원 낭비를 줄이는 패턴을 Non-blocking IO라고 부르고, Non-blocking IO는 Async IO라고도 부른다고 한다. + 프로그램의 주 실행 흐름(메인 루틴)을 최대한 적게 멈추면서 뭐라도 계속 처리하는 걸 Async programming이라 부르고, 이를 위한 재료로서 Non-blocking IO를 활용할 수 있으나 둘은 관점이 다르기에 비교 대상이 되기는 어렵다는 내용.
+- [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
+    서버 사이드/클라이언트 사이드 렌더링에 대한 이야기. 보통 렌더링보단 프로그래밍이라는 단어로 통하는 것 같다.
+- [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)  
+    적은 노력으로 보안/성능/기능/확장성을 향상시키는 것. 예로 Python의 빌트인 시간 라이브러리인 datetime의 drop-in replacement로 arrow, pendulum이 있다.
+- [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
+    캐시 구현 방법 중 LRU(Last Recently Used)와 LFU(Last Frequently Used) 캐시의 차이에 대한 설명이다. 이 외로 rr cache, ttl cache가 있다.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
@@ -117,6 +123,8 @@
     - Kotlin의 when 절은 expression과 statement로 모두 사용할 수 있다.
 - [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)  
     이게 참 프로그래밍 자체에 전반적으로 이야기할 수 있는 개념인데 클로저나 스코프같은 건 JS에서 많이 이야기하고, Higher order function같은 건 kotlin에서 많이 이야기하고, 코루틴은 go에서 많이 이야기하고 그런 경향이 있어서 어쩔 수 없이 호이스팅에 자바스크립트 얘기를 가져왔다. 웬만한 언어에서 declaration은 호이스팅되고, assignment는 호이스팅되지 않는 것 같다. 대부분 호이스팅이 '작성한 코드의 상단으로 옮겨지는' 것으로 설명되지만, 그냥 컴파일 단계에서 평가되기 때문에 그렇게 보여지는 것이다.
+- [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
+    소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -177,6 +185,9 @@
     virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개. pyenv가 설치되어 있으면 알아서 필요한 버전을 설치하고 가상 환경을 열어준다는 게 정말 맘에 든다. pyenv 설치하고, pyenv-virtualenv 설치하고, requirements.txt를 dev와 production에 나눠 만들 필요가 없으니 정말 편한 도구.
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)  
     글 자체가 깔끔하게 정리되어 있기도 하고, pipenv가 제공하는 명령어들에 대한 구체적인 설명이 들어 있어서 초심자에게 더 좋은듯.
+- [Force pipenv to create a new virtualenv](https://stackoverflow.com/a/49258323)
+- [Black](https://github.com/ambv/black)  
+    엄청 잘 만들어진 코드 포매터.
 #### 표준 라이브러리
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
@@ -222,7 +233,13 @@
     쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
 - [SQLAlchemy Transaction 관리 Practice 공유](https://blog.qodot.me/post/sqlalchemy-transaction-%EA%B4%80%EB%A6%AC-practice-%EA%B3%B5%EC%9C%A0/)  
     데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
+- [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
+    Flask-SQLAlchemy에선 `SQLALCHEMY_BINDS` 설정과 모델 클래스의 `__bind_key__` 속성으로 여러 데이터베이스에 쉽게 연결할 수 있다. 그러나 일반적인 경우 read/write db를 나누어 접근하는 식이라, bind 설정 따로 안하고 그냥 db마다 engine 만들고 따로 session을 관리하는 식의 practice가 더 많다.
 #### Peewee
+- [Dynamically defining a database](http://docs.peewee-orm.com/en/latest/peewee/database.html#dynamically-defining-a-database)  
+    Peewee는 모델을 정의할 때 `Meta`라는 inner class를 정의하고 `database` 속성에 데이터베이스 객체를 명시해놓아야 한다. 데이터베이스 명시를 동적으로 정의하려면 Proxy 객체를 그 자리에 넣어두고, `initialize` 메소드로 lazy하게 바인딩해 준다. 동일한 모델에 대해 read/write db 세션을 나누어 접근하기 위해 `UserReadModel`, `UserWriteModel`처럼 나누는 건 너무 아닌 것 같아서 proxy 개념을 써먹어보고 있는데, 좋은 practice인지는 모르겠다.
+- [How to custom the table name in peewee?](https://stackoverflow.com/a/48024676)  
+    peewee는 모델 클래스 이름을 그대로 lowercase해서 테이블을 찾는데, Meta 클래스의 `db_table` 속성을 통해 테이블 이름을 별도로 명시할 수 있다.
 #### MongoEngine
 #### Zappa
 #### boto3
