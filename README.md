@@ -199,6 +199,10 @@
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 - [Arrow](https://arrow.readthedocs.io/en/latest/)  
     datetime으로 타임존과 싸우는 건 사람이 할 짓이 아니다. arrow는 기본적으로 시간을 ISO 8601 format으로 다루기 때문에 타임존 conversion이 쉽고, time shifting이나 humanize 기능도 잘 준비되어 있다.
+- [twine](https://pypi.org/project/twine/)  
+    Python 패키지를 PyPI(python Pacakge Index)에 쉽게 배포할 수 있도록 해주는 CLI 툴.
+- [cachetools](https://github.com/tkem/cachetools)  
+    functools.lru_cache 데코레이터의 변형을 포함하여 자주 쓰이는 캐싱들을 데코레이터 형태로 지원하는 라이브러리. LFU, LRU, RR, TTL cache를 지원한다.
 #### 테스팅
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
