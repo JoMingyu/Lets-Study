@@ -145,6 +145,24 @@
     AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
 - [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
     모니터링 도구인 CloudWatch에는 Events라는 하위 기능이 있다. 이벤트 패턴이나 일정을 이벤트 소스로 선택하고, 이벤트가 발생했을 때 lambda, step function, EC2 인스턴스 재부팅 등 타 AWS 서비스를 호출할 수 있다. 이 문서는 일정을 이벤트 소스로 트리거하는 CloudWatch 이벤트 규칙을 생성하는 방법을 다룬다. Linux의 cron과 비슷한 용도로 사용할 수 있다.
+- [AWS EFS vs EBS vs S3 (differences & when to use?)](https://stackoverflow.com/a/29582940)  
+    EFS, EBS, S3, Glacier의 간단한 설명과 함께 각 서비스들의 강점을 이야기한다.
+- [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
+    Region과 AZ(Availability Zones)에 대한 설명. 물리적 데이터 센터인 Availability Zone들을 지리적 위치에 따라 Region 개념으로 묶고, 각 Region은 다른 Region들과 물리적으로 격리되어 있다.
+- [When to use Amazon Cloudfront or S3](https://stackoverflow.com/a/3328864)  
+    S3에 대한 간단한 설명과 Edge Location에서 동작하는 CDN(Content Delivery Network)인 CloudFront에 대한 설명. 사용자가 localized하다면 CloudFront를 굳이 쓰지 않아도 된다.
+- [Amazon S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
+    S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)를 고려해볼 수 있다. 그리고 Glacier는 사실 S3의 하위 서비스였다.
+- [AWS Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
+    Lambda function에는 버전과 alias(별칭) 개념이 있다. 세상에. Lambda function을 업데이트할 때마다 버전이 하나씩 올라가고, 최초 생성된 lambda function의 기본 별칭인 `Unqualified`는 `$LATEST`라는 와일드카드 표현식으로 항상 가장 최신 버전을 가리킨다. 버전과 별칭으로 나뉜 lambda function들은 각기 다른 unique한 ARN(Amazon Resource Name)을 가진다. 함수 이름이 `test`라면, 버전 7의 함수는 `arn:aws:lambda:<region>:<acct-id>:function:test:7`, 별칭이 PROD인 함수는 `...:test:PROD`같은 식. serverless나 zappa 등의 툴킷으로 lambda에 서버리스 웹 어플리케이션을 배포하면, 함수가 업데이트될 때마다 알아서 새 버전을 가르키도록 Unqualified alias에 API Gateway를 매핑해 둔다.
+- [AWS CodeStar로 1인 DevOps 코스프레하기](https://www.holaxprogramming.com/2017/10/16/devops-aws-codestar/)  
+    백엔드는 어렵고 귀찮다 ㅎㅎ. 어디 프로젝트에서 백엔드를 맡게 되면 GitHub같은 Git 서버에서 소스코드 관리하고, Jenkins 머신 따로 띄우거나 Travis같은 SaaS로 CI 세팅해 두고, CodeDeploy나 CloudFormation으로 EC2/ECS/Beanstalk/Lambda 등등에 배포 자동화 세팅해 두고, 따로 퍼포먼스/인프라 모니터링 스택도 준비해야 한다. CodeStar는 CodePipeline으로 hook부터 deploy까지의 과정을 관리해 준다. CodeBuild로 빌드, CodeDeploy+EC2 or CloudFormation+Lambda or CloudFormation+Elastic Beanstalk으로 배포 자동화, CloudWatch로 모니터링까지 어플리케이션 개발 전반에 걸쳐 번거로운 것들을 대신 맡아준다. 프로젝트 대시보드도 제공해줌! 이게 얼마나 괜찮을지는 다음 토이 프로젝트에서 써보는 걸로.
+- [AWS CodeCommit](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/welcome.html#welcome-introducing)  
+    private git repository 호스팅 서비스! 외부 이슈 트래커랑 연동도 되는 듯.
+- [AWS CodeBuild](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html)  
+    와! 완전 관리형 빌드 서비스! 사실 조직 내 AWS 인프라들의 인바운드 접근 권한은 대부분 IP를 쓰지 않고 security group 단위로 한정한다. 그래서 DB 등에선 빌드 시스템이나 개발자 PC 등 외부의 접근을 수용하기 위해 따로 VPN 서버를 프로비저닝하고, 이 VPN 서버에 대해서 인바운드를 열어두는 식으로 운용을 하는데, Travis나 Circle같은 SaaS 형태의 빌드 서비스는 VPN setup이 불가능하거나 어렵다. 그래서 그냥 Jenkins 머신을 EC2에 따로 띄우고 해당 인스턴스의 security group을 인바운드에 추가하는 식으로 접근 제어를 하는데, 관리 포인트가 늘어나는 게 문제. CodeBuild는 이런 문제를 해결해 준다. 일단 AWS 위에서 동작하기 때문에 별도의 security group이 할당되므로 인바운드를 허용하기 좋고 + 서버를 직접 관리하지 않아도 됨!
+- [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
+    EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구.
 ### Git
 ### Linux
 
@@ -168,7 +186,7 @@
     한국에서는 '파이썬 코딩의 기술'이라고 이름지어진, 'Effective Python'이라는 도서에서 사용된 59가지 예제 모음
 - [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
-    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
+    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, Python 3.3부터 제공된 `yield from`, asyncio의 빌트인화와 async/await 문법까지 차근차근 설명되어 있다.
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
@@ -179,6 +197,11 @@
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
 - [Python __getitem__과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)  
     getitem 과 slice 에 대한 내용 뿐만아니라, "Ellipsis" 라는 개념이 등장한다. Ellipsis 는 null statement로 pass 대신 쓰이는 경우도 있다.
+- [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)  
+    파이썬에서 비동기 IO를 위해 사용하는 두 키워드.
+    - Python 3.3부터 generator가 다른 generator에게 연산의 일부를 위임하도록 하는 yield from이라는 expression을 사용할 수 있게 되었다. 이는 generator가 generator를 호출하고, 서로의 실행을 중지시킬 수 있는 방법이 생긴 것이기 때문에 비동기 프로그래밍이 원활히 가능하도록 만들어 주었다.
+    - 이러한 generator들을 실행하는 이벤트 루프를 asyncio 라이브러리가 제공해주기 시작했다.
+    - Python 3.5부턴 asyncio가 빌트인 라이브러리로 지원되며 `async` 키워드가 `@asyncio.coroutine`를 대체하고, `await` 키워드가 `yield from`을 대체하게 되었다.
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
@@ -192,10 +215,22 @@
 #### 표준 라이브러리
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
-- [collection.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
+- [collections.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
     내 생각엔 OrderedDict를 써볼만한 case가 그리 많진 않을 것 같은데, OrderedDict를 써야 하는 적은 case 입장에서는 정말 개이득인 컨테이너 타입인 것 같다.(메인 언어로 파이썬 쓴지 1년 넘는 동안 딱 2번 써봤지만, 그때마다 OrderedDict 덕분에 정말 편-안했음) 단지 넣은 순서대로 dictionary가 유지된다는 것 뿐이지, 자동으로 sort는 해주지 않는다는 것을 인지하고 있어야 한다.
+- [collections.defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)  
+    dict를 상속받은 dictionary-like한 객체를 반환한다. 이 객체는 함수에 전달된 optional argument인 default_factory를 인스턴스 변수로 가지고 있고, `__getitem__` 메소드를 오버라이딩한다. getitem 시 key가 존재하지 않으면 `__missing__` 메소드를 호출하고, 이 메소드는 `default_factory`를 호출해 반환한다. default_factory가 None이면 `KeyError`를 raise한다. invalid key에 대해 default value를 정의해 두어 KeyError를 방어하기 위해 사용된다.
 - [Find Monday's date with Python](https://stackoverflow.com/a/1622052)  
     특정 datetime 객체를 기준으로 다음주 월요일과 저번주 월요일에 대한 datetime 객체를 가져오는 방법. timedelta로 weekday만큼을 day에 빼주면 'datetime 객체가 속한 week의 월요일'이 되고, 여기에 week를 1 더하면 다음주 월요일, week를 1 빼면 저번주 월요일이 된다. datetime에서 월요일을 0으로 사용한다는 것을 응용함. 다른 예로 datetime 객체가 속한 week의 화요일에 대한 datetime을 원한다면 weekday + 1만큼을 day에서 빼주면 된다. 언제든 적재될 수 있는 어떤 데이터가 매주 월요일에 지워져야 하는 경우, expire를 계산할 때 유용할 것 같다. 다음주 월요일 0시 0분의 시각과 현재 시각의 delta를 사용하면 되니까.
+- [Python Pickle Tutorial](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
+    객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionary/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
+- [얕은 복사(shallow copy) vs 깊은 복사(deep copy)](https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/)  
+    복사 개념을 잘 모르면 이상한 걸로 삽질하게 된다. Python에서는 복사 작업을 돕기 위해 copy 모듈이 존재한다.
+- [enum](https://docs.python.org/3/library/enum.html)  
+    enum이야 뭐 클래스 변수로 쓰면 되지 않나? 싶었는데, 모듈에서 제공해주는 기능이 생각보다 엄청나게 많고 유용하다. enum 정의하려면 일단 Enum 클래스 상속받고 시작하는 게 좋을듯. ㅎ
+- [timeit](https://docs.python.org/3/library/timeit.html)  
+    짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
+- [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
+    pdb 없었으면 내 인생이 참혹하지 않았을까. 흑흑. 사실 옛날엔 그냥 매 줄마다 print 찍어보면서 디버깅하곤 했었는데, 확실히 디버깅 툴을 직접 쓰는 게 러닝커브를 감안하더라도 훨씬 더 나은 것 같다.
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 - [Arrow](https://arrow.readthedocs.io/en/latest/)  
@@ -245,8 +280,18 @@
     Peewee는 모델을 정의할 때 `Meta`라는 inner class를 정의하고 `database` 속성에 데이터베이스 객체를 명시해놓아야 한다. 데이터베이스 명시를 동적으로 정의하려면 Proxy 객체를 그 자리에 넣어두고, `initialize` 메소드로 lazy하게 바인딩해 준다. 동일한 모델에 대해 read/write db 세션을 나누어 접근하기 위해 `UserReadModel`, `UserWriteModel`처럼 나누는 건 너무 아닌 것 같아서 proxy 개념을 써먹어보고 있는데, 좋은 practice인지는 모르겠다.
 - [How to custom the table name in peewee?](https://stackoverflow.com/a/48024676)  
     peewee는 모델 클래스 이름을 그대로 lowercase해서 테이블을 찾는데, Meta 클래스의 `db_table` 속성을 통해 테이블 이름을 별도로 명시할 수 있다.
+- [Performing simple joins](http://docs.peewee-orm.com/en/latest/peewee/relationships.html#performing-simple-joins)  
+    peewee로 기본적인 join 쿼리를 작성하는 방법이다. join에서 `ON` 쿼리를 작성하려면 join 메소드에 on 인자로 criterion을 넘겨줘야 한다.
+- [Joining multiple tables](http://docs.peewee-orm.com/en/latest/peewee/relationships.html#joining-multiple-tables)  
+    peewee 가이드에서 여러 테이블의 join에 대한 부분이다. join type에 대한 명시 방법, join context에 대한 이야기, `join_from` 메소드에 대한 가이드가 들어 있다.
 #### MongoEngine
 #### Zappa
+- [Enabling CORS](https://github.com/Miserlou/Zappa#enabling-cors)  
+    웹 어플리케이션에서 CORS를 처리하기 위해 Flask-CORS같은 extension을 사용하곤 하는데, 사실 API Gateway 단에서도 CORS를 지원한다. `zappa_settings.json`에서 `cors` 속성을 `true`로 설정하면 반영된다.
+- [Scheduling](https://github.com/Miserlou/Zappa#scheduling)  
+    CloudWatch Events 기능을 통해 lambda function을 스케줄링할 수 있는데, `zappa_settings.json`에서 `events` 속성을 정의하는 것으로 편하게 설정 가능하다. 따로 분리된 cronjob 함수를 WAS와 함께 관리하기 좋음.
+- [X-Ray Tracing](https://github.com/Miserlou/Zappa#aws-x-ray)  
+    이것도 사실 API Gateway 기능인데, 대시보드 들어가서 켜기 귀찮을까봐 zappa 단에서 지원해준다. X-ray는 어플리케이션 성능 데이터들을 트레이싱해서 서비스맵으로 시각화해주는 도구인데, APM 용도로도 써먹을 수 있어서 요긴하게 써먹기 좋다.
 #### boto3
 - [When to use a boto3 client and when to use a boto3 resource?](https://stackoverflow.com/a/39273710)  
     boto3.resource는 단지 boto3.client를 wrapping한 high level API이며, boto3.resource는 boto3.client의 모든 API를 래핑하지 않으므로 어쩔수 없이 boto3.client나 boto3.resource.meta.client를 사용해야 한다는 것을 잘 요약해준 것 같다.
