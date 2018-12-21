@@ -35,16 +35,22 @@
     4. expire가 남아 있는 토큰을 고의적으로 invalid하게 만들어야 하는 상황이 있다. 예를 들어 로그아웃 시에는 요청자가 가지고 있던 토큰을 무효하게 만들어야 하고, 비밀번호 변경 시에는 그 유저에 해당하는 모든 토큰을 무효하게 만들어야 하는데, DB에서 토큰을 관리한다면 레코드 하나만 삭제하면 되고, DB에서 토큰을 관리하지 않는다면 무효화시킬 토큰을 blacklisting하는 방식을 사용한다.
     5. 사용자 당 1토큰은 유연하지 않고, 한 사용자가 토큰을 엄청나게 많이 가지고 있도록 하면 위험하지 않을까 싶어서, 사용자-user agent 단위로 토큰을 발급하는 방식을 쓰고 있다. 어떤 사용자가 한 브라우저에 대해 가질 수 있는 토큰의 최대 갯수가 1개가 되도록. DB에서 토큰을 관리하지 않는다면 아마도 불가능할 로직. 요청자 ID와 user agent에 대해 이미 토큰이 나갔는지 안나갔는지 알 수 없을테니까.
     6. 토큰은 지속적으로 refresh되기 때문에 어쩔수 없이 데이터의 양이 수직적으로 증가한다. 이 때문에 토큰 데이터를 DB에 넣을 때 해당 토큰의 expire만큼 레코드에도 expire를 두고 있다.
-- [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
-    파이썬은 그렇다 치고 그냥 비동기 프로그래밍 자체에 대해 훑어보기 좋은 글.
-- [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
-    파일이나 네트워크 등과 같은 I/O bound 작업에 대해 처리의 완료를 기다리지 않고, 후속 작업을 처리하는 부분만 콜백이나 await 등을 통해 따로 정의해둔 채 CPU를 다른데서 계속 써먹으며 자원 낭비를 줄이는 패턴을 Non-blocking IO라고 부르고, Non-blocking IO는 Async IO라고도 부른다고 한다. + 프로그램의 주 실행 흐름(메인 루틴)을 최대한 적게 멈추면서 뭐라도 계속 처리하는 걸 Async programming이라 부르고, 이를 위한 재료로서 Non-blocking IO를 활용할 수 있으나 둘은 관점이 다르기에 비교 대상이 되기는 어렵다는 내용.
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
     서버 사이드/클라이언트 사이드 렌더링에 대한 이야기. 보통 렌더링보단 프로그래밍이라는 단어로 통하는 것 같다.
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)  
     적은 노력으로 보안/성능/기능/확장성을 향상시키는 것. 예로 Python의 빌트인 시간 라이브러리인 datetime의 drop-in replacement로 arrow, pendulum이 있다.
 - [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
     캐시 구현 방법 중 LRU(Last Recently Used)와 LFU(Last Frequently Used) 캐시의 차이에 대한 설명이다. 이 외로 rr cache, ttl cache가 있다.
+
+### 비동기 프로그래밍
+- [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
+    파이썬은 그렇다 치고 그냥 비동기 프로그래밍 자체에 대해 훑어보기 좋은 글.
+- [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
+    파일이나 네트워크 등과 같은 I/O bound 작업에 대해 처리의 완료를 기다리지 않고, 후속 작업을 처리하는 부분만 콜백이나 await 등을 통해 따로 정의해둔 채 CPU를 다른데서 계속 써먹으며 자원 낭비를 줄이는 패턴을 Non-blocking IO라고 부르고, Non-blocking IO는 Async IO라고도 부른다고 한다. + 프로그램의 주 실행 흐름(메인 루틴)을 최대한 적게 멈추면서 뭐라도 계속 처리하는 걸 Async programming이라 부르고, 이를 위한 재료로서 Non-blocking IO를 활용할 수 있으나 둘은 관점이 다르기에 비교 대상이 되기는 어렵다는 내용.
+- [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
+    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
+- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)  
+    asyncio를 조금 더 큰 그림에서 바라본다. `결국 이는 NodeJS가 밀고 있는 non-blocking 비동기 처리에 더 근접하는 개념이다.`와 같은 내용처럼.
 
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
