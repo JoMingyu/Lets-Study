@@ -46,7 +46,7 @@
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
     파이썬은 그렇다 치고 그냥 비동기 프로그래밍 자체에 대해 훑어보기 좋은 글.
 - [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
-    파일이나 네트워크 등과 같은 I/O bound 작업에 대해 처리의 완료를 기다리지 않고, 후속 작업을 처리하는 부분만 콜백이나 await 등을 통해 따로 정의해둔 채 CPU를 다른데서 계속 써먹으며 자원 낭비를 줄이는 패턴을 Non-blocking IO라고 부르고, Non-blocking IO는 Async IO라고도 부른다고 한다. + 프로그램의 주 실행 흐름(메인 루틴)을 최대한 적게 멈추면서 뭐라도 계속 처리하는 걸 Async programming이라 부르고, 이를 위한 재료로서 Non-blocking IO를 활용할 수 있으나 둘은 관점이 다르기에 비교 대상이 되기는 어렵다는 내용.
+    파일이나 네트워크 등과 같은 I/O bound 작업에 대해 처리의 완료를 기다리지 않고, 후속 작업을 처리하는 부분만 콜백이나 await 등을 통해 따로 정의해둔 채 CPU를 다른데서 계속 써먹으며 자원 낭비를 줄이는 패턴을 Non-blocking IO라고 부르고, Non-blocking IO는 Async IO라고도 부른다고 한다. + 프로그램의 주 실행 흐름(메인 루틴)을 최대한 적게 멈추면서 뭐라도 계속 처리하는 걸 Async programming이라 부르고, 이를 위한 재료로서 Non-blocking IO를 활용할 수 있으나 둘은 관점이 다르기에 비교 대상이 되기는 어렵다는 내용. 비동기 IO에 비해 비동기 프로그래밍은 좀 더 추상적인 개념인 듯 하다.
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
     Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)  
@@ -134,7 +134,9 @@
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
     소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
 - [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)  
-    프로그램의 메인 실행 흐름을 메인루틴이라 부르고, 일반적인(call/return 형태의) 함수는 서브루틴이라 부른다. 여기서 이 함수가 suspend/resume 기능을 지원한다면 이를 서브루틴이 아니라 코루틴이라 부른다. suspend로 제어를 양도하고, resume으로 다시 실행을 재개하는 형태. async/await도 사실상 이런 개념 기반이므로 코루틴이라 부르는 듯.
+    프로그램의 메인 실행 흐름을 메인루틴이라 부르고, 일반적인(call/return 형태의) 함수는 서브루틴이라 부른다. 여기서 이 함수가 suspend/resume 기능을 지원한다면 이를 코루틴이라 부른다. suspend로 제어를 양도하고, resume으로 다시 실행을 재개하는 형태. async/await도 사실상 이런 개념 기반이므로 코루틴이라 부르는 듯. 그래서 아무튼 함수는 서브루틴 형태와 코루틴 형태로 나뉘며, 대표적으로 generator와 async를 통해 코루틴을 만들 수 있다. 비동기 프로그래밍이랑 매우 비슷한 맥락.
+- [Function scopes and block scopes in JavaScript](https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7)  
+    JavaScript에서 var는 function scope에서 보장되고, let는 block scope가 가능하다는 이야기인데, scope는 애초에 프로그래밍 언어 자체적인 이야기라 볼만 하다. function/block scope, lexical(static)/dynamic scope 등등.. 스코프 얘기는 재밌는 것 
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
