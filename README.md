@@ -133,6 +133,8 @@
     이게 참 프로그래밍 자체에 전반적으로 이야기할 수 있는 개념인데 클로저나 스코프같은 건 JS에서 많이 이야기하고, Higher order function같은 건 kotlin에서 많이 이야기하고, 코루틴은 go에서 많이 이야기하고 그런 경향이 있어서 어쩔 수 없이 호이스팅에 자바스크립트 얘기를 가져왔다. 웬만한 언어에서 declaration은 호이스팅되고, assignment는 호이스팅되지 않는 것 같다. 대부분 호이스팅이 '작성한 코드의 상단으로 옮겨지는' 것으로 설명되지만, 그냥 컴파일 단계에서 평가되기 때문에 그렇게 보여지는 것이다.
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
     소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
+- [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)  
+    프로그램의 메인 실행 흐름을 메인루틴이라 부르고, 일반적인(call/return 형태의) 함수는 서브루틴이라 부른다. 여기서 이 함수가 suspend/resume 기능을 지원한다면 이를 서브루틴이 아니라 코루틴이라 부른다. suspend로 제어를 양도하고, resume으로 다시 실행을 재개하는 형태. async/await도 사실상 이런 개념 기반이므로 코루틴이라 부르는 듯.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
