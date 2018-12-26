@@ -175,6 +175,8 @@
     와! 완전 관리형 빌드 서비스! 사실 조직 내 AWS 인프라들의 인바운드 접근 권한은 대부분 IP를 쓰지 않고 security group 단위로 한정한다. 그래서 DB 등에선 빌드 시스템이나 개발자 PC 등 외부의 접근을 수용하기 위해 따로 VPN 서버를 프로비저닝하고, 이 VPN 서버에 대해서 인바운드를 열어두는 식으로 운용을 하는데, Travis나 Circle같은 SaaS 형태의 빌드 서비스는 VPN setup이 불가능하거나 어렵다. 그래서 그냥 Jenkins 머신을 EC2에 따로 띄우고 해당 인스턴스의 security group을 인바운드에 추가하는 식으로 접근 제어를 하는데, 관리 포인트가 늘어나는 게 문제. CodeBuild는 이런 문제를 해결해 준다. 일단 AWS 위에서 동작하기 때문에 별도의 security group이 할당되므로 인바운드를 허용하기 좋고 + 서버를 직접 관리하지 않아도 됨!
 - [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
     EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구.
+- [Amazon Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
+    Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제하므로 read replication이 필요 없다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
 ### Git
 ### Linux
 
