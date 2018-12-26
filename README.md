@@ -52,6 +52,40 @@
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)  
     asyncio를 조금 더 큰 그림에서 바라본다. `결국 이는 NodeJS가 밀고 있는 non-blocking 비동기 처리에 더 근접하는 개념이다.`와 같은 내용처럼.
 
+### 코딩이나 패턴에 관한 얘기
+- [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
+    전역 변수가 왜 나쁜지에 대한 이야기
+- [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
+- [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
+- [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
+- [Higher-order-function(고차함수) with Kotlin](https://medium.com/@lazysoul/high-order-function-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-22b147d0c4a5)  
+    인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
+- [Programming Notes for Professionals Books](https://goalkicker.com/)  
+    48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
+- [PluralSight](https://www.pluralsight.com/)
+    대다수 기술의 IQ를 측정하며 자신의 강점과 약점을 파악할 수 있고, 이를 통한 강좌를 제공하여 자신에 대한 되돌아보기가 가능한 서비스이다.
+- [Currying](http://planbs.tistory.com/entry/Currying)  
+    f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
+- [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
+    partial application, currying의 소개와 둘의 차이를 설명한다. partial application은 특정 인자를 고정시킨 새로운 함수를 만드는 기법. 수학의 부분 정의 함수와 연관이 있는 것 같다.
+- [람다, 익명 함수, 클로저](https://hyunseob.github.io/2016/09/17/lambda-anonymous-function-closure/)  
+    람다, 익명 함수, 클로저를 연관지어 매우 깔끔하게 설명해 두었다. 클로저는 closer가 아니고 closure(폐쇄)이며, 함수형 트릭이 아니라 개념(함수와 그 함수가 선언된 lexical scope의 조합)이다. 클로저는 자신이 정의된 문맥에서 주변의 변수와 상수들을 캡처한다.
+- [Exression verses Statement](https://stackoverflow.com/a/19224)  
+    expression은 identifier, literal, operator만을 포함하며 value를 산출하는 식이고, statement는 동작을 수행하는 문이다.  
+    - Python의 삼항 연산자는 expression이다. - `res = 1 if True else 0`
+    - JavaScript에서 함수는 expression으로 사용할 수 있다. - `const sum = function(a, b) { return a + b; };`
+    - Kotlin의 when 절은 expression과 statement로 모두 사용할 수 있다.
+- [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)  
+    이게 참 프로그래밍 자체에 전반적으로 이야기할 수 있는 개념인데 클로저나 스코프같은 건 JS에서 많이 이야기하고, Higher order function같은 건 kotlin에서 많이 이야기하고, 코루틴은 go에서 많이 이야기하고 그런 경향이 있어서 어쩔 수 없이 호이스팅에 자바스크립트 얘기를 가져왔다. 웬만한 언어에서 declaration은 호이스팅되고, assignment는 호이스팅되지 않는 것 같다. 대부분 호이스팅이 '작성한 코드의 상단으로 옮겨지는' 것으로 설명되지만, 그냥 컴파일 단계에서 평가되기 때문에 그렇게 보여지는 것이다.
+- [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
+    소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
+- [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)  
+    프로그램의 메인 실행 흐름을 메인루틴이라 부르고, 일반적인(call/return 형태의) 함수는 서브루틴이라 부른다. 여기서 이 함수가 suspend/resume 기능을 지원한다면 이를 코루틴이라 부른다. suspend로 제어를 양도하고, resume으로 다시 실행을 재개하는 형태. async/await도 사실상 이런 개념 기반이므로 코루틴이라 부르는 듯. 그래서 아무튼 함수는 서브루틴 형태와 코루틴 형태로 나뉘며, 대표적으로 generator와 async를 통해 코루틴을 만들 수 있다. 비동기 프로그래밍이랑 매우 비슷한 맥락.
+- [Function scopes and block scopes in JavaScript](https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7)  
+    JavaScript에서 var는 function scope에서 보장되고, let는 block scope가 가능하다는 이야기인데, scope는 애초에 프로그래밍 언어 자체적인 이야기라 볼만 하다. function/block scope, lexical(static)/dynamic scope 등등.. 스코프 얘기는 재밌는 것 같음.
+- [What is a pure function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)  
+    same input-same output과 외부 상태에 변화를 주지 않는(no side-effect) 함수를 순수 함수(pure function)라고 부른다.
+
 ### 백엔드에 가까운
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
@@ -105,40 +139,6 @@
 - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
     SPDY가 비표준 프로토콜이라는 말을 듣고 굉장히 의문적이었는데, 실험용 프로토콜이었구나. HTTP/1.1의 성능 제한을 해결해 웹페이지의 레이턴시를 줄이는 것을 목표로 SPDY가 만들어지기 시작했고, HTTP/2의 새로운 기능과 제안을 테스트하기 위해 SPDY가 계속해서 실험 수단으로 사용되었다. 이제는 SPDY가 가지고 있던 대부분의 장점이 포함된 HTTP/2가 표준으로 받아들여지면서 SPDY는 deprecated되었다고 함. high level API는 HTTP/1.x와 동일하게 유지되고, low level의 변경이 성능 문제를 해결했다. 바이너리 프레이밍 계층, 요청/응답 멀티플렉싱, 스트림과 스트림 우선순위 지정, server push, 헤더 압축 등등 + HTTP/1.x의 image sprite, 도메인 샤딩과 같은 임시 방편을 제거하고 최적화하는 기능이 들어 있다.
 - [GraphQL 뮤테이션 디자인](https://dev-blog.apollodata.com/designing-graphql-mutations-e09de826ed97)
-
-### 코딩이나 패턴에 관한 얘기
-- [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
-    전역 변수가 왜 나쁜지에 대한 이야기
-- [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
-- [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
-- [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
-- [Higher-order-function(고차함수) with Kotlin](https://medium.com/@lazysoul/high-order-function-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-22b147d0c4a5)  
-    인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
-- [Programming Notes for Professionals Books](https://goalkicker.com/)  
-    48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
-- [PluralSight](https://www.pluralsight.com/)
-    대다수 기술의 IQ를 측정하며 자신의 강점과 약점을 파악할 수 있고, 이를 통한 강좌를 제공하여 자신에 대한 되돌아보기가 가능한 서비스이다.
-- [Currying](http://planbs.tistory.com/entry/Currying)  
-    f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
-- [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
-    partial application, currying의 소개와 둘의 차이를 설명한다. partial application은 특정 인자를 고정시킨 새로운 함수를 만드는 기법. 수학의 부분 정의 함수와 연관이 있는 것 같다.
-- [람다, 익명 함수, 클로저](https://hyunseob.github.io/2016/09/17/lambda-anonymous-function-closure/)  
-    람다, 익명 함수, 클로저를 연관지어 매우 깔끔하게 설명해 두었다. 클로저는 closer가 아니고 closure(폐쇄)이며, 함수형 트릭이 아니라 개념(함수와 그 함수가 선언된 lexical scope의 조합)이다. 클로저는 자신이 정의된 문맥에서 주변의 변수와 상수들을 캡처한다.
-- [Exression verses Statement](https://stackoverflow.com/a/19224)  
-    expression은 identifier, literal, operator만을 포함하며 value를 산출하는 식이고, statement는 동작을 수행하는 문이다.  
-    - Python의 삼항 연산자는 expression이다. - `res = 1 if True else 0`
-    - JavaScript에서 함수는 expression으로 사용할 수 있다. - `const sum = function(a, b) { return a + b; };`
-    - Kotlin의 when 절은 expression과 statement로 모두 사용할 수 있다.
-- [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)  
-    이게 참 프로그래밍 자체에 전반적으로 이야기할 수 있는 개념인데 클로저나 스코프같은 건 JS에서 많이 이야기하고, Higher order function같은 건 kotlin에서 많이 이야기하고, 코루틴은 go에서 많이 이야기하고 그런 경향이 있어서 어쩔 수 없이 호이스팅에 자바스크립트 얘기를 가져왔다. 웬만한 언어에서 declaration은 호이스팅되고, assignment는 호이스팅되지 않는 것 같다. 대부분 호이스팅이 '작성한 코드의 상단으로 옮겨지는' 것으로 설명되지만, 그냥 컴파일 단계에서 평가되기 때문에 그렇게 보여지는 것이다.
-- [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
-    소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
-- [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)  
-    프로그램의 메인 실행 흐름을 메인루틴이라 부르고, 일반적인(call/return 형태의) 함수는 서브루틴이라 부른다. 여기서 이 함수가 suspend/resume 기능을 지원한다면 이를 코루틴이라 부른다. suspend로 제어를 양도하고, resume으로 다시 실행을 재개하는 형태. async/await도 사실상 이런 개념 기반이므로 코루틴이라 부르는 듯. 그래서 아무튼 함수는 서브루틴 형태와 코루틴 형태로 나뉘며, 대표적으로 generator와 async를 통해 코루틴을 만들 수 있다. 비동기 프로그래밍이랑 매우 비슷한 맥락.
-- [Function scopes and block scopes in JavaScript](https://edgecoders.com/function-scopes-and-block-scopes-in-javascript-25bbd7f293d7)  
-    JavaScript에서 var는 function scope에서 보장되고, let는 block scope가 가능하다는 이야기인데, scope는 애초에 프로그래밍 언어 자체적인 이야기라 볼만 하다. function/block scope, lexical(static)/dynamic scope 등등.. 스코프 얘기는 재밌는 것 같음.
-- [What is a pure function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)  
-    same input-same output과 외부 상태에 변화를 주지 않는(no side-effect) 함수를 순수 함수(pure function)라고 부른다.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
