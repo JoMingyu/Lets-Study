@@ -364,14 +364,14 @@
 - [Using Retrofit 2.x as REST client](http://www.vogella.com/tutorials/Retrofit/article.html)
 - [Retrofit 2와 함께하는 정말 쉬운 HTTP](https://academy.realm.io/kr/posts/droidcon-jake-wharton-simple-http-retrofit-2/)  
     Realm academy같은 게 백엔드에는 없는게 너무 아쉽다. 내가 못 찾는건가..
-- [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [Firebase를 실제 모바일 백엔드로 사용하면 일어날 수 있는 일들](https://academy.realm.io/kr/posts/firebase-as-a-real-mobile-backend/)
 - [Android의 ORM](http://d2.naver.com/helloworld/472196)
 - [Android의 이미지로딩 라이브러리](http://d2.naver.com/helloworld/429368)
 - [Android 앱 메모리 최적화](http://d2.naver.com/helloworld/539525)
 - [안드로이드 BadTokenException의 원인과 해결방법](https://blog.sangyoung.me/2016/12/28/BadTokenException/)  
     context알못에게 큰 시련과도 같은 BadTokenException. 내 경우 retrofit의 onResponse에서 다이얼로그를 띄울 때 ContextWrapper.getApplicationContext()의 반환을 전달했더니 났던 오류다.
-
+- [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
+- [안드로이드의 MVC, MVP, MVVM 종합 안내서](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/?fbclid=IwAR0aQa3j7nSTgB5TMsFt33iviV8ReW0oGvkvVBucWrBcgV0v6XWsKwjljhI)
 ### iOS
 
 ## 웹 프론트엔드
