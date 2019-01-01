@@ -139,15 +139,20 @@
 - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
     SPDY가 비표준 프로토콜이라는 말을 듣고 굉장히 의문적이었는데, 실험용 프로토콜이었구나. HTTP/1.1의 성능 제한을 해결해 웹페이지의 레이턴시를 줄이는 것을 목표로 SPDY가 만들어지기 시작했고, HTTP/2의 새로운 기능과 제안을 테스트하기 위해 SPDY가 계속해서 실험 수단으로 사용되었다. 이제는 SPDY가 가지고 있던 대부분의 장점이 포함된 HTTP/2가 표준으로 받아들여지면서 SPDY는 deprecated되었다고 함. high level API는 HTTP/1.x와 동일하게 유지되고, low level의 변경이 성능 문제를 해결했다. 바이너리 프레이밍 계층, 요청/응답 멀티플렉싱, 스트림과 스트림 우선순위 지정, server push, 헤더 압축 등등 + HTTP/1.x의 image sprite, 도메인 샤딩과 같은 임시 방편을 제거하고 최적화하는 기능이 들어 있다.
 - [GraphQL 뮤테이션 디자인](https://dev-blog.apollodata.com/designing-graphql-mutations-e09de826ed97)
-- [REST 의 Uniform Interface 에 대하여1](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)  
+- [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)  
     Uniform Interface 를 사용하여 클라이언트-서버간의 인터페이스를 일반화함으로써, 전체 시스템 아키텍처가 단순해지고, 상호작용의 가시성이 개선되며, 구현과 서비스가 분리되므로 독립적인 진화가 가능해진다. 이 스타일에 따르면, REST API는 기본 URI와 미디어 타입의 정의만 알면 이용할 수 있어야한다.
-- [REST 의 Uniform Interface 에 대하여2](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
+- [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
     Uniform Interface 는 REST 에서 가장 기본적인 제약이다. 이는 다음 4가지로 구성되어 있다.  
     - Resource Identifier  
     - Resource Representation
     - Self-Descriptive message
-    - hypermedia as the engine of application state (HASTOEAS)
+    - hypermedia as the engine of application state (HATEOAS)
 
+### 개발 환경에 도움을 주는
+- [멋진 Terminal 만들기](https://beomi.github.io/2017/07/07/Beautify-ZSH/)  
+    macOS에서 iTerm2, zsh, OhMyZsh을 설치하고 테마도 입히고 폰트도 설정하고 하면서 터미널 예쁘게 만드는 가이드.
+- [Making iTerm 2 work with normal Mac OSX keyboard shortcuts](https://elweb.co/making-iterm-2-work-with-normal-mac-osx-keyboard-shortcuts/)  
+    iTerm2에선 Command+방향키, Option+방향키 등의 커맨드가 macOS의 기본 shortcut과 달라서 조금 번거롭다. 이걸 해결해주는 가이드.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -156,8 +161,6 @@
     데이터 분석 및 예측 부류의 가장 유명한 competition 제공 사이트. competition 말고도 kernel과 discussion을 제공하여 데이터 관련 개념들을 알차게 배울 수 있도록 설계되어 있다. 데이터 관련 강의도 추가로 제공한다.
 
 ### 애드테크
-- []
-
 ### 소프트웨어 공학
 ### AWS
 - [TimeStream](https://aws.amazon.com/ko/timestream/)  
@@ -186,6 +189,13 @@
     EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구.
 - [Amazon Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
     Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제하므로 read replication이 필요 없다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
+- [AWS Storage Gateway](https://docs.aws.amazon.com/ko_kr/storagegateway/latest/userguide/WhatIsStorageGateway.html)  
+    S3는 일반적인 파일 시스템 방식이 아닌 object 기반이고, 인터페이스가 HTTP 기반이라 스토리지 엔지니어 입장에서는 속도나 사용성 면에서 불편함이 따른다. Storage Gateway는 S3를 스토리지 네트워킹 표준인 iSCSI(Internet Small Computer System Interface) 방식으로 제공해 준다. 대부분의 백업 솔루션은 iSCSI 방식을 사용하므로 데이터 저장 위치만 S3로 전환할 수 있게 된다. S3를 iSCSI 방식으로 처리하기 위한 appliance를 VMware, Hyper-V, EC2 등을 통해 별도로 설치해야 한다. 게이트웨이 종류는 그 형태에 따라 volume gateway, tape gateway로 나뉘고, volume gateway는 다시 Gateway-Cached volume(접근이 자주 일어나는 데이터를 appliance의 로컬 디스크에 캐시해 두는 볼륨), Gateway-Stored volume(기본 데이터 저장을 appliance의 로컬 스토리지에 저장하고 비동기적으로 S3에 스냅샷하는 볼륨)으로 나뉜다.
+- [AWS Snowball](https://aws.amazon.com/ko/snowball/)  
+    데이터를 네트워크로 전송하는 것은, 대용량 데이터 관점에서 매우 느리다. Snowball은 대용량 데이터를 물리적으로 마이그레이션하는 것을 돕는다. AWS Management Console에서 작업을 생성하면 AWS가 물리적인 스토리지 디바이스(Snowball)를 본인에게 배송하고 -> Snowball 클라이언트를 통해 이 디바이스에 연결해 데이터를 업로드한 후 -> AWS에게 Snowball 디바이스를 반송 -> AWS가 이를 S3에 업로드하는 방식이다.
+- [AWS DMS(Database Migration Service)](https://aws.amazon.com/ko/dms/)  
+    데이터베이스 마이그레이션 서비스. 동종 데이터베이스 마이그레이션 뿐만이 아니라, 이기종 데이터베이스 플랫폼 간 마이그레이션(예를 들면, Oracle Database -> AWS Schema Conversion Tool -> Aurora Database)도 가능하다. 물론 소스 데이터베이스가 RDS 또는 EC2에 있어야 한다.
+
 ### Git
 ### Linux
 
