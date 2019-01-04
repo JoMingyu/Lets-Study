@@ -31,8 +31,8 @@
     JWT는 사용 사례가 워낙 다양해서 선뜻 말하기 어렵지만, 내 경우엔
     1. access token의 expire는 1시간 미만, refresh token의 expire는 2주 미만으로 둔다.
     2. refresh할 때 refresh token의 expire가 얼마 안 남았으면 refresh token도 함께 건네주는 식으로 토큰 refresh lifecycle을 구성한다. refresh token의 수명이 다하면 재로그인을 해야 하는 상황을 피하기 위해.
-    3. JTI&토큰 암호화에 사용한 secret key&유저 ID 매핑을 데이터베이스에 저장하는 식으로 사용한다. 여기서 JTI가 primary key. 따라서 JWT가 필요한 API에서는 그 전에 무조건 데이터베이스에 질의가 한 번 수행되는 식. / 토큰에 'identity'같은 custom claim을 써서 사용자 식별 정보를 담아두는 방법도 있다.
-    4. expire가 남아 있는 토큰을 고의적으로 invalid하게 만들어야 하는 상황이 있다. 예를 들어 로그아웃 시에는 요청자가 가지고 있던 토큰을 무효하게 만들어야 하고, 비밀번호 변경 시에는 그 유저에 해당하는 모든 토큰을 무효하게 만들어야 하는데, DB에서 토큰을 관리한다면 레코드 하나만 삭제하면 되고, DB에서 토큰을 관리하지 않는다면 무효화시킬 토큰을 blacklisting하는 방식을 사용한다.
+    3. 서버 단에선 JTI&토큰 암호화에 사용한 secret key&유저 ID 매핑을 데이터베이스에 저장하는 식으로 사용한다. 여기서 JTI가 primary key. 따라서 JWT가 필요한 API에서는 그 전에 무조건 데이터베이스에 질의가 한 번 수행되는 식. / 토큰에 'identity'같은 custom claim을 써서 사용자 식별 정보를 담아두는 방법도 있다.
+    4. expire가 남아 있는 토큰을 고의적으로 invalid하게 만들어야 하는 상황이 있다. 예를 들어 로그아웃 시에는 요청자가 가지고 있던 토큰을 무효하게 만들어야 하고, 비밀번호 변경 시에는 그 유저에 해당하는 모든 토큰을 무효하게 만들어야 하는데, DB에서 토큰을 관리한다면 DELETE 쿼리를 수행하고, DB에서 토큰을 관리하지 않는다면 무효화시킬 토큰을 blacklisting하는 방식을 사용한다.
     5. 사용자 당 1토큰은 유연하지 않고, 한 사용자가 토큰을 엄청나게 많이 가지고 있도록 하면 위험하지 않을까 싶어서, 사용자-user agent 단위로 토큰을 발급하는 방식을 쓰고 있다. 어떤 사용자가 한 브라우저에 대해 가질 수 있는 토큰의 최대 갯수가 1개가 되도록. DB에서 토큰을 관리하지 않는다면 아마도 불가능할 로직. 요청자 ID와 user agent에 대해 이미 토큰이 나갔는지 안나갔는지 알 수 없을테니까.
     6. 토큰은 지속적으로 refresh되기 때문에 어쩔수 없이 데이터의 양이 수직적으로 증가한다. 이 때문에 토큰 데이터를 DB에 넣을 때 해당 토큰의 expire만큼 레코드에도 expire를 두고 있다.
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
@@ -41,8 +41,12 @@
     적은 노력으로 보안/성능/기능/확장성을 향상시키는 것. 예로 Python의 빌트인 시간 라이브러리인 datetime의 drop-in replacement로 arrow, pendulum이 있다.
 - [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
     캐시 구현 방법 중 LRU(Last Recently Used)와 LFU(Last Frequently Used) 캐시의 차이에 대한 설명이다. 이 외로 rr cache, ttl cache가 있다.
+- [How does MQTT protocol work?](https://stackoverflow.com/a/9570898)  
+    publish/subscribe 방식의 메시지 큐. 프로토콜에 가까운 것 같다. 일반적으로 알고 있는 pub/sub 패턴처럼, publisher는 토픽을 발행하고 subscriber는 관심 있는 토픽을 구독한다. 메시지는 broker가 관리한다. Facebook Messenger가 MQTT를 사용하는 것으로 유명하지만 지금까지도 쓰고 있는지는 잘 모르겠다. 오픈소스 MQTT 브로커로 mosquito를 사용하곤 한다. Firebase Cloud Messaging(FCM)도 MQTT 구조인가? 싶었는데 얘는 웹소켓이라고 함. 나중에 채팅 구현할 때 MQTT 써봐야겠다.
+- [Protobuf](https://developers.google.com/protocol-buffers/docs/proto3)  
+    `.proto`라는 확장자를 가진 파일에 스키마를 명시하고, 이걸로 직렬화/역직렬화하는 데이터 직렬화 포맷. RPC에서 많이 쓰인다고 한다. HTTP mimetype에선 `application/vnd.google.protobuf`나 `application/x-protobuf`같은 걸 쓰는 듯. 표준이 어디 있지 않을까.
 
-### 비동기 프로그래밍
+### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
     파이썬은 그렇다 치고 그냥 비동기 프로그래밍 자체에 대해 훑어보기 좋은 글.
 - [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
@@ -118,10 +122,8 @@
     API 모니터링 SaaS. 정해둔 스케줄과 step에 따라 API를 호출하고 validation을 수행한다. pagerduty같은 on-call alert 서비스와의 integration을 지원해서, API에 500이 발생했을 때 내 핸드폰으로 전화가 오게 만들 수도 있다.
 - [druid](http://druid.io/druid.html)  
     OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
-- [How does MQTT protocol work?](https://stackoverflow.com/a/9570898)  
-    publish/subscribe 방식의 메시지 큐. 프로토콜에 가까운 것 같다. 일반적으로 알고 있는 pub/sub 패턴처럼, publisher는 토픽을 발행하고 subscriber는 관심 있는 토픽을 구독한다. 메시지는 broker가 관리한다. Facebook Messenger가 MQTT를 사용하는 것으로 유명하지만 지금까지도 쓰고 있는지는 잘 모르겠다. 오픈소스 MQTT 브로커로 mosquito를 사용하곤 한다. Firebase Cloud Messaging(FCM)도 MQTT 구조인가? 싶었는데 얘는 웹소켓이라고 함. 나중에 채팅 구현할 때 MQTT 써봐야겠다.
-- [Protobuf](https://developers.google.com/protocol-buffers/docs/proto3)  
-    `.proto`라는 확장자를 가진 파일에 스키마를 명시하고, 이걸로 직렬화/역직렬화하는 데이터 직렬화 포맷. RPC에서 많이 쓰인다고 한다. HTTP mimetype에선 `application/vnd.google.protobuf`나 `application/x-protobuf`같은 걸 쓰는 듯. 표준이 어디 있지 않을까.
+- [statuspage.io](https://www.statuspage.io/)  
+    서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -148,11 +150,19 @@
     - Self-Descriptive message
     - hypermedia as the engine of application state (HATEOAS)
 
-### 개발 환경에 도움을 주는
+### 개발에 도움을 주는
 - [멋진 Terminal 만들기](https://beomi.github.io/2017/07/07/Beautify-ZSH/)  
     macOS에서 iTerm2, zsh, OhMyZsh을 설치하고 테마도 입히고 폰트도 설정하고 하면서 터미널 예쁘게 만드는 가이드.
 - [Making iTerm 2 work with normal Mac OSX keyboard shortcuts](https://elweb.co/making-iterm-2-work-with-normal-mac-osx-keyboard-shortcuts/)  
     iTerm2에선 Command+방향키, Option+방향키 등의 커맨드가 macOS의 기본 shortcut과 달라서 조금 번거롭다. 이걸 해결해주는 가이드.
+- [Sonarqube](https://www.sonarqube.org/)  
+    버그, 취약점, 코드 스멜이라는 3가지의 카테고리로 나누어 rule을 정의해 이를 기반으로 코드를 정적 검사해 주는 도구다.
+- [About Travis CI](https://medium.com/hbsmith/about-travis-ci-65b04d3dead6)  
+    필자의 의견을 정말 잘 피력한 글인 것 같다. 개발 과정에서 특정 이벤트에 따라 특정한 job을 계속해서 수행하게 하려면 이와 같은 CI(Continuous Integration) 도구가 필요한데, Jenkins처럼 설치형이 아니라 SaaS로 제공되는 CI 중에서는 Travis가 가장 편하고 좋은 것 같다. push가 일어나면 travis가 테스트를 돌린 후 문제가 없다면 배포하게 만들거나, pull request가 올라갔을 때 테스트를 돌리고 빌드 결과를 직접 comment로 달아주도록 하는 등의 일이 가능하다.
+- [Python 프로젝트에 Codecov 연동하기](https://cjh5414.github.io/codecov-python/)  
+    테스트 커버리지는 측정하는 것이 문제가 아니라, 개발자에게 쉽게 인지되어야 한다. CI 단에서 테스트를 실행함과 함께 커버리지를 측정하더라도, CI의 job에 직접 찾아가서 percentage나 커버되지 않은 라인을 html 형태로 손수 찾아보는 것은 시간이 아깝다. pull request에 대해 CI를 달아 두고, CI가 커버리지 메타데이터 파일을 codecov에 전달해 분석 결과를 comment를 남기게 하는 것이 한 가지 사용 사례다. 이렇게 외부의 커버리지 측정 도구를 쓰게 되면, 개발 조직으로 하여금 테스트의 커버리지 측정 결과에 대한 접근성을 높일 수 있다. 커버리지 측정 도구가 이것저것 많긴 한데, 내가 여태껏 써봤던 것 중에서는 codecov가 가장 좋았던 것 같다. 검색 결과에 보이던 글 중 가장 좋았던 글이라 Python을 전제에 깔았음에도 가져왔다.
+- [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)  
+    커버리지 측정 도구로 유명한 codecov와 coveralls를 비교하는 글.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
@@ -391,6 +401,7 @@
     context알못에게 큰 시련과도 같은 BadTokenException. 내 경우 retrofit의 onResponse에서 다이얼로그를 띄울 때 ContextWrapper.getApplicationContext()의 반환을 전달했더니 났던 오류다.
 - [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [안드로이드의 MVC, MVP, MVVM 종합 안내서](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/?fbclid=IwAR0aQa3j7nSTgB5TMsFt33iviV8ReW0oGvkvVBucWrBcgV0v6XWsKwjljhI)
+- [AWS codebuild + codecov 로 저렴하게 android CI 구축하기](https://medium.com/@SungMinLee/aws-codebuild-codecov-%EB%A1%9C-%EC%A0%80%EB%A0%B4%ED%95%98%EA%B2%8C-android-ci-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-2a209651c4f7)
 ### iOS
 
 ## 웹 프론트엔드
