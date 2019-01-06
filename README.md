@@ -186,7 +186,7 @@
 - [When to use Amazon Cloudfront or S3](https://stackoverflow.com/a/3328864)  
     S3에 대한 간단한 설명과 Edge Location에서 동작하는 CDN(Content Delivery Network)인 CloudFront에 대한 설명. 사용자가 localized하다면 CloudFront를 굳이 쓰지 않아도 된다.
 - [Amazon S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
-    S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)를 고려해볼 수 있다. 그리고 Glacier는 사실 S3의 하위 서비스였다.
+    S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)나 RRS(Reduced Redundancy Storage)를 고려해볼 수 있다. 그리고 Glacier는 사실 S3의 하위 서비스였다.
 - [AWS Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
     Lambda function에는 버전과 alias(별칭) 개념이 있다. 세상에. Lambda function을 업데이트할 때마다 버전이 하나씩 올라가고, 최초 생성된 lambda function의 기본 별칭인 `Unqualified`는 `$LATEST`라는 와일드카드 표현식으로 항상 가장 최신 버전을 가리킨다. 버전과 별칭으로 나뉜 lambda function들은 각기 다른 unique한 ARN(Amazon Resource Name)을 가진다. 함수 이름이 `test`라면, 버전 7의 함수는 `arn:aws:lambda:<region>:<acct-id>:function:test:7`, 별칭이 PROD인 함수는 `...:test:PROD`같은 식. serverless나 zappa 등의 툴킷으로 lambda에 서버리스 웹 어플리케이션을 배포하면, 함수가 업데이트될 때마다 알아서 새 버전을 가르키도록 Unqualified alias에 API Gateway를 매핑해 둔다.
 - [AWS CodeStar로 1인 DevOps 코스프레하기](https://www.holaxprogramming.com/2017/10/16/devops-aws-codestar/)  
