@@ -205,6 +205,14 @@
     데이터를 네트워크로 전송하는 것은, 대용량 데이터 관점에서 매우 느리다. Snowball은 대용량 데이터를 물리적으로 마이그레이션하는 것을 돕는다. AWS Management Console에서 작업을 생성하면 AWS가 물리적인 스토리지 디바이스(Snowball)를 본인에게 배송하고 -> Snowball 클라이언트를 통해 이 디바이스에 연결해 데이터를 업로드한 후 -> AWS에게 Snowball 디바이스를 반송 -> AWS가 이를 S3에 업로드하는 방식이다.
 - [AWS DMS(Database Migration Service)](https://aws.amazon.com/ko/dms/)  
     데이터베이스 마이그레이션 서비스. 동종 데이터베이스 마이그레이션 뿐만이 아니라, 이기종 데이터베이스 플랫폼 간 마이그레이션(예를 들면, Oracle Database -> AWS Schema Conversion Tool -> Aurora Database)도 가능하다. 물론 소스 데이터베이스가 RDS 또는 EC2에 있어야 한다.
+- [Amazon EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
+    컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
+- [Amazon ECS(Elastic Container Service)](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)  
+    어플리케이션을 docker 등으로 컨테이너화 하면, 독립된 실행 환경이 보장되고 빌드 스크립트가 파일 형태로 관리되어 배포 과정이 깔끔해진다. 가장 문제는 이러한 컨테이너를 orchestration하는 일인데, 이 일을 ECS가 대신 해준다. ECS는 Kubernetes같은 Docker 컨테이너 orchestration 서비스. EC2를 기반으로 동작시키거나, EC2 인스턴스를 직접 관리하기 부담스러운 경우 Fargate를 사용할 수도 있다.
+- [AWS Fargate](https://aws.amazon.com/ko/blogs/korea/aws-fargate/)  
+    서버리스 컨테이너 서비스. 컨테이너를 위한 인스턴스를 EC2 등으로 직접 관리할 필요 없이, 컨테이너 자체만 제공하면 되도록 해 준다.
+- [Amazon Elastic Container Repository](https://aws.amazon.com/ko/ecr/)  
+    말 그대로 Docker 컨테이너 저장소를 제공한다. ECS와 잘 통합되므로 배포 프로세스에도 도움을 많이 준다.
 
 ### Git
 ### Linux
