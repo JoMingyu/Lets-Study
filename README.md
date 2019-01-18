@@ -58,8 +58,6 @@
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
 - [Higher-order-function(고차함수) with Kotlin](https://medium.com/@lazysoul/high-order-function-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-22b147d0c4a5)  
     인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
-- [Programming Notes for Professionals Books](https://goalkicker.com/)  
-    48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
 - [Currying](http://planbs.tistory.com/entry/Currying)  
     f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
 - [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
@@ -163,6 +161,8 @@
     테스트 커버리지는 측정하는 것이 문제가 아니라, 개발자에게 쉽게 인지되어야 한다. CI 단에서 테스트를 실행함과 함께 커버리지를 측정하더라도, CI의 job에 직접 찾아가서 percentage나 커버되지 않은 라인을 html 형태로 손수 찾아보는 것은 시간이 아깝다. pull request에 대해 CI를 달아 두고, CI가 커버리지 메타데이터 파일을 codecov에 전달해 분석 결과를 comment를 남기게 하는 것이 한 가지 사용 사례다. 이렇게 외부의 커버리지 측정 도구를 쓰게 되면, 개발 조직으로 하여금 테스트의 커버리지 측정 결과에 대한 접근성을 높일 수 있다. 커버리지 측정 도구가 이것저것 많긴 한데, 내가 여태껏 써봤던 것 중에서는 codecov가 가장 좋았던 것 같다. 검색 결과에 보이던 글 중 가장 좋았던 글이라 Python을 전제에 깔았음에도 가져왔다.
 - [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)  
     커버리지 측정 도구로 유명한 codecov와 coveralls를 비교하는 글.
+- [Programming Notes for Professionals Books](https://goalkicker.com/)  
+    48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
 
 ### 데이터 과학
 - [The Data Visualisation Catalogue](https://datavizcatalogue.com/)
