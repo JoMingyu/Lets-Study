@@ -21,12 +21,6 @@
     Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 [unix time](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
 - [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
     시각을 표기하는 곳에서 KST, CST, EDT같이 timezone에 대해서는 약어만 마주치며 살다가, PrestoDB에서 `Asia/Seoul`같은 표현을 보고 이리저리 찾아보니 timezone의 약어는 표준이 따로 없다고 한다. 그래서 timezone 약어 목록으로 가장 유명한 [Time Zone Abbreviations](https://www.timeanddate.com/time/zones/)를 찾아봤더니 `CST`가 미국 중부 표준시, 중국 표준시, 쿠바 표준시를 모두 나타내는 등의 모호함이 있었다. tz database time zones라는 이름을 가진 해당 링크는 그 이름처럼 [IANA TZDB](https://www.iana.org/time-zones)에서 사용하는 타임존 목록을 그대로 가져와 정리한 것인데, 약어 대신 `Asia/Tokyo`, `Europe/Lisbon`처럼 지역명을 사용하고 있다. 이게 타임존을 다루는 데에 사실상 가장 현실적인 방안이라고들 생각하는 것 같다.
-- [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
-    JSON payload를 검증하는 데에 쓸 수 있는 JSONschema. 처음 봤을땐 뭐 이런 TMI 스펙이 다있어? 싶었는데 이젠 이거 없으면 validation이 어렵다.
-- [JSONSchema - object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
-    property name이 dynamic한 경우, pattern properties를 사용해볼 수 있다.
-- [JSONSchema - object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
-    JSONSchema object에서 dependency는 '프로퍼티 A가 있으면 프로퍼티 B도 있어야 한다'와 같은 개념이다. property dependencies를 사용할 수도 있으나, schema dependencies는 그 내부에 있는 dependecy들에 대해서도 스키마를 적용할 수 있어 확장성이 더 높다.
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
     JWT는 사용 사례가 워낙 다양해서 선뜻 말하기 어렵지만, 내 경우엔
     1. access token의 expire는 1시간 미만, refresh token의 expire는 2주 미만으로 둔다.
@@ -66,8 +60,6 @@
     인자로 함수를 취하거나, 결과로 함수를 반환하는 함수. HOF라고도 부른다. 이게 수학에서도 있는 개념이라고 함. Java에서 메소드에 overrided method가 포함된 익명 클래스를 만들며 그 객체를 넘겨주는 것도 HOF라고 부를 수 있을까?
 - [Programming Notes for Professionals Books](https://goalkicker.com/)  
     48가지의 프로그래밍 언어(+프레임워크, 기술 등) 기술과 트릭들을 Documentation 형식으로 정리해둔 무료 PDF 문서 모음.
-- [PluralSight](https://www.pluralsight.com/)
-    대다수 기술의 IQ를 측정하며 자신의 강점과 약점을 파악할 수 있고, 이를 통한 강좌를 제공하여 자신에 대한 되돌아보기가 가능한 서비스이다.
 - [Currying](http://planbs.tistory.com/entry/Currying)  
     f(x, y, z)를 f(x), g(y), h(z)와 같은 함수 체인으로 만드는 기법. '인자가 미리 채워진 함수'를 만들어 코드의 추상화 레벨을 높이기 위해 써볼만 하지만, 내 경우에는 currying의 주 목표인 '인자를 나누어 함수의 처리를 점차 진행시킨다'를 만족시킬만한 함수를 작성하는 경우가 거의 없었던 것 같다. 차라리 partial function을 쓰는 경우가 더 많은 듯.
 - [함수형 프로그래밍: partial application과 curry](https://rhostem.github.io/posts/2017-04-20-curry-and-partial-application/)  
@@ -149,6 +141,14 @@
     - Resource Representation
     - Self-Descriptive message
     - hypermedia as the engine of application state (HATEOAS)
+
+### JSONSchema
+- [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
+    JSON payload를 검증하는 데에 쓸 수 있는 JSONschema. 처음 봤을땐 뭐 이런 TMI 스펙이 다있어? 싶었는데 이젠 이거 없으면 validation이 어렵다.
+- [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
+    property name이 dynamic한 경우, pattern properties를 사용해볼 수 있다.
+- [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
+    JSONSchema object에서 dependency는 '프로퍼티 A가 있으면 프로퍼티 B도 있어야 한다'와 같은 개념이다. property dependencies를 사용할 수도 있으나, schema dependencies는 그 내부에 있는 dependecy들에 대해서도 스키마를 적용할 수 있어 확장성이 더 높다.
 
 ### 개발에 도움을 주는
 - [멋진 Terminal 만들기](https://beomi.github.io/2017/07/07/Beautify-ZSH/)  
