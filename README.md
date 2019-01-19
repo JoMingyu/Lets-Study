@@ -114,6 +114,10 @@
     OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 - [statuspage.io](https://www.statuspage.io/)  
     서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
+- [도커를 이용한 웹서비스 무중단 배포하기](https://subicura.com/2016/06/07/zero-downtime-docker-deployment.html)  
+    배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
+- [wrk](https://github.com/wg/wrk)  
+    HTTP 벤치마킹 툴. 웹 프레임워크 퍼포먼스 테스트나 서버 스트레스 테스트같은 거 할 때 자주 쓰이는 듯.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -213,9 +217,22 @@
     서버리스 컨테이너 서비스. 컨테이너를 위한 인스턴스를 EC2 등으로 직접 관리할 필요 없이, 컨테이너 자체만 제공하면 되도록 해 준다.
 - [Amazon Elastic Container Repository](https://aws.amazon.com/ko/ecr/)  
     말 그대로 Docker 컨테이너 저장소를 제공한다. ECS와 잘 통합되므로 배포 프로세스에도 도움을 많이 준다.
+- [Amazon DocumentDB 신규 출시](https://aws.amazon.com/ko/blogs/korea/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)  
+    MySQL 호환 데이터베이스인 Aurora를 알았을 때, 뭔가 Document-Oriented NoSQL DB도 하나쯤 만들지 않을까 싶었는데 진짜 만들었다. MongoDB 호환 가능하고, AWS답게 replication 짱짱하고 스토리지 auto scaling 잘 되고, 역시나 완전 관리형이다. 나중에 한 번 써봐야지.
 
 ### Git
 ### Linux
+- [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
+- [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
+    Address bind 관련 문제가 있을 때마다 포트 점유하고 있는 프로세스 보려고 옛날에 자주 썼던 명령어. 그냥 list 관련된 모든 것에 대한 헬퍼인 것 같다.
+- [grep 사용법](https://zzsza.github.io/development/2017/12/16/linux-4/)  
+    결과를 필터링할 때 자주 사용하는 명령어.
+- [awk 사용법](https://zzsza.github.io/development/2017/12/20/linux-6/)  
+    입력된 라인들의 데이터들을 특정 기준으로 분리해서, 일부 column만 가져올 수 있게 해주는 명령어.
+- [htop Explained Visually](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)  
+    짱 쩌는 프로세스 모니터. devops 하시는 분들이 항상 피벗 모니터에 ElasticSearch 클러스터같은 데서 htop 켜놓고 있더라.
+- [Crontab 사용법](https://jdm.kr/blog/2)  
+    특정 job을 스케줄하기 위해서 사용한다.
 
 ## CS
 ### 자료구조
