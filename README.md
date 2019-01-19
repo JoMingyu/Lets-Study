@@ -118,6 +118,9 @@
     배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
 - [wrk](https://github.com/wg/wrk)  
     HTTP 벤치마킹 툴. 웹 프레임워크 퍼포먼스 테스트나 서버 스트레스 테스트같은 거 할 때 자주 쓰이는 듯.
+- [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
+- [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)  
+    서버리스는 직접 관리하는 인프라가 없다는 의미.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -307,6 +310,15 @@
     Python 패키지를 PyPI(python Pacakge Index)에 쉽게 배포할 수 있도록 해주는 CLI 툴.
 - [cachetools](https://github.com/tkem/cachetools)  
     functools.lru_cache 데코레이터의 변형을 포함하여 자주 쓰이는 캐싱들을 데코레이터 형태로 지원하는 라이브러리. LFU, LRU, RR, TTL cache를 지원한다.
+- [pypika](https://github.com/kayak/pypika)  
+    SQL query builder. ORM같은 쿼리 인터페이스는 아니고, 단순히 쿼리 문자열을 만들어주는 라이브러리라서 접근 방식이 좀 다르다.
+- [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
+    짱 좋은 ORM 라이브러리 ^&^
+- [requests](https://github.com/requests/requests)  
+    HTTP request 잘 할 수 있게 도와주는 라이브러리.
+- [zappa](https://github.com/Miserlou/Zappa)  
+    WSGI 웹 어플리케이션을 AWS Lambda에 올려서 서버리스 어플리케이션을 잘 운영할 수 있게 도와주는 CLI 툴. maintainer과 완전 착하다..
+
 #### 테스팅
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
