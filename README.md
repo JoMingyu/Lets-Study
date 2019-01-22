@@ -428,7 +428,7 @@
 
 ## 모바일
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
-
+- [회사나 고객에게 효과적으로 Flutter 소개하는 방법을 알려드립니다](https://developers-kr.googleblog.com/2019/01/pitching-flutter.html?fbclid=IwAR1b8eLPhcZDvXTTr_x0rhVWSOVP8gkJxBThmcHX2Ktvro0OKw5blX7PFM8)
 ### Android
 - [Android 공식 가이드](https://developer.android.com/guide/index.html?hl=ko)
 - [Android의 HTTP 클라이언트 라이브러리](http://d2.naver.com/helloworld/377316)
@@ -444,6 +444,7 @@
 - [Android와 개발 패턴](https://tosslab.github.io/android/2015/03/01/01.Android-mvc-mvvm-mvp)
 - [안드로이드의 MVC, MVP, MVVM 종합 안내서](https://academy.realm.io/kr/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/?fbclid=IwAR0aQa3j7nSTgB5TMsFt33iviV8ReW0oGvkvVBucWrBcgV0v6XWsKwjljhI)
 - [AWS codebuild + codecov 로 저렴하게 android CI 구축하기](https://medium.com/@SungMinLee/aws-codebuild-codecov-%EB%A1%9C-%EC%A0%80%EB%A0%B4%ED%95%98%EA%B2%8C-android-ci-%EA%B5%AC%EC%B6%95%ED%95%98%EA%B8%B0-2a209651c4f7)
+- [클린 아키텍처와 함께하는 배민앱 (Android)](http://woowabros.github.io/experience/2019/01/17/baeminapp-clean-architecture.html?fbclid=IwAR3GrdvlbN0uCcZJsGgh3jUpv6vF2T0rCBEZ7EdUIy-J3Hogio7XjhXr6jQ)
 ### iOS
 
 ## 웹 프론트엔드
