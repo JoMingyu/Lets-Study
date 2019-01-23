@@ -277,16 +277,22 @@
 ### Redis
 ### Memcached
 ### ElasticSearch
+- [Query and filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html)  
+    ElasticSearch docs에서 쿼리 부분에 들어가면 가장 처음 나오는 내용. ElasticSearch의 모든 쿼리는 context를 가지며 이는 query와 filter context로 나뉜다고 정리되어 있다. query context는 '얼마나 잘 일치하는가'같은 scoring의 느낌이고, filter context는 '이것과 일치하는가'같은 SQL의 WHERE절 같은 느낌이다.
+- [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
+    bool은 must, should, filter같은 조건 쿼리들을 모아주기 위해 사용된다. 그냥 SQL에서 조건문을 정의하기 위해 WHERE 뒤에 조건식들을 나열하는 것처럼 ES에선 bool을 사용한다고 생각하면 됨.
+- [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
+    ElasticSearch에 쿼리할 때 조건식들을 나열하기 위해 bool query 내부에 should와 must같은 걸 쓰곤 하는데, 이들이 각각 어떤 condition으로 조건식들을 합치는지에 대한 질문. OR은 should, AND는 must와 대응된다.
+- [What is the difference between must and filter Query DSL in ElasticSearch?](https://stackoverflow.com/a/43349478)  
+    AND 쿼리를 위해 사용하는 must query와 filter query의 차이에 대한 질문. must는 스코어를 측정하고, filter는 스코어를 측정하지 않는다. score가 필요없는 쿼리의 경우 must 대신 filter를 쓰면 더 빠르다고 한다.
+- [ElasticSearch match vs term query](https://stackoverflow.com/questions/23150670/elasticsearch-match-vs-term-query)  
+    bool query 내에서, 특정 필드의 값에 대한 일치 연산을 위해 term이나 match를 대부분 사용하는데, 이 둘의 차이가 무엇인지에 대한 질문. term은 filter context, match는 query context에서 실행된다고 정리하면 된다. exactly equal을 보려면 term을 쓰는 것이 맞음.
 - [Source filter](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/search-request-source-filtering.html)  
     Source filter(_source)를 통해 ElasticSearch가 결과에 특정 필드만 포함시키도록 한다. includes/excludes를 두면 포함/제외를 별도로 둘 수 있다.
 - [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
     DISTINCT SELECT/COUNT에 쓰이는 terms aggregation.
-- [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
-    OR은 should, AND는 must와 대응된다는 내용.
-- [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
-    bool은 must, should같은 조건 쿼리들을 모아주기 위해 사용된다. 그냥 SQL에서 WHERE 절을 정의하는 거라고 생각하면 됨.
-- [Difference between term, match_phrase and query_string](https://stackoverflow.com/questions/26001002/elastic-search-difference-between-term-match-phrase-and-query-string?rq=1)  
-    term과 match는 각각 Term level query/Full text query의 차이인건데, Full text query는 쿼리를 분석하지만, Term level query는 inverted index에 저장된 정확한(exact) 용어에 대해 쿼리한다. term은 SQL에서 WHERE절의 `=` 연산과 유사함.
+- [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)  
+    SQL의 between과 대응되는 쿼리.
 
 ## 언어
 ### Python
