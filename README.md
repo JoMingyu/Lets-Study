@@ -281,6 +281,12 @@
     Source filter(_source)를 통해 ElasticSearch가 결과에 특정 필드만 포함시키도록 한다. includes/excludes를 두면 포함/제외를 별도로 둘 수 있다.
 - [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
     DISTINCT SELECT/COUNT에 쓰이는 terms aggregation.
+- [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
+    OR은 should, AND는 must와 대응된다는 내용.
+- [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
+    bool은 must, should같은 조건 쿼리들을 모아주기 위해 사용된다. 그냥 SQL에서 WHERE 절을 정의하는 거라고 생각하면 됨.
+- [Difference between term, match_phrase and query_string](https://stackoverflow.com/questions/26001002/elastic-search-difference-between-term-match-phrase-and-query-string?rq=1)  
+    term과 match는 각각 Term level query/Full text query의 차이인건데, Full text query는 쿼리를 분석하지만, Term level query는 inverted index에 저장된 정확한(exact) 용어에 대해 쿼리한다. term은 SQL에서 WHERE절의 `=` 연산과 유사함.
 
 ## 언어
 ### Python
