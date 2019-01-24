@@ -181,50 +181,6 @@
 
 ### 애드테크
 ### 소프트웨어 공학
-### AWS
-- [TimeStream](https://aws.amazon.com/ko/timestream/)  
-    2018 AWS re:invent때 공개된 완전 관리형 time series 데이터베이스. 완전 좋아 보이는데 일단 써봐야 알 것 같다. 1000X faster at 1/10th the cost 뭐 이러는데 일단 SQL-like 쿼리 인터페이스가 있다는 거랑 서버리스로 구성돼 있어서 관리 포인트가 줄어든다는 게 좋은 것 같다. ELK는 비싸고 대안이 딱히 없는 것 같아서 InfluxDB 쓰는데 이제 이거 EC2에 프로비저닝 안해도 되겠당. 물론 써봐야 알겠지만. grafana같은 time series visualize 툴들이 timestream 대응하느라 바빠질듯.
-- [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
-    AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
-- [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
-    모니터링 도구인 CloudWatch에는 Events라는 하위 기능이 있다. 이벤트 패턴이나 일정을 이벤트 소스로 선택하고, 이벤트가 발생했을 때 lambda, step function, EC2 인스턴스 재부팅 등 타 AWS 서비스를 호출할 수 있다. 이 문서는 일정을 이벤트 소스로 트리거하는 CloudWatch 이벤트 규칙을 생성하는 방법을 다룬다. Linux의 cron과 비슷한 용도로 사용할 수 있다.
-- [AWS EFS vs EBS vs S3 (differences & when to use?)](https://stackoverflow.com/a/29582940)  
-    EFS, EBS, S3, Glacier의 간단한 설명과 함께 각 서비스들의 강점을 이야기한다.
-- [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
-    Region과 AZ(Availability Zones)에 대한 설명. 물리적 데이터 센터인 Availability Zone들을 지리적 위치에 따라 Region 개념으로 묶고, 각 Region은 다른 Region들과 물리적으로 격리되어 있다.
-- [When to use Amazon Cloudfront or S3](https://stackoverflow.com/a/3328864)  
-    S3에 대한 간단한 설명과 Edge Location에서 동작하는 CDN(Content Delivery Network)인 CloudFront에 대한 설명. 사용자가 localized하다면 CloudFront를 굳이 쓰지 않아도 된다.
-- [Amazon S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
-    S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)나 RRS(Reduced Redundancy Storage)를 고려해볼 수 있다. 그리고 Glacier는 사실 S3의 하위 서비스였다.
-- [AWS Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
-    Lambda function에는 버전과 alias(별칭) 개념이 있다. 세상에. Lambda function을 업데이트할 때마다 버전이 하나씩 올라가고, 최초 생성된 lambda function의 기본 별칭인 `Unqualified`는 `$LATEST`라는 와일드카드 표현식으로 항상 가장 최신 버전을 가리킨다. 버전과 별칭으로 나뉜 lambda function들은 각기 다른 unique한 ARN(Amazon Resource Name)을 가진다. 함수 이름이 `test`라면, 버전 7의 함수는 `arn:aws:lambda:<region>:<acct-id>:function:test:7`, 별칭이 PROD인 함수는 `...:test:PROD`같은 식. serverless나 zappa 등의 툴킷으로 lambda에 서버리스 웹 어플리케이션을 배포하면, 함수가 업데이트될 때마다 알아서 새 버전을 가르키도록 Unqualified alias에 API Gateway를 매핑해 둔다.
-- [AWS CodeStar로 1인 DevOps 코스프레하기](https://www.holaxprogramming.com/2017/10/16/devops-aws-codestar/)  
-    백엔드는 어렵고 귀찮다 ㅎㅎ. 어디 프로젝트에서 백엔드를 맡게 되면 GitHub같은 Git 서버에서 소스코드 관리하고, Jenkins 머신 따로 띄우거나 Travis같은 SaaS로 CI 세팅해 두고, CodeDeploy나 CloudFormation으로 EC2/ECS/Beanstalk/Lambda 등등에 배포 자동화 세팅해 두고, 따로 퍼포먼스/인프라 모니터링 스택도 준비해야 한다. CodeStar는 CodePipeline으로 hook부터 deploy까지의 과정을 관리해 준다. CodeBuild로 빌드, CodeDeploy+EC2 or CloudFormation+Lambda or CloudFormation+Elastic Beanstalk으로 배포 자동화, CloudWatch로 모니터링까지 어플리케이션 개발 전반에 걸쳐 번거로운 것들을 대신 맡아준다. 프로젝트 대시보드도 제공해줌! 이게 얼마나 괜찮을지는 다음 토이 프로젝트에서 써보는 걸로.
-- [AWS CodeCommit](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/welcome.html#welcome-introducing)  
-    private git repository 호스팅 서비스! 외부 이슈 트래커랑 연동도 되는 듯.
-- [AWS CodeBuild](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html)  
-    와! 완전 관리형 빌드 서비스! 사실 조직 내 AWS 인프라들의 인바운드 접근 권한은 대부분 IP를 쓰지 않고 security group 단위로 한정한다. 그래서 DB 등에선 빌드 시스템이나 개발자 PC 등 외부의 접근을 수용하기 위해 따로 VPN 서버를 프로비저닝하고, 이 VPN 서버에 대해서 인바운드를 열어두는 식으로 운용을 하는데, Travis나 Circle같은 SaaS 형태의 빌드 서비스는 VPN setup이 불가능하거나 어렵다. 그래서 그냥 Jenkins 머신을 EC2에 따로 띄우고 해당 인스턴스의 security group을 인바운드에 추가하는 식으로 접근 제어를 하는데, 관리 포인트가 늘어나는 게 문제. CodeBuild는 이런 문제를 해결해 준다. 일단 AWS 위에서 동작하기 때문에 별도의 security group이 할당되므로 인바운드를 허용하기 좋고 + 서버를 직접 관리하지 않아도 됨!
-- [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
-    EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구.
-- [Amazon Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
-    Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제하므로 read replication이 필요 없다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
-- [AWS Storage Gateway](https://docs.aws.amazon.com/ko_kr/storagegateway/latest/userguide/WhatIsStorageGateway.html)  
-    S3는 일반적인 파일 시스템 방식이 아닌 object 기반이고, 인터페이스가 HTTP 기반이라 스토리지 엔지니어 입장에서는 속도나 사용성 면에서 불편함이 따른다. Storage Gateway는 S3를 스토리지 네트워킹 표준인 iSCSI(Internet Small Computer System Interface) 방식으로 제공해 준다. 대부분의 백업 솔루션은 iSCSI 방식을 사용하므로 데이터 저장 위치만 S3로 전환할 수 있게 된다. S3를 iSCSI 방식으로 처리하기 위한 appliance를 VMware, Hyper-V, EC2 등을 통해 별도로 설치해야 한다. 게이트웨이 종류는 그 형태에 따라 volume gateway, tape gateway로 나뉘고, volume gateway는 다시 Gateway-Cached volume(접근이 자주 일어나는 데이터를 appliance의 로컬 디스크에 캐시해 두는 볼륨), Gateway-Stored volume(기본 데이터 저장을 appliance의 로컬 스토리지에 저장하고 비동기적으로 S3에 스냅샷하는 볼륨)으로 나뉜다.
-- [AWS Snowball](https://aws.amazon.com/ko/snowball/)  
-    데이터를 네트워크로 전송하는 것은, 대용량 데이터 관점에서 매우 느리다. Snowball은 대용량 데이터를 물리적으로 마이그레이션하는 것을 돕는다. AWS Management Console에서 작업을 생성하면 AWS가 물리적인 스토리지 디바이스(Snowball)를 본인에게 배송하고 -> Snowball 클라이언트를 통해 이 디바이스에 연결해 데이터를 업로드한 후 -> AWS에게 Snowball 디바이스를 반송 -> AWS가 이를 S3에 업로드하는 방식이다.
-- [AWS DMS(Database Migration Service)](https://aws.amazon.com/ko/dms/)  
-    데이터베이스 마이그레이션 서비스. 동종 데이터베이스 마이그레이션 뿐만이 아니라, 이기종 데이터베이스 플랫폼 간 마이그레이션(예를 들면, Oracle Database -> AWS Schema Conversion Tool -> Aurora Database)도 가능하다. 물론 소스 데이터베이스가 RDS 또는 EC2에 있어야 한다.
-- [Amazon EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
-    컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
-- [Amazon ECS(Elastic Container Service)](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)  
-    어플리케이션을 docker 등으로 컨테이너화 하면, 독립된 실행 환경이 보장되고 빌드 스크립트가 파일 형태로 관리되어 배포 과정이 깔끔해진다. 가장 문제는 이러한 컨테이너를 orchestration하는 일인데, 이 일을 ECS가 대신 해준다. ECS는 Kubernetes같은 Docker 컨테이너 orchestration 서비스. EC2를 기반으로 동작시키거나, EC2 인스턴스를 직접 관리하기 부담스러운 경우 Fargate를 사용할 수도 있다.
-- [AWS Fargate](https://aws.amazon.com/ko/blogs/korea/aws-fargate/)  
-    서버리스 컨테이너 서비스. 컨테이너를 위한 인스턴스를 EC2 등으로 직접 관리할 필요 없이, 컨테이너 자체만 제공하면 되도록 해 준다.
-- [Amazon Elastic Container Repository](https://aws.amazon.com/ko/ecr/)  
-    말 그대로 Docker 컨테이너 저장소를 제공한다. ECS와 잘 통합되므로 배포 프로세스에도 도움을 많이 준다.
-- [Amazon DocumentDB 신규 출시](https://aws.amazon.com/ko/blogs/korea/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)  
-    MySQL 호환 데이터베이스인 Aurora를 알았을 때, 뭔가 Document-Oriented NoSQL DB도 하나쯤 만들지 않을까 싶었는데 진짜 만들었다. MongoDB 호환 가능하고, AWS답게 replication 짱짱하고 스토리지 auto scaling 잘 되고, 역시나 완전 관리형이다. 나중에 한 번 써봐야지.
-
 ### Git
 ### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
@@ -242,6 +198,97 @@
 ## CS
 ### 자료구조
 ### 알고리즘
+
+## AWS
+- [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
+    Region과 AZ(Availability Zones)에 대한 설명. 물리적 데이터 센터인 Availability Zone들을 지리적 위치에 따라 Region 개념으로 묶고, 각 Region은 다른 Region들과 물리적으로 격리되어 있다.
+### 컴퓨팅
+#### EC2
+- [EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
+    컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
+- [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
+    AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
+#### ECS
+- [ECS(Elastic Container Service)](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)  
+    어플리케이션을 docker 등으로 컨테이너화 하면, 독립된 실행 환경이 보장되고 빌드 스크립트가 파일 형태로 관리되어 배포 과정이 깔끔해진다. 가장 문제는 이러한 컨테이너를 orchestration하는 일인데, 이 일을 ECS가 대신 해준다. ECS는 Kubernetes같은 Docker 컨테이너 orchestration 서비스. EC2를 기반으로 동작시키거나, EC2 인스턴스를 직접 관리하기 부담스러운 경우 Fargate를 사용할 수도 있다.
+- [Fargate](https://aws.amazon.com/ko/blogs/korea/aws-fargate/)  
+    서버리스 컨테이너 컴퓨팅 엔진. 컨테이너를 위한 인스턴스를 EC2 등으로 직접 관리할 필요 없이, 컨테이너 자체만 제공하면 알아서 잘 관리해 준다.
+#### ECR
+- [ECR(Elastic Container Repository)](https://aws.amazon.com/ko/ecr/)  
+    말 그대로 Docker 컨테이너 저장소를 제공한다. ECS와 잘 통합되므로 배포 프로세스에도 도움을 많이 준다.
+#### Lambda
+- [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
+    Lambda function에는 버전과 alias(별칭) 개념이 있다. 세상에. Lambda function을 업데이트할 때마다 버전이 하나씩 올라가고, 최초 생성된 lambda function의 기본 별칭인 `Unqualified`는 `$LATEST`라는 와일드카드 표현식으로 항상 가장 최신 버전을 가리킨다. 버전과 별칭으로 나뉜 lambda function들은 각기 다른 unique한 ARN(Amazon Resource Name)을 가진다. 함수 이름이 `test`라면, 버전 7의 함수는 `arn:aws:lambda:<region>:<acct-id>:function:test:7`, 별칭이 PROD인 함수는 `...:test:PROD`같은 식. serverless나 zappa 등의 툴킷으로 lambda에 서버리스 웹 어플리케이션을 배포하면, 함수가 업데이트될 때마다 알아서 새 버전을 가르키도록 Unqualified alias에 API Gateway를 매핑해 둔다.
+
+### 스토리지
+#### S3
+- [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
+    S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)나 RRS(Reduced Redundancy Storage)를 고려해볼 수 있다. Intelligent Tiering과 Glacier Deep Archive는 처음 알았다.
+#### EFS
+
+### 데이터베이스
+#### RDS
+- [Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
+    Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제하므로 read replication이 필요 없다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
+#### DynamoDB
+#### ElastiCache
+#### DocumentDB
+- [Amazon DocumentDB 신규 출시](https://aws.amazon.com/ko/blogs/korea/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)  
+    MySQL 호환 데이터베이스인 Aurora를 알았을 때, 뭔가 Document-Oriented NoSQL DB도 하나쯤 만들지 않을까 싶었는데 진짜 만들었다. MongoDB 호환 가능하고, AWS답게 replication 짱짱하고 스토리지 auto scaling 잘 되고, 역시나 완전 관리형이다. 나중에 한 번 써봐야지.
+#### TimeStream
+- [TimeStream](https://aws.amazon.com/ko/timestream/)  
+    2018 AWS re:invent때 공개된 완전 관리형 time series 데이터베이스. 완전 좋아 보이는데 일단 써봐야 알 것 같다. 1000X faster at 1/10th the cost 뭐 이러는데 일단 SQL-like 쿼리 인터페이스가 있다는 거랑 서버리스로 구성돼 있어서 관리 포인트가 줄어든다는 게 좋은 것 같다. ELK는 비싸고 대안이 딱히 없는 것 같아서 InfluxDB 쓰는데 이제 이거 EC2에 프로비저닝 안해도 되겠당. 물론 써봐야 알겠지만. grafana같은 time series visualize 툴들이 timestream 대응하느라 바빠질듯.
+
+### 마이그레이션, 전송
+#### DMS
+- [DMS(Database Migration Service)](https://aws.amazon.com/ko/dms/)  
+    데이터베이스 마이그레이션 서비스. 동종 데이터베이스 마이그레이션 뿐만이 아니라, 이기종 데이터베이스 플랫폼 간 마이그레이션(예를 들면, Oracle Database -> AWS Schema Conversion Tool -> Aurora Database)도 가능하다. 물론 소스 데이터베이스가 RDS 또는 EC2에 있어야 한다.
+#### Snowball
+- [Snowball](https://aws.amazon.com/ko/snowball/)  
+    데이터를 네트워크로 전송하는 것은, 대용량 데이터 관점에서 매우 느리다. Snowball은 대용량 데이터를 물리적으로 마이그레이션하는 것을 돕는다. AWS Management Console에서 작업을 생성하면 AWS가 물리적인 스토리지 디바이스(Snowball)를 본인에게 배송하고 -> Snowball 클라이언트를 통해 이 디바이스에 연결해 데이터를 업로드한 후 -> AWS에게 Snowball 디바이스를 반송 -> AWS가 이를 S3에 업로드하는 방식이다.
+
+### 네트워킹
+#### VPC
+#### CloudFront
+#### Route 53
+#### API Gateway
+#### Direct Connect
+
+### PaaS
+#### CodeStar
+- [AWS CodeStar로 1인 DevOps 코스프레하기](https://www.holaxprogramming.com/2017/10/16/devops-aws-codestar/)  
+    백엔드는 어렵고 귀찮다 ㅎㅎ. 어디 프로젝트에서 백엔드를 맡게 되면 GitHub같은 Git 서버에서 소스코드 관리하고, Jenkins 머신 따로 띄우거나 Travis같은 SaaS로 CI 세팅해 두고, CodeDeploy나 CloudFormation으로 EC2/ECS/Beanstalk/Lambda 등등에 배포 자동화 세팅해 두고, 따로 퍼포먼스/인프라 모니터링 스택도 준비해야 한다. CodeStar는 CodePipeline으로 hook부터 deploy까지의 과정을 관리해 준다. CodeBuild로 빌드, CodeDeploy+EC2 or CloudFormation+Lambda or CloudFormation+Elastic Beanstalk으로 배포 자동화, CloudWatch로 모니터링까지 어플리케이션 개발 전반에 걸쳐 번거로운 것들을 대신 맡아준다. 프로젝트 대시보드도 제공해줌! 이게 얼마나 괜찮을지는 다음 토이 프로젝트에서 써보는 걸로.
+#### CodeCommit
+- [AWS CodeCommit](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/welcome.html#welcome-introducing)  
+    private git repository 호스팅 서비스! 외부 이슈 트래커랑 연동도 되는 듯.
+#### CodeBuild
+- [AWS CodeBuild](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html)  
+    와! 완전 관리형 빌드 서비스! 사실 조직 내 AWS 인프라들의 인바운드 접근 권한은 대부분 IP를 쓰지 않고 security group 단위로 한정한다. 그래서 DB 등에선 빌드 시스템이나 개발자 PC 등 외부의 접근을 수용하기 위해 따로 VPN 서버를 프로비저닝하고, 이 VPN 서버에 대해서 인바운드를 열어두는 식으로 운용을 하는데, Travis나 Circle같은 SaaS 형태의 빌드 서비스는 VPN setup이 불가능하거나 어렵다. 그래서 그냥 Jenkins 머신을 EC2에 따로 띄우고 해당 인스턴스의 security group을 인바운드에 추가하는 식으로 접근 제어를 하는데, 관리 포인트가 늘어나는 게 문제. CodeBuild는 이런 문제를 해결해 준다. 일단 AWS 위에서 동작하기 때문에 별도의 security group이 할당되므로 인바운드를 허용하기 좋고 + 서버를 직접 관리하지 않아도 됨!
+#### CodeDeploy
+- [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
+    EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구. 그런데 뭔가 '배포 자체'에 대해 많이 챙겨줘서, Canary Test/Blue-Green Deploy, 롤백 등의 지원이 필요 없으면 안 쓰게 될 것 같기도 하다.
+
+### 관리
+#### CloudWatch
+- [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
+    모니터링 도구인 CloudWatch에는 Events라는 하위 기능이 있다. 이벤트 패턴이나 일정을 이벤트 소스로 선택하고, 이벤트가 발생했을 때 lambda, step function, EC2 인스턴스 재부팅 등 타 AWS 서비스를 호출할 수 있다. 이 문서는 일정을 이벤트 소스로 트리거하는 CloudWatch 이벤트 규칙을 생성하는 방법을 다룬다. Linux의 cron과 비슷한 용도로 사용할 수 있다.
+#### Auto Scaling
+
+### 분석
+#### Athena
+#### EMR
+#### ElasticSearch Service
+#### Kinesis
+
+### 보안, 자격 증명
+#### IAM
+#### KMS
+
+### 어플리케이션 통합
+#### Step Functions
+#### Amazon MQ
+#### SNS
+#### SQS
 
 ## 데이터베이스에 관련된
 - [What is an ORM and where can I learn more about it?](https://stackoverflow.com/a/1279678)  
