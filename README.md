@@ -229,6 +229,8 @@
 - [ECR(Elastic Container Repository)](https://aws.amazon.com/ko/ecr/)  
     말 그대로 Docker 컨테이너 저장소를 제공한다. ECS와 잘 통합되므로 배포 프로세스에도 도움을 많이 준다.
 #### Lambda
+- [Lambda](https://aws.amazon.com/ko/lambda/features/)  
+    '이벤트에 응답하여 코드를 실행'하는 서버리스 컴퓨팅 서비스. Event Driven한 거라면 뭐든 붙여볼 수 있다. API Gateway랑 엮어서 API 서버 용도로도 사용할 수 있고, 뭔가 스케줄링하는 용도로 사용할 수도 있고 등등.
 - [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
     Lambda function에는 버전과 alias(별칭) 개념이 있다. 세상에. Lambda function을 업데이트할 때마다 버전이 하나씩 올라가고, 최초 생성된 lambda function의 기본 별칭인 `Unqualified`는 `$LATEST`라는 와일드카드 표현식으로 항상 가장 최신 버전을 가리킨다. 버전과 별칭으로 나뉜 lambda function들은 각기 다른 unique한 ARN(Amazon Resource Name)을 가진다. 함수 이름이 `test`라면, 버전 7의 함수는 `arn:aws:lambda:<region>:<acct-id>:function:test:7`, 별칭이 PROD인 함수는 `...:test:PROD`같은 식. serverless나 zappa 등의 툴킷으로 lambda에 서버리스 웹 어플리케이션을 배포하면, 함수가 업데이트될 때마다 알아서 새 버전을 가르키도록 Unqualified alias에 API Gateway를 매핑해 둔다.
 
