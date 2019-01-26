@@ -79,6 +79,14 @@
     JavaScript에서 var는 function scope에서 보장되고, let는 block scope가 가능하다는 이야기인데, scope는 애초에 프로그래밍 언어 자체적인 이야기라 볼만 하다. function/block scope, lexical(static)/dynamic scope 등등.. 스코프 얘기는 재밌는 것 같음.
 - [What is a pure function?](https://medium.com/javascript-scene/master-the-javascript-interview-what-is-a-pure-function-d1c076bec976)  
     same input-same output과 외부 상태에 변화를 주지 않는(no side-effect) 함수를 순수 함수(pure function)라고 부른다.
+- [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
+    in-memory caching이라고도 볼 수 있는 메모이제이션에 대한 이야기. 'Avoid doing the same work repeatedly to avoid spending unnecessary running time or resource'라는 문장이 핵심이다.
+- [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
+    Caching은 'general term', Memoization은 'specific form of caching'
+- [Static/Dynamic vs Strong/Weak](https://stackoverflow.com/a/2351203)  
+    정적/동적 타입 검사와 강타입/약타입에 대한 이야기. static/dynamic typing은 'when type information is acquired', strong/weak typing은 'how strictly types are distinguished'로 요약하고 있다.
+- [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
+    이게 뭔가 서비스 관점에서의 패턴 이야기가 아니라, 그냥 아키텍처 자체에 대한 이야기. 역시 패턴 얘기는 재밌는 게 많다.
 
 ### 디자인 패턴
 
