@@ -221,6 +221,8 @@
 - [EBS 최적화 인스턴스](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EBSOptimized.html#enable-ebs-optimization)  
     인스턴스에 EBS 전용 대역폭을 만들어서 EBS에 대한 처리량과 IOPS를 늘리는 것. 현재 세대 인스턴스들은 기본적으로 EBS 최적화되어 있는 상태.
 - [인스턴스 수명 주기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
+- [인스턴스 유형](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)  
+    instance family라고도 부른다. 하드웨어 스펙이 어디에 최적화되도록 설계되었는지에 따라 다르게 분류함. EC2에 올리려는 컴포넌트의 특징에 따라 인스턴스 유형을 잘 선택하면 남는 리소스도 줄이고 비용 최적화에도 좋을 것 같다. ElasticSearch 올릴 때 D2나 I3 쓴다거나..
 - [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
     AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
 - [배치 그룹(Placement Gorup)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)  
