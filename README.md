@@ -218,6 +218,8 @@
     컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
 - [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
     AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
+- [배치 그룹(Placement Gorup)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)  
+    placement group을 설정해 두면 group에 있는 인스턴스들이 '물리적으로 가까운 위치'에 할당된다. latency 확보에 도움을 준다고는 하는데, 유의미한 수준인지는 모르겠다.
 #### ECS
 - [ECS(Elastic Container Service)](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)  
     어플리케이션을 docker 등으로 컨테이너화 하면, 독립된 실행 환경이 보장되고 빌드 스크립트가 파일 형태로 관리되어 배포 과정이 깔끔해진다. 가장 문제는 이러한 컨테이너를 orchestration하는 일인데, 이 일을 ECS가 대신 해준다. ECS는 Kubernetes같은 Docker 컨테이너 orchestration 서비스. EC2를 기반으로 동작시키거나, EC2 인스턴스를 직접 관리하기 부담스러운 경우 Fargate를 사용할 수도 있다.
