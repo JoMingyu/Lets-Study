@@ -223,6 +223,8 @@
 - [인스턴스 수명 주기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
 - [인스턴스 유형](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)  
     instance family라고도 부른다. 하드웨어 스펙이 어디에 최적화되도록 설계되었는지에 따라 다르게 분류함. EC2에 올리려는 컴포넌트의 특징에 따라 인스턴스 유형을 잘 선택하면 남는 리소스도 줄이고 비용 최적화에도 좋을 것 같다. ElasticSearch 올릴 때 D2나 I3 쓴다거나..
+- [인스턴스 구입 옵션](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-purchasing-options.html)  
+    온디맨드, 스팟, 예약 인스턴스만 알고 있었는데 몇가지 더 있었다. 스팟, 예약 인스턴스 잘 써먹으면 비용 최적화에 도움 많이 될듯.
 - [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
     AWS 블로그의 글이다. 일반적으로 로드밸런싱은 OSI 모델 기준 layer 4(transport layer)나 layer 7(application layer)에서 처리한다. ELB(Elastic Load Balancer)는 layer 4 로드 밸런싱을 제공하는데, layer 7 로드 밸런싱을 위해 ALB를 사용할 수 있다. application layer에서는 transport layer에서 할 수 없었던 패킷 접근이 가능한데, 이 덕분에 HTTP 요청의 내용(헤더, URL 등)을 가지고 rule을 만들어서 패킷 전송 위치를 지정할 수 있다. ELB를 세팅할 때 application load balancer와 classic load balancer가 선택지로 제공된다.
 - [배치 그룹(Placement Gorup)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)  
