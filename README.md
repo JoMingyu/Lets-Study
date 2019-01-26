@@ -278,6 +278,8 @@
     와! 완전 관리형 빌드 서비스! 사실 조직 내 AWS 인프라들의 인바운드 접근 권한은 대부분 IP를 쓰지 않고 security group 단위로 한정한다. 그래서 DB 등에선 빌드 시스템이나 개발자 PC 등 외부의 접근을 수용하기 위해 따로 VPN 서버를 프로비저닝하고, 이 VPN 서버에 대해서 인바운드를 열어두는 식으로 운용을 하는데, Travis나 Circle같은 SaaS 형태의 빌드 서비스는 VPN setup이 불가능하거나 어렵다. 그래서 그냥 Jenkins 머신을 EC2에 따로 띄우고 해당 인스턴스의 security group을 인바운드에 추가하는 식으로 접근 제어를 하는데, 관리 포인트가 늘어나는 게 문제. CodeBuild는 이런 문제를 해결해 준다. 일단 AWS 위에서 동작하기 때문에 별도의 security group이 할당되므로 인바운드를 허용하기 좋고 + 서버를 직접 관리하지 않아도 됨!
 - [CodeBuild의 build spec reference](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/build-spec-ref.html)  
     CodeBuild가 레포를 clone해서 빌드를 위해 buildspec.yml을 찾는데, 여기에 들어갈 수 있는 것들을 정리한 문서. 여타 CI들과 다르지 않게 phase 기반으로 동작한다.
+- [Environment variables not being set on AWS CodeBuild](https://stackoverflow.com/questions/50706276/environment-variables-not-being-set-on-aws-codebuild)  
+    CodeBuild에서 buildspec.yml에 명시한 export 명령어가 제대로 먹히지 않는 현상에 대한 트러블슈팅. 버전을 0.2로 올리면 된다고 한다.
 #### CodeDeploy
 - [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
     EC2, ECS 등의 인스턴스에 대한 배포 자동화에 도움을 주는 착실한 친구. 그런데 뭔가 '배포 자체'에 대해 많이 챙겨줘서, Canary Test/Blue-Green Deploy, 롤백 등의 지원이 필요 없으면 안 쓰게 될 것 같기도 하다.
