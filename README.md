@@ -87,6 +87,8 @@
     정적/동적 타입 검사와 강타입/약타입에 대한 이야기. static/dynamic typing은 'when type information is acquired', strong/weak typing은 'how strictly types are distinguished'로 요약하고 있다.
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
     이게 뭔가 서비스 관점에서의 패턴 이야기가 아니라, 그냥 아키텍처 자체에 대한 이야기. 역시 패턴 얘기는 재밌는 게 많다.
+- [Runtime vs Compile time](https://stackoverflow.com/a/846421)  
+    런타임과 컴파일 타임의 비교.
 
 ### 디자인 패턴
 
@@ -233,6 +235,8 @@
 - [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
     S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)나 RRS(Reduced Redundancy Storage)를 고려해볼 수 있다. Intelligent Tiering과 Glacier Deep Archive는 처음 알았다.
 #### EFS
+- [EFS(Elastic File System)](https://aws.amazon.com/ko/efs/)  
+    EBS와의 차이는, 여러 EC2 인스턴스에 동시 마운트할 수 있다는 점이다. 엄청 비쌈. 클러스터 환경에서 데이터 처리할 때 써먹을 수도 있지 않을까 싶다.
 
 ### 데이터베이스
 #### RDS
@@ -382,6 +386,8 @@
     - Python 3.3부터 generator가 다른 generator에게 연산의 일부를 위임하도록 하는 yield from이라는 expression을 사용할 수 있게 되었다. 이는 generator가 generator를 호출하고, 서로의 실행을 중지시킬 수 있는 방법이 생긴 것이기 때문에 비동기 프로그래밍이 원활히 가능하도록 만들어 주었다.
     - 이러한 generator들을 실행하는 이벤트 루프를 asyncio 라이브러리가 제공해주기 시작했다.
     - Python 3.5부턴 asyncio가 빌트인 라이브러리로 지원되며 `async` 키워드가 `@asyncio.coroutine`를 대체하고, `await` 키워드가 `yield from`을 대체하게 되었다.
+- [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
+    Go에서 defer는 function call stack의 맨 위에 해당 함수를 push한다. 이걸 Python에선 어떻게 해야 할까?라는 질문. contextlib.ExitStack을 써먹으면 된다.
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
