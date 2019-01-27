@@ -462,6 +462,8 @@
     스키마 작성 방식이 JSONSchema와 꽤 닮아 있는 validation 라이브러리. 다만 이걸 쓴다면 자동완성의 도움을 받긴 어려울 것 같다. 나는 오타를 자주 내는 편이라, 이렇게 리터럴이 많은 것과 친해지기 쉽지 않다.
 - [voluptuous](https://github.com/alecthomas/voluptuous)  
     schema와 비슷하게 생긴 validation 라이브러리인데, 비교적 잘 정리되어 있는 편. 클래스 스타일이 싫다면 이걸 써봐도 괜찮을 것 같다.
+- [What's the difference between MySQLdb, mysqlclient and MySQL connector/Python?](https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python)  
+    MySQLDB1, MySQLDB2, mysqlclient, mysql-connector-python, pymysql의 차이에 대한 이야기. CPython을 쓴다면 mysqlclient만한게 없는 것 같다.
 
 #### 테스팅
 #### SQLAlchemy
