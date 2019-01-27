@@ -159,7 +159,7 @@
     - Self-Descriptive message
     - hypermedia as the engine of application state (HATEOAS)
 - [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)  
-    핵심은 'CORS is a mechanism which aims to allow requests made on behalf of you and at the same time block some requests made by rogue JS and is triggered.' / A에서의 요청은 허락하고, B에서의 요청은 허락하지 않는다 이런건데, 이게 프로토콜 단에서 보장되는 건 아닌가보다. allow origin을 특정 도메인으로 한정지어 놓더라도, OPTIONS로 요청 권한을 확인하는 걸 그냥 무시하고 요청하더라도 문제가 없음. 띠용;; 단지 자바스크립트 엔진 표준 스펙의 Same-Origin Policy가 일으키는 문제(자신이 속하지 않은 도메인에 대한 요청을 차단)를 해결하기 위함인 듯. 참 애매한 친구다.
+    핵심은 'CORS is a mechanism which aims to allow requests made on behalf of you and at the same time block some requests made by rogue JS and is triggered.' / 서버가 'A에서의 요청은 허락하고, B에서의 요청은 허락하지 않는다'같은 걸 헤더로 떨궈주는 건데, 이게 허용 여부 자체를 클라이언트 사이드에서 판단한다. OPTIONS 메소드로 요청해서 자기가 allow된 대상인지 확인하고, 권한이 있으면 실제로 요청하는 것. 그래서 allow origin을 특정 도메인으로 한정지어 놓더라도, OPTIONS로 요청 권한을 확인하는 걸 그냥 무시하고 요청하더라도 문제가 없음. 띠용;; 단지 자바스크립트 엔진 표준 스펙의 Same-Origin Policy가 일으키는 문제(자신이 속하지 않은 도메인에 대한 요청을 차단)를 해결하기 위함이라고 하는데, 아니 '특정 클라이언트에게만 액세스 허용'을 할거면 프로토콜 레벨에서 해주는게 맞지 않나? 참 애매한 친구다.
 
 ### JSONSchema
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
