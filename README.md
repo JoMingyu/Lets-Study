@@ -158,6 +158,8 @@
     - Resource Representation
     - Self-Descriptive message
     - hypermedia as the engine of application state (HATEOAS)
+- [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)  
+    핵심은 'CORS is a mechanism which aims to allow requests made on behalf of you and at the same time block some requests made by rogue JS and is triggered.' / A에서의 요청은 허락하고, B에서의 요청은 허락하지 않는다 이런건데, 이게 프로토콜 단에서 보장되는 건 아닌가보다. allow origin을 특정 도메인으로 한정지어 놓더라도, OPTIONS로 요청 권한을 확인하는 걸 그냥 무시하고 요청하더라도 문제가 없음. 띠용;; 단지 자바스크립트 엔진 표준 스펙의 Same-Origin Policy가 일으키는 문제(자신이 속하지 않은 도메인에 대한 요청을 차단)를 해결하기 위함인 듯. 참 애매한 친구다.
 
 ### JSONSchema
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
