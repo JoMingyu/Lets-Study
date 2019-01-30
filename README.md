@@ -38,7 +38,11 @@
 - [How does MQTT protocol work?](https://stackoverflow.com/a/9570898)  
     publish/subscribe 방식의 메시지 큐. 프로토콜에 가까운 것 같다. 일반적으로 알고 있는 pub/sub 패턴처럼, publisher는 토픽을 발행하고 subscriber는 관심 있는 토픽을 구독한다. 메시지는 broker가 관리한다. Facebook Messenger가 MQTT를 사용하는 것으로 유명하지만 지금까지도 쓰고 있는지는 잘 모르겠다. 오픈소스 MQTT 브로커로 mosquito를 사용하곤 한다. Firebase Cloud Messaging(FCM)도 MQTT 구조인가? 싶었는데 얘는 웹소켓이라고 함. 나중에 채팅 구현할 때 MQTT 써봐야겠다.
 - [Protobuf](https://developers.google.com/protocol-buffers/docs/proto3)  
-    `.proto`라는 확장자를 가진 파일에 스키마를 명시하고, 이걸로 직렬화/역직렬화하는 데이터 직렬화 포맷. RPC에서 많이 쓰인다고 한다. HTTP mimetype에선 `application/vnd.google.protobuf`나 `application/x-protobuf`같은 걸 쓰는 듯. 표준이 어디 있지 않을까.
+    `.proto`라는 확장자를 가진 파일에 스키마를 명시하고, 이걸로 직렬화/역직렬화하는 데이터 직렬화 포맷. RPC에서 많이 쓰인다고 하며 타다가 Protobuf를 쓰고 있다고 한다. .proto 파일로 스키마를 명시하게 되면 validation rule도 정의하고 문서화도 되고 클라이언트는 이거 컴파일해서 DTO 만들고 해줄수 있어서 꽤 편할듯. HTTP mimetype에선 `application/vnd.google.protobuf`나 `application/x-protobuf`같은 걸 쓴다는데, 그냥 protobuf message를 JSON으로 주기받기도 하는 것 같다.
+- [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
+    시각 데이터를 표현하는 표준이 대표적으로 두가지(ISO 8601과 RFC 3339)가 있는데, 이 둘의 차이에 대한 질문. 'RFC 3339 is listed as a profile of ISO 8601. Most notably RFC 3339 requires a complete representation of date and time (only fractional seconds are optional).'이 핵심 문장.
+- [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
+    'ndJSON is a collection of JSON objects, separated by `\n`'이 핵심. 종단 간 통신 레벨에서 쓰일만한 건 아닌 것 같고, JSON으로 이루어진 data collection을 관리할 때 좋을 것 같다. MongoDB에서 특정 collection에 모여 있는 document 목록은 NDJSON으로 표현할 수 있을테니까.
 
 ### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
@@ -194,6 +198,8 @@
 ### 애드테크
 ### 소프트웨어 공학
 ### Git
+- [git blame](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-Git%EC%9C%BC%EB%A1%9C-%EB%B2%84%EA%B7%B8-%EC%B0%BE%EA%B8%B0)  
+    `git blame` 명령어를 통해 소스 코드에서 특정 line을 지정한 후 그 일부에 대해서 commit history를 찾아볼 수 있다.
 ### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
 - [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
