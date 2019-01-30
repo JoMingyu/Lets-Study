@@ -132,11 +132,15 @@
     서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
 - [도커를 이용한 웹서비스 무중단 배포하기](https://subicura.com/2016/06/07/zero-downtime-docker-deployment.html)  
     배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
+- [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
+    여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
 - [wrk](https://github.com/wg/wrk)  
     HTTP 벤치마킹 툴. 웹 프레임워크 퍼포먼스 테스트나 서버 스트레스 테스트같은 거 할 때 자주 쓰이는 듯.
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
 - [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)  
     서버리스는 직접 관리하는 인프라가 없다는 의미.
+- [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)  
+    관리 코스트 때문에 메시지 브로커에 redis를 쓰고, HTTP/2에 Protobuf를 쓴다는 게 신기했다.
 
 ### HTTP에 가까운
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
