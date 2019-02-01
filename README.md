@@ -540,6 +540,10 @@
 - SaaS Helpers
     - [pyfcm](https://github.com/olucurious/PyFCM)  
         'Python client for FCM - Firebase Cloud Messaging'
+    - [python-firebase](https://github.com/ozgur/python-firebase)  
+        'Python interface to the Firebase's REST API'. pyfcm은 FCM에 한정되어 있고, 얘는 firebase 전체.
+    - [firebase-admin-python](https://github.com/firebase/firebase-admin-python)  
+        Python용 firebase admin SDK. Firebase에서 가장 권고하는 방식이며 official로 관리된다.
 
 #### 테스팅
 #### SQLAlchemy
