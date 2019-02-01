@@ -484,33 +484,6 @@
 - Networking and Interprocess Communication
     - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 #### 외부 라이브러리
-- [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
-- [Arrow](https://arrow.readthedocs.io/en/latest/)  
-    datetime으로 타임존과 싸우는 건 사람이 할 짓이 아니다. arrow는 기본적으로 시간을 ISO 8601 format으로 다루기 때문에 타임존 conversion이 쉽고, time shifting이나 humanize 기능도 잘 준비되어 있다.
-- [twine](https://pypi.org/project/twine/)  
-    Python 패키지를 PyPI(python Pacakge Index)에 쉽게 배포할 수 있도록 해주는 CLI 툴.
-- [cachetools](https://github.com/tkem/cachetools)  
-    functools.lru_cache 데코레이터의 변형을 포함하여 자주 쓰이는 캐싱들을 데코레이터 형태로 지원하는 라이브러리. LFU, LRU, RR, TTL cache를 지원한다.
-- [pypika](https://github.com/kayak/pypika)  
-    SQL query builder. ORM같은 쿼리 인터페이스는 아니고, 단순히 쿼리 문자열을 만들어주는 라이브러리라서 접근 방식이 좀 다르다.
-- [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
-    짱 좋은 ORM 라이브러리 ^&^
-- [requests](https://github.com/requests/requests)  
-    HTTP request 잘 할 수 있게 도와주는 라이브러리.
-- [zappa](https://github.com/Miserlou/Zappa)  
-    WSGI 웹 어플리케이션을 AWS Lambda에 올려서 서버리스 어플리케이션을 잘 배포할 수 있게 도와주는 CLI 툴. maintainer가 완전 착하다..
-- [blinker](https://pythonhosted.org/blinker/)  
-    object-to-object signaling을 도와주는 라이브러리. 일종의 publish/subscribe 패턴이라 event driven한 어플리케이션을 잘 만들 수 있도록 해줄 것 같은데, use case는 딱히 생각이 나지 않는다. 최근에 signal을 활용하는 걸 봤던 건, Elastic APM Python agent에서 Flask의 request_started, request_finished signal에 각각 트랜잭션 시작과 종료 함수를 할당해둔 것 정도. 이게 있다는 걸 알았으니 나중에 코드 레벨의 pub/sub 패턴을 구현할 일이 생기면 써봐야겠다.
-- [schema](https://github.com/keleshev/schema)  
-    schema validation 라이브러리. Pythonic하다고 하는데 이거 쓰려면 러닝커브가 좀 생길 것 같다. 아이디어는 괜찮은 것 같은데, 컨셉 자체가 너무 그들만의 세계같은 느낌.
-- [schematics](https://github.com/schematics/schematics)  
-    schema validation은 이게 제일 나은듯 ㅎ StringType()처럼 데이터의 스키마를 객체로 정의하게 되면 required, default와 같은 rule들이 생성자의 인자로 전달되기 때문에 자동완성의 도움을 받을 수 있어서 IDE 바깥으로 나가는 일이 줄어들어서 좋은 것 같다.
-- [cerberus](http://docs.python-cerberus.org/en/stable/usage.html#basic-usage)  
-    스키마 작성 방식이 JSONSchema와 꽤 닮아 있는 validation 라이브러리. 다만 이걸 쓴다면 자동완성의 도움을 받긴 어려울 것 같다. 나는 오타를 자주 내는 편이라, 이렇게 리터럴이 많은 것과 친해지기 쉽지 않다.
-- [voluptuous](https://github.com/alecthomas/voluptuous)  
-    schema와 비슷하게 생긴 validation 라이브러리인데, 비교적 잘 정리되어 있는 편. 클래스 스타일이 싫다면 이걸 써봐도 괜찮을 것 같다.
-- [What's the difference between MySQLdb, mysqlclient and MySQL connector/Python?](https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python)  
-    MySQLDB1, MySQLDB2, mysqlclient, mysql-connector-python, pymysql의 차이에 대한 이야기. CPython을 쓴다면 mysqlclient만한게 없는 것 같다.
 
 #### 테스팅
 #### SQLAlchemy
