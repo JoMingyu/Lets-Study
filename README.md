@@ -403,18 +403,19 @@
 ## 언어
 ### Python
 #### 언어 자체에 대한 이야기
-- [Glossary](https://docs.python.org/3/glossary.html)  
-    iterable, iterator, awaitable, context manager, coroutine function과 같이, 파이썬을 쓰다 보면 한번쯤은 마주치게 되는 단어들이 정리된 문서.
-- [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
-    그다지 알려지지 않았지만 유용한 Python의 기능들.
-- [Intermediate Python](http://book.pythontips.com/en/latest/index.html)  
-    파이썬에 이런 기능도 있는데 혹시 알아? 하는 느낌의 팁북. 바로 위의 'Hidden features of Python'과 비슷한 느낌이다.
-- [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)  
-    파이썬으로 구현한 이런저런 디자인 패턴들의 모음.
-- [wtfpython](https://github.com/satwikkansal/wtfpython)  
-    파이썬을 사용하며 생길 수 있는 해프닝들의 모음인데, 흥미로운 주제들이 많이 정리되어 있다.
-- [Better Python 59 Ways](https://github.com/SigmaQuan/Better-Python-59-Ways)  
-    한국에서는 '파이썬 코딩의 기술'이라고 이름지어진, 'Effective Python'이라는 도서에서 사용된 59가지 예제 모음
+- Do you know Python?
+    - [Glossary](https://docs.python.org/3/glossary.html)  
+        iterable, iterator, awaitable, context manager, coroutine function과 같이, 파이썬을 쓰다 보면 한번쯤은 마주치게 되는 단어들이 정리된 문서.
+    - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
+        그다지 알려지지 않았지만 유용한 Python의 기능들.
+    - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)  
+        파이썬에 이런 기능도 있는데 혹시 알아? 하는 느낌의 팁북. 바로 위의 'Hidden features of Python'과 비슷한 느낌이다.
+    - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)  
+        파이썬으로 구현한 이런저런 디자인 패턴들의 모음.
+    - [wtfpython](https://github.com/satwikkansal/wtfpython)  
+        파이썬을 사용하며 생길 수 있는 해프닝들의 모음인데, 흥미로운 주제들이 많이 정리되어 있다.
+    - [Better Python 59 Ways](https://github.com/SigmaQuan/Better-Python-59-Ways)  
+        한국에서는 '파이썬 코딩의 기술'이라고 이름지어진, 'Effective Python'이라는 도서에서 사용된 59가지 예제 모음
 - [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
     Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, Python 3.3부터 제공된 `yield from`, asyncio의 빌트인화와 async/await 문법까지 차근차근 설명되어 있다.
@@ -446,24 +447,34 @@
 - [Black](https://github.com/ambv/black)  
     엄청 잘 만들어진 코드 포매터.
 #### 표준 라이브러리
-- [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
-- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
-- [collections.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
-    내 생각엔 OrderedDict를 써볼만한 case가 그리 많진 않을 것 같은데, OrderedDict를 써야 하는 적은 case 입장에서는 정말 개이득인 컨테이너 타입인 것 같다.(메인 언어로 파이썬 쓴지 1년 넘는 동안 딱 2번 써봤지만, 그때마다 OrderedDict 덕분에 정말 편-안했음) 단지 넣은 순서대로 dictionary가 유지된다는 것 뿐이지, 자동으로 sort는 해주지 않는다는 것을 인지하고 있어야 한다.
-- [collections.defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)  
-    dict를 상속받은 dictionary-like한 객체를 반환한다. 이 객체는 함수에 전달된 optional argument인 default_factory를 인스턴스 변수로 가지고 있고, `__getitem__` 메소드를 오버라이딩한다. getitem 시 key가 존재하지 않으면 `__missing__` 메소드를 호출하고, 이 메소드는 `default_factory`를 호출해 반환한다. default_factory가 None이면 `KeyError`를 raise한다. invalid key에 대해 default value를 정의해 두어 KeyError를 방어하기 위해 사용된다.
-- [Find Monday's date with Python](https://stackoverflow.com/a/1622052)  
-    특정 datetime 객체를 기준으로 다음주 월요일과 저번주 월요일에 대한 datetime 객체를 가져오는 방법. timedelta로 weekday만큼을 day에 빼주면 'datetime 객체가 속한 week의 월요일'이 되고, 여기에 week를 1 더하면 다음주 월요일, week를 1 빼면 저번주 월요일이 된다. datetime에서 월요일을 0으로 사용한다는 것을 응용함. 다른 예로 datetime 객체가 속한 week의 화요일에 대한 datetime을 원한다면 weekday + 1만큼을 day에서 빼주면 된다. 언제든 적재될 수 있는 어떤 데이터가 매주 월요일에 지워져야 하는 경우, expire를 계산할 때 유용할 것 같다. 다음주 월요일 0시 0분의 시각과 현재 시각의 delta를 사용하면 되니까.
-- [Python Pickle Tutorial](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
-    객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionary/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
-- [얕은 복사(shallow copy) vs 깊은 복사(deep copy)](https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/)  
-    복사 개념을 잘 모르면 이상한 걸로 삽질하게 된다. Python에서는 복사 작업을 돕기 위해 copy 모듈이 존재한다.
-- [enum](https://docs.python.org/3/library/enum.html)  
-    enum이야 뭐 클래스 변수로 쓰면 되지 않나? 싶었는데, 모듈에서 제공해주는 기능이 생각보다 엄청나게 많고 유용하다. enum 정의하려면 일단 Enum 클래스 상속받고 시작하는 게 좋을듯. ㅎ
-- [timeit](https://docs.python.org/3/library/timeit.html)  
-    짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
-- [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
-    pdb 없었으면 내 인생이 참혹하지 않았을까. 흑흑. 사실 옛날엔 그냥 매 줄마다 print 찍어보면서 디버깅하곤 했었는데, 확실히 디버깅 툴을 직접 쓰는 게 러닝커브를 감안하더라도 훨씬 더 나은 것 같다.
+- Data Types
+    - [datetime](https://www.programiz.com/python-programming/datetime)
+        - [Find Monday's date with Python](https://stackoverflow.com/a/1622052)  
+    - [collections.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
+        내 생각엔 OrderedDict를 써볼만한 case가 그리 많진 않을 것 같은데, OrderedDict를 써야 하는 적은 case 입장에서는 정말 개이득인 컨테이너 타입인 것 같다.(메인 언어로 파이썬 쓴지 1년 넘는 동안 딱 2번 써봤지만, 그때마다 OrderedDict 덕분에 정말 편-안했음) 단지 넣은 순서대로 dictionary가 유지된다는 것 뿐이지, 자동으로 sort는 해주지 않는다는 것을 인지하고 있어야 한다.
+    - [collections.defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)  
+        dict를 상속받은 dictionary-like한 객체를 반환한다. 이 객체는 함수에 전달된 optional argument인 default_factory를 인스턴스 변수로 가지고 있고, `__getitem__` 메소드를 오버라이딩한다. getitem 시 key가 존재하지 않으면 `__missing__` 메소드를 호출하고, 이 메소드는 `default_factory`를 호출해 반환한다. default_factory가 None이면 `KeyError`를 raise한다. invalid key에 대해 default value를 정의해 두어 KeyError를 방어하기 위해 사용된다.
+    - [얕은 복사(shallow copy) vs 깊은 복사(deep copy)](https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/)  
+        복사 개념을 잘 모르면 이상한 걸로 삽질하게 된다. Python에서는 복사 작업을 돕기 위해 copy 모듈이 존재한다.
+    - [enum](https://docs.python.org/3/library/enum.html)  
+        enum이야 뭐 클래스 변수로 쓰면 되지 않나? 싶었는데, 모듈에서 제공해주는 기능이 생각보다 엄청나게 많고 유용하다. enum 정의하려면 일단 Enum 클래스 상속받고 시작하는 게 좋을듯. ㅎ
+- Structured Markup Processing Tools
+    - [xml.etree.ElementTree](https://towardsdatascience.com/processing-xml-in-python-elementtree-c8992941efd2)  
+        svg 파싱할 때도 유용하다.
+- Data Persistence
+    - [Python Pickle Tutorial](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
+        객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionary/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
+- Debugging and Profiling
+    - [timeit](https://docs.python.org/3/library/timeit.html)  
+        짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
+    - [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
+        pdb 없었으면 내 인생이 참혹하지 않았을까. 흑흑. 사실 옛날엔 그냥 매 줄마다 print 찍어보면서 디버깅하곤 했었는데, 확실히 디버깅 툴을 직접 쓰는 게 러닝커브를 감안하더라도 훨씬 더 나은 것 같다.
+- Concurrent Execution
+    - [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)  
+        multi threading, multi processing과 파이썬의 GIL problem까지 잘 요약해 주었다.
+    - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
+- Networking and Interprocess Communication
+    - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 #### 외부 라이브러리
 - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
 - [Arrow](https://arrow.readthedocs.io/en/latest/)  
