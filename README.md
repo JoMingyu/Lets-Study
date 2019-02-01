@@ -544,6 +544,8 @@
         'Python interface to the Firebase's REST API'. pyfcm은 FCM에 한정되어 있고, 얘는 firebase 전체.
     - [firebase-admin-python](https://github.com/firebase/firebase-admin-python)  
         Python용 firebase admin SDK. Firebase에서 가장 권고하는 방식이며 official로 관리된다.
+    - [elastic-apm](https://github.com/elastic/apm-agent-python)  
+        'Official Python agent for the Elastic APM'.
 
 #### 테스팅
 #### SQLAlchemy
