@@ -13,22 +13,17 @@
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)  
     sooop님의 블로그는 개념에 대한 정의가 깔끔하고, 쉬운 설명에 비해 많은 지식이 들어오는 가성비 높은 글 천지라 개인적으로 마음속 1순위 블로그인데, 감사하게도 정규 표현식에 대해서도 써 주셨다.
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
-- [협정 세계시(UTC)](https://ko.wikipedia.org/wiki/%ED%98%91%EC%A0%95_%EC%84%B8%EA%B3%84%EC%8B%9C)  
-    세계 표준시. 우리나라는 여기에 9시간을 더한 KST라는 한국 표준시를 사용한다.
-- [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
-    `2018-11-13T22:36:38+09:00`처럼 생겨먹은, 시간에 대한 i18n 처리를 할 때 거론되는 날짜와 시간에 관련된 국제 표준. format이 한가지 종류가 아니라는 점(날짜를 YYYY-MM-DD로 표현하는 경우도 있고, YYYYMMDD로 표현하는 경우도 있으며 시간이 UTC라면 +00:00 대신 Z를 쓸 수 있다.)과 timezone에 대한 표기 없이 UTC와의 시차만 표현한다는 점이 흥미로웠다. 어딘가 시간이 들어가는 곳에서는 그냥 KST로 저장하고 `2018-11-13 15:31:10`처럼 표현했는데, 모든 시간을 UTC로 저장하고 ISO 8601 포맷을 사용하는 게 가장 확장성이 높을 듯. 동일한 시간대에서 통신 시 지역 시간을 가정하는 것이 편할지라도, 서로 다른 시간대 간의 통신에서는 애매할 수 있을테니 ISO 8601 포맷을 사용하여 UTC에서 얼마를 더해 이 시각이 나왔는지를 알려주는 것이 좋을 것이다.
-- [유닉스 시간](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)  
-    Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 [unix time](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
-- [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
-    시각을 표기하는 곳에서 KST, CST, EDT같이 timezone에 대해서는 약어만 마주치며 살다가, PrestoDB에서 `Asia/Seoul`같은 표현을 보고 이리저리 찾아보니 timezone의 약어는 표준이 따로 없다고 한다. 그래서 timezone 약어 목록으로 가장 유명한 [Time Zone Abbreviations](https://www.timeanddate.com/time/zones/)를 찾아봤더니 `CST`가 미국 중부 표준시, 중국 표준시, 쿠바 표준시를 모두 나타내는 등의 모호함이 있었다. tz database time zones라는 이름을 가진 해당 링크는 그 이름처럼 [IANA TZDB](https://www.iana.org/time-zones)에서 사용하는 타임존 목록을 그대로 가져와 정리한 것인데, 약어 대신 `Asia/Tokyo`, `Europe/Lisbon`처럼 지역명을 사용하고 있다. 이게 타임존을 다루는 데에 사실상 가장 현실적인 방안이라고들 생각하는 것 같다.
-- [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
-    JWT는 사용 사례가 워낙 다양해서 선뜻 말하기 어렵지만, 내 경우엔
-    1. access token의 expire는 1시간 미만, refresh token의 expire는 2주 미만으로 둔다.
-    2. refresh할 때 refresh token의 expire가 얼마 안 남았으면 refresh token도 함께 건네주는 식으로 토큰 refresh lifecycle을 구성한다. refresh token의 수명이 다하면 재로그인을 해야 하는 상황을 피하기 위해.
-    3. 서버 단에선 JTI&토큰 암호화에 사용한 secret key&유저 ID 매핑을 데이터베이스에 저장하는 식으로 사용한다. 여기서 JTI가 primary key. 따라서 JWT가 필요한 API에서는 그 전에 무조건 데이터베이스에 질의가 한 번 수행되는 식. / 토큰에 'identity'같은 custom claim을 써서 사용자 식별 정보를 담아두는 방법도 있다.
-    4. expire가 남아 있는 토큰을 고의적으로 invalid하게 만들어야 하는 상황이 있다. 예를 들어 로그아웃 시에는 요청자가 가지고 있던 토큰을 무효하게 만들어야 하고, 비밀번호 변경 시에는 그 유저에 해당하는 모든 토큰을 무효하게 만들어야 하는데, DB에서 토큰을 관리한다면 DELETE 쿼리를 수행하고, DB에서 토큰을 관리하지 않는다면 무효화시킬 토큰을 blacklisting하는 방식을 사용한다.
-    5. 사용자 당 1토큰은 유연하지 않고, 한 사용자가 토큰을 엄청나게 많이 가지고 있도록 하면 위험하지 않을까 싶어서, 사용자-user agent 단위로 토큰을 발급하는 방식을 쓰고 있다. 어떤 사용자가 한 브라우저에 대해 가질 수 있는 토큰의 최대 갯수가 1개가 되도록. DB에서 토큰을 관리하지 않는다면 아마도 불가능할 로직. 요청자 ID와 user agent에 대해 이미 토큰이 나갔는지 안나갔는지 알 수 없을테니까.
-    6. 토큰은 지속적으로 refresh되기 때문에 어쩔수 없이 데이터의 양이 수직적으로 증가한다. 이 때문에 토큰 데이터를 DB에 넣을 때 해당 토큰의 expire만큼 레코드에도 expire를 두고 있다.
+- Date and Time
+    - [협정 세계시(UTC)](https://ko.wikipedia.org/wiki/%ED%98%91%EC%A0%95_%EC%84%B8%EA%B3%84%EC%8B%9C)  
+        세계 표준시. 우리나라는 여기에 9시간을 더한 KST라는 한국 표준시를 사용한다.
+    - [유닉스 시간](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)  
+        Epoch(1970-01-01T00:00:00Z)로부터의 경과 시간을 초로 환산하여 정수로 나타낸 것. 여담으로 timestamp는 '시각을 나타내는 문자열'이라는 다소 큰 범위의 정의를 가지고 있어서, 1256953732같이 생긴 건 [unix time](https://ko.wikipedia.org/wiki/%EC%9C%A0%EB%8B%89%EC%8A%A4_%EC%8B%9C%EA%B0%84)이라고 부르는 것이 가장 정확하다. `Sat Jul 23 02:16:57 2018`같은 것도 타임스탬프라고 부르기 때문.
+    - [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
+        시각을 표기하는 곳에서 KST, CST, EDT같이 timezone에 대해서는 약어만 마주치며 살다가, PrestoDB에서 `Asia/Seoul`같은 표현을 보고 이리저리 찾아보니 timezone의 약어는 표준이 따로 없다고 한다. 그래서 timezone 약어 목록으로 가장 유명한 [Time Zone Abbreviations](https://www.timeanddate.com/time/zones/)를 찾아봤더니 `CST`가 미국 중부 표준시, 중국 표준시, 쿠바 표준시를 모두 나타내는 등의 모호함이 있었다. tz database time zones라는 이름을 가진 해당 링크는 그 이름처럼 [IANA TZDB](https://www.iana.org/time-zones)에서 사용하는 타임존 목록을 그대로 가져와 정리한 것인데, 약어 대신 `Asia/Tokyo`, `Europe/Lisbon`처럼 지역명을 사용하고 있다. 이게 타임존을 다루는 데에 사실상 가장 현실적인 방안이라고들 생각하는 것 같다.
+    - [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
+        `2018-11-13T22:36:38+09:00`처럼 생겨먹은, 시간에 대한 i18n 처리를 할 때 거론되는 날짜와 시간에 관련된 국제 표준. format이 한가지 종류가 아니라는 점(날짜를 YYYY-MM-DD로 표현하는 경우도 있고, YYYYMMDD로 표현하는 경우도 있으며 시간이 UTC라면 +00:00 대신 Z를 쓸 수 있다.)과 timezone에 대한 표기 없이 UTC와의 시차만 표현한다는 점이 흥미로웠다. 어딘가 시간이 들어가는 곳에서는 그냥 KST로 저장하고 `2018-11-13 15:31:10`처럼 표현했는데, 모든 시간을 UTC로 저장하고 ISO 8601 포맷을 사용하는 게 가장 확장성이 높을 듯. 동일한 시간대에서 통신 시 지역 시간을 가정하는 것이 편할지라도, 서로 다른 시간대 간의 통신에서는 애매할 수 있을테니 ISO 8601 포맷을 사용하여 UTC에서 얼마를 더해 이 시각이 나왔는지를 알려주는 것이 좋을 것이다.
+    - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
+        'RFC 3339 is listed as a profile of ISO 8601. Most notably RFC 3339 requires a complete representation of date and time (only fractional seconds are optional).'
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
     서버 사이드/클라이언트 사이드 렌더링에 대한 이야기. 보통 렌더링보단 프로그래밍이라는 단어로 통하는 것 같다.
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)  
@@ -39,10 +34,22 @@
     publish/subscribe 방식의 메시지 큐. 프로토콜에 가까운 것 같다. 일반적으로 알고 있는 pub/sub 패턴처럼, publisher는 토픽을 발행하고 subscriber는 관심 있는 토픽을 구독한다. 메시지는 broker가 관리한다. Facebook Messenger가 MQTT를 사용하는 것으로 유명하지만 지금까지도 쓰고 있는지는 잘 모르겠다. 오픈소스 MQTT 브로커로 mosquito를 사용하곤 한다. Firebase Cloud Messaging(FCM)도 MQTT 구조인가? 싶었는데 얘는 웹소켓이라고 함. 나중에 채팅 구현할 때 MQTT 써봐야겠다.
 - [Protobuf](https://developers.google.com/protocol-buffers/docs/proto3)  
     `.proto`라는 확장자를 가진 파일에 스키마를 명시하고, 이걸로 직렬화/역직렬화하는 데이터 직렬화 포맷. RPC에서 많이 쓰인다고 하며 타다가 Protobuf를 쓰고 있다고 한다. .proto 파일로 스키마를 명시하게 되면 validation rule도 정의하고 문서화도 되고 클라이언트는 이거 컴파일해서 DTO 만들고 해줄수 있어서 꽤 편할듯. HTTP mimetype에선 `application/vnd.google.protobuf`나 `application/x-protobuf`같은 걸 쓴다는데, 그냥 protobuf message를 JSON으로 주기받기도 하는 것 같다.
+- [Google Protocol Buffers and HTTP](https://stackoverflow.com/questions/1425912/google-protocol-buffers-and-http)  
+    'Just write the bytes of the protocol buffer directly into the request/response, and make sure to set content type to "application/octet-stream"', 'ProtoBuf is a binary protocol.'
 - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
     시각 데이터를 표현하는 표준이 대표적으로 두가지(ISO 8601과 RFC 3339)가 있는데, 이 둘의 차이에 대한 질문. 'RFC 3339 is listed as a profile of ISO 8601. Most notably RFC 3339 requires a complete representation of date and time (only fractional seconds are optional).'이 핵심 문장.
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
     'ndJSON is a collection of JSON objects, separated by `\n`'이 핵심. 종단 간 통신 레벨에서 쓰일만한 건 아닌 것 같고, JSON으로 이루어진 data collection을 관리할 때 좋을 것 같다. MongoDB에서 특정 collection에 모여 있는 document 목록은 NDJSON으로 표현할 수 있을테니까.
+- DNS
+    - [Demystifying DNS for web developers](https://medium.com/@jgefroh/demystifying-dns-for-web-developers-ace5a3ae559f)  
+        DNS에 대해 훑어보기에 좋은 글.
+    - [SOA Record](https://support.dnsimple.com/articles/soa-record/)
+    - [NS Record](https://support.dnsimple.com/articles/ns-record/)
+    - [A Record](https://support.dnsimple.com/articles/a-record/)
+    - [AAAA Record](https://support.dnsimple.com/articles/aaaa-record/)
+    - [MX Record](https://support.dnsimple.com/articles/mx-record/)
+    - [CNAME Record](https://support.dnsimple.com/articles/cname-record/)
+    - [Alias Record](https://support.dnsimple.com/articles/alias-record/)
 
 ### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
@@ -97,9 +104,14 @@
 ### 디자인 패턴
 
 ### 백엔드에 가까운
-- [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
-- [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
-- [초보를 위한 도커 안내서 - 3. 이미지 만들고 배포하기](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
+- Docker
+    - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
+    - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
+    - [초보를 위한 도커 안내서 - 3. 이미지 만들고 배포하기](https://subicura.com/2017/02/10/docker-guide-for-beginners-create-image-and-deploy.html)
+    - [도커를 이용한 웹서비스 무중단 배포하기](https://subicura.com/2016/06/07/zero-downtime-docker-deployment.html)  
+        배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
+    - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
+        여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
 - [Map AWS services to Google Cloud Platform products](https://cloud.google.com/free/docs/map-aws-google-cloud-platform)
 - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
@@ -122,18 +134,12 @@
     로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)  
     네트워크는 물리적으로 가까운 위치에 있을수록 응답 속도가 빠르다. hop count가 줄어들기 때문이다. CDN은 정적 데이터(css, js, 이미지 등)를 다른 리전의 서버에 캐싱해 둬서, 멀리 사는 사용자에게 컨텐츠를 제공하는 퍼포먼스를 향상시키는 기술. Amazon Cloudfront같은 서비스가 CDN을 제공한다.
-- [Differences between the A and CNAME recods](https://support.dnsimple.com/articles/differences-a-cname-records/)  
-    A record는 특정 IP에 대해 매핑된 유일한 도메인을 의미하고, CNAME은 Canonical Name의 약자로 타 도메인에 대한 alias를 의미한다.
 - [runscope](https://www.runscope.com)  
     API 모니터링 SaaS. 정해둔 스케줄과 step에 따라 API를 호출하고 validation을 수행한다. pagerduty같은 on-call alert 서비스와의 integration을 지원해서, API에 500이 발생했을 때 내 핸드폰으로 전화가 오게 만들 수도 있다.
 - [druid](http://druid.io/druid.html)  
     OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 - [statuspage.io](https://www.statuspage.io/)  
     서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
-- [도커를 이용한 웹서비스 무중단 배포하기](https://subicura.com/2016/06/07/zero-downtime-docker-deployment.html)  
-    배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
-- [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
-    여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
 - [wrk](https://github.com/wg/wrk)  
     HTTP 벤치마킹 툴. 웹 프레임워크 퍼포먼스 테스트나 서버 스트레스 테스트같은 거 할 때 자주 쓰이는 듯.
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
@@ -143,31 +149,37 @@
     관리 코스트 때문에 메시지 브로커에 redis를 쓰고, HTTP/2에 Protobuf를 쓴다는 게 신기했다.
 
 ### HTTP에 가까운
+- REST
+    - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
+    - [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
+    - [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
+        Uniform Interface 는 REST 에서 가장 기본적인 제약이다. 이는 다음 4가지로 구성되어 있다.  
+        - Resource Identifier  
+        - Resource Representation
+        - Self-Descriptive message
+        - hypermedia as the engine of application state (HATEOAS)
+    - [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)  
+        Uniform Interface 를 사용하여 클라이언트-서버간의 인터페이스를 일반화함으로써, 전체 시스템 아키텍처가 단순해지고, 상호작용의 가시성이 개선되며, 구현과 서비스가 분리되므로 독립적인 진화가 가능해진다. 이 스타일에 따르면, REST API는 기본 URI와 미디어 타입의 정의만 알면 이용할 수 있어야한다.
+- GraphQL
+    - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
+    - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
+    - [GraphQL 뮤테이션 디자인](https://dev-blog.apollodata.com/designing-graphql-mutations-e09de826ed97)
+- HTTP2/HTTPS
+    - [HTTPS는 HTTP보다 빠르다](https://tech.ssut.me/https-is-faster-than-http/)
+    - [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)  
+        아니 뭐 이렇게까지 HTTP/1.1을 까고 HTTP/2를 찬양하나 싶었는데, 이유 있는 비판인 것 같다. HTTP/2가 SPDY를 기반으로 개발되었고, 구글이 HTTP/2가 SPDY를 대체할 것이라고 발표한 것은 처음 알았다.
+    - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
+        SPDY가 비표준 프로토콜이라는 말을 듣고 굉장히 의문적이었는데, 실험용 프로토콜이었구나. HTTP/1.1의 성능 제한을 해결해 웹페이지의 레이턴시를 줄이는 것을 목표로 SPDY가 만들어지기 시작했고, HTTP/2의 새로운 기능과 제안을 테스트하기 위해 SPDY가 계속해서 실험 수단으로 사용되었다. 이제는 SPDY가 가지고 있던 대부분의 장점이 포함된 HTTP/2가 표준으로 받아들여지면서 SPDY는 deprecated되었다고 함. high level API는 HTTP/1.x와 동일하게 유지되고, low level의 변경이 성능 문제를 해결했다. 바이너리 프레이밍 계층, 요청/응답 멀티플렉싱, 스트림과 스트림 우선순위 지정, server push, 헤더 압축 등등 + HTTP/1.x의 image sprite, 도메인 샤딩과 같은 임시 방편을 제거하고 최적화하는 기능이 들어 있다.
+
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
 - [API development tools](https://github.com/yosriady/api-development-tools)
-- [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
-- [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
-- [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
-- [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
-- [HTTPS는 HTTP보다 빠르다](https://tech.ssut.me/https-is-faster-than-http/)
-- [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)  
-    아니 뭐 이렇게까지 HTTP/1.1을 까고 HTTP/2를 찬양하나 싶었는데, 이유 있는 비판인 것 같다. HTTP/2가 SPDY를 기반으로 개발되었고, 구글이 HTTP/2가 SPDY를 대체할 것이라고 발표한 것은 처음 알았다.
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
     결국 웹소켓의 요지는 polling을 push 방식으로 만든다는 건데, HTTP/2.0의 server push 기능이 어느정도 웹소켓을 흉내낼 수 있지 않을까 싶었다.
 - [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
-- [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
-    SPDY가 비표준 프로토콜이라는 말을 듣고 굉장히 의문적이었는데, 실험용 프로토콜이었구나. HTTP/1.1의 성능 제한을 해결해 웹페이지의 레이턴시를 줄이는 것을 목표로 SPDY가 만들어지기 시작했고, HTTP/2의 새로운 기능과 제안을 테스트하기 위해 SPDY가 계속해서 실험 수단으로 사용되었다. 이제는 SPDY가 가지고 있던 대부분의 장점이 포함된 HTTP/2가 표준으로 받아들여지면서 SPDY는 deprecated되었다고 함. high level API는 HTTP/1.x와 동일하게 유지되고, low level의 변경이 성능 문제를 해결했다. 바이너리 프레이밍 계층, 요청/응답 멀티플렉싱, 스트림과 스트림 우선순위 지정, server push, 헤더 압축 등등 + HTTP/1.x의 image sprite, 도메인 샤딩과 같은 임시 방편을 제거하고 최적화하는 기능이 들어 있다.
-- [GraphQL 뮤테이션 디자인](https://dev-blog.apollodata.com/designing-graphql-mutations-e09de826ed97)
-- [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)  
-    Uniform Interface 를 사용하여 클라이언트-서버간의 인터페이스를 일반화함으로써, 전체 시스템 아키텍처가 단순해지고, 상호작용의 가시성이 개선되며, 구현과 서비스가 분리되므로 독립적인 진화가 가능해진다. 이 스타일에 따르면, REST API는 기본 URI와 미디어 타입의 정의만 알면 이용할 수 있어야한다.
-- [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
-    Uniform Interface 는 REST 에서 가장 기본적인 제약이다. 이는 다음 4가지로 구성되어 있다.  
-    - Resource Identifier  
-    - Resource Representation
-    - Self-Descriptive message
-    - hypermedia as the engine of application state (HATEOAS)
 - [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)  
     핵심은 'CORS is a mechanism which aims to allow requests made on behalf of you and at the same time block some requests made by rogue JS and is triggered.' / 서버가 'A에서의 요청은 허락하고, B에서의 요청은 허락하지 않는다'같은 걸 헤더로 떨궈주는 건데, 이게 허용 여부 자체를 클라이언트 사이드에서 판단한다. OPTIONS 메소드로 요청해서 자기가 allow된 대상인지 확인하고, 권한이 있으면 실제로 요청하는 것. 그래서 allow origin을 특정 도메인으로 한정지어 놓더라도, OPTIONS로 요청 권한을 확인하는 걸 그냥 무시하고 요청하더라도 문제가 없음. 띠용;; 단지 자바스크립트 엔진 표준 스펙의 Same-Origin Policy가 일으키는 문제(자신이 속하지 않은 도메인에 대한 요청을 차단)를 해결하기 위함이라고 하는데, 아니 '특정 클라이언트에게만 액세스 허용'을 할거면 프로토콜 레벨에서 해주는게 맞지 않나? 참 애매한 친구다.
+- [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
+    사실 HTTP에서 authentication을 위해 JWT를 사용하는 것은 표준이 아니지만(Authorization 헤더의 value type중 JWT를 위한 것은 없다. - Bearer는 OAuth 2.0의 토큰을 사용해야 하고, JWT라는 타입은 없음) 이미 많이들 사용하고 있는 사용자 인증 프레임워크.
 
 ### JSONSchema
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
@@ -226,12 +238,13 @@
     Region과 AZ(Availability Zones)에 대한 설명. 물리적 데이터 센터인 Availability Zone들을 지리적 위치에 따라 Region 개념으로 묶고, 각 Region은 다른 Region들과 물리적으로 격리되어 있다.
 ### 컴퓨팅
 #### EC2
+- EBS
+    - [EBS(Elastic Block Storage)](https://aws.amazon.com/ko/ebs/?nc=sn&loc=1)  
+        EC2 인스턴스에 마운트해 사용할 수 있는 블록 스토리지. 데이터를 다루는 클러스터를 직접 운영(ex - ElasticSearch, Druid, ...)하는 경우 extra storage가 필요한데, EBS가 그걸 해결해 준다.
+    - [EBS 최적화 인스턴스](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EBSOptimized.html#enable-ebs-optimization)  
+        인스턴스에 EBS 전용 대역폭을 만들어서 EBS에 대한 처리량과 IOPS를 늘리는 것. 현재 세대 인스턴스들은 기본적으로 EBS 최적화되어 있는 상태.
 - [EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
     컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
-- [EBS(Elastic Block Storage)](https://aws.amazon.com/ko/ebs/?nc=sn&loc=1)  
-    EC2 인스턴스에 마운트해 사용할 수 있는 블록 스토리지. 데이터를 다루는 클러스터를 직접 운영(ex - ElasticSearch, Druid, ...)하는 경우 extra storage가 필요한데, EBS가 그걸 해결해 준다.
-- [EBS 최적화 인스턴스](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EBSOptimized.html#enable-ebs-optimization)  
-    인스턴스에 EBS 전용 대역폭을 만들어서 EBS에 대한 처리량과 IOPS를 늘리는 것. 현재 세대 인스턴스들은 기본적으로 EBS 최적화되어 있는 상태.
 - [인스턴스 수명 주기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
 - [인스턴스 유형](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)  
     instance family라고도 부른다. 하드웨어 스펙이 어디에 최적화되도록 설계되었는지에 따라 다르게 분류함. EC2에 올리려는 컴포넌트의 특징에 따라 인스턴스 유형을 잘 선택하면 남는 리소스도 줄이고 비용 최적화에도 좋을 것 같다. ElasticSearch 올릴 때 D2나 I3 쓴다거나..
