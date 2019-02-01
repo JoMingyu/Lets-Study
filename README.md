@@ -506,6 +506,8 @@
     - [What's the difference between MySQLdb, mysqlclient and MySQL connector/Python?](https://stackoverflow.com/questions/43102442/whats-the-difference-between-mysqldb-mysqlclient-and-mysql-connector-python)  
         MySQLDB1, MySQLDB2, mysqlclient, mysql-connector-python, pymysql의 차이에 대한 이야기. CPython을 쓴다면 mysqlclient만한게 없는 것 같다.
     - [mongo-python-driver(pymongo)](https://github.com/mongodb/mongo-python-driver)
+    - [motor](https://github.com/mongodb/motor)  
+        'full-featured, non-blocking MongoDB driver for Python Tornado and asyncio applications.'
 
 #### 테스팅
 #### SQLAlchemy
