@@ -515,6 +515,8 @@
         SQL query builder. ORM같은 쿼리 인터페이스는 아니고, 단순히 쿼리 문자열을 만들어주는 라이브러리라서 접근 방식이 좀 다르다.
     - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
         짱 좋은 ORM 라이브러리 ^&^
+    - [peewee](https://github.com/coleifer/peewee)  
+        'Peewee is a simple and small ORM.' API 자체가 '예쁘기'는 한데, SQLAlchemy를 두고 이걸 쓸 메리트가 있을런지 싶기도 하고, 당장은 트랜잭션 생각을 안해도 돼서 괜찮은 것 같기도 하고..
 
 #### 테스팅
 #### SQLAlchemy
