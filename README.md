@@ -468,6 +468,10 @@
     - [logging](https://realpython.com/python-logging/)
         - [logging.info doesn't show up on console but warn and error do](https://stackoverflow.com/questions/11548674/logging-info-doesnt-show-up-on-console-but-warn-and-error-do/11548754)  
             'The root logger always defaults to WARNING level.'
+- Functional Programming Modules
+    - [functools](https://www.journaldev.com/17550/python-functools)
+        - [What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
+        - [How does the functools partial work in Python?](https://stackoverflow.com/questions/15331726/how-does-the-functools-partial-work-in-python)
 - Debugging and Profiling
     - [timeit](https://docs.python.org/3/library/timeit.html)  
         짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
