@@ -508,6 +508,13 @@
     - [mongo-python-driver(pymongo)](https://github.com/mongodb/mongo-python-driver)
     - [motor](https://github.com/mongodb/motor)  
         'full-featured, non-blocking MongoDB driver for Python Tornado and asyncio applications.'
+- DB Helper
+    - [mongoengine](https://github.com/MongoEngine/mongoengine)  
+        Node.js의 mongoose와 대응할 수 있는 ODM 라이브러리. 고딩 시절의 거의 반을 함께한 친구 ㅜㅜ
+    - [pypika](https://github.com/kayak/pypika)  
+        SQL query builder. ORM같은 쿼리 인터페이스는 아니고, 단순히 쿼리 문자열을 만들어주는 라이브러리라서 접근 방식이 좀 다르다.
+    - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
+        짱 좋은 ORM 라이브러리 ^&^
 
 #### 테스팅
 #### SQLAlchemy
