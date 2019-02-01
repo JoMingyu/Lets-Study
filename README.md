@@ -112,17 +112,20 @@
         배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
     - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
         여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
+- 아키텍처 이야기
+    - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
+    - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
+    - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
+        결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
+    - [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)  
+        관리 코스트 때문에 메시지 브로커에 redis를 쓰고, HTTP/2에 Protobuf를 쓴다는 게 신기했다.
 - [Map AWS services to Google Cloud Platform products](https://cloud.google.com/free/docs/map-aws-google-cloud-platform)
-- [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
-- [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
     백준 온라인 저지(BOJ)에서 채점 현황 페이지의 속도를 올리기 위한 경험이 담겨 있다. real world에서의 쿼리 튜닝에 관한 이야기라 재밌게 본 것 같다.
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)  
     IP 주소 검색 서비스인 [ipify](https://www.ipify.org/)를 Node.js로 개발하고, 성능에 문제를 겪은 뒤, Go로 API를 다시 작성해 문제를 해결한 이야기. 월간 200 달러로 300억 요청 처리. Go에 뽐뿌가 오게 만드는 글이다. 근데 Node.js가 왜 훨씬 느렸는지가 구체적으로 안 나와 있어서 아쉬웠다. ab라는 벤치마킹 툴을 새로 알게 되어 좋았음.
 - [ab - HTTP 서버 벤치마킹 툴](https://httpd.apache.org/docs/2.4/en/programs/ab.html)  
     학교에서 한창 기숙사 관련 웹 서비스의 백엔드를 개발할 때 벤치마킹 코드를 직접 작성했었던 적 있는데, 그 때 이 도구를 알았으면 덜 삽질했었을텐데 싶다.
-- [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
-    결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
 - [Blue/Green Deployment: What It Is and How it Reduces Your Risk](https://rollout.io/blog/blue-green-deployment/)  
     무중단 배포 전략 중 하나로, 기존의 어플리케이션을 green version이라고 부르고, 업그레이드하고자 하는 버전의 어플리케이션을 blue version이라고 이름짓는다. production에서 green version만 존재한 채 트래픽을 처리하다가 -> blue version이 새로 생겨나 트래픽을 둘이 함께 처리하고 -> blue version이 모든 트래픽을 처리하도록 만든 후 -> green version을 제거하고 blue version을 새로운 green version으로 만드는 방식이다. 다만 잠시동안 두 버전의 어플리케이션을 동시에 띄워야 하니 비용 문제가 발생할 수는 있으나 대부분 이런 방식을 많이 쓰는 것 같다.
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
@@ -145,8 +148,6 @@
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
 - [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)  
     서버리스는 직접 관리하는 인프라가 없다는 의미.
-- [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)  
-    관리 코스트 때문에 메시지 브로커에 redis를 쓰고, HTTP/2에 Protobuf를 쓴다는 게 신기했다.
 
 ### HTTP에 가까운
 - REST
@@ -378,22 +379,26 @@
 ### Redis
 ### Memcached
 ### ElasticSearch
-- [Query and filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html)  
-    ElasticSearch docs에서 쿼리 부분에 들어가면 가장 처음 나오는 내용. ElasticSearch의 모든 쿼리는 context를 가지며 이는 query와 filter context로 나뉜다고 정리되어 있다. query context는 '얼마나 잘 일치하는가'같은 scoring의 느낌이고, filter context는 '이것과 일치하는가'같은 SQL의 WHERE절 같은 느낌이다.
-- [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
-    bool은 must, should, filter같은 조건 쿼리들을 모아주기 위해 사용된다. 그냥 SQL에서 조건문을 정의하기 위해 WHERE 뒤에 조건식들을 나열하는 것처럼 ES에선 bool을 사용한다고 생각하면 됨.
-- [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
-    ElasticSearch에 쿼리할 때 조건식들을 나열하기 위해 bool query 내부에 should와 must같은 걸 쓰곤 하는데, 이들이 각각 어떤 condition으로 조건식들을 합치는지에 대한 질문. OR은 should, AND는 must와 대응된다.
-- [What is the difference between must and filter Query DSL in ElasticSearch?](https://stackoverflow.com/a/43349478)  
-    AND 쿼리를 위해 사용하는 must query와 filter query의 차이에 대한 질문. must는 스코어를 측정하고, filter는 스코어를 측정하지 않는다. score가 필요없는 쿼리의 경우 must 대신 filter를 쓰면 더 빠르다고 한다.
-- [ElasticSearch match vs term query](https://stackoverflow.com/questions/23150670/elasticsearch-match-vs-term-query)  
-    bool query 내에서, 특정 필드의 값에 대한 일치 연산을 위해 term이나 match를 대부분 사용하는데, 이 둘의 차이가 무엇인지에 대한 질문. term은 filter context, match는 query context에서 실행된다고 정리하면 된다. exactly equal을 보려면 term을 쓰는 것이 맞음.
-- [Source filter](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/search-request-source-filtering.html)  
-    Source filter(_source)를 통해 ElasticSearch가 결과에 특정 필드만 포함시키도록 한다. includes/excludes를 두면 포함/제외를 별도로 둘 수 있다.
-- [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
-    DISTINCT SELECT/COUNT에 쓰이는 terms aggregation.
-- [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)  
-    SQL의 between과 대응되는 쿼리.
+- Query
+    - [Query and filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html)  
+        ElasticSearch docs에서 쿼리 부분에 들어가면 가장 처음 나오는 내용. ElasticSearch의 모든 쿼리는 context를 가지며 이는 query와 filter context로 나뉜다고 정리되어 있다. query context는 '얼마나 잘 일치하는가'같은 scoring의 느낌이고, filter context는 '이것과 일치하는가'같은 SQL의 WHERE절 같은 느낌이다.
+    - [Bool Query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-bool-query.html)  
+        bool은 must, should, filter같은 조건 쿼리들을 모아주기 위해 사용된다. 그냥 SQL에서 조건문을 정의하기 위해 WHERE 뒤에 조건식들을 나열하는 것처럼 ES에선 bool을 사용한다고 생각하면 됨.
+    - [ElasticSearch bool query combine](https://stackoverflow.com/a/40755927)  
+        ElasticSearch에 쿼리할 때 조건식들을 나열하기 위해 bool query 내부에 should와 must같은 걸 쓰곤 하는데, 이들이 각각 어떤 condition으로 조건식들을 합치는지에 대한 질문. OR은 should, AND는 must와 대응된다.
+    - [What is the difference between must and filter Query DSL in ElasticSearch?](https://stackoverflow.com/a/43349478)  
+        AND 쿼리를 위해 사용하는 must query와 filter query의 차이에 대한 질문. must는 스코어를 측정하고, filter는 스코어를 측정하지 않는다. score가 필요없는 쿼리의 경우 must 대신 filter를 쓰면 더 빠르다고 한다.
+    - [ElasticSearch match vs term query](https://stackoverflow.com/questions/23150670/elasticsearch-match-vs-term-query)  
+        bool query 내에서, 특정 필드의 값에 대한 일치 연산을 위해 term이나 match를 대부분 사용하는데, 이 둘의 차이가 무엇인지에 대한 질문. term은 filter context, match는 query context에서 실행된다고 정리하면 된다. exactly equal을 보려면 term을 쓰는 것이 맞음.
+    - [Source filter](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/search-request-source-filtering.html)  
+        Source filter(_source)를 통해 ElasticSearch가 결과에 특정 필드만 포함시키도록 한다. includes/excludes를 두면 포함/제외를 별도로 둘 수 있다.
+    - [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
+        DISTINCT SELECT/COUNT에 쓰이는 terms aggregation.
+    - [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)  
+        SQL의 between과 대응되는 쿼리.
+- Others
+    - [Elastic APM](https://www.elastic.co/guide/en/apm/get-started/current/overview.html)  
+        Elastic에서 제공하는 APM 서비스. New Relic같은 거라고 보면 된다. 하드하게 써본 경험은 없어서 뭐라고 하진 못 하겠지만, 어차피 ES 쓰고 있다면 APM도 Elastic 인프라 내에서 처리해도 괜찮을 것 같다고 생각한다.
 
 ## 언어
 ### Python
