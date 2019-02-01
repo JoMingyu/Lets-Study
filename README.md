@@ -462,8 +462,12 @@
     - [xml.etree.ElementTree](https://towardsdatascience.com/processing-xml-in-python-elementtree-c8992941efd2)  
         svg 파싱할 때도 유용하다.
 - Data Persistence
-    - [Python Pickle Tutorial](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
+    - [pickle](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
         객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionary/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
+- Generic Operating System Services
+    - [logging](https://realpython.com/python-logging/)
+        - [logging.info doesn't show up on console but warn and error do](https://stackoverflow.com/questions/11548674/logging-info-doesnt-show-up-on-console-but-warn-and-error-do/11548754)  
+            'The root logger always defaults to WARNING level.'
 - Debugging and Profiling
     - [timeit](https://docs.python.org/3/library/timeit.html)  
         짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
