@@ -531,6 +531,7 @@
     - [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
     - [xlsxwriter](https://xlsxwriter.readthedocs.io/)
     - [pyexcelerate](https://github.com/kz26/PyExcelerate)
+    - [파이썬 엑셀 쓰기 라이브러리 비교](https://libsora.so/posts/python-excel-library/)
 
 #### 테스팅
 #### SQLAlchemy
