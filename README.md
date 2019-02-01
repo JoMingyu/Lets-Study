@@ -484,6 +484,13 @@
 - Networking and Interprocess Communication
     - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
 #### 외부 라이브러리
+- CLI
+    - [zappa](https://github.com/Miserlou/Zappa)  
+        WSGI 웹 어플리케이션을 AWS Lambda에 올려서 서버리스 어플리케이션을 잘 배포할 수 있게 도와주는 CLI 툴. maintainer가 완전 착하다..
+    - [twine](https://pypi.org/project/twine/)  
+        Python 패키지를 PyPI(python Pacakge Index)에 쉽게 배포할 수 있도록 해주는 CLI 툴.
+    - [aws-cli](https://github.com/aws/aws-cli)  
+        AWS 서비스를 관리하기 위한 CLI 툴. management console에서 안되고 CLI에서만 되는 것도 종종 있다. 예를 들어 CodeBuild에 hook다는 것?
 
 #### 테스팅
 #### SQLAlchemy
