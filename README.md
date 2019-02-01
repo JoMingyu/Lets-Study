@@ -525,6 +525,12 @@
     - [yarl](https://github.com/aio-libs/yarl)  
         'Yet another URL library'. URL 파싱 관련 작업을 도와준다. 내장 라이브러리인 urllib.parse 위주로 wrapping함.
     - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
+- Excel Processing
+    - [xlrd](https://github.com/python-excel/xlrd)
+    - [xlwd](https://github.com/python-excel/xlwt)
+    - [openpyxl](https://openpyxl.readthedocs.io/en/stable/)
+    - [xlsxwriter](https://xlsxwriter.readthedocs.io/)
+    - [pyexcelerate](https://github.com/kz26/PyExcelerate)
 
 #### 테스팅
 #### SQLAlchemy
