@@ -546,6 +546,8 @@
         Python용 firebase admin SDK. Firebase에서 가장 권고하는 방식이며 official로 관리된다.
     - [elastic-apm](https://github.com/elastic/apm-agent-python)  
         'Official Python agent for the Elastic APM'.
+    - [slacker](https://github.com/os/slacker)  
+        'Full-featured Python interface for the Slack API'
 
 #### 테스팅
 #### SQLAlchemy
