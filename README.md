@@ -517,6 +517,8 @@
         짱 좋은 ORM 라이브러리 ^&^
     - [peewee](https://github.com/coleifer/peewee)  
         'Peewee is a simple and small ORM.' API 자체가 '예쁘기'는 한데, SQLAlchemy를 두고 이걸 쓸 메리트가 있을런지 싶기도 하고, 당장은 트랜잭션 생각을 안해도 돼서 괜찮은 것 같기도 하고..
+    - [peewee-async](https://github.com/05bit/peewee-async)  
+        Peewee를 async하게 쓸 수 있게 해주는 라이브러리. Sanic같은 데서 ORM 쓸 때 많은 도움을 준다.
 
 #### 테스팅
 #### SQLAlchemy
