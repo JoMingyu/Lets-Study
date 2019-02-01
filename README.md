@@ -112,6 +112,8 @@
         배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
     - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
         여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
+    - [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)  
+        사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
 - 아키텍처 이야기
     - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
     - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
@@ -436,6 +438,7 @@
     - Python 3.5부턴 asyncio가 빌트인 라이브러리로 지원되며 `async` 키워드가 `@asyncio.coroutine`를 대체하고, `await` 키워드가 `yield from`을 대체하게 되었다.
 - [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
     Go에서 defer는 function call stack의 맨 위에 해당 함수를 push한다. 이걸 Python에선 어떻게 해야 할까?라는 질문. contextlib.ExitStack을 써먹으면 된다.
+- [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 
 #### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
