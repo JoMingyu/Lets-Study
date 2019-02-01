@@ -532,6 +532,11 @@
     - [xlsxwriter](https://xlsxwriter.readthedocs.io/)
     - [pyexcelerate](https://github.com/kz26/PyExcelerate)
     - [파이썬 엑셀 쓰기 라이브러리 비교](https://libsora.so/posts/python-excel-library/)
+- Drop-in Replacements
+    - [Arrow](https://arrow.readthedocs.io/en/latest/)  
+        datetime으로 타임존과 싸우는 건 사람이 할 짓이 아니다. arrow는 기본적으로 시간을 ISO 8601 format으로 다루기 때문에 타임존 conversion이 쉽고, time shifting이나 humanize 기능도 잘 준비되어 있다.
+    - [ultrajson(ujson)](https://github.com/esnme/ultrajson)  
+        'Ultra fast JSON decoder and encoder written in C with Python bindings'
 
 #### 테스팅
 #### SQLAlchemy
