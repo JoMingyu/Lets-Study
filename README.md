@@ -598,6 +598,7 @@
         데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
     - [Unbind object from session](https://stackoverflow.com/questions/11213665/unbind-object-from-session/11213780)  
         'Expunge removes an object from the Session, sending persistent instances to the detached state, and pending instances to the transient state.' contextmanager로 세션을 쓰다 보면, with문 바깥에서 객체 접근 시 session bind 문제가 발생한다. 이를 해결하기 위해 객체를 session에서 unbind해주는 session.expunge()를 쓸 수 있다.
+    - [Session Management - Refreshing / Expiring](https://docs.sqlalchemy.org/en/latest/orm/session_state_management.html#refreshing-expiring)
 - [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
     Flask-SQLAlchemy에선 `SQLALCHEMY_BINDS` 설정과 모델 클래스의 `__bind_key__` 속성으로 여러 데이터베이스에 쉽게 연결할 수 있다. 그러나 일반적인 경우 read/write db를 나누어 접근하는 식이라, bind 설정 따로 안하고 그냥 db마다 engine 만들고 따로 session을 관리하는 식의 practice가 더 많다.
 #### Peewee
