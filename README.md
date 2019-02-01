@@ -548,41 +548,54 @@
         'Official Python agent for the Elastic APM'.
     - [slacker](https://github.com/os/slacker)  
         'Full-featured Python interface for the Slack API'
+- Others
+    - [pyjwt](https://github.com/jpadilla/pyjwt)  
+        JSON Web Token implementation in Python
+    - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/)  
+        'Beautiful Soup is a Python library for pulling data out of HTML and XML files.'
+    - [cachetools](https://github.com/tkem/cachetools)  
+        functools.lru_cache 데코레이터의 변형을 포함하여 자주 쓰이는 캐싱들을 데코레이터 형태로 지원하는 라이브러리. LFU, LRU, RR, TTL cache를 지원한다.
+    - [aiocache](https://github.com/argaen/aiocache)  
+        async 함수에 대한 캐싱을 도와주는 라이브러리.
+    - [blinker](https://pythonhosted.org/blinker/)  
+        object-to-object signaling을 도와주는 라이브러리. 일종의 옵저버 패턴이라 event driven한 어플리케이션을 잘 만들 수 있도록 해줄 것 같은데, use case는 딱히 생각이 나지 않는다. 최근에 signal을 활용하는 걸 봤던 건, Elastic APM Python agent에서 Flask의 request_started, request_finished signal에 각각 트랜잭션 시작과 종료 함수를 할당해둔 것 정도.
 
 #### 테스팅
 #### SQLAlchemy
 - [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
     잘 정리된 SQLAlchemy 한글 튜토리얼
-- [Literal SELECT](https://stackoverflow.com/a/7546802)  
-    UNION 쿼리 등에서 자주 사용되는 literal SELECT를 SQLAlchemy에서는 어떻게 표현하는지에 대한 질문이다.
-- [Query 객체로 WHERE절 작성하기(Common filter operators)](https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators)  
-    SQLAlchemy의 Query 객체에서는 WHERE 절을 filter 메소드로 표현하는데, 여기에 들어가는 일반적인 operator들에 대한 정리다.
-- [How to pass a not like operator in a sqlalchemy ORM query](https://stackoverflow.com/a/5019427)  
-    Bitwise not operator가 아니라, `sqlalchemy.not_` 함수를 사용해서도 NOT을 표현할 수 있다.
-- [sqlalchemy.orm.query.Query.slice(start, stop)](https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.slice)  
-    Query 객체에서 LIMIT 쿼리를 표현하려면, slice 메소드를 사용하거나, __getitem__에 슬라이싱이 지원되므로 빌트인 슬라이싱 연산을 사용할 수 있다. 이건 [all 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2835-L2841)와 [\_\_getitem\_\_ 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2666-L2690), 그 바로 밑에 있는 [slice 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2693-L2732)를 살펴보면 도움이 많이 된다.
-- [How to union two subqueries in SQLAlchemy](https://stackoverflow.com/a/20032394)  
-    Query 객체의 union이나 union_all 메소드를 통해 UNION, UNION ALL 쿼리를 표현할 수 있다.
-- [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/a/34364247)  
-    engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
-- [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/a/29805305)  
-    contextlib.contextmanager를 통해 session을 다루는 보일러플레이트를 with-as 문으로 관리하도록 만드는 패턴
-- [Contextual/Thread-local Sessions](https://docs.sqlalchemy.org/en/latest/orm/contextual.html)  
-    context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드. 하나의 스레드에서 동일한 세션을 이용해 여러 작업을 처리하는 경우, 함수에 session을 파라미터로 넘겨줘서 session을 유지하는 경우가 많은데 scoped_session을 사용하면 이러한 문제가 줄어든다.
-- [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/a/17987782)  
-    raw SQL을 실행하는 방법
-- [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
-    데이터 타입이 Generic Types/SQL Standard and Multiple Vendor Types/Vendor-Specific Types로 나뉜다는 것을 알게 됐다. Vendor-Specific Types는 한번쯤 써볼만한 것 같음.
-- ['select as' in SQLAlchemy](https://stackoverflow.com/a/9187589)  
-    Column.label 메소드로 aliasing(SELECT AS)를 표현하는 방법
-- [SQLAlchemy simple example of sum, average, min, max](https://stackoverflow.com/a/11832380)  
-    sqlalchemy.sql.functions 모듈의 함수를 이용해 aggregation을 하는 방법
-- [Dealing with duplicate primary keys on insert in SQLAlchemy](https://stackoverflow.com/a/11620706)  
-    질문이 굉장히 세세한데, 결론은 `session.add` 대신 `session.merge` 메소드를 사용하면 primary key duplicate 시 알아서 update하도록 만들 수 있다는 것이다.
-- [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/a/10822842)  
-    쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
-- [SQLAlchemy Transaction 관리 Practice 공유](https://blog.qodot.me/post/sqlalchemy-transaction-%EA%B4%80%EB%A6%AC-practice-%EA%B3%B5%EC%9C%A0/)  
-    데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
+- Query
+    - [Literal SELECT](https://stackoverflow.com/a/7546802)  
+        UNION 쿼리 등에서 자주 사용되는 literal SELECT를 SQLAlchemy에서는 어떻게 표현하는지에 대한 질문이다.
+    - [Query 객체로 WHERE절 작성하기(Common filter operators)](https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators)  
+        SQLAlchemy의 Query 객체에서는 WHERE 절을 filter 메소드로 표현하는데, 여기에 들어가는 일반적인 operator들에 대한 정리다.
+    - [How to pass a not like operator in a sqlalchemy ORM query](https://stackoverflow.com/a/5019427)  
+        Bitwise not operator가 아니라, `sqlalchemy.not_` 함수를 사용해서도 NOT을 표현할 수 있다.
+    - [sqlalchemy.orm.query.Query.slice(start, stop)](https://docs.sqlalchemy.org/en/latest/orm/query.html#sqlalchemy.orm.query.Query.slice)  
+        Query 객체에서 LIMIT 쿼리를 표현하려면, slice 메소드를 사용하거나, __getitem__에 슬라이싱이 지원되므로 빌트인 슬라이싱 연산을 사용할 수 있다. 이건 [all 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2835-L2841)와 [\_\_getitem\_\_ 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2666-L2690), 그 바로 밑에 있는 [slice 메소드의 코드](https://github.com/zzzeek/sqlalchemy/blob/master/lib/sqlalchemy/orm/query.py#L2693-L2732)를 살펴보면 도움이 많이 된다.
+    - [How to union two subqueries in SQLAlchemy](https://stackoverflow.com/a/20032394)  
+        Query 객체의 union이나 union_all 메소드를 통해 UNION, UNION ALL 쿼리를 표현할 수 있다.
+    - [How to execute raw SQL in SQLAlchemy](https://stackoverflow.com/a/17987782)  
+        raw SQL을 실행하는 방법
+    - ['select as' in SQLAlchemy](https://stackoverflow.com/a/9187589)  
+        Column.label 메소드로 aliasing(SELECT AS)를 표현하는 방법
+    - [SQLAlchemy simple example of sum, average, min, max](https://stackoverflow.com/a/11832380)  
+        sqlalchemy.sql.functions 모듈의 함수를 이용해 aggregation을 하는 방법
+    - [Get the number of rows in table using SQLAlchemy](https://stackoverflow.com/a/10822842)  
+        쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
+- Engine, Connection, Session
+    - [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/a/34364247)  
+        engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
+    - [Avoiding boilerplate session handling code in SQLAlchemy functions](https://stackoverflow.com/a/29805305)  
+        contextlib.contextmanager를 통해 session을 다루는 보일러플레이트를 with-as 문으로 관리하도록 만드는 패턴
+    - [Contextual/Thread-local Sessions](https://docs.sqlalchemy.org/en/latest/orm/contextual.html)  
+        context에 의존하는 어플리케이션에 적용하기 적합한 scoped_session에 대한 가이드. 하나의 스레드에서 동일한 세션을 이용해 여러 작업을 처리하는 경우, 함수에 session을 파라미터로 넘겨줘서 session을 유지하는 경우가 많은데 scoped_session을 사용하면 이러한 문제가 줄어든다.
+    - [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
+        데이터 타입이 Generic Types/SQL Standard and Multiple Vendor Types/Vendor-Specific Types로 나뉜다는 것을 알게 됐다. Vendor-Specific Types는 한번쯤 써볼만한 것 같음.
+    - [Dealing with duplicate primary keys on insert in SQLAlchemy](https://stackoverflow.com/a/11620706)  
+        질문이 굉장히 세세한데, 결론은 `session.add` 대신 `session.merge` 메소드를 사용하면 primary key duplicate 시 알아서 update하도록 만들 수 있다는 것이다.
+    - [SQLAlchemy Transaction 관리 Practice 공유](https://blog.qodot.me/post/sqlalchemy-transaction-%EA%B4%80%EB%A6%AC-practice-%EA%B3%B5%EC%9C%A0/)  
+        데이터베이스에 접근할 때마다 context를 열지 않고, 데코레이팅된 함수 단위로 세션을 발급하는 식으로 트랜잭션을 관리하는 practice다. Flask에 SQLAlchemy를 엮어서 쓸 때마다 단지 'with문 쓰는게 좀 번거롭다' 정도만 생각했지, 더 나은 방법을 생각하려고 하지 않았던 게, 내 머리에서 이런 아이디어가 나오지 않았던 이유인 것 같다.
 - [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
     Flask-SQLAlchemy에선 `SQLALCHEMY_BINDS` 설정과 모델 클래스의 `__bind_key__` 속성으로 여러 데이터베이스에 쉽게 연결할 수 있다. 그러나 일반적인 경우 read/write db를 나누어 접근하는 식이라, bind 설정 따로 안하고 그냥 db마다 engine 만들고 따로 session을 관리하는 식의 practice가 더 많다.
 #### Peewee
