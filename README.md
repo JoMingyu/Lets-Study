@@ -231,6 +231,8 @@
     Tracked file들은 .gitignore가 생겨도 제대로 먹히지 않는다. 'Even if you haven't tracked the files so far, Git seems to be able to "know" about them even after you add them to .gitignore.'
 - [git rebase -i 사용하기](https://jupiny.com/2018/05/07/git-rebase-i-option/)  
     커밋 히스토리를 정리하기 위해, 또는 커밋의 메타데이터(커밋 날짜, author 등)를 변경하기 위해 사용하는 rebase. 여러모로 쓸만한 곳이 많다.
+- [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)  
+    과거의 커밋에서 commit time을 어떻게 변경하는지에 대한 질문. 이런저런 방법 많은데 나는 `rebase`해서 `commit --amend`하는게 깔끔해 보인다.
 ### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
 - [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
