@@ -512,6 +512,8 @@
         Python 패키지를 PyPI(python Pacakge Index)에 쉽게 배포할 수 있도록 해주는 CLI 툴.
     - [aws-cli](https://github.com/aws/aws-cli)  
         AWS 서비스를 관리하기 위한 CLI 툴. management console에서 안되고 CLI에서만 되는 것도 종종 있다. 예를 들어 CodeBuild에 hook다는 것?
+    - [click](https://github.com/pallets/click)  
+        CLI 어플리케이션을 개발하는 걸 도와주는 라이브러리. 'Python composable command line interface toolkit'
 - Schema Validation
     - [jsonschmea](https://github.com/Julian/jsonschema)  
         JSONSchema를 통한 validation 라이브러리.
@@ -566,7 +568,7 @@
     - [firebase-admin-python](https://github.com/firebase/firebase-admin-python)  
         Python용 firebase admin SDK. Firebase에서 가장 권고하는 방식이며 official로 관리된다.
     - [elastic-apm](https://github.com/elastic/apm-agent-python)  
-        'Official Python agent for the Elastic APM'.
+        'Official Python agent for the Elastic APM'
     - [slacker](https://github.com/os/slacker)  
         'Full-featured Python interface for the Slack API'
 - Others
