@@ -227,6 +227,8 @@
     fork한 레포를 원본 저장소와 어떻게 sync하는지에 대한 질문. 'upstream'이라는 이름으로 remote를 등록하고 `fetch upstream`하면 된다.
 - [What is .gitignore exactly?](https://stackoverflow.com/a/27850270)  
     '.gitignore tells git which files (or patterns) it should ignore.' 안드로이드 프로젝트 같은데서 맨날 .idea 하위 파일들 conflict났던 기억이 있는데 gitignore가 있으면 깔끔하게 해결 가능하다.
+- [.gitignore is ignored by Git](https://stackoverflow.com/a/11451731)  
+    Tracked file들은 .gitignore가 생겨도 제대로 먹히지 않는다. 'Even if you haven't tracked the files so far, Git seems to be able to "know" about them even after you add them to .gitignore.'
 ### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
 - [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
