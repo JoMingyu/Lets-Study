@@ -571,6 +571,8 @@
         'Official Python agent for the Elastic APM'
     - [slacker](https://github.com/os/slacker)  
         'Full-featured Python interface for the Slack API'
+    - [boto3](https://github.com/boto/boto3)  
+        'AWS SDK for Python'
 - Others
     - [pyjwt](https://github.com/jpadilla/pyjwt)  
         JSON Web Token implementation in Python
