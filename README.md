@@ -223,6 +223,8 @@
     `git blame` 명령어를 통해 소스 코드에서 특정 line을 지정한 후 그 일부에 대해서 commit history를 찾아볼 수 있다.
 - [How to resolve merge conflict during pull request?](https://stackoverflow.com/a/45819784)  
     pull request를 날렸는데 conflict가 나면 어떻게 해결해야 되는지에 대한 질문. 'Merge origin/master into JohnMaster and push this to its remote (origin/JohnMaster).' 그냥 target branch에서 pull 땡기고 merge 해결한 후 push하면 된다.
+- [How do I update a GitHub forked repository?](https://stackoverflow.com/a/7244456)  
+    fork한 레포를 원본 저장소와 어떻게 sync하는지에 대한 질문. 'upstream'이라는 이름으로 remote를 등록하고 `fetch upstream`하면 된다.
 ### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
 - [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
