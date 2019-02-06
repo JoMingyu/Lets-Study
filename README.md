@@ -378,11 +378,13 @@
     \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/a/91725)
 - [Why do you create a View in a database?](https://stackoverflow.com/a/1278620)  
     두 테이블을 JOIN하는 복잡한 서브 쿼리를 제거하기 위해 처음으로 사용했었던 것 같다. 실제로 복잡성을 숨기기 위해 사용된다고도 한다. 테이블의 특정 컬럼을 보호하기 위한 메커니즘으로 사용할 수 있다는 DBA의 관점도 있다. View는 '쿼리를 캡슐화하여 aliasing한다'라고 이야기할 수 있을 것 같다.
-### 안 RDB 얘기
+### 뭔가 좀 데이터베이스 자체에 대한 그런 얘기
 - [InfluxDB](https://github.com/influxdata/influxdb)  
-    TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다..
+    TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
 - [StatsD](https://github.com/etsy/statsd)  
     Node.js 런타임에서 동작하는 로그 aggregation 프록시. 단위 시간 안의 API 응답 시간 평균과 같은 것들은 일차적으로 aggregation을 해두면 로그 DB의 부하 방지에 좋을 것 같다. Mongo, Graphite, InfluxDB, Zabbix, CouchDB 등 백엔드 지원도 잘 되어 있다.
+- [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)  
+    'The main purpose of the multiplexing is to reduce the connections to MySQL servers. So we can send thousands of connections to only a hundred backend connections.' ProxySQL을 쓰는 걸 구경은 해봤는데 직접 써본 적은 없어서 유의미하게 뭔가 경험해본 적이 딱히 없다. ㅜㅜ 커넥션 관리에 확실히 좋다고는 들음.
 ### SQL
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
