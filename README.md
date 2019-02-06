@@ -50,6 +50,8 @@
     - [MX Record](https://support.dnsimple.com/articles/mx-record/)
     - [CNAME Record](https://support.dnsimple.com/articles/cname-record/)
     - [Alias Record](https://support.dnsimple.com/articles/alias-record/)
+- [Facebook Account Kit](https://developers.facebook.com/docs/accountkit/)  
+    SMS, 이메일을 통해 passwordless authentication을 할 수 있도록 도와주는 페이스북의 킷. SMS 인증이 한 달에 10만회까지 무료라길래 흠칫해서 알아보게 됨. Auth0라는 서비스도 이런 컨셉인 것 같은데, Auth0가 먼저고 Account Kit이 나중인듯.
 
 ### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
