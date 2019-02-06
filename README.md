@@ -143,8 +143,6 @@
     네트워크는 물리적으로 가까운 위치에 있을수록 응답 속도가 빠르다. hop count가 줄어들기 때문이다. CDN은 정적 데이터(css, js, 이미지 등)를 다른 리전의 서버에 캐싱해 둬서, 멀리 사는 사용자에게 컨텐츠를 제공하는 퍼포먼스를 향상시키는 기술. Amazon Cloudfront같은 서비스가 CDN을 제공한다.
 - [runscope](https://www.runscope.com)  
     API 모니터링 SaaS. 정해둔 스케줄과 step에 따라 API를 호출하고 validation을 수행한다. pagerduty같은 on-call alert 서비스와의 integration을 지원해서, API에 500이 발생했을 때 내 핸드폰으로 전화가 오게 만들 수도 있다.
-- [druid](http://druid.io/druid.html)  
-    OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 - [statuspage.io](https://www.statuspage.io/)  
     서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
 - [wrk](https://github.com/wg/wrk)  
@@ -299,7 +297,7 @@
 #### RDS
 #### Aurora
 - [Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
-    Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제하므로 read replication이 필요 없다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
+    Serverless 형태의 완전 관리형 Aurora 인스턴스. 정확히는 RDS에서 Aurora를 띄울 때 serverless 타입을 선택할 수 있다. Auto Scaling이 제공되고, Aurora가 자체적으로 multi-AZ에 데이터를 복제한다. VPC 내에서만 동작하고 별도로 VPC peering도 불가능하지만 Direct Connect로 해결 가능한데, 비용이 RDS 프로비저닝과 얼마나 차이날 지 궁금하다.
 #### DynamoDB
 #### ElastiCache
 #### DocumentDB
@@ -365,7 +363,8 @@
 #### SNS
 #### SQS
 
-## 데이터베이스에 관련된
+## DB
+### 데이터베이스 자체에 대한 얘기
 - [What is an ORM and where can I learn more about it?](https://stackoverflow.com/a/1279678)  
     ORM이 무엇이고, 장점과 단점은 무엇인지에 대한 설명. ORM 라이브러리는 대부분 무겁고 러닝커브가 생기긴 하지만, 상황에 따라 동적으로 SELECT 쿼리를 빌드하는 머리아픈 경험을 해 봤다면 ORM이 이만큼 유연할 수가 없다. 복잡한 쿼리가 아니라면 성능 문제도 딱히 없는 것 같다. 이래저래 논쟁을 끌고 다니는 기술이긴 한데, 단점을 감당하지 않기 위해서 ORM으로 얻을 수 있는 메리트를 모두 포기하고 raw SQL을 쓸 이유가 딱히 없지 않을까 싶다. 물론 대용량 데이터를 다룰 때는 raw SQL을 쓰는 것이 마음 편한 듯.
 - [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)  
@@ -380,13 +379,15 @@
     \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/a/91725)
 - [Why do you create a View in a database?](https://stackoverflow.com/a/1278620)  
     두 테이블을 JOIN하는 복잡한 서브 쿼리를 제거하기 위해 처음으로 사용했었던 것 같다. 실제로 복잡성을 숨기기 위해 사용된다고도 한다. 테이블의 특정 컬럼을 보호하기 위한 메커니즘으로 사용할 수 있다는 DBA의 관점도 있다. View는 '쿼리를 캡슐화하여 aliasing한다'라고 이야기할 수 있을 것 같다.
-### 뭔가 좀 데이터베이스 자체에 대한 그런 얘기
+### DBMS에 가까운
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
 - [StatsD](https://github.com/etsy/statsd)  
     Node.js 런타임에서 동작하는 로그 aggregation 프록시. 단위 시간 안의 API 응답 시간 평균과 같은 것들은 일차적으로 aggregation을 해두면 로그 DB의 부하 방지에 좋을 것 같다. Mongo, Graphite, InfluxDB, Zabbix, CouchDB 등 백엔드 지원도 잘 되어 있다.
 - [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)  
     'The main purpose of the multiplexing is to reduce the connections to MySQL servers. So we can send thousands of connections to only a hundred backend connections.' ProxySQL을 쓰는 걸 구경은 해봤는데 직접 써본 적은 없어서 유의미하게 뭔가 경험해본 적이 딱히 없다. ㅜㅜ 커넥션 관리에 확실히 좋다고는 들음.
+- [druid](http://druid.io/druid.html)  
+    OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 ### SQL
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
