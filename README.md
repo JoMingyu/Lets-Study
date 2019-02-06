@@ -350,6 +350,7 @@
 
 ### 분석
 #### Athena
+#### Redshift
 #### EMR
 #### ElasticSearch Service
 #### Kinesis
