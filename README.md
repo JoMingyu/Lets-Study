@@ -627,6 +627,8 @@
     - [Unbind object from session](https://stackoverflow.com/questions/11213665/unbind-object-from-session/11213780)  
         'Expunge removes an object from the Session, sending persistent instances to the detached state, and pending instances to the transient state.' contextmanager로 세션을 쓰다 보면, with문 바깥에서 객체 접근 시 session bind 문제가 발생한다. 이를 해결하기 위해 객체를 session에서 unbind해주는 session.expunge()를 쓸 수 있다.
     - [Session Management - Refreshing / Expiring](https://docs.sqlalchemy.org/en/latest/orm/session_state_management.html#refreshing-expiring)
+    - [How to close sqlalchemy connection in MySQL](https://stackoverflow.com/questions/8645250/how-to-close-sqlalchemy-connection-in-mysql)  
+        SQLAlchemy에서 active되어 있는 connection들을 어떻게 닫는지에 대한 질문.
 - [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
     Flask-SQLAlchemy에선 `SQLALCHEMY_BINDS` 설정과 모델 클래스의 `__bind_key__` 속성으로 여러 데이터베이스에 쉽게 연결할 수 있다. 그러나 일반적인 경우 read/write db를 나누어 접근하는 식이라, bind 설정 따로 안하고 그냥 db마다 engine 만들고 따로 session을 관리하는 식의 practice가 더 많다.
 #### Peewee
