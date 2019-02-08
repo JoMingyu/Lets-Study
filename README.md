@@ -718,6 +718,10 @@
 ### Express.js
 - [Express에서 Sequelize를 사용할 때 Circular Import Problem을 해결하는 방법 - sequelize/express-example](https://github.com/sequelize/express-example)
 
+## 수학
+- [Markov Chain](https://sites.google.com/site/machlearnwiki/RBM/markov-chain)  
+    Markov Chain에 대한 (아마도) 가장 쉬운 설명. 이거 읽고 난 다음에 다른 medium 글들을 읽어보면 될 듯.
+
 ## 자기계발
 
 ## 뭔가 어디 카테고리에 특별히 넣어두기 애매하다
