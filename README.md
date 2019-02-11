@@ -592,8 +592,9 @@
 
 #### 테스팅
 #### SQLAlchemy
-- [SQLAlchemy 시작하기](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
-    잘 정리된 SQLAlchemy 한글 튜토리얼
+- [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
+- [SQLAlchemy 시작하기 - Part 2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)  
+    SQLAlchemy 공식 튜토리얼을 번역한 글. 좋은 내용 다 담겨 있다.
 - Query
     - [Literal SELECT](https://stackoverflow.com/a/7546802)  
         UNION 쿼리 등에서 자주 사용되는 literal SELECT를 SQLAlchemy에서는 어떻게 표현하는지에 대한 질문이다.
