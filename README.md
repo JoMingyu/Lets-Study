@@ -381,6 +381,8 @@
     \* [What are the differences between a clustered and a non-clustered index?](https://stackoverflow.com/a/91725)
 - [Why do you create a View in a database?](https://stackoverflow.com/a/1278620)  
     두 테이블을 JOIN하는 복잡한 서브 쿼리를 제거하기 위해 처음으로 사용했었던 것 같다. 실제로 복잡성을 숨기기 위해 사용된다고도 한다. 테이블의 특정 컬럼을 보호하기 위한 메커니즘으로 사용할 수 있다는 DBA의 관점도 있다. View는 '쿼리를 캡슐화하여 aliasing한다'라고 이야기할 수 있을 것 같다.
+- [Are soft deletes a good idea?](https://stackoverflow.com/questions/2549839/are-soft-deletes-a-good-idea/2549843)  
+    데이터의 삭제에 대해 DELETE 쿼리를 날리는 것을 pysical delete, 삭제되었음을 나타내는 (is_deleted같은)컬럼을 두는 방식을 soft delete라고 부른다. 이래저래 논쟁이 많지만 'It depends on the circumstances.'와 'You can't do cascading deletions', 'it's a good idea to have a deleted_date field, instead of an is_deleted field.'가 팩트. 'a soft delete like this means you now have to include a WHERE IsDeleted = false clause in every query on this table'같은 휴먼 에러야 테스트 코드로 보완할 수 있는 부분일테고.
 ### DBMS에 가까운
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
