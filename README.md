@@ -118,8 +118,10 @@
         사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
     - [kitematic](https://kitematic.com/)  
         'Run containers through a simple, yet powerful graphical user interface.'
+- Terraform
+- Ansible
 - 아키텍처 이야기
-    - [[야생의 땅: 듀량고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
+    - [[야생의 땅: 듀랑고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
     - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
     - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
         결론은 '신청자 수를 RDB에서 관리하지 않고 Redis 기반의 분산 메모리 저장소인 nbase-arc로 바꿨더니 잘 되더라'였다. 글만 보면 그냥 nbase 붙이고 나니까 너무나도 매끄럽고 쉽게 해결된 것만 같다. nbase-arc의 INCR 연산이 단순히 UPDATE 쿼리보다 속도가 빨라서 병목이 생기지 않았던 걸까? 이걸 조금 더 설명해줬으면 좋았을 것 같다. 무튼 캐시가 중요하긴 한가 보다. 2017, 2018 개발기도 올라왔으면 좋겠다.
