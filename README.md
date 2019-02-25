@@ -253,7 +253,18 @@
 ## CS
 ### 자료구조
 ### 알고리즘
-
+- [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)  
+    반복 알고리즘의 무결성을 증명하기 위해 사용되는 방법이다. 루프 불변성과 반대되는 개념으로는 루프 변성이 있는데, 이는 루프를 '도는' 동안 변하는 성질을 가진 것들을 칭한다. 
+- [시간 복잡도 빠르게 이해하기](https://joshuajangblog.wordpress.com/2016/09/21/time_complexity_big_o_in_easy_explanation/)  
+    시간 복잡도란 어떤 알고리즘의 실행 시간이 얼마나 되는가? 라는 질문에 대한 대답을 할 수 있는 개념으로, 알고리즘이 입력에 대해 얼마나 오래 실행될 것인지 예측할 수 있다.
+- [점근 표기법](https://ratsgo.github.io/data%20structure&algorithm/2017/09/13/asymptotic/)    
+    상기한 시간 복잡도에 대해 조금 더 수학적으로 접근한 내용이다.
+- [분할정복](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)    
+    커다란 하나의 문제가 사실 '닮은꼴' 문제들로 쪼개질 수 있다면, 여러 부분문제들을 해결한 다음 해를 결합함으로서 원래 해결하고자 했던 문제를 해결할 수 있다.
+- [힙 정렬](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/)    
+    최대 힙이나 최소 힙을 만들어 정렬하는 방식이다. 평균적인 시간복잡도는 퀵 정렬과 같지만(최악의 경우 퀵 정렬보다 빠르다) [트리를 만들어 정렬하는 특성 탓에 자료가 커질 수록 퀵 정렬보다 캐시 활용에 있어 모자란 면모를 보인다.](https://en.wikipedia.org/wiki/Heapsort#Variations) 
+- [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
+    부분 해를 구하는 과정을 거듭해 최종 해를 구한다는 점은 분할정복과 비슷하지만, 분할정복과는 달리 한 번 구한 부분해가 여러 번 재활용되며 (중복되는 부분 문제가 존재하기 때문: n번째 피보나치 수는 n-1번째 피보나치 수와 n-2번째 피보나치 수를 더해서 구할 수 있다), 문제의 분할 자체가 속도 향상에 도움이 되는 분할정복과 달리 이전에 구한 해를 재활용하는 것이 속도 향상에 도움을 준다.
 ## AWS
 - [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
     Region과 AZ(Availability Zones)에 대한 설명. 물리적 데이터 센터인 Availability Zone들을 지리적 위치에 따라 Region 개념으로 묶고, 각 Region은 다른 Region들과 물리적으로 격리되어 있다.
