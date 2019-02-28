@@ -117,10 +117,12 @@
         사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
     - [kitematic](https://kitematic.com/)  
         'Run containers through a simple, yet powerful graphical user interface.'
-- Terraform
 - Ansible
     - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)  
-        'Ansible allows your whole infrastructure to be defined as code, so it can be version controlled, easily replicated and tested, truly DevOps!'. 뭐 automate software provisioning 이러는데 'infrastructure provisioning'이라는 개념 자체가 좀 어려웠다. 걍 EC2에 druid 올리면 infrastructure provisioning이라고 부를 수 있는듯. 여기에 automate 개념이 붙는 건 Ansible이 호스트 여러개 갖다가 똑같은 커맨드 뚝딱뚝딱 실행시켜줄 수 있어서.
+        'Ansible allows your whole infrastructure to be defined as code, so it can be version controlled, easily replicated and tested, truly DevOps!'. 뭐 automate software provisioning 이러는데 'infrastructure provisioning'이라는 개념 자체가 좀 어려웠다. 걍 EC2에 druid 올리면 infrastructure provisioning이라고 부를 수 있는듯. 여기에 automate 개념이 붙는 건 Ansible이 호스트 여러개에 갖다가 똑같은 커맨드 뚝딱뚝딱 실행시켜줄 수 있어서. 근데 Ansible도 Infrastructure as Code로 분류됨.
+- Terraform
+    - [Terraform을 이용한 Infrastructure as Code 실전 구성하기](https://www.slideshare.net/awskorea/configuring-practical-aws-based-infrastructure-as-code-using-terraform-byoun-jeonghun)  
+        클라우드 인프라의 리소스들을 코드 형태로 구성할 수 있는 툴. 얘도 사실상 Ansible이랑 비슷한 맥락으로 infrastructure provisioning을 위한 것 같다. 써봐야 확실히 알 수 있을듯.
 - gRPC
     - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - 아키텍처 이야기
