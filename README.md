@@ -123,6 +123,8 @@
 - Terraform
     - [Terraform을 이용한 Infrastructure as Code 실전 구성하기](https://www.slideshare.net/awskorea/configuring-practical-aws-based-infrastructure-as-code-using-terraform-byoun-jeonghun)  
         클라우드 인프라의 리소스들을 코드 형태로 구성할 수 있는 툴. 얘도 사실상 Ansible이랑 비슷한 맥락으로 infrastructure provisioning을 위한 것 같다. 써봐야 확실히 알 수 있을듯.
+    - [Ansible vs Terraform: Fight!](https://linuxacademy.com/blog/devops/ansible-vs-terraform-fight/)  
+        'One of those key differences involves two very common DevOps concepts: configuration management and orchestration.'
 - gRPC
     - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - 아키텍처 이야기
