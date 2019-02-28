@@ -7,7 +7,6 @@
 
 ## 배경지식
 ### 그냥 배경지식
-- [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)  
@@ -120,6 +119,10 @@
         'Run containers through a simple, yet powerful graphical user interface.'
 - Terraform
 - Ansible
+    - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)  
+        'Ansible allows your whole infrastructure to be defined as code, so it can be version controlled, easily replicated and tested, truly DevOps!'. 뭐 automate software provisioning 이러는데 'infrastructure provisioning'이라는 개념 자체가 좀 어려웠다. 걍 EC2에 druid 올리면 infrastructure provisioning이라고 부를 수 있는듯. 여기에 automate 개념이 붙는 건 Ansible이 호스트 여러개 갖다가 똑같은 커맨드 뚝딱뚝딱 실행시켜줄 수 있어서.
+- gRPC
+    - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - 아키텍처 이야기
     - [[야생의 땅: 듀랑고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
     - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
