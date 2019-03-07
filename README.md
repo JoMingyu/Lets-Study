@@ -286,6 +286,11 @@
         EC2 인스턴스에 마운트해 사용할 수 있는 블록 스토리지. 데이터를 다루는 클러스터를 직접 운영(ex - ElasticSearch, Druid, ...)하는 경우 extra storage가 필요한데, EBS가 그걸 해결해 준다.
     - [EBS 최적화 인스턴스](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EBSOptimized.html#enable-ebs-optimization)  
         인스턴스에 EBS 전용 대역폭을 만들어서 EBS에 대한 처리량과 IOPS를 늘리는 것. 현재 세대 인스턴스들은 기본적으로 EBS 최적화되어 있는 상태.
+- ELB
+    - [Application Load Balancer 시작하기](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html)  
+        나같은 WAS돌이들은 ALB를 자주 쓰게 된다. target group 만들고, target group에 target 등록하고, LB에 타겟(listener) 등록해주면 된다.
+    - [Application Load Balancer를 통한 경로 기반 라우팅 사용](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/tutorial-load-balancer-routing.html)  
+        ALB에는 rule이라는 게 있어서, URL을 기반으로 포워딩할 listener를 설정해둘 수 있다.
 - [EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
     컴퓨팅 엔진. 말 그대로 그냥 컴퓨터 하나 대여해 주는거라 EBS(Elastic Block Storage)를 붙여서 Druid를 올리거나, ProxySQL, VPN 서버 등 AWS에서 관리형으로 제공하지 않는 것들을 올리는 데에도 쓰고, 웹 어플리케이션 서버를 통으로 올리는 경우나, ECS(Elastic Container Service)가 컨테이너를 동작시키는 컴퓨팅 엔진, 마인크래프트 서버 구축 등 여러 용도로 사용할 수 있다.
 - [인스턴스 수명 주기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
