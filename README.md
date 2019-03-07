@@ -544,6 +544,11 @@
 - Data Compression and Archiving
     - [gzip](https://docs.python.org/3/library/gzip.html)  
         'This module provides a simple interface to compress and decompress files just like the GNU programs gzip and gunzip would.'
+- Internet Data Handling
+    - [JSON - The Hitchhiker's Guide to Python](https://docs.python-guide.org/scenarios/json/)  
+        'The json library can parse JSON from strings or files. The library parses JSON into a Python dictionary or list. It can also convert Python dictionaries or lists into JSON strings.'
+- Internet Protocols and Support
+    - [UUID objects according to RFC 4122](https://docs.python.org/3/library/uuid.html)
 #### 외부 라이브러리
 - CLI
     - [zappa](https://github.com/Miserlou/Zappa)  
