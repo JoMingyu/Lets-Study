@@ -534,13 +534,16 @@
     - [timeit](https://docs.python.org/3/library/timeit.html)  
         짧은 Python statement에 대해 실행 시간을 측정해준다. 문제를 해결하기 위한 방법이 여러가지일 때, 시간복잡도 면에서 better way를 찾기 위해 종종 쓰게 된다.
     - [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
-        pdb 없었으면 내 인생이 참혹하지 않았을까. 흑흑. 사실 옛날엔 그냥 매 줄마다 print 찍어보면서 디버깅하곤 했었는데, 확실히 디버깅 툴을 직접 쓰는 게 러닝커브를 감안하더라도 훨씬 더 나은 것 같다.
+        사실 옛날엔 그냥 매 줄마다 print 찍어보면서 디버깅하곤 했었는데, 확실히 디버깅 툴을 직접 쓰는 게 러닝커브를 감안하더라도 훨씬 더 나은 것 같다.
 - Concurrent Execution
     - [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)  
         multi threading, multi processing과 파이썬의 GIL problem까지 잘 요약해 주었다.
     - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
 - Networking and Interprocess Communication
     - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)
+- Data Compression and Archiving
+    - [gzip](https://docs.python.org/3/library/gzip.html)  
+        'This module provides a simple interface to compress and decompress files just like the GNU programs gzip and gunzip would.'
 #### 외부 라이브러리
 - CLI
     - [zappa](https://github.com/Miserlou/Zappa)  
