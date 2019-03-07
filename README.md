@@ -167,7 +167,9 @@
 ### HTTP에 가까운
 - REST
     - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
-    - [그런 REST API로 충분한가](http://slides.com/eungjun/rest#/)
+    - 그런 REST API로 괜찮은가
+        - [그런 REST API로 괜찮은가 - 발표자료](http://slides.com/eungjun/rest#/)
+        - [그런 REST API로 괜찮은가 - 영상](https://tv.naver.com/v/2292653)
     - [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
         Uniform Interface 는 REST 에서 가장 기본적인 제약이다. 이는 다음 4가지로 구성되어 있다.  
         - Resource Identifier  
