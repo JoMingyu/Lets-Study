@@ -121,6 +121,8 @@
     - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)  
         'Ansible allows your whole infrastructure to be defined as code, so it can be version controlled, easily replicated and tested, truly DevOps!'. 뭐 automate software provisioning 이러는데 'infrastructure provisioning'이라는 개념 자체가 좀 어려웠다. 걍 EC2에 druid 올리면 infrastructure provisioning이라고 부를 수 있는듯. 여기에 automate 개념이 붙는 건 Ansible이 호스트 여러개에 갖다가 똑같은 커맨드 뚝딱뚝딱 실행시켜줄 수 있어서. 근데 Ansible도 Infrastructure as Code로 분류됨.
 - Terraform
+    - [테라폼(Terraform) 기초 튜토리얼 - AWS와 테라폼으로 구현하는 Infrastructure as Code](https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code)  
+        대부분 DevOps 관련 컨텐츠를 연재하는 44Bits의 Terraform 튜토리얼. 진짜 잘 정리돼있다! Terraform으로 뭔가 해보기 전에 읽어보면 엄청 좋을듯.
     - [Terraform을 이용한 Infrastructure as Code 실전 구성하기](https://www.slideshare.net/awskorea/configuring-practical-aws-based-infrastructure-as-code-using-terraform-byoun-jeonghun)  
         클라우드 인프라의 리소스들을 코드 형태로 구성할 수 있는 툴. 얘도 사실상 Ansible이랑 비슷한 맥락으로 infrastructure provisioning을 위한 것 같다. 써봐야 확실히 알 수 있을듯.
     - [Ansible vs Terraform: Fight!](https://linuxacademy.com/blog/devops/ansible-vs-terraform-fight/)  
