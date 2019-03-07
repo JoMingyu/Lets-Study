@@ -610,17 +610,20 @@
         'Full-featured Python interface for the Slack API'
     - [boto3](https://github.com/boto/boto3)  
         'AWS SDK for Python'
-- Others
-    - [pyjwt](https://github.com/jpadilla/pyjwt)  
-        JSON Web Token implementation in Python
+- Crawling
     - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/)  
         'Beautiful Soup is a Python library for pulling data out of HTML and XML files.'
+- Others
+    - [pyjwt](https://github.com/jpadilla/pyjwt)  
+        'JSON Web Token implementation in Python'
     - [cachetools](https://github.com/tkem/cachetools)  
         functools.lru_cache 데코레이터의 변형을 포함하여 자주 쓰이는 캐싱들을 데코레이터 형태로 지원하는 라이브러리. LFU, LRU, RR, TTL cache를 지원한다.
     - [aiocache](https://github.com/argaen/aiocache)  
         async 함수에 대한 캐싱을 도와주는 라이브러리.
     - [blinker](https://pythonhosted.org/blinker/)  
         object-to-object signaling을 도와주는 라이브러리. 일종의 옵저버 패턴이라 event driven한 어플리케이션을 잘 만들 수 있도록 해줄 것 같은데, use case는 딱히 생각이 나지 않는다. 최근에 signal을 활용하는 걸 봤던 건, Elastic APM Python agent에서 Flask의 request_started, request_finished signal에 각각 트랜잭션 시작과 종료 함수를 할당해둔 것 정도.
+    - [apscheduler](https://github.com/agronholm/apscheduler)  
+        'Task scheduling library for Python'
 
 #### 테스팅
 #### SQLAlchemy
