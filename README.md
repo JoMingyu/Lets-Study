@@ -388,6 +388,8 @@
 #### IAM
 - [AWS IAM](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/introduction.html)  
     IAM 알못이 읽으면 엄청 많은 것을 습득할 수 있는 설명서. 영어 버전으로 보는 게 더 나을 것 같다.
+- [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/a/48182754)  
+    'IAM controls: Who (authentication) can do What (authorization) in your AWS account.', 'Roles - are used to grant specific permission to specific actors for a set of duration of time. **These actors can be authenticated by AWS or some trusted external system.**'
 #### KMS
 
 ### 어플리케이션 통합
