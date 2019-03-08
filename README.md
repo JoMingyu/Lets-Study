@@ -386,6 +386,8 @@
 
 ### 보안, 자격 증명
 #### IAM
+- [AWS IAM](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/introduction.html)  
+    IAM 알못이 읽으면 엄청 많은 것을 습득할 수 있는 설명서. 영어 버전으로 보는 게 더 나을 것 같다.
 #### KMS
 
 ### 어플리케이션 통합
