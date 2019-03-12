@@ -646,10 +646,12 @@
 #### SQLAlchemy
 - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
 - [SQLAlchemy 시작하기 - Part 2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)  
-    SQLAlchemy 공식 튜토리얼을 번역한 글. 좋은 내용 다 담겨 있다.
+    SQLAlchemy 공식 튜토리얼을 번역한 글. 좋은 내용 다 담겨 있고, 이것만 정독해도 SQLAlchemy 수준있게 쓸 수 있다.
 - ORM
     - [Basic Relationship Patterns](https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html)  
         relationship에 관한 이야기. 튜토리얼에도 포함되어 있는 내용이므로 튜토리얼을 보는 게 첫 이해에는 더 좋을 수도 있다.
+    - [SQLAlchemy's "Lazy" Parameter](https://medium.com/@ns2586/sqlalchemys-relationship-and-lazy-parameter-4a553257d9ef)  
+        relationship을 어떤 방식으로 불러올지를 lazy 속성을 통해 설정할 수 있다. 이것도 튜토리얼에 포함되어 있는 내용.
     - [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
         데이터 타입이 Generic Types/SQL Standard and Multiple Vendor Types/Vendor-Specific Types로 나뉜다는 것을 알게 됐다. Vendor-Specific Types는 한번쯤 써볼만한 것 같음.
 - Query
