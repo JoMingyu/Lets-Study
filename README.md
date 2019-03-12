@@ -63,6 +63,8 @@
     asyncio를 조금 더 큰 그림에서 바라본다. `결국 이는 NodeJS가 밀고 있는 non-blocking 비동기 처리에 더 근접하는 개념이다.`와 같은 내용처럼.
 
 ### 코딩이나 패턴에 관한 얘기
+- 디자인 패턴
+    - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
     전역 변수가 왜 나쁜지에 대한 이야기
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
