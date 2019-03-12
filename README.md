@@ -65,6 +65,7 @@
 ### 코딩이나 패턴에 관한 얘기
 - 디자인 패턴
     - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
+    - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
     전역 변수가 왜 나쁜지에 대한 이야기
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
