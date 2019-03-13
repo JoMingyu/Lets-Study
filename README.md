@@ -435,6 +435,8 @@
     - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
     - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
         두번째 답변의 내용이 매우 좋다. JOIN은 top level에서 INNER, OUTER, CROSS로 나눌 수 있고, OUTER JOIN의 앞에는 LEFT, RIGHT, FULL이 들어갈 수 있다는 것.
+    - [MySQL ON vs USING?](https://stackoverflow.com/questions/11366006/mysql-on-vs-using)  
+        'USING is useful when both tables share a column of the exact same name on which they join.'
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 문제가 생기는데, 이를 해결하는 방법. 그냥 질의하기 전에 date format validation 돌리는 게 마음 편하다.
