@@ -104,6 +104,8 @@
     이게 뭔가 서비스 관점에서의 패턴 이야기가 아니라, 그냥 아키텍처 자체에 대한 이야기. 역시 패턴 얘기는 재밌는 게 많다.
 - [Runtime vs Compile time](https://stackoverflow.com/a/846421)  
     런타임과 컴파일 타임의 비교.
+- [유닛테스트에 대한 생각](https://blog.outsider.ne.kr/1275?fbclid=IwAR1Z9DPi-JJns_bSccrNZIo8zFo-0B8nAvIEHen3tu0_jaIUS34hY90FVJ0)  
+    '테스트를 작성하면 내가 작성한 메서드나 클래스의 사용자 입장이 되는 기분이 든다.'
 
 ### 디자인 패턴
 
