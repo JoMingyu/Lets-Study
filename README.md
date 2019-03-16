@@ -63,9 +63,6 @@
     asyncio를 조금 더 큰 그림에서 바라본다. `결국 이는 NodeJS가 밀고 있는 non-blocking 비동기 처리에 더 근접하는 개념이다.`와 같은 내용처럼.
 
 ### 코딩이나 패턴에 관한 얘기
-- 디자인 패턴
-    - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
-    - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
     전역 변수가 왜 나쁜지에 대한 이야기
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
@@ -108,6 +105,10 @@
     '테스트를 작성하면 내가 작성한 메서드나 클래스의 사용자 입장이 되는 기분이 든다.'
 
 ### 디자인 패턴
+- Repository Pattern
+    - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
+    - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
+    - [Stop using repository pattern with an ORM](http://hamidmosalla.com/2018/11/25/stop-using-repository-pattern-with-an-orm/)
 
 ### 백엔드에 가까운
 - Docker
