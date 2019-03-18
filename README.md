@@ -106,6 +106,9 @@
     '테스트를 작성하면 내가 작성한 메서드나 클래스의 사용자 입장이 되는 기분이 든다.'
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
 - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+- [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)  
+    `Mocks Aren't Stubs` 글의 요약본.
+
 
 ### 디자인 패턴
 - Repository Pattern
