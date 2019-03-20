@@ -622,7 +622,8 @@
     - [yarl](https://github.com/aio-libs/yarl)  
         'Yet another URL library'. URL 파싱 관련 작업을 도와준다. 내장 라이브러리인 urllib.parse 위주로 wrapping함.
 - Async
-    - [uvloop](https://github.com/MagicStack/uvloop)
+    - [uvloop](https://github.com/MagicStack/uvloop)  
+        'Ultra fast asyncio event loop.'
     - [aiohttp로 하는 비동기 HTTP 요청](https://item4.github.io/2017-11-26/Asynchronous-HTTP-Request-with-aiohttp/)
     - [aiocache](https://github.com/argaen/aiocache)  
         async 함수에 대한 캐싱을 도와주는 라이브러리.
@@ -645,6 +646,8 @@
         'Python interface to the Firebase's REST API'. pyfcm은 FCM에 한정되어 있고, 얘는 firebase 전체.
     - [firebase-admin-python](https://github.com/firebase/firebase-admin-python)  
         Python용 firebase admin SDK. Firebase에서 가장 권고하는 방식이며 official로 관리된다.
+    - [elasticsearch-py](https://github.com/elastic/elasticsearch-py)  
+        'Official Python low-level client for Elasticsearch.'
     - [elastic-apm](https://github.com/elastic/apm-agent-python)  
         'Official Python agent for the Elastic APM'
     - [slacker](https://github.com/os/slacker)  
