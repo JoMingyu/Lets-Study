@@ -605,6 +605,8 @@
     - [mongo-python-driver(pymongo)](https://github.com/mongodb/mongo-python-driver)
     - [motor](https://github.com/mongodb/motor)  
         'full-featured, non-blocking MongoDB driver for Python Tornado and asyncio applications.'
+    - [redis-py](https://github.com/andymccurdy/redis-py)
+        'Redis Python Client'
 - DB Helper
     - [mongoengine](https://github.com/MongoEngine/mongoengine)  
         Node.js의 mongoose와 대응할 수 있는 ODM 라이브러리. 고딩 시절의 거의 반을 함께한 친구 ㅜㅜ
