@@ -607,6 +607,8 @@
         'full-featured, non-blocking MongoDB driver for Python Tornado and asyncio applications.'
     - [redis-py](https://github.com/andymccurdy/redis-py)
         'Redis Python Client'
+    - [pymemcache](https://github.com/pinterest/pymemcache)  
+        'A comprehensive, fast, pure-Python memcached client.'
 - DB Helper
     - [mongoengine](https://github.com/MongoEngine/mongoengine)  
         Node.js의 mongoose와 대응할 수 있는 ODM 라이브러리. 고딩 시절의 거의 반을 함께한 친구 ㅜㅜ
