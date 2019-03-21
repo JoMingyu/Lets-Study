@@ -332,6 +332,7 @@
 #### S3
 - [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
     S3에도 종류가 있다. 웹페이지 리소스나 콘텐츠 저장 용도로는 대부분 검색 요금이 따로 발생하지 않는 S3 Standard를 사용하고, 오래된 로그 데이터같이 액세스 빈도가 낮은 데이터는 비용 최적화를 위해 S3-IA(Infrequent Access)나 RRS(Reduced Redundancy Storage)를 고려해볼 수 있다. Intelligent Tiering과 Glacier Deep Archive는 처음 알았다.
+- [버킷 정책 예제 - 특정 IP 주소 액세스 제한](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-3)
 #### EFS
 - [EFS(Elastic File System)](https://aws.amazon.com/ko/efs/)  
     EBS와의 차이는, 여러 EC2 인스턴스에 동시 마운트할 수 있다는 점이다. 엄청 비쌈. 클러스터 환경에서 데이터 처리할 때 써먹을 수도 있지 않을까 싶다.
