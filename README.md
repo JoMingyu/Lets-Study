@@ -406,6 +406,9 @@
 - [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/a/48182754)  
     'IAM controls: Who (authentication) can do What (authorization) in your AWS account.', 'Roles - are used to grant specific permission to specific actors for a set of duration of time. **These actors can be authenticated by AWS or some trusted external system.**'
 #### KMS
+#### WAF
+- [AWS WAF](https://aws.amazon.com/ko/waf/)  
+    이걸로 CloudFront에 특정 IP만 접근할 수 있도록 할 수 있다.
 
 ### 어플리케이션 통합
 #### Step Functions
