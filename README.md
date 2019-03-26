@@ -51,6 +51,8 @@
     - [Alias Record](https://support.dnsimple.com/articles/alias-record/)
 - [Facebook Account Kit](https://developers.facebook.com/docs/accountkit/)  
     SMS, 이메일을 통해 passwordless authentication을 할 수 있도록 도와주는 페이스북의 킷. SMS 인증이 한 달에 10만회까지 무료라길래 흠칫해서 알아보게 됨. Auth0라는 서비스도 이런 컨셉인 것 같은데, Auth0가 먼저고 Account Kit이 나중인듯.
+- [RSS 2.0 specification](https://validator.w3.org/feed/docs/rss2.html)  
+    웹 컨텐츠 제공 형식을 표준화한 것. XML로 이루어져 있고, 각 item들은 title, link, description, author, category 등의 속성을 가질 수 있다. 블로그 게시글들을 XML화시킨 것이라고 생각하면 된다. RSS를 읽어서 잘 파싱하고 보여주는 툴이 있다면 컨텐츠를 소비하기 위해 직접 페이지에 방문하지 않아도 됨.
 
 ### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://sjquant.github.io/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1/)  
