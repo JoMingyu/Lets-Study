@@ -712,6 +712,7 @@
         쿼리에 대한 row count를 어떻게 반환받는지에 대한 질문이다. 답변의 내용처럼, 그냥 `query.count()`는 wrapped select 꼴의 쿼리를 생성하기 때문에 `session.query(func.count(...)).scalar()`같은 방식을 사용하기도 한다.
     - [What's the difference between filter and filter_by in SQLAlchemy?](https://stackoverflow.com/a/2128558)  
         'filter_by is used for simple queries on the column names using regular kwargs'
+    - [How to implement a default condition in all SQLAlchemy's queries](https://stackoverflow.com/questions/40193259/how-to-implement-a-default-condition-in-all-sqlalchemys-queries)
 - Engine, Connection, Session
     - [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/a/34364247)  
         engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
