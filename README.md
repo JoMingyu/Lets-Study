@@ -440,7 +440,7 @@
     데이터의 삭제에 대해 DELETE 쿼리를 날리는 것을 pysical delete, 삭제되었음을 나타내는 (is_deleted같은)컬럼을 두는 방식을 soft delete라고 부른다. 이래저래 논쟁이 많지만 'It depends on the circumstances.'와 'You can't do cascading deletions', 'it's a good idea to have a deleted_date field, instead of an is_deleted field.'가 팩트. 'a soft delete like this means you now have to include a WHERE IsDeleted = false clause in every query on this table'같은 휴먼 에러야 테스트 코드로 보완할 수 있는 부분일테고.
 - [What are OLTP and OLAP. What is the difference between them?](https://stackoverflow.com/questions/21900185/what-are-oltp-and-olap-what-is-the-difference-between-them)  
     'In OLTP database there is detailed and current data, and schema used to store transactional databases is the entity model (usually 3NF).', 'OLAP applications are widely used by Data Mining techniques. In OLAP database there is aggregated, historical data, stored in multi-dimensional schemas (usually star schema).'
-### DBMS에 가까운
+### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
 - [StatsD](https://github.com/etsy/statsd)  
@@ -450,22 +450,23 @@
 - [druid](http://druid.io/druid.html)  
     OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
 ### Common SQL(Vendor Specific하지 않아서 대부분의 엔진에서 사용 가능한 SQL)
+- Common DML(INSERT, SELECT, UPDATE, DELETE)
+    - [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
+        key duplication이 없다면 insert하고, 있으면 update를 MySQL에서는 `ON DUPLICATE KEY UPDATE`로 표현한다. `UPSERT`나 `MERGE`라는 이름으로도 사용되고 있는 개념.
 - JOIN
     - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
     - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
         두번째 답변의 내용이 매우 좋다. JOIN은 top level에서 INNER, OUTER, CROSS로 나눌 수 있고, OUTER JOIN의 앞에는 LEFT, RIGHT, FULL이 들어갈 수 있다는 것.
     - [MySQL ON vs USING?](https://stackoverflow.com/questions/11366006/mysql-on-vs-using)  
         'USING is useful when both tables share a column of the exact same name on which they join.'
-### MySQL
-- Query
+- Date, Time 연산 관련 쿼리
+    - [When is a timestamp (auto) updated?](https://stackoverflow.com/questions/18962757/when-is-a-timestamp-auto-updated)  
+        `ON UPDATE CURRENT_TIMESTAMP`에 대한 이야기.
     - [INTERVAL](http://www.mysqltutorial.org/mysql-interval/)  
-        `INTERVAL [expr] [unit]` | new relic에서 since 3 days ago같은 쿼리 보면서 되게 신기하다 싶었는데, MySQL에도 있었다.
+        `INTERVAL [expr] [unit]` | new relic에서 since 3 days ago같은 쿼리 보면서 되게 신기하다 싶었는데, SQL에도 있었다.
+### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 문제가 생기는데, 이를 해결하는 방법. 그냥 질의하기 전에 date format validation 돌리는 게 마음 편하다.
-- [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
-    key duplication이 없다면 insert하고, 있으면 update를 MySQL에서는 `ON DUPLICATE KEY UPDATE`로 표현한다. 다른 데이터베이스 엔진에서는 `UPSERT`나 `MERGE`라는 이름으로 사용되고 있는 것 같다.
-- [When is a timestamp (auto) updated?](https://stackoverflow.com/questions/18962757/when-is-a-timestamp-auto-updated)  
-    `ON UPDATE CURRENT_TIMESTAMP`에 대한 이야기.
 - [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
     좀 오래된 글이긴 하지만 쉽사리 얻지 못할 지식들이 많이 들어 있다.
 ### PrestoDB
