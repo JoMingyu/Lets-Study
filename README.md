@@ -449,7 +449,7 @@
     'The main purpose of the multiplexing is to reduce the connections to MySQL servers. So we can send thousands of connections to only a hundred backend connections.' ProxySQL을 쓰는 걸 구경은 해봤는데 직접 써본 적은 없어서 유의미하게 뭔가 경험해본 적이 딱히 없다. ㅜㅜ 커넥션 관리에 확실히 좋다고는 들음.
 - [druid](http://druid.io/druid.html)  
     OLAP를 위해 디자인된, lambda architecture 기반의 data store. 검색 엔진에서 사용하곤 하는 inverted index 구조를 가진다. realtime data에 대한 aggregation query가 매우 빠르다. Hadoop에서 하기 어려운 데이터의 빠른 접근과 실시간 쿼리를 만족한다. aggregating을 매우 빠르게 처리하는 데이터 스토어라고 보면 될 듯. 비슷한 것으로 Google BigQuery, Dremel, PowerDrill 등이 있다.
-### SQL
+### Common SQL(Vendor Specific하지 않아서 대부분의 엔진에서 사용 가능한 SQL)
 - JOIN
     - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
     - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
@@ -457,6 +457,9 @@
     - [MySQL ON vs USING?](https://stackoverflow.com/questions/11366006/mysql-on-vs-using)  
         'USING is useful when both tables share a column of the exact same name on which they join.'
 ### MySQL
+- Query
+    - [INTERVAL](http://www.mysqltutorial.org/mysql-interval/)  
+        `INTERVAL [expr] [unit]` | new relic에서 since 3 days ago같은 쿼리 보면서 되게 신기하다 싶었는데, MySQL에도 있었다.
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 문제가 생기는데, 이를 해결하는 방법. 그냥 질의하기 전에 date format validation 돌리는 게 마음 편하다.
 - [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
