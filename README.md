@@ -117,6 +117,7 @@
     - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
     - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
     - [Stop using repository pattern with an ORM](http://hamidmosalla.com/2018/11/25/stop-using-repository-pattern-with-an-orm/)
+    - [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
 
 ### 백엔드에 가까운
 - Docker
