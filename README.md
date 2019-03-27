@@ -461,6 +461,8 @@
     key duplication이 없다면 insert하고, 있으면 update를 MySQL에서는 `ON DUPLICATE KEY UPDATE`로 표현한다. 다른 데이터베이스 엔진에서는 `UPSERT`나 `MERGE`라는 이름으로 사용되고 있는 것 같다.
 - [When is a timestamp (auto) updated?](https://stackoverflow.com/questions/18962757/when-is-a-timestamp-auto-updated)  
     `ON UPDATE CURRENT_TIMESTAMP`에 대한 이야기.
+- [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
+    좀 오래된 글이긴 하지만 쉽사리 얻지 못할 지식들이 많이 들어 있다.
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)  
     PrestoDB의 date/time 관련 함수와 operator가 정리된 문서. athena에서 view를 만들 때 시간에 관한 계산이 종종 필요한데, 대부분 이 문서 하나면 모두 해결 가능하다. timestamp ↔ unixtime은 `to_unixtime`, `from_unixtime` 함수를 사용하면 되고, 타임존 변경은 `AT TIME ZONE` operator, 포매팅과 파싱은 각각 `date_format`과 `date_parse`를 쓰면 된다. 
