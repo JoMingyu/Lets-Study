@@ -713,6 +713,7 @@
     - [What's the difference between filter and filter_by in SQLAlchemy?](https://stackoverflow.com/a/2128558)  
         'filter_by is used for simple queries on the column names using regular kwargs'
     - [How to implement a default condition in all SQLAlchemy's queries](https://stackoverflow.com/questions/40193259/how-to-implement-a-default-condition-in-all-sqlalchemys-queries)
+    - [SQLAlchemy Docs - ORM Events - Query Events](https://docs.sqlalchemy.org/en/latest/orm/events.html#query-events)
 - Engine, Connection, Session
     - [SQLAlchemy: engine, connection and session difference](https://stackoverflow.com/a/34364247)  
         engine, connection, session의 차이가 무엇이고 각각 언제 써먹어야 할지를 알 수 있다.
