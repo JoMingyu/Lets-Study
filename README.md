@@ -442,6 +442,8 @@
     데이터의 삭제에 대해 DELETE 쿼리를 날리는 것을 pysical delete, 삭제되었음을 나타내는 (is_deleted같은)컬럼을 두는 방식을 soft delete라고 부른다. 이래저래 논쟁이 많지만 'It depends on the circumstances.'와 'You can't do cascading deletions', 'it's a good idea to have a deleted_date field, instead of an is_deleted field.'가 팩트. 'a soft delete like this means you now have to include a WHERE IsDeleted = false clause in every query on this table'같은 휴먼 에러야 테스트 코드로 보완할 수 있는 부분일테고.
 - [What are OLTP and OLAP. What is the difference between them?](https://stackoverflow.com/questions/21900185/what-are-oltp-and-olap-what-is-the-difference-between-them)  
     'In OLTP database there is detailed and current data, and schema used to store transactional databases is the entity model (usually 3NF).', 'OLAP applications are widely used by Data Mining techniques. In OLAP database there is aggregated, historical data, stored in multi-dimensional schemas (usually star schema).'
+- [What are Covering Indexes and Covered Queries in SQL Server?](http://gywn.net/tag/covering-index/)  
+    'all requested columns in a query without performing a further lookup into the clustered index.', 'A covered query is a query where all the columns in the query's result set are pulled from non-clustered indexes.'
 ### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
