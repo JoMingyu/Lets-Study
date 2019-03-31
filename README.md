@@ -180,6 +180,8 @@
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
 - [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)  
     서버리스는 직접 관리하는 인프라가 없다는 의미.
+- [서버리스 Serverless 아키텍처 파헤치기](https://futurecreator.github.io/2019/03/14/serverless-architecture/?fbclid=IwAR0-jilu4kzwE_k4YMHK7DkOi9DyHmVsYEOeNYRIYYlIVC-GssCziT1O7iA)
+    서버리스의 개념이 모호했었는데, 굉장히 쉽고 명확하게 설명한 글이다. 입문 글임에도 AWS 람다에 대해 꽤나 유하고 흥미로운 내용들도 많았다.
 
 ### HTTP에 가까운
 - REST
