@@ -39,11 +39,11 @@
 ### 패턴
 #### 디자인 패턴
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
-##### Repository Pattern
-- [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
-- [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
-- [Stop using repository pattern with an ORM](http://hamidmosalla.com/2018/11/25/stop-using-repository-pattern-with-an-orm/)
-- [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
+- Repository Pattern
+    - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
+    - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
+    - [Stop using repository pattern with an ORM](http://hamidmosalla.com/2018/11/25/stop-using-repository-pattern-with-an-orm/)
+    - [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
 #### 아키텍처 패턴
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
     서비스 관점에서의 패턴 이야기가 아니라, 그냥 아키텍처 자체에 대한 이야기. 역시 패턴 얘기는 재밌는 게 많다.
@@ -220,6 +220,8 @@
     네트워크는 물리적으로 가까운 위치에 있을수록 응답 속도가 빠르다. hop count가 줄어들기 때문이다. CDN은 정적 데이터(css, js, 이미지 등)를 다른 리전의 서버에 캐싱해 둬서, 멀리 사는 사용자에게 컨텐츠를 제공하는 퍼포먼스를 향상시키는 기술. Amazon Cloudfront같은 서비스가 CDN을 제공한다.
 - [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)  
     로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
+- [Already learned DevOps? Great, now it’s time for GitOps](https://thenextweb.com/contributors/2018/12/08/all-you-need-to-know-about-gitops/)  
+    'Everything as Code'
 ## Docker
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
