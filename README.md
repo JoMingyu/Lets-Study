@@ -47,6 +47,7 @@
 #### 아키텍처 패턴
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
     서비스 관점에서의 패턴 이야기가 아니라, 그냥 아키텍처 자체에 대한 이야기. 역시 패턴 얘기는 재밌는 게 많다.
+- [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 ### 언어론과 가까운 이야기
 - [Exression verses Statement](https://stackoverflow.com/a/19224)  
     expression은 identifier, literal, operator만을 포함하며 value를 산출하는 식이고, statement는 동작을 수행하는 문이다.  
