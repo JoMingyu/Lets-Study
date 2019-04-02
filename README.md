@@ -272,6 +272,7 @@
     web server는 static content에 적합하고, app server는 dynamic content에 적합하므로 web server는 app server의 리버스 프록시 역할을 할 수 있다는 설명이 있다.
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 ## CI
+- [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
 - [About Travis CI](https://medium.com/hbsmith/about-travis-ci-65b04d3dead6)
 ## 도움되는 SaaS
 - [runscope](https://www.runscope.com)  
