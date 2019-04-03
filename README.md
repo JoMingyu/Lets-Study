@@ -442,6 +442,7 @@
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
 - [pyright](https://github.com/Microsoft/pyright)
+- [mypy](http://mypy-lang.org/)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
