@@ -434,6 +434,8 @@
 #### 성능
 - [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
+- [\_\_slots__ magic](http://book.pythontips.com/en/latest/__slots__magic.html)
+#### Python 3.7
 - [dataclasses](https://docs.python.org/ko/3/library/dataclasses.html)
 - [Python 3.7’s new builtin breakpoint — a quick tour](https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c)
 #### type hint
