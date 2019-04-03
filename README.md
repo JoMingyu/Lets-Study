@@ -235,8 +235,6 @@
     배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
 - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
     여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
-- [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)  
-    사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
 - [kitematic](https://kitematic.com/)  
     'Run containers through a simple, yet powerful graphical user interface.'
     Docker image가 run되는 시점에 사전 정의된 sql 스크립트를 돌리도록 하고 싶다면 `docker-entrypoint-initdb.d`를 써먹을 수 있다.
@@ -247,6 +245,9 @@
 - [Automation of container creation and creating image with DB packed](https://forums.docker.com/t/automation-of-container-creation-and-creating-image-with-db-packed/4982)  
     docker-entrypoint-initdb.d에 대한 내용이다.
 - [Docker VOLUME vs COPY vs ADD](http://coderbro.com/docker/2017/10/24/docker-volumes-vs-copy.html)
+### Docker Compose
+- [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)  
+    사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
 ## Ansible
 - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)  
     'Ansible allows your whole infrastructure to be defined as code, so it can be version controlled, easily replicated and tested, truly DevOps!'. 뭐 automate software provisioning 이러는데 'infrastructure provisioning'이라는 개념 자체가 좀 어려웠다. 걍 EC2에 druid 올리면 infrastructure provisioning이라고 부를 수 있는듯. 여기에 automate 개념이 붙는 건 Ansible이 호스트 여러개에 갖다가 똑같은 커맨드 뚝딱뚝딱 실행시켜줄 수 있어서. 근데 Ansible도 Infrastructure as Code로 분류됨.
@@ -405,6 +406,18 @@
 # 프로그래밍 언어
 ## Python
 ### 언어 자체에 대한 이야기
+- [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
+- [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
+- [Python __getitem__과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)  
+    getitem 과 slice 에 대한 내용 뿐만아니라, "Ellipsis" 라는 개념이 등장한다. Ellipsis 는 null statement로 pass 대신 쓰이는 경우도 있다.
+- [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
+    Go에서 defer는 function call stack의 맨 위에 해당 함수를 push한다. 이걸 Python에선 어떻게 해야 할까?라는 질문. contextlib.ExitStack을 써먹으면 된다.
+#### collections
+- [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
+    리스트에서 중복된 요소를 제거하는 방법에 대한 이야기다. 알아두면 요긴하게 써먹을 수 있음.
+- [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
+    list를 확장하는 메소드로 append와 extend가 있는데, 이 둘의 차이. 3번째 답변이 오버로딩된 연산자와 timeit을 통한 시간 복잡도까지 잘 설명하고 있다.
+#### 파이썬 공부 자료
 - [Glossary](https://docs.python.org/3/glossary.html)  
     iterable, iterator, awaitable, context manager, coroutine function과 같이, 파이썬을 쓰다 보면 한번쯤은 마주치게 되는 단어들이 정리된 문서.
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
@@ -417,27 +430,14 @@
     파이썬을 사용하며 생길 수 있는 해프닝들의 모음인데, 흥미로운 주제들이 많이 정리되어 있다.
 - [Better Python 59 Ways](https://github.com/SigmaQuan/Better-Python-59-Ways)  
     한국에서는 '파이썬 코딩의 기술'이라고 이름지어진, 'Effective Python'이라는 도서에서 사용된 59가지 예제 모음
-- [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
-- [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
-    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, Python 3.3부터 제공된 `yield from`, asyncio의 빌트인화와 async/await 문법까지 차근차근 설명되어 있다.
+- [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
+#### 성능
+- [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
-- [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
-- [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
-    리스트에서 중복된 요소를 제거하는 방법에 대한 이야기다. 알아두면 요긴하게 써먹을 수 있음.
-- [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
-    list를 확장하는 메소드로 append와 extend가 있는데, 이 둘의 차이. 3번째 답변이 오버로딩된 연산자와 timeit을 통한 시간 복잡도까지 잘 설명하고 있다.
+- [dataclasses](https://docs.python.org/ko/3/library/dataclasses.html)
+#### type hint
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
-- [Python __getitem__과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)  
-    getitem 과 slice 에 대한 내용 뿐만아니라, "Ellipsis" 라는 개념이 등장한다. Ellipsis 는 null statement로 pass 대신 쓰이는 경우도 있다.
-- [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)  
-    파이썬에서 비동기 IO를 위해 사용하는 두 키워드.
-    - Python 3.3부터 generator가 다른 generator에게 연산의 일부를 위임하도록 하는 yield from이라는 expression을 사용할 수 있게 되었다. 이는 generator가 generator를 호출하고, 서로의 실행을 중지시킬 수 있는 방법이 생긴 것이기 때문에 비동기 프로그래밍이 원활히 가능하도록 만들어 주었다.
-    - 이러한 generator들을 실행하는 이벤트 루프를 asyncio 라이브러리가 제공해주기 시작했다.
-    - Python 3.5부턴 asyncio가 빌트인 라이브러리로 지원되며 `async` 키워드가 `@asyncio.coroutine`를 대체하고, `await` 키워드가 `yield from`을 대체하게 되었다.
-- [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
-    Go에서 defer는 function call stack의 맨 위에 해당 함수를 push한다. 이걸 Python에선 어떻게 해야 할까?라는 질문. contextlib.ExitStack을 써먹으면 된다.
-- [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
@@ -453,9 +453,14 @@
     Docker container에선 굳이 venv를 쓸 필요가 없다. 시스템 파이썬에 pipenv 의존성을 다 설치해버려도 됨. 'You need to use --system flag, so it will install all packages into the system python, and not into the virtualenv. Since docker containers do not need to have virtualenvs'
 ### 비동기 프로그래밍
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
-    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, asyncio와 async/await 문법까지 차근차근 설명되어 있다.
+    Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, Python 3.3부터 제공된 `yield from`, asyncio의 빌트인화와 async/await 문법까지 차근차근 설명되어 있다.
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)  
     asyncio를 조금 더 큰 그림에서 바라본다. `결국 이는 NodeJS가 밀고 있는 non-blocking 비동기 처리에 더 근접하는 개념이다.`와 같은 내용처럼.
+- [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)  
+    파이썬에서 비동기 IO를 위해 사용하는 두 키워드.
+    - Python 3.3부터 generator가 다른 generator에게 연산의 일부를 위임하도록 하는 yield from이라는 expression을 사용할 수 있게 되었다. 이는 generator가 generator를 호출하고, 서로의 실행을 중지시킬 수 있는 방법이 생긴 것이기 때문에 비동기 프로그래밍이 원활히 가능하도록 만들어 주었다.
+    - 이러한 generator들을 실행하는 이벤트 루프를 asyncio 라이브러리가 제공해주기 시작했다.
+    - Python 3.5부턴 asyncio가 빌트인 라이브러리로 지원되며 `async` 키워드가 `@asyncio.coroutine`를 대체하고, `await` 키워드가 `yield from`을 대체하게 되었다.
 ### 표준 라이브러리
 #### Data Types
 - [datetime](https://www.programiz.com/python-programming/datetime)
