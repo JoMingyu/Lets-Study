@@ -389,6 +389,7 @@
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
 - [Patterns for Flask 1.0](http://flask.pocoo.org/docs/1.0/patterns/)
 - [Pynash: Proxy objects in Flask (and elsewhere)](http://pynash.org/2013/02/12/proxy-objects/)
+- [What is the purpose of Flask's context stacks?](https://stackoverflow.com/questions/20036520/what-is-the-purpose-of-flasks-context-stacks)
 - [Output Fields - Flask-RESTful documentation](https://flask-restful.readthedocs.io/en/0.3.5/fields.html)  
     view function에 `@marshal_with`을 정의해 두면, flask-restful은 해당 view function이 return한 객체에 접근해서, 데코레이터 인자로 전달한 스키마를 토대로 속성들을 뽑아 간다. ORM으로 가져온 객체를 그대로 리턴하고, marshal과 관련된 것들은 별도로 수행되도록 하는 구조를 구성해볼 수 있다.
 ### Java
