@@ -222,6 +222,8 @@
     `The method of driving new users to a mobile app business through marketing activity`
 - [Re-Engagement](https://www.adjust.com/glossary/re-engagement/)  
     `Re-engagement is the practice of serving ads to people after who have shown interest without converting.`
+- [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)  
+    
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
