@@ -217,6 +217,9 @@
 - [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
     부분 해를 구하는 과정을 거듭해 최종 해를 구한다는 점은 분할정복과 비슷하지만, 분할정복과는 달리 한 번 구한 부분해가 여러 번 재활용되며 (중복되는 부분 문제가 존재하기 때문: n번째 피보나치 수는 n-1번째 피보나치 수와 n-2번째 피보나치 수를 더해서 구할 수 있다), 문제의 분할 자체가 속도 향상에 도움이 되는 분할정복과 달리 이전에 구한 해를 재활용하는 것이 속도 향상에 도움을 준다.
 
+## Marketing
+- [User Acquisition](https://www.appsflyer.com/mobile-attribution-glossary/user-acquisition/)  
+    `The method of driving new users to a mobile app business through marketing activity`
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
