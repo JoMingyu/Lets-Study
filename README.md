@@ -37,6 +37,7 @@
 - [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)  
     `Mocks Aren't Stubs` 글의 요약본.
 - [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
+- [단위 테스트 케이스와 테스트 더블(Test Double)](https://medium.com/@SlackBeck/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%99%80-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8D%94%EB%B8%94-test-double-2b88cccd6a96)
 ### 패턴
 #### 디자인 패턴
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
