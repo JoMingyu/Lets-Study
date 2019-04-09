@@ -464,6 +464,12 @@
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
     엄청 잘 만들어진 코드 포매터.
+### 테스팅
+#### nose
+#### coverage
+- [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
+    `.coveragerc`에 대한 내용
+
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
     virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개. pyenv가 설치되어 있으면 알아서 필요한 버전을 설치하고 가상 환경을 열어준다는 게 정말 맘에 든다. pyenv 설치하고, pyenv-virtualenv 설치하고, requirements.txt를 dev와 production에 나눠 만들 필요가 없으니 정말 편한 도구.
@@ -528,8 +534,8 @@
     'The json library can parse JSON from strings or files. The library parses JSON into a Python dictionary or list. It can also convert Python dictionaries or lists into JSON strings.'
 #### Internet Protocols and Support
 - [UUID objects according to RFC 4122](https://docs.python.org/3/library/uuid.html)
-### 외부 라이브러리
 
+### 외부 라이브러리
 #### CLI
 - [zappa](https://github.com/Miserlou/Zappa)  
     WSGI 웹 어플리케이션을 AWS Lambda에 올려서 서버리스 어플리케이션을 잘 배포할 수 있게 도와주는 CLI 툴. maintainer가 완전 착하다..
