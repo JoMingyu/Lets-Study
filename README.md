@@ -165,6 +165,11 @@
 
 ## 웹 관련 이야기
 - [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
+- [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
+    의문 1. Same Origin Policy는 도대체 무엇을 방어하기 위해 있는 것인가?  
+    의문 2. CORS는 브라우저의 입장에서 무엇을 해결하기 위해 생겨난 것인가?  
+    의문 3. CORS가 server side에서 특정 Origin에게만 리소스를 허용하기 위함이라면, OPTIONS에서 단지 헤더 몇개 떨궈줄 게 아니라, 그거 무시하고 그냥 API Call해버리는 것도 방어해야 하는 것 아닌가? + 그냥 요청자가 Access-Control-Allow-Origin에 들어온 값으로 Origin 헤더 변경해버리면 어떡함?  
+    의문 4. Same Origin Policy가 브라우저에게 있어서 신뢰할 수 없는 origin에서 리소스를 가져오는 것을 방어하기 위함이라면, CORS가 browser side에서 other origin의 리소스를 가져올 수 있게 만들어버리니 무용지물이 아닌가?(서버에서 Access-Control-Allow-Origin을 `*`로 둔다거나 하면 브라우저가 disallow하는 게 없을테니까)
 
 ### SEO
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
