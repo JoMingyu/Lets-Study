@@ -460,6 +460,7 @@
 - [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
 - [pyright](https://github.com/Microsoft/pyright)
 - [mypy](http://mypy-lang.org/)
+- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
