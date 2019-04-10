@@ -438,6 +438,7 @@
     getitem 과 slice 에 대한 내용 뿐만아니라, "Ellipsis" 라는 개념이 등장한다. Ellipsis 는 null statement로 pass 대신 쓰이는 경우도 있다.
 - [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
     Go에서 defer는 function call stack의 맨 위에 해당 함수를 push한다. 이걸 Python에선 어떻게 해야 할까?라는 질문. contextlib.ExitStack을 써먹으면 된다.
+- [What is \_\_pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
     리스트에서 중복된 요소를 제거하는 방법에 대한 이야기다. 알아두면 요긴하게 써먹을 수 있음.
