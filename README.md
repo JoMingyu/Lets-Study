@@ -227,8 +227,10 @@
     부분 해를 구하는 과정을 거듭해 최종 해를 구한다는 점은 분할정복과 비슷하지만, 분할정복과는 달리 한 번 구한 부분해가 여러 번 재활용되며 (중복되는 부분 문제가 존재하기 때문: n번째 피보나치 수는 n-1번째 피보나치 수와 n-2번째 피보나치 수를 더해서 구할 수 있다), 문제의 분할 자체가 속도 향상에 도움이 되는 분할정복과 달리 이전에 구한 해를 재활용하는 것이 속도 향상에 도움을 준다.
 
 ## Marketing
-- [User Acquisition](https://www.appsflyer.com/mobile-attribution-glossary/user-acquisition/)  
+- [User Acquisition - appsflyer](https://www.appsflyer.com/mobile-attribution-glossary/user-acquisition/)  
     `The method of driving new users to a mobile app business through marketing activity`
+- [User Acquisition - Adjust](https://www.adjust.com/glossary/user-acquisition/)  
+    `User acquisition (often shortened to UA) is the act of gaining new users, whether it be on an app, platform, or another service.`
 - [Re-Engagement](https://www.adjust.com/glossary/re-engagement/)  
     `Re-engagement is the practice of serving ads to people after who have shown interest without converting.`
 - [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)  
