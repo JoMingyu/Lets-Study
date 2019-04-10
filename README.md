@@ -236,6 +236,7 @@
 - [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)  
 - [Single-Touch vs. Multi-Touch Marketing Attribution](https://www.rockerbox.com/blog/attribution-101-single-touch-versus-multi-touch)
 - [Retargeting](https://retargeter.com/what-is-retargeting-and-how-does-it-work/)
+- [Reattribution](https://www.adjust.com/glossary/reattribution/)
     
 # 백엔드
 ## 백엔드 관련 배경지식
