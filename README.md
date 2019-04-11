@@ -209,6 +209,7 @@
     짱 쩌는 프로세스 모니터. devops 하시는 분들이 항상 피벗 모니터에 ElasticSearch 클러스터같은 데서 htop 켜놓고 있더라.
 - [Crontab 사용법](https://jdm.kr/blog/2)  
     특정 job을 스케줄하기 위해서 사용한다.
+- [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
 
 ## CS
 ### 자료구조
