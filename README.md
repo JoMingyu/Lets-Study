@@ -249,8 +249,10 @@
 - [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)  
     로그 collector로 Telegraf, 시계열 데이터베이스로 InfluxDB, 시각화로 Chronograf, Alerting&Anomarly Detection으로 Kapacitor를 사용하는 모니터링 스택.
 - [Already learned DevOps? Great, now it’s time for GitOps](https://thenextweb.com/contributors/2018/12/08/all-you-need-to-know-about-gitops/)  
-    'Everything as Code'
+    `Everything as Code`
 - [Failover & Disaster Recovery](https://stackoverflow.com/questions/120139/failover-disaster-recovery)
+- [What is failover?](https://searchstorage.techtarget.com/definition/failover)  
+    `Failover is a backup operational mode in which the functions of a system component (such as a processor, server, network, or database, for example) are assumed by secondary system components when the primary component becomes unavailable through either failure or scheduled down time.`
 ## Docker
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
