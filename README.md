@@ -356,6 +356,7 @@
 - [데이터베이스 분포도(Database Selectivity)](https://jdm.kr/blog/169)
 - [What are the materialized views?](https://stackoverflow.com/questions/4463354/what-are-materialized-views)  
     'A view is basically a "named" SQL statement.', 'A materialized view is a view where the query has been executed and the results has been stored as a physical table.'
+- [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 ### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
     TICK stack에서 time series 데이터베이스로 사용된다. 외부 의존성 없고, SQL-like한 InfluxQL이라는 질의 인터페이스를 지원하고, 클러스터링 지원하고, Grafana랑 연계하기 좋고, Go로 개발됐고, 원래 LSM(Log Structured Merge) Tree를 지원하는 LevelDB를 스토리지 엔진으로 쓰다가 이를 개량한 TSM(Time Structured Merge) Tree를 스토리지 엔진으로 사용해서 IO도 빠르고, 압축 알고리즘도 적용해서 스토리지 효율 면에서도 뛰어나다. Graphite는 퍼포먼스 문제가 꽤 많다고 하고, Prometheus는 클러스터링 기능이 없다. 그러나 시계열 데이터베이스에도 silver bullet은 없다 ㅜㅜ. 얼마 전에 나온 TimeStream이랑 비교하는 글이 곧 올라오지 않을까?
