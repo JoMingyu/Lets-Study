@@ -485,8 +485,10 @@
 ### 테스팅
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
+#### coverage.py
 - [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
     `.coveragerc`에 대한 내용
+- [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
 
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
