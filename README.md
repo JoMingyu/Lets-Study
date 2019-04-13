@@ -484,7 +484,7 @@
     엄청 잘 만들어진 코드 포매터.
 ### 테스팅
 #### nose
-#### coverage
+- [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 - [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
     `.coveragerc`에 대한 내용
 
