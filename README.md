@@ -394,6 +394,8 @@
     DATETIME 필드에 대해 유니코드가 아닌 문자열로 LIKE 쿼리 수행 시 문제가 생기는데, 이를 해결하는 방법. 그냥 질의하기 전에 date format validation 돌리는 게 마음 편하다.
 - [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
     좀 오래된 글이긴 하지만 쉽사리 얻지 못할 지식들이 많이 들어 있다.
+- [MySQL 중복 키 관리 방법](http://jason-heo.github.io/mysql/2014/03/05/manage-dup-key2.html)  
+    INSERT 시 unique constraint에 관해 생길 수 있는 몇가지 문제들을 해결해줄 3가지 쿼리(INSERT IGNORE, REPLACE INTO, ON DUPLICATE KEY UPDATE)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)  
     PrestoDB의 date/time 관련 함수와 operator가 정리된 문서. athena에서 view를 만들 때 시간에 관한 계산이 종종 필요한데, 대부분 이 문서 하나면 모두 해결 가능하다. timestamp ↔ unixtime은 `to_unixtime`, `from_unixtime` 함수를 사용하면 되고, 타임존 변경은 `AT TIME ZONE` operator, 포매팅과 파싱은 각각 `date_format`과 `date_parse`를 쓰면 된다. 
