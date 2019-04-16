@@ -233,6 +233,8 @@
 - [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
     부분 해를 구하는 과정을 거듭해 최종 해를 구한다는 점은 분할정복과 비슷하지만, 분할정복과는 달리 한 번 구한 부분해가 여러 번 재활용되며 (중복되는 부분 문제가 존재하기 때문: n번째 피보나치 수는 n-1번째 피보나치 수와 n-2번째 피보나치 수를 더해서 구할 수 있다), 문제의 분할 자체가 속도 향상에 도움이 되는 분할정복과 달리 이전에 구한 해를 재활용하는 것이 속도 향상에 도움을 준다.
 
+## 데이터 엔지니어링
+
 ## Marketing
 - [User Acquisition - appsflyer](https://www.appsflyer.com/mobile-attribution-glossary/user-acquisition/)  
     `The method of driving new users to a mobile app business through marketing activity`
@@ -244,7 +246,7 @@
 - [Single-Touch vs. Multi-Touch Marketing Attribution](https://www.rockerbox.com/blog/attribution-101-single-touch-versus-multi-touch)
 - [Retargeting](https://retargeter.com/what-is-retargeting-and-how-does-it-work/)
 - [Reattribution](https://www.adjust.com/glossary/reattribution/)
-    
+
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
@@ -859,6 +861,9 @@
 ### Amazon MQ
 ### SNS
 ### SQS
+
+## 고객 참여
+### SES
 
 # 모바일
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
