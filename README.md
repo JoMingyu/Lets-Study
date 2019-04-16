@@ -261,6 +261,7 @@
     `Failover is a backup operational mode in which the functions of a system component (such as a processor, server, network, or database, for example) are assumed by secondary system components when the primary component becomes unavailable through either failure or scheduled down time.`
 - [What is High Availability?](https://www.digitalocean.com/community/tutorials/what-is-high-availability)  
     `In computing, the term availability is used to describe the period of time when a service is available, as well as the time required by a system to respond to a request made by a user.`
+- [Disater Recovery Strategies](http://www.computepatterns.com/517/disaster-recovery-strategies/)
 ## Docker
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
