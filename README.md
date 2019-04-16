@@ -51,7 +51,12 @@
     - [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
 - Dependency Injection
     - [What is dependency injection?](https://stackoverflow.com/questions/130794/what-is-dependency-injection)
-    - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)  
+    - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)
+    - [DI 란?](https://gmlwjd9405.github.io/2018/11/09/dependency-injection.html)  
+        DI 를 처음 만나 헤매는 사람들에게 매우 좋은 글이다. 코드와 다이어그램으로 적절한 예시를 들어서 쉽게 이해할 수 있다.
+    - [Dependency Injection in Python](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce) 
+    - [Pinject](https://github.com/google/pinject)  
+        구글이 만든 Python DI library  
         `"Dependency Injection" is a 25-dollar term for a 5-cent concept.`
 #### 아키텍처 패턴
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
