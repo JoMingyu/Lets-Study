@@ -285,6 +285,7 @@
     docker-entrypoint-initdb.d에 대한 내용이다.
 - [Docker VOLUME vs COPY vs ADD](http://coderbro.com/docker/2017/10/24/docker-volumes-vs-copy.html)
 - [How to mount a single file in a volume](https://stackoverflow.com/questions/42248198/how-to-mount-a-single-file-in-a-volume)
+- [아마존 엘라스틱 컨테이너 서비스(ECS) 입문](https://www.44bits.io/ko/post/container-orchestration-101-with-docker-and-aws-elastic-container-service)
 ### Docker Compose
 - [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)  
     사실상 docker-compose에 대한 이야기. production level에 영향을 주지 않고 어플리케이션을 테스트하려면, 로컬에 인프라를 모두 띄워야 하는데 이게 말처럼 쉽지가 않다. Docker 컨테이너 여러개를 훅 띄우는 데엔 docker-compose를 써먹을 수 있다. 'Compose is a tool for defining and running multi-container Docker applications.'
