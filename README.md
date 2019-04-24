@@ -388,6 +388,7 @@
 #### Common DML(INSERT, SELECT, UPDATE, DELETE)
 - [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
     key duplication이 없다면 insert하고, 있으면 update를 MySQL에서는 `ON DUPLICATE KEY UPDATE`로 표현한다. `UPSERT`나 `MERGE`라는 이름으로도 사용되고 있는 개념.
+- [SELECT 결과를 INSERT 하기](https://zetawiki.com/wiki/SQL_SELECT_%EA%B2%B0%EA%B3%BC%EB%A5%BC_INSERT_%ED%95%98%EA%B8%B0)
 #### JOIN
 - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
 - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
