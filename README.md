@@ -276,17 +276,19 @@
     배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
 - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
     여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
-- [kitematic](https://kitematic.com/)  
-    'Run containers through a simple, yet powerful graphical user interface.'
-    Docker image가 run되는 시점에 사전 정의된 sql 스크립트를 돌리도록 하고 싶다면 `docker-entrypoint-initdb.d`를 써먹을 수 있다.
-### Docker 써먹기
+### Docker 커맨드 관련 지식들
 - [Docker 데이터 볼륨 사용하기](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter06/04)
+- [How to mount a single file in a volume](https://stackoverflow.com/questions/42248198/how-to-mount-a-single-file-in-a-volume)
 - [How to enter in a Docker container already running with a new TTY](https://stackoverflow.com/questions/20932357/how-to-enter-in-a-docker-container-already-running-with-a-new-tty)  
     `docker exec -it [container-id] bash`
-- [Automation of container creation and creating image with DB packed](https://forums.docker.com/t/automation-of-container-creation-and-creating-image-with-db-packed/4982)  
-    docker-entrypoint-initdb.d에 대한 내용이다.
+- [Docker run vs create](https://stackoverflow.com/a/37745261)
+### Dockerfile, docker-compose.yml 관련 지식들
 - [Docker VOLUME vs COPY vs ADD](http://coderbro.com/docker/2017/10/24/docker-volumes-vs-copy.html)
-- [How to mount a single file in a volume](https://stackoverflow.com/questions/42248198/how-to-mount-a-single-file-in-a-volume)
+- [Automation of container creation and creating image with DB packed](https://forums.docker.com/t/automation-of-container-creation-and-creating-image-with-db-packed/4982)  
+    docker-entrypoint-initdb.d에 대한 내용이다. Docker image가 run되는 시점에 사전 정의된 sql 스크립트를 돌리도록 하고 싶다면 `docker-entrypoint-initdb.d`를 써먹을 수 있다.
+### Docker 써먹기
+- [kitematic](https://kitematic.com/)  
+    'Run containers through a simple, yet powerful graphical user interface.'
 - [아마존 엘라스틱 컨테이너 서비스(ECS) 입문](https://www.44bits.io/ko/post/container-orchestration-101-with-docker-and-aws-elastic-container-service)
 - [ECS의 매니지드 컨테이너 AWS 파게이트 시작하기](https://www.44bits.io/ko/post/getting-started-with-ecs-fargate)
 ### Docker Compose
