@@ -874,6 +874,8 @@
 
 ## 고객 참여
 ### SES
+- [Amazon SES에서 이메일 전송 테스트](https://docs.aws.amazon.com/ko_kr/ses/latest/DeveloperGuide/mailbox-simulator.html)  
+    이메일 전송과 관련된 테스트를 수행하는 것을 돕기 위해, AWS SES에서 자체적으로 지원하는 시뮬레이션용 메일.
 
 # 모바일
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
