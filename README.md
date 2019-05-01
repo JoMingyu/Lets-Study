@@ -416,6 +416,7 @@
 - [Transforming Dimension Values](http://druid.io/docs/latest/querying/dimensionspecs.html)  
     Lookup에 관한 이야기.
 - [Querying - Aggregations](http://druid.io/docs/latest/querying/aggregations)
+- [Querying - Aggregation Granularity](http://druid.io/docs/latest/querying/granularities.html)
 ### ElasticSearch
 #### Query
 - [Query and filter context](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-filter-context.html)  
