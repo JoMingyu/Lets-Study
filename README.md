@@ -225,6 +225,8 @@
 - [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
 
 ## CS
+### 운영체제
+- [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
 ### 자료구조
 ### 알고리즘
 - [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)  
