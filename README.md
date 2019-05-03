@@ -227,6 +227,7 @@
 ## CS
 ### 운영체제
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
+- [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
 ### 자료구조
 ### 알고리즘
 - [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)  
