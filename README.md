@@ -76,6 +76,7 @@
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
     소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
+- [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 ### 정규 표현식
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
