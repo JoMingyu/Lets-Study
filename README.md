@@ -844,6 +844,7 @@
     데이터를 네트워크로 전송하는 것은, 대용량 데이터 관점에서 매우 느리다. Snowball은 대용량 데이터를 물리적으로 마이그레이션하는 것을 돕는다. AWS Management Console에서 작업을 생성하면 AWS가 물리적인 스토리지 디바이스(Snowball)를 본인에게 배송하고 -> Snowball 클라이언트를 통해 이 디바이스에 연결해 데이터를 업로드한 후 -> AWS에게 Snowball 디바이스를 반송 -> AWS가 이를 S3에 업로드하는 방식이다.
 ## 네트워킹
 ### VPC
+- [만들면서 배우는 AWS VPC 입문](https://www.44bits.io/ko/post/understanding_aws_vpc)
 ### CloudFront
 ### Route 53
 ### API Gateway
