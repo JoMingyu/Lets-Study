@@ -564,7 +564,10 @@
     svg 파싱할 때도 유용하다.
 #### Data Persistence
 - [pickle](https://www.datacamp.com/community/tutorials/pickle-python-tutorial)  
-    객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionary/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
+    객체를 그대로 binary string으로 직렬화하는 것을 pickling이라 부른다. 큰 틀은 serialization인데, Python에서만 pickling이라 부름. 아무튼 이런 pickling을 위해 pickle이라는 모듈을 사용할 수 있다. use case는 잘 모르겠다(내 기준에선 객체 직렬화라고 해봤자 웬만하면 dictionry/list인데, 이건 그냥 JSON으로 직렬화하면 되는 이슈라서). 이 아티클에서는 머신러닝 알고리즘에서 피클링이 '매우 유용'하다고 한다.
+#### Python Runtime Services
+- [abc](https://velog.io/@city7310/abc)  
+    'Abstract Base Classes'
 #### Generic Operating System Services
 - [logging](https://realpython.com/python-logging/)
     - [logging.info doesn't show up on console but warn and error do](https://stackoverflow.com/questions/11548674/logging-info-doesnt-show-up-on-console-but-warn-and-error-do/11548754)  
