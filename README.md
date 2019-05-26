@@ -645,6 +645,7 @@
     HTTP request 잘 할 수 있게 도와주는 라이브러리. 내장 라이브러리인 urllib.request를 wrapping함.
 - [yarl](https://github.com/aio-libs/yarl)  
     'Yet another URL library'. URL 파싱 관련 작업을 도와준다. 내장 라이브러리인 urllib.parse 위주로 wrapping함.
+- [furl](https://github.com/gruns/furl)
 - [gunicorn으로 flask에서 동시에 여러 요청 처리하기](https://winterj.me/flask-concurrency-test/)
 #### Async
 - [uvloop](https://github.com/MagicStack/uvloop)  
