@@ -210,6 +210,8 @@
     과거의 커밋에서 commit time을 어떻게 변경하는지에 대한 질문. 이런저런 방법 많은데 나는 `rebase`해서 `commit --amend`하는게 깔끔해 보인다.
 - [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)  
     과거의 커밋에서 commit author를 어떻게 변경하는지에 대한 질문. 여기서도 대부분 rebase하는 식으로 가이드한다.
+- [Oh shit, git!](https://ohshitgit.com)  
+    Git을 사용하다가 한 번씩은 마주치는 문제들을 어떻게 해결하는지에 대해 정리되어 있다. 어차피 결국은 구글링 하겠지만 git을 깊게 알아가는 과정에 좋은 글일 것 같다.
 
 ## Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
