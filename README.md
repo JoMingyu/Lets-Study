@@ -943,6 +943,7 @@
 ### FlexBox
 - [(번역) CSS flex box 3분만에 배우기](https://joshuajangblog.wordpress.com/2016/09/19/learn-css-flexbox-in-3mins/)
 - [플렉스 박스 레이아웃](https://poiemaweb.com/css3-flexbox)
+- [flexbox로 만들 수 있는 10가지 레이아웃](https://d2.naver.com/helloworld/8540176)
 ## React
 - [Learning React 예제 한국어 번역](https://github.com/enshahar/learning-react-kor)
 - [한국어로 배우는 리엑트](https://github.com/reactkr/learn-react-in-korean)
