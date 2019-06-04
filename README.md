@@ -526,13 +526,8 @@
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
     엄청 잘 만들어진 코드 포매터.
-### 테스팅
-#### nose
-- [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
-#### coverage.py
-- [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
-    `.coveragerc`에 대한 내용
-- [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
+- [pyenv-win](https://pypi.org/project/pyenv-win/)  
+    이제 Windows에서도 pyenv 쓸 수 있다!!
 
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
@@ -543,6 +538,13 @@
     pipenv install 시 이미 대응되는 venv가 존재하면 에러가 나는데, 무시하고 그냥 새 venv를 덮어씌우기 위한 방법. 'you can set the environment variable PIPENV_IGNORE_VIRTUALENVS to avoid reusing an already activated virtualenv'
 - [How to get pipenv running in docker?](https://stackoverflow.com/a/49705601)  
     Docker container에선 굳이 venv를 쓸 필요가 없다. 시스템 파이썬에 pipenv 의존성을 다 설치해버려도 됨. 'You need to use --system flag, so it will install all packages into the system python, and not into the virtualenv. Since docker containers do not need to have virtualenvs'
+### 테스팅
+#### nose
+- [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
+#### coverage.py
+- [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
+    `.coveragerc`에 대한 내용
+- [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
 ### 비동기 프로그래밍
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
     Hackernoon에 작성된 [Asynchronous Python](https://hackernoon.com/asynchronous-python-45df84b82434)을 번역한 글. 멀티스레딩에서 경쟁 상태나 데드락 등등은 어떻게든 해결할 수 있으나 context switching의 자원 낭비는 어째 해결할 수 없어서 비동기 프로그래밍이 설계되었다는 내용을 시작으로, Python을 기준으로 해서 그린 스레드부터 콜백 스타일, Python 3.3부터 제공된 `yield from`, asyncio의 빌트인화와 async/await 문법까지 차근차근 설명되어 있다.
