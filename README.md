@@ -102,6 +102,7 @@
 ### HTTP
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
     결국 웹소켓의 요지는 polling을 push 방식으로 만든다는 건데, HTTP/2.0의 server push 기능이 어느정도 웹소켓을 흉내낼 수 있지 않을까 싶었다.
+- [Websockets vs Long Polling](https://www.ably.io/blog/websockets-vs-long-polling/?utm_source=share&utm_medium=ios_app&fbclid=IwAR0ZAaLo_ZhFjL5xO21hsXKk5E_pRule-h0Bzs3gEl3uxB50Y3bi7ganH3w)
 - [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)  
     웹 클라이언트에서의 스트리밍 관련 표준은 MSE(Media Source Extensions). DASH가 MSE에 잘 맞춰진 표준이며 널리 사용되고 있지만 모바일 safari는 MSE를 지원하지 않기 때문에 DASH와 HLS를 같이 지원해줘야 할듯? 토이 프로젝트 해봐야겠다.
 #### REST
