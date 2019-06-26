@@ -271,6 +271,10 @@
 # 자기계발
 ## 영상
 - [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
+## 책
+- [프로페셔널의 조건](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=22102826)
+- [건강한 프로그래머](https://www.aladin.co.kr/shop/wproduct.aspx?ItemId=41236629)
+
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
