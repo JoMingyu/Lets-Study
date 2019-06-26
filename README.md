@@ -553,6 +553,7 @@
 - [How to get pipenv running in docker?](https://stackoverflow.com/a/49705601)  
     Docker container에선 굳이 venv를 쓸 필요가 없다. 시스템 파이썬에 pipenv 의존성을 다 설치해버려도 됨. 'You need to use --system flag, so it will install all packages into the system python, and not into the virtualenv. Since docker containers do not need to have virtualenvs'
 ### 테스팅
+- [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 #### coverage.py
@@ -715,7 +716,6 @@
 - [apscheduler](https://github.com/agronholm/apscheduler)  
     'Task scheduling library for Python'
 
-### 테스팅
 ### SQLAlchemy
 - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
 - [SQLAlchemy 시작하기 - Part 2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)  
