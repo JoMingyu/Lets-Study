@@ -268,6 +268,9 @@
 - [Retargeting](https://retargeter.com/what-is-retargeting-and-how-does-it-work/)
 - [Reattribution](https://www.adjust.com/glossary/reattribution/)
 
+# 자기계발
+## 영상
+- [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
