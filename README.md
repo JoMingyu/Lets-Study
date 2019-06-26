@@ -533,15 +533,15 @@
 - [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
 - [pyright](https://github.com/Microsoft/pyright)
 - [mypy](http://mypy-lang.org/)
-- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
-#### 코드 스타일
-- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?fbclid=IwAR0JsfWBYzWdIMD2Xj1D_F45j_-5n8IkRikjfl7EjQHzLa02fSHAm7LMvYY)
+- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)fbclid=IwAR0JsfWBYzWdIMD2Xj1D_F45j_-5n8IkRikjfl7EjQHzLa02fSHAm7LMvYY)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
-- [Black](https://github.com/ambv/black)  
-    엄청 잘 만들어진 코드 포매터.
 - [pyenv-win](https://pypi.org/project/pyenv-win/)  
     이제 Windows에서도 pyenv 쓸 수 있다!!
+#### 코드 스타일
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?)
+- [Black](https://github.com/ambv/black)  
+    엄청 잘 만들어진 코드 포매터.
 
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
