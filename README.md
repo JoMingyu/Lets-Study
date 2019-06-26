@@ -534,6 +534,8 @@
 - [pyright](https://github.com/Microsoft/pyright)
 - [mypy](http://mypy-lang.org/)
 - [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
+#### 코드 스타일
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?fbclid=IwAR0JsfWBYzWdIMD2Xj1D_F45j_-5n8IkRikjfl7EjQHzLa02fSHAm7LMvYY)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [Black](https://github.com/ambv/black)  
