@@ -538,10 +538,6 @@
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [pyenv-win](https://pypi.org/project/pyenv-win/)  
     이제 Windows에서도 pyenv 쓸 수 있다!!
-#### 코드 스타일
-- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?)
-- [Black](https://github.com/ambv/black)  
-    엄청 잘 만들어진 코드 포매터.
 
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
@@ -552,6 +548,18 @@
     pipenv install 시 이미 대응되는 venv가 존재하면 에러가 나는데, 무시하고 그냥 새 venv를 덮어씌우기 위한 방법. 'you can set the environment variable PIPENV_IGNORE_VIRTUALENVS to avoid reusing an already activated virtualenv'
 - [How to get pipenv running in docker?](https://stackoverflow.com/a/49705601)  
     Docker container에선 굳이 venv를 쓸 필요가 없다. 시스템 파이썬에 pipenv 의존성을 다 설치해버려도 됨. 'You need to use --system flag, so it will install all packages into the system python, and not into the virtualenv. Since docker containers do not need to have virtualenvs'
+### 코드 스타일
+- [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?)
+#### Style Checker
+- [pycodestyle](https://github.com/PyCQA/pycodestyle)
+- [flake8](https://github.com/PyCQA/flake8)
+- [pylint](https://github.com/PyCQA/pylint)
+- [pyflake](https://github.com/nvie/pyflakes)
+#### Formatter
+- [autopep8](https://github.com/hhatto/autopep8)
+- [yapf](https://github.com/google/yapf)
+- [Black](https://github.com/ambv/black)  
+
 ### 테스팅
 - [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 #### nose
