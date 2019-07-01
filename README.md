@@ -41,6 +41,10 @@
 - [Mock Object란 무엇인가?](https://medium.com/@SlackBeck/mock-object%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-85159754b2ac)  
     behavior verification과 state verification, 거기서 뻗어나오는 test double인 mock과 stub까지 잘 설명되어 있다.
 - [What's the difference between a mock & stub?](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub)
+#### SaaS
+- [Python 프로젝트에 Codecov 연동하기](https://cjh5414.github.io/codecov-python/)
+- [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)
+    커버리지 측정 도구로 유명한 codecov와 coveralls를 비교하는 글.
 ### 패턴
 #### 디자인 패턴
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
@@ -77,6 +81,17 @@
     소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
+#### SaaS
+- [Sonarqube](https://www.sonarqube.org/)  
+    버그, 취약점, 코드 스멜이라는 3가지의 카테고리로 나누어 rule을 정의해 이를 기반으로 코드를 정적 검사해 주는 도구다.
+- [Scrutinizer](https://scrutinizer-ci.com/)
+- [Codacy](https://app.codacy.com/projects)
+- [Code Climate](https://codeclimate.com/)
+### CI
+- [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
+#### SaaS
+- [About Travis CI](https://medium.com/hbsmith/about-travis-ci-65b04d3dead6)
+- [CircleCI Overview](https://circleci.com/docs/2.0/about-circleci/)
 ### 정규 표현식
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
@@ -95,8 +110,6 @@
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)  
     적은 노력으로 보안/성능/기능/확장성을 향상시키는 것. 예로 Python의 빌트인 시간 라이브러리인 datetime의 drop-in replacement로 arrow, pendulum이 있다.
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
-- [알아두면 좋은 이메일마케팅 지표](https://blog.stibee.com/%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A7%80%ED%91%9C-92161806525f0)  
-    이메일의 반송(Bounce)와 관련된 이야기.
 
 ## 프로토콜, 표준
 ### HTTP
@@ -192,8 +205,6 @@
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
     서버 사이드/클라이언트 사이드 렌더링에 대한 이야기. 외국권에선 보통 rendering보단 programming이라는 단어로 통하는 것 같다.
 
-## 소프트웨어 공학
-
 ## Git
 - [git blame](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-Git%EC%9C%BC%EB%A1%9C-%EB%B2%84%EA%B7%B8-%EC%B0%BE%EA%B8%B0)  
     `git blame` 명령어를 통해 소스 코드에서 특정 line을 지정한 후 그 일부에 대해서 commit history를 찾아볼 수 있다.
@@ -267,6 +278,8 @@
 - [Single-Touch vs. Multi-Touch Marketing Attribution](https://www.rockerbox.com/blog/attribution-101-single-touch-versus-multi-touch)
 - [Retargeting](https://retargeter.com/what-is-retargeting-and-how-does-it-work/)
 - [Reattribution](https://www.adjust.com/glossary/reattribution/)
+- [알아두면 좋은 이메일마케팅 지표](https://blog.stibee.com/%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A7%80%ED%91%9C-92161806525f0)  
+    이메일의 반송(Bounce)와 관련된 이야기.
 
 # 자기계발
 ## 영상
@@ -343,19 +356,11 @@
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
     web server는 static content에 적합하고, app server는 dynamic content에 적합하므로 web server는 app server의 리버스 프록시 역할을 할 수 있다는 설명이 있다.
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
-## CI
-- [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
-- [About Travis CI](https://medium.com/hbsmith/about-travis-ci-65b04d3dead6)
 ## 도움되는 SaaS
 - [runscope](https://www.runscope.com)  
     API 모니터링 SaaS. 정해둔 스케줄과 step에 따라 API를 호출하고 validation을 수행한다. pagerduty같은 on-call alert 서비스와의 integration을 지원해서, API에 500이 발생했을 때 내 핸드폰으로 전화가 오게 만들 수도 있다.
 - [statuspage.io](https://www.statuspage.io/)  
     서비스의 상태를 공개하기 위한 status page를 호스팅해주는 서비스
-- [Sonarqube](https://www.sonarqube.org/)  
-    버그, 취약점, 코드 스멜이라는 3가지의 카테고리로 나누어 rule을 정의해 이를 기반으로 코드를 정적 검사해 주는 도구다.
-- [Python 프로젝트에 Codecov 연동하기](https://cjh5414.github.io/codecov-python/)
-- [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)
-    커버리지 측정 도구로 유명한 codecov와 coveralls를 비교하는 글.
 ## 도움되는 툴
 - [Facebook Account Kit](https://developers.facebook.com/docs/accountkit/)  
     SMS, 이메일을 통해 passwordless authentication을 할 수 있도록 도와주는 페이스북의 킷. SMS 인증이 한 달에 10만회까지 무료라길래 흠칫해서 알아보게 됨. Auth0라는 서비스도 이런 컨셉인 것 같은데, Auth0가 먼저고 Account Kit이 나중인듯.
