@@ -280,6 +280,8 @@
 - [Reattribution](https://www.adjust.com/glossary/reattribution/)
 - [알아두면 좋은 이메일마케팅 지표](https://blog.stibee.com/%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A7%80%ED%91%9C-92161806525f0)  
     이메일의 반송(Bounce)와 관련된 이야기.
+- [ARPU / ARPPU](https://plbarts.tistory.com/223)
+- [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 
 # 자기계발
 ## 영상
