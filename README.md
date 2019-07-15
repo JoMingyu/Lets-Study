@@ -442,6 +442,7 @@
     좀 오래된 글이긴 하지만 쉽사리 얻지 못할 지식들이 많이 들어 있다.
 - [MySQL 중복 키 관리 방법](http://jason-heo.github.io/mysql/2014/03/05/manage-dup-key2.html)  
     INSERT 시 unique constraint에 관해 생길 수 있는 몇가지 문제들을 해결해줄 3가지 쿼리(INSERT IGNORE, REPLACE INTO, ON DUPLICATE KEY UPDATE)
+- [Understanding MySQL Storage Engines](http://www.mysqltutorial.org/understand-mysql-table-types-innodb-myisam.aspx?fbclid=IwAR2SpjdINoy8rtFiHBpu7PMyAj3iuof5xM1A9-wYJe_c-_SLRKZh6I4DhuQ)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)  
     PrestoDB의 date/time 관련 함수와 operator가 정리된 문서. athena에서 view를 만들 때 시간에 관한 계산이 종종 필요한데, 대부분 이 문서 하나면 모두 해결 가능하다. timestamp ↔ unixtime은 `to_unixtime`, `from_unixtime` 함수를 사용하면 되고, 타임존 변경은 `AT TIME ZONE` operator, 포매팅과 파싱은 각각 `date_format`과 `date_parse`를 쓰면 된다. 
