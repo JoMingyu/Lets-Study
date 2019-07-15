@@ -318,6 +318,7 @@
     배포 자동화가 대체 왜 필요한지부터, 왜 무중단 배포인지, 왜 Docker인지를 하나하나 설명하며 orchestration 얘기까지 비교적 쉽게 잘 설명한다.
 - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)  
     여기서 얘기하는 '눈송이 서버'라는 걸 겪어보지 못한 상태에서 docker를 마주쳤다 보니 궁금한 게 많았는데, 이 글이 잘 해결해 주었다.
+- [Intro Guide to Dockerfile Best Practices](https://blog.docker.com/2019/07/intro-guide-to-dockerfile-best-practices/?utm_source=share&utm_medium=ios_app&fbclid=IwAR1KhKGQv70JzSz51PeTQ3PHETXMSGzigdptAVmWc529bPnaYggDRhucalM)
 ### Docker 커맨드 관련 지식들
 - [Docker 데이터 볼륨 사용하기](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter06/04)
 - [How to mount a single file in a volume](https://stackoverflow.com/questions/42248198/how-to-mount-a-single-file-in-a-volume)
