@@ -58,7 +58,7 @@
     - [What is dependency injection?](https://stackoverflow.com/questions/130794/what-is-dependency-injection)
     - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)
     - [DI 란?](https://gmlwjd9405.github.io/2018/11/09/dependency-injection.html)  
-        DI 를 처음 만나 헤매는 사람들에게 매우 좋은 글이다. 코드와 다이어그램으로 적절한 예시를 들어서 쉽게 이해할 수 있다.
+        DI 를 처음 만나 헤매는 사람들에게 매우 좋은 글이다. 코드와 다이어그램으로 적절한 예시를 들어서 쉽게 이해할 수 있다.
     - [Dependency Injection in Python](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce) 
     - [Pinject](https://github.com/google/pinject)  
         구글이 만든 Python DI library  
@@ -539,6 +539,8 @@
 #### Python 3.7
 - [dataclasses](https://docs.python.org/ko/3/library/dataclasses.html)
 - [Python 3.7’s new builtin breakpoint — a quick tour](https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c)
+#### Python 3.8
+- [What's coming in Python 3.8](https://lwn.net/SubscriberLink/793818/0c6f9dd271021cd4/)
 #### type hint
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     Python 3.5부터 사용 가능한 type definition. typing 모듈의 overload 데코레이터로 오버로딩도 가능하다.
