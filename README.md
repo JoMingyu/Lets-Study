@@ -53,6 +53,7 @@
     - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
     - [Stop using repository pattern with an ORM](http://hamidmosalla.com/2018/11/25/stop-using-repository-pattern-with-an-orm/)
     - [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
+    - [Difference between Repository and Service Layer?](https://stackoverflow.com/questions/5049363/difference-between-repository-and-service-layer)
 - Dependency Injection
     - [What is dependency injection?](https://stackoverflow.com/questions/130794/what-is-dependency-injection)
     - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)
