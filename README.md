@@ -77,7 +77,9 @@
     정적/동적 타입 검사와 강타입/약타입에 대한 이야기. static/dynamic typing은 'when type information is acquired', strong/weak typing은 'how strictly types are distinguished'로 요약하고 있다.
 - [Runtime vs Compile time](https://stackoverflow.com/a/846421)  
     런타임과 컴파일 타임의 비교.
+### 컴파일러에 가까운 이야기
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
+- [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
 ### 좋은 코드를 작성하기 위한 노력
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
     소프트웨어 개발 원칙 중 하나지만, DRY 원칙을 지키는 건 프로그래밍의 기본이 아닐까 싶다.
