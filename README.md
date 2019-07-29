@@ -32,6 +32,7 @@
 ### 테스팅
 - [유닛테스트에 대한 생각](https://blog.outsider.ne.kr/1275?fbclid=IwAR1Z9DPi-JJns_bSccrNZIo8zFo-0B8nAvIEHen3tu0_jaIUS34hY90FVJ0)  
     '테스트를 작성하면 내가 작성한 메서드나 클래스의 사용자 입장이 되는 기분이 든다.'
+- [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
 - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
 - [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)  
@@ -555,6 +556,12 @@
 - [pyenv-win](https://pypi.org/project/pyenv-win/)  
     이제 Windows에서도 pyenv 쓸 수 있다!!
 
+#### virtualenv
+- [Python Virtualenv](https://medium.com/@Joachim8675309/python-virtualenv-c77e22bf5243)  
+    virtualenv, virtualenvwrapper, direnv애 대한 설명
+- [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)  
+    virtualenv 관련 컨트롤을 위한 pyenv plugin. pyenv랑 잘 섞이는 덕에, 원하는 python 버전으로 virtualenv를 만들고 하는 과정이 매우 깔끔하다.
+
 #### pipenv
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)  
     virtualenv+pyenv+pip가 합쳐진 형태의, Python계의 npm인 pipenv에 대한 소개. pyenv가 설치되어 있으면 알아서 필요한 버전을 설치하고 가상 환경을 열어준다는 게 정말 맘에 든다. pyenv 설치하고, pyenv-virtualenv 설치하고, requirements.txt를 dev와 production에 나눠 만들 필요가 없으니 정말 편한 도구.
@@ -577,7 +584,9 @@
 - [Black](https://github.com/ambv/black)  
 
 ### 테스팅
-- [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
+- [코드 테스트하기 - The Hitchhiker's Guide to Python](https://python-guide-kr.readthedocs.io/ko/latest/writing/tests.html)  
+    Python에서 테스트를 주제로 한 대표적인 도구인 unittest, pytest, doctest, nose, tox를 간단히 잘 설명해 두었다.
+
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 #### coverage.py
