@@ -1,4 +1,4 @@
-# Websites to follow
+﻿# Websites to follow
 - [Hackernoon - programming](https://hackernoon.com/tagged/programming)
 - [Reddit - programming](https://www.reddit.com/r/programming)
 - [44bits.io](https://www.44bits.io)
@@ -31,6 +31,7 @@
 # Best Practice
 
 # Tip
+- [Reviewing proposed changes in a pull request](https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request)
 
 # Gotcha
 
