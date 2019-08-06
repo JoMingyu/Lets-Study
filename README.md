@@ -32,6 +32,7 @@
 
 # Tip
 - [Reviewing proposed changes in a pull request](https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request)
+- [Python type hinting without cyclic imports](https://stackoverflow.com/questions/39740632/python-type-hinting-without-cyclic-imports)
 
 # Gotcha
 
