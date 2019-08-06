@@ -6,6 +6,7 @@
 # How-to
 > A `how-to` is more of a list of detailed steps for particular operations.
 - [Implementing a audit trail for our application](https://stackoverflow.com/questions/16868155/implementing-a-audit-trail-for-our-application)
+- [Python - Disable output buffering](https://stackoverflow.com/questions/107705/disable-output-buffering)
 
 # Get Started
 > A `get started` teaches all the steps from zero to done including very simple basics.
