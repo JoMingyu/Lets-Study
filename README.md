@@ -20,6 +20,7 @@
 
 # Questions
 - [Is PYTHONUNBUFFERED=TRUE a good idea?](https://github.com/awslabs/amazon-sagemaker-examples/issues/319)
+- [Docker images - types. Slim vs slim-stretch vs stretch vs alpine](https://stackoverflow.com/questions/54954187/docker-images-types-slim-vs-slim-stretch-vs-stretch-vs-alpine)
 
 # A verses B
 
