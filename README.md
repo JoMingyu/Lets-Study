@@ -18,6 +18,7 @@
 
 # About
 > `About` means `introduction`.
+- [JSON:API Standard](https://jsonapi.org/)
 
 # Questions
 - [Is PYTHONUNBUFFERED=TRUE a good idea?](https://github.com/awslabs/amazon-sagemaker-examples/issues/319)
