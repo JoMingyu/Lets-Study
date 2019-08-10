@@ -29,6 +29,7 @@
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 
 # Best Practice
+- [RESTful API Design. Best Practices in a Nutshell.](https://phauer.com/2015/restful-api-design-best-practices/?source=post_page---------------------------)
 
 # Tip
 - [Reviewing proposed changes in a pull request](https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request)
