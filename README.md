@@ -58,3 +58,9 @@
 ## PyCon Korea 2019
 - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
 - [파이썬으로 해보는 화학실험 - 보일, 샤를의 법칙](https://www.pycon.kr/program/talk-detail?id=22)
+- [파이썬의 변수](https://www.slideshare.net/ChrisCho2/pycon-korea-2019)
+- [시간 복잡도로 살펴보는 파이썬 내장 자료형의 효율적인 활용](https://www.pycon.kr/program/talk-detail?id=137)
+- [리얼월드 메타클래스](https://www.pycon.kr/program/talk-detail?id=6)
+- [Why is Python 3.7 fastest](https://speakerdeck.com/jungwinter/why-is-python-3-dot-7-fastest?slide=137)
+- [테스트에 걸리는 시간을 92% 줄이기](https://www.pycon.kr/program/talk-detail?id=67)
+- [Advanced Python testing techniques](https://www.pycon.kr/program/talk-detail?id=134)
