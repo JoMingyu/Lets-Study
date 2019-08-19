@@ -57,3 +57,4 @@
 # Presentations
 ## PyCon Korea 2019
 - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
+- [파이썬으로 해보는 화학실험 - 보일, 샤를의 법칙](https://www.pycon.kr/program/talk-detail?id=22)
