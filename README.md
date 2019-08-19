@@ -53,3 +53,7 @@
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
+
+# Presentations
+## PyCon Korea 2019
+- [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
