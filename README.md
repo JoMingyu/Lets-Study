@@ -17,6 +17,7 @@
 
 # Get Started
 - [Django - 시작하기](https://docs.djangoproject.com/ko/2.2/intro/)
+- [Django Girls Tutorial](https://tutorial.djangogirls.org/ko/)
 
 # About
 > `About` means `introduction`.
