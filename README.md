@@ -15,9 +15,8 @@
 - [REST API Design: Filtering, Sorting, and Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#)
 - [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
 
-# Quickstart
-> A `quickstart` teaches essential parts, not detailed instruction.
-- [Kafka Quickstart](https://kafka.apache.org/quickstart)
+# Get Started
+- [Django - 시작하기](https://docs.djangoproject.com/ko/2.2/intro/)
 
 # About
 > `About` means `introduction`.
