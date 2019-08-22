@@ -328,9 +328,7 @@
 - [MySQL ON vs USING?](https://stackoverflow.com/questions/11366006/mysql-on-vs-using)  
 #### Date, Time 연산 관련 쿼리
 - [When is a timestamp (auto) updated?](https://stackoverflow.com/questions/18962757/when-is-a-timestamp-auto-updated)  
-    `ON UPDATE CURRENT_TIMESTAMP`에 대한 이야기.
 - [INTERVAL](http://www.mysqltutorial.org/mysql-interval/)  
-    `INTERVAL [expr] [unit]` | new relic에서 since 3 days ago같은 쿼리 보면서 되게 신기하다 싶었는데, SQL에도 있었다.
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
 - [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
@@ -422,7 +420,7 @@
 - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
 - [pyright](https://github.com/Microsoft/pyright)
 - [mypy](http://mypy-lang.org/)
-- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)fbclid=IwAR0JsfWBYzWdIMD2Xj1D_F45j_-5n8IkRikjfl7EjQHzLa02fSHAm7LMvYY)
+- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
 - [Python type hinting without cyclic imports](https://stackoverflow.com/questions/39740632/python-type-hinting-without-cyclic-imports)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
@@ -453,12 +451,10 @@
 - [코드 테스트하기 - The Hitchhiker's Guide to Python](https://python-guide-kr.readthedocs.io/ko/latest/writing/tests.html)
 - [테스트에 걸리는 시간을 92% 줄이기](https://www.pycon.kr/program/talk-detail?id=67)
 - [Advanced Python testing techniques](https://www.pycon.kr/program/talk-detail?id=134)
-
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
-#### coverage.py
+#### coverage
 - [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
-    `.coveragerc`에 대한 내용
 - [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
 ### 비동기 프로그래밍
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
