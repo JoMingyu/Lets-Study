@@ -521,7 +521,8 @@
 - [pypika](https://github.com/kayak/pypika)  
 - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)  
 - [peewee](https://github.com/coleifer/peewee)  
-- [peewee-async](https://github.com/05bit/peewee-async)  
+- [peewee-async](https://github.com/05bit/peewee-async)\
+- [PynamoDB](https://github.com/pynamodb/PynamoDB)
 #### HTTP
 - [requests](https://github.com/requests/requests)  
 - [yarl](https://github.com/aio-libs/yarl)  
