@@ -501,7 +501,8 @@
 - [zappa](https://github.com/Miserlou/Zappa)  
 - [twine](https://pypi.org/project/twine/)  
 - [aws-cli](https://github.com/aws/aws-cli)  
-- [click](https://github.com/pallets/click)  
+- [click](https://github.com/pallets/click)
+- [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 #### Schema Validation
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
