@@ -524,8 +524,9 @@
 - [peewee-async](https://github.com/05bit/peewee-async)\
 - [PynamoDB](https://github.com/pynamodb/PynamoDB)
 #### HTTP
-- [requests](https://github.com/requests/requests)  
-- [yarl](https://github.com/aio-libs/yarl)  
+- [requests](https://github.com/requests/requests)
+- [requests-oauthlib](https://github.com/requests/requests-oauthlib)
+- [yarl](https://github.com/aio-libs/yarl)
 - [furl](https://github.com/gruns/furl)
 - [gunicorn으로 flask에서 동시에 여러 요청 처리하기](https://winterj.me/flask-concurrency-test/)
 #### Async
