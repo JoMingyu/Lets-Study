@@ -553,6 +553,8 @@
 - [boto3](https://github.com/boto/boto3)  
 #### Crawling
 - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/)  
+#### Testing
+- [sure](https://github.com/gabrielfalcao/sure)
 #### Others
 - [pyjwt](https://github.com/jpadilla/pyjwt)  
 - [cachetools](https://github.com/tkem/cachetools)  
