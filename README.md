@@ -1,7 +1,7 @@
 ﻿# Lets-Study
 나만 읽기 아까운 글이나 문서를 모아두는 공간입니다. 어떤 주제를 공부하거나, 공부의 방향을 잡거나, 그냥 가볍게 읽기 위한 재밌는 글을 원하는 누군가가, 양질의 글에 쉽게 접근할 수 있도록 도와주는 것이 이 저장소의 목적입니다.
 
-의식의 흐름으로 나눈 카테고리에, 링크로 이루어진 리스트 형태로 구성됩니다. 일단 링크 막 모아두고, 한번 읽고 나면 이게 어떤 글이고 왜 추천하는지를 간략하게 작성하고 있습니다.
+대충 나눈 카테고리에, 링크로 이루어진 리스트(ul) 형태로 구성됩니다. 링크 하나마다 커밋 하나씩, commit description으로 해당 링크에 대한 간단한 요약을 적고 있습니다. 조금 길게 공부할만한 것이라면 [TIL](https://github.com/JoMingyu/TIL)에도 커밋합니다.
 
 여러분도 북마크에서 몇 개만 공유해 주세요. 레포 주인이 공부하는 분야가 넓지 않아서, 별 거 아닌 것처럼 보이는 기여더라도 큰 도움이 됩니다.
 
@@ -106,6 +106,7 @@
 - [How to design REST API for export endpoint?](https://stackoverflow.com/questions/33877541/how-to-design-rest-api-for-export-endpoint)
 - [Is using magic (me/self) resource identifiers going against REST principles?](https://stackoverflow.com/questions/35719797/is-using-magic-me-self-resource-identifiers-going-against-rest-principles)
 - [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
+- [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
 #### GraphQL
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
