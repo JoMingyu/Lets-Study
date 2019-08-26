@@ -422,6 +422,7 @@
 - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
 - [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
 - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
+- [the state of type hints in Python](https://www.bernat.tech/the-state-of-type-hints-in-python/)
 - [pyright](https://github.com/Microsoft/pyright)
 - [mypy](http://mypy-lang.org/)
 - [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
