@@ -129,8 +129,11 @@
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
 - [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
 - [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
+### 인증 관련
 #### JWT
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
+#### OAuth
+- [구글 API를 통해서 배우는 인증 (oauth 2.0)](https://opentutorials.org/course/2473/16571)
 ### Protobuf
 - [Protobuf](https://developers.google.com/protocol-buffers/docs/proto3)  
 - [Google Protocol Buffers and HTTP](https://stackoverflow.com/questions/1425912/google-protocol-buffers-and-http)  
