@@ -512,6 +512,8 @@
 - [aws-cli](https://github.com/aws/aws-cli)  
 - [click](https://github.com/pallets/click)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
+#### Data Types
+- [dacite](https://github.com/konradhalas/dacite)
 #### Schema Validation
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
