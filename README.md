@@ -482,6 +482,10 @@
 #### Generic Operating System Services
 - [logging](https://realpython.com/python-logging/)
     - [logging.info doesn't show up on console but warn and error do](https://stackoverflow.com/questions/11548674/logging-info-doesnt-show-up-on-console-but-warn-and-error-do/11548754)
+#### File and Directory Access
+- [pathlib](https://docs.python.org/3/library/pathlib.html)
+- [os.path](https://docs.python.org/3/library/os.path.html)
+- [glob](https://docs.python.org/3/library/glob.html)
 #### Functional Programming Modules
 - [functools](https://www.journaldev.com/17550/python-functools)
     - [What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
