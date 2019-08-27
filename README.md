@@ -689,6 +689,7 @@
 ## 관리
 ### CloudWatch
 - [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
+- [사용자 지정 메트릭 게시(put-metric-data)](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/publishingMetrics.html)
 ### Auto Scaling
 ## 분석
 ### Athena
