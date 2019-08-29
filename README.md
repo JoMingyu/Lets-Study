@@ -648,6 +648,7 @@
 ### EKS
 - [EKS(Elastic Kubernetes Service)](https://docs.aws.amazon.com/ko_kr/eks/latest/userguide/what-is-eks.html)
 - [Demo: Easy AWS EKS cluster provisioning and user access](https://www.youtube.com/watch?v=ITzAkaRAgG4)
+- [HashiCorp AWS EKS Introduction](https://learn.hashicorp.com/terraform/aws/eks-intro)
 ## 스토리지
 ### S3
 - [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
