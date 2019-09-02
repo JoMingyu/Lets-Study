@@ -76,6 +76,7 @@
 #### CI를 위한 SaaS
 - [About Travis CI](https://medium.com/hbsmith/about-travis-ci-65b04d3dead6)
 - [CircleCI Overview](https://circleci.com/docs/2.0/about-circleci/)
+- [Welcome to AppVeyor](https://www.appveyor.com/docs/)
 ### 정규 표현식
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
@@ -143,6 +144,8 @@
 - [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
 - [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
 - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
+### 국제화 관련
+- [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
 ### CORS
 - [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
 - [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
@@ -400,6 +403,7 @@
 - [시간 복잡도로 살펴보는 파이썬 내장 자료형의 효율적인 활용](https://www.pycon.kr/program/talk-detail?id=137)
 - [리얼월드 메타클래스](https://www.pycon.kr/program/talk-detail?id=6)
 - [Why is Python 3.7 fastest](https://speakerdeck.com/jungwinter/why-is-python-3-dot-7-fastest?slide=137)
+- [Is there a difference between “raise exception()” and “raise exception” without parenthesis?](https://stackoverflow.com/questions/16706956/is-there-a-difference-between-raise-exception-and-raise-exception-without)
 - [Better Python 59 Ways](https://github.com/SigmaQuan/Better-Python-59-Ways)  
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
@@ -463,8 +467,9 @@
 - [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
 ### 비동기 프로그래밍
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
-- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882)  
-- [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)  
+- [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882) 
+- [What does the “yield from” syntax do in asyncio and how is it different from “await”](https://stackoverflow.com/a/44273861)
+
 ### 표준 라이브러리
 #### Data Types
 - [datetime](https://www.programiz.com/python-programming/datetime)
@@ -514,6 +519,7 @@
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
 #### Data Types
 - [dacite](https://github.com/konradhalas/dacite)
+- [mongoquery](https://github.com/kapouille/mongoquery)
 #### Schema Validation
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
@@ -566,6 +572,7 @@
 - [beautifulsoup](https://www.crummy.com/software/BeautifulSoup/)  
 #### Testing
 - [sure](https://github.com/gabrielfalcao/sure)
+- [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio)
 #### Others
 - [pyjwt](https://github.com/jpadilla/pyjwt)  
 - [cachetools](https://github.com/tkem/cachetools)  
