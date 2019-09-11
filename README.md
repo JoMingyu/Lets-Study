@@ -240,6 +240,7 @@
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
+- [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 
 # 백엔드
 ## 백엔드 관련 배경지식
