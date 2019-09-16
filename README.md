@@ -108,6 +108,7 @@
 - [Is using magic (me/self) resource identifiers going against REST principles?](https://stackoverflow.com/questions/35719797/is-using-magic-me-self-resource-identifiers-going-against-rest-principles)
 - [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
 - [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
+- [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
 #### GraphQL
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
@@ -240,6 +241,7 @@
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
+- [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 
 # 백엔드
 ## 백엔드 관련 배경지식
