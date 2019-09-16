@@ -484,6 +484,7 @@
 - [abc](https://velog.io/@city7310/abc)  
 #### Generic Operating System Services
 - [logging](https://realpython.com/python-logging/)
+    - [파이썬 로깅의 모든 것](https://hamait.tistory.com/880)
     - [logging.info doesn't show up on console but warn and error do](https://stackoverflow.com/questions/11548674/logging-info-doesnt-show-up-on-console-but-warn-and-error-do/11548754)
 #### File and Directory Access
 - [pathlib](https://docs.python.org/3/library/pathlib.html)
