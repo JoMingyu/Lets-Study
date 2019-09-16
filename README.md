@@ -410,6 +410,7 @@
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)  
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
+- [ignoring backslash character in python](https://stackoverflow.com/questions/36623916/ignoring-backslash-character-in-python/36624018)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
