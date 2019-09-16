@@ -525,6 +525,7 @@
 #### Data Types
 - [dacite](https://github.com/konradhalas/dacite)
 - [mongoquery](https://github.com/kapouille/mongoquery)
+- [stringcase](https://github.com/okunishinishi/python-stringcase)
 #### Schema Validation
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
