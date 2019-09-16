@@ -425,15 +425,6 @@
 - [Python 3.7’s new builtin breakpoint — a quick tour](https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c)
 #### Python 3.8
 - [What's coming in Python 3.8](https://lwn.net/SubscriberLink/793818/0c6f9dd271021cd4/)
-#### type hint
-- [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
-- [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
-- [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
-- [the state of type hints in Python](https://www.bernat.tech/the-state-of-type-hints-in-python/)
-- [pyright](https://github.com/Microsoft/pyright)
-- [mypy](http://mypy-lang.org/)
-- [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
-- [Python type hinting without cyclic imports](https://stackoverflow.com/questions/39740632/python-type-hinting-without-cyclic-imports)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [pyenv-win](https://pypi.org/project/pyenv-win/)  
@@ -505,6 +496,18 @@
 #### Debugging and Profiling
 - [timeit](https://docs.python.org/3/library/timeit.html)  
 - [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
+#### Development Tools
+- [typing](https://docs.python.org/3/library/typing.html)
+    - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
+    - [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
+    - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
+    - [the state of type hints in Python](https://www.bernat.tech/the-state-of-type-hints-in-python/)
+    - [pyright](https://github.com/Microsoft/pyright)
+    - [mypy](http://mypy-lang.org/)
+    - [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
+    - [Python type hinting without cyclic imports](https://stackoverflow.com/questions/39740632/python-type-hinting-without-cyclic-imports)
+- [unittest](https://docs.python.org/3/library/unittest.html)
+    - [Unit test: Assert logger warning thrown](https://stackoverflow.com/questions/20715042/python-2-7-unit-test-assert-logger-warning-thrown)
 #### Concurrent Execution
 - [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)  
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
