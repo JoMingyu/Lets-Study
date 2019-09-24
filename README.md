@@ -343,6 +343,8 @@
 - [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
 - [MySQL 중복 키 관리 방법](http://jason-heo.github.io/mysql/2014/03/05/manage-dup-key2.html)  
 - [Understanding MySQL Storage Engines](http://www.mysqltutorial.org/understand-mysql-table-types-innodb-myisam.aspx?fbclid=IwAR2SpjdINoy8rtFiHBpu7PMyAj3iuof5xM1A9-wYJe_c-_SLRKZh6I4DhuQ)
+- [How to declare a variable in MySQL?](https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql)
+- [MySQL user-defined variable in WHERE clause](https://stackoverflow.com/questions/3984019/mysql-user-defined-variable-in-where-clause)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)  
 ### Druid
