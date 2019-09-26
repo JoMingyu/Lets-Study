@@ -413,6 +413,7 @@
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [ignoring backslash character in python](https://stackoverflow.com/questions/36623916/ignoring-backslash-character-in-python/36624018)
+- [Nicest way to pad zeroes to a string](https://stackoverflow.com/questions/339007/nicest-way-to-pad-zeroes-to-a-string)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
@@ -535,7 +536,7 @@
 #### Data Types
 - [mongoquery](https://github.com/kapouille/mongoquery)
 - [stringcase](https://github.com/okunishinishi/python-stringcase)
-#### Schema Validation
+#### Schema
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
 - [schematics](https://github.com/schematics/schematics)  
