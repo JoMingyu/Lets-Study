@@ -529,8 +529,10 @@
 - [aws-cli](https://github.com/aws/aws-cli)  
 - [click](https://github.com/pallets/click)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
-#### Data Types
+#### Dataclass Helper
 - [dacite](https://github.com/konradhalas/dacite)
+- [dataclass-json](https://github.com/lidatong/dataclasses-json)
+#### Data Types
 - [mongoquery](https://github.com/kapouille/mongoquery)
 - [stringcase](https://github.com/okunishinishi/python-stringcase)
 #### Schema Validation
