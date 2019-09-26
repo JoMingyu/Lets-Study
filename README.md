@@ -520,6 +520,7 @@
 - [JSON - The Hitchhiker's Guide to Python](https://docs.python-guide.org/scenarios/json/)  
 #### Internet Protocols and Support
 - [UUID objects according to RFC 4122](https://docs.python.org/3/library/uuid.html)
+- [webbrowser](https://docs.python.org/3.7/library/webbrowser.html)
 
 ### 외부 라이브러리
 #### CLI
