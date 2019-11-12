@@ -671,7 +671,10 @@
 - [ECR(Elastic Container Repository)](https://aws.amazon.com/ko/ecr/)  
 ### Lambda
 - [Lambda](https://aws.amazon.com/ko/lambda/features/)  
-- [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
+- [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)
+### EKS
+- [Demo: Easy AWS EKS cluster provisioning and user access](https://www.youtube.com/watch?v=ITzAkaRAgG4)
+- [HashiCorp AWS EKS Introduction](https://learn.hashicorp.com/terraform/aws/eks-intro)
 ## 스토리지
 ### S3
 - [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
