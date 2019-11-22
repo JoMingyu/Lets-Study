@@ -109,6 +109,7 @@
 - [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
 - [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [Best way to implement a restful toggle-action?](https://stackoverflow.com/questions/3266292/best-way-to-implement-a-restful-toggle-action)
 #### GraphQL
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
