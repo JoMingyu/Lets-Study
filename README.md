@@ -125,6 +125,7 @@
 - [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
 - [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
 - [JSON:API Standard](https://jsonapi.org/)
+- [서버 개발자는 클라이언트를 믿지 마라 - 2020 수능 평가원 성적표 대란으로 알아본 흔히 마주치는 휴먼 에러와 폼 데이터 조작에 대응하기](https://juneyoung.io/article/1.html)
 ### JSON 관련
 #### NDJSON
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
