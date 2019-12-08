@@ -600,6 +600,7 @@
 #### Testing
 - [sure](https://github.com/gabrielfalcao/sure)
 - [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio)
+- [responses](https://github.com/getsentry/responses)
 #### Others
 - [pyjwt](https://github.com/jpadilla/pyjwt)  
 - [cachetools](https://github.com/tkem/cachetools)  
