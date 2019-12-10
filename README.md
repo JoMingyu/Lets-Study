@@ -86,8 +86,11 @@
 - [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
 - [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
 - [캐시가 동작하는 아주 구체적인 원리](https://parksb.github.io/article/29.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR2QTpnMNc9fbjbnj6SQWf_VQwJznCBUQ_4NWovcGXXugl-Nd2hDj44JoXI)
-### 기타
+### 용어
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)
+### 유틸리티
+#### Makefile
+- [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
 ## 프로토콜, 표준
 ### HTTP
