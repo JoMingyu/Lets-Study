@@ -198,6 +198,9 @@
 - [Crontab 사용법](https://jdm.kr/blog/2)  
 - [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
 
+## Mac
+- [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
+
 ## CS
 ### 운영체제
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
