@@ -204,6 +204,8 @@
 - [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
 
 ## CS
+### 컴퓨터 이론
+- [유한 상태 기계(Finite State Machine)](https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%95%9C_%EC%83%81%ED%83%9C_%EA%B8%B0%EA%B3%84)
 ### 운영체제
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
 - [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
