@@ -476,6 +476,7 @@
 - [코드 테스트하기 - The Hitchhiker's Guide to Python](https://python-guide-kr.readthedocs.io/ko/latest/writing/tests.html)
 - [테스트에 걸리는 시간을 92% 줄이기](https://www.pycon.kr/program/talk-detail?id=67)
 - [Advanced Python testing techniques](https://www.pycon.kr/program/talk-detail?id=134)
+- [How should I verify a log message when testing Python code under nose?](https://stackoverflow.com/questions/899067/how-should-i-verify-a-log-message-when-testing-python-code-under-nose)
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 #### coverage
