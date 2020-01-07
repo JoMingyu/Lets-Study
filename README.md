@@ -257,6 +257,7 @@
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 - [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+- [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
 ## 글 쓰는 데 도움이 되는 것
 - [carbon](https://carbon.now.sh/)
 
