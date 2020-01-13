@@ -242,11 +242,12 @@
 
 # 벤치마킹
 ## 배울 점 많은 코드
+### 백엔드
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 - [velog](https://github.com/velopert/velog)
+### 컴파일러
+- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 ## Websites to follow
-- [Hackernoon - programming](https://hackernoon.com/tagged/programming)
-- [Reddit - programming](https://www.reddit.com/r/programming)
 - [44bits.io](https://www.44bits.io)
 
 # 자기계발
