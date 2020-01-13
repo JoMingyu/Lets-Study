@@ -10,7 +10,7 @@
 ### 동시성 프로그래밍
 - [파이썬과 비동기 프로그래밍 시리즈](https://velog.io/@sjquant/%ED%8C%8C%EC%9D%B4%EC%8D%AC%EA%B3%BC-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D-1-%EB%B9%84%EB%8F%99%EA%B8%B0-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80)
 - [멈추지 않고 기다리기(Non-blocking)와 비동기(Asynchronous) 그리고 동시성(Concurrency)](https://tech.peoplefund.co.kr/2017/08/02/non-blocking-asynchronous-concurrency.html)  
-### 함수와 관련된 얘기, 함수형 프로그래밍
+### 함수 관련
 - [함수형 프로그래밍이란?](https://medium.com/@lazysoul/%ED%95%A8%EC%88%98%ED%98%95-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%B0%8D%EC%9D%B4%EB%9E%80-d881230f2a5e)
 - [Higher-order-function(고차함수) with Kotlin](https://medium.com/@lazysoul/high-order-function-%EA%B3%A0%EC%B0%A8%ED%95%A8%EC%88%98-22b147d0c4a5)  
 - [Currying](http://planbs.tistory.com/entry/Currying)  
@@ -24,13 +24,13 @@
 - [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
 - [Realizing quality improvement through test driven development: results and experiences of four industrial teams](https://github.com/tpn/pdfs/raw/master/Realizing%20Quality%20Improvement%20Through%20Test%20Driven%20Development%20-%20Results%20and%20Experiences%20of%20Four%20Industrial%20Teams%20(nagappan_tdd).pdf)
-#### Mock과 관련된 이야기
-- [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
-    - [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)  
-- [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
+#### Test Double
 - [단위 테스트 케이스와 테스트 더블(Test Double)](https://medium.com/@SlackBeck/%EB%8B%A8%EC%9C%84-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EC%BC%80%EC%9D%B4%EC%8A%A4%EC%99%80-%ED%85%8C%EC%8A%A4%ED%8A%B8-%EB%8D%94%EB%B8%94-test-double-2b88cccd6a96)
 - [Mock Object란 무엇인가?](https://medium.com/@SlackBeck/mock-object%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-85159754b2ac)  
+- [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
 - [What's the difference between a mock & stub?](https://stackoverflow.com/questions/3459287/whats-the-difference-between-a-mock-stub)
+- [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
+    - [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)
 #### 테스트에 관한 SaaS
 - [Python 프로젝트에 Codecov 연동하기](https://cjh5414.github.io/codecov-python/)
 - [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)
@@ -54,13 +54,19 @@
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 - [Clean architectures in Python: a step-by-step example](https://www.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/)
-### 언어론과 가까운 이야기
+#### 캐싱
+- [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
+- [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
+- [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
+- [캐시가 동작하는 아주 구체적인 원리](https://parksb.github.io/article/29.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR2QTpnMNc9fbjbnj6SQWf_VQwJznCBUQ_4NWovcGXXugl-Nd2hDj44JoXI)
+### 언어론에 가까운 이야기
 - [Exression verses Statement](https://stackoverflow.com/a/19224)  
 - [Static/Dynamic vs Strong/Weak](https://stackoverflow.com/a/2351203)  
 - [Runtime vs Compile time](https://stackoverflow.com/a/846421)
 ### 컴파일러에 가까운 이야기
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
+- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 ### 좋은 코드를 작성하기 위한 노력
 - [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
@@ -68,7 +74,7 @@
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
-#### 좋은 코드와 관련된 SaaS
+#### 코드 퀄리티에 관한 SaaS
 - [Sonarqube](https://www.sonarqube.org/)  
 - [Scrutinizer](https://scrutinizer-ci.com/)
 - [Codacy](https://app.codacy.com/projects)
@@ -83,41 +89,50 @@
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
 - [ignore case sensitivity](https://stackoverflow.com/questions/9655164/regex-ignore-case-sensitivity)
-### 캐싱
-- [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
-- [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
-- [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
-- [캐시가 동작하는 아주 구체적인 원리](https://parksb.github.io/article/29.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR2QTpnMNc9fbjbnj6SQWf_VQwJznCBUQ_4NWovcGXXugl-Nd2hDj44JoXI)
-### 용어
+### Glossary
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)
 ### 유틸리티
 #### Makefile
 - [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
 ## 프로토콜, 표준
-### 스펙
+### 스펙(RFC, ISO standard 중 하나로 귀결되는)
 - [What is the maximum length of a valid email address?](https://stackoverflow.com/questions/386294/what-is-the-maximum-length-of-a-valid-email-address/44317754)
 ### HTTP
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
 - [Websockets vs Long Polling](https://www.ably.io/blog/websockets-vs-long-polling/?utm_source=share&utm_medium=ios_app&fbclid=IwAR0ZAaLo_ZhFjL5xO21hsXKk5E_pRule-h0Bzs3gEl3uxB50Y3bi7ganH3w)
-- [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)  
+- [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)
+- [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
+#### CORS
+- [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
+- [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
+- [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors?fbclid=IwAR3g4df3shqau16v1PSYMXDa_8QO7thqQTyO8NnW3PlF8hlDaIXnkwuIam4)
+#### HTTP API
+- [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
+- [API development tools](https://github.com/yosriady/api-development-tools)
+- [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
+- [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
+- [JSON:API Standard](https://jsonapi.org/)
+- [서버 개발자는 클라이언트를 믿지 마라 - 2020 수능 평가원 성적표 대란으로 알아본 흔히 마주치는 휴먼 에러와 폼 데이터 조작에 대응하기](https://juneyoung.io/article/1.html)
 #### REST
-- [Architectural Styles and the Design of Network-based Software Architectures - Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - 그런 REST API로 괜찮은가
     - [그런 REST API로 괜찮은가 - 발표자료](http://slides.com/eungjun/rest#/)
     - [그런 REST API로 괜찮은가 - 영상](https://tv.naver.com/v/2292653)
-- [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)  
-- [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)  
-- [RESTful API Design. Best Practices in a Nutshell.](https://phauer.com/2015/restful-api-design-best-practices/?source=post_page---------------------------)
-- [REST API Design: Filtering, Sorting, and Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#)
-- [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
-- [How to design REST API for export endpoint?](https://stackoverflow.com/questions/33877541/how-to-design-rest-api-for-export-endpoint)
-- [Is using magic (me/self) resource identifiers going against REST principles?](https://stackoverflow.com/questions/35719797/is-using-magic-me-self-resource-identifiers-going-against-rest-principles)
-- [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
+- [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)
+- [Architectural Styles and the Design of Network-based Software Architectures - Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
+- [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)
 - [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
-- [Best way to implement a restful toggle-action?](https://stackoverflow.com/questions/3266292/best-way-to-implement-a-restful-toggle-action)
+- REST API Design
+    - [RESTful API Design. Best Practices in a Nutshell.](https://phauer.com/2015/restful-api-design-best-practices/?source=post_page---------------------------)
+    - [REST API Design: Filtering, Sorting, and Pagination](https://www.moesif.com/blog/technical/api-design/REST-API-Design-Filtering-Sorting-and-Pagination/#)
+    - [Best Practices for Designing a Pragmatic RESTful API](https://www.vinaysahni.com/best-practices-for-a-pragmatic-restful-api)
+    - [How to design REST API for export endpoint?](https://stackoverflow.com/questions/33877541/how-to-design-rest-api-for-export-endpoint)
+- REST API Design Tips
+    - [Is using magic (me/self) resource identifiers going against REST principles?](https://stackoverflow.com/questions/35719797/is-using-magic-me-self-resource-identifiers-going-against-rest-principles)
+    - [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
+    - [Best way to implement a restful toggle-action?](https://stackoverflow.com/questions/3266292/best-way-to-implement-a-restful-toggle-action)
 #### GraphQL
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
@@ -127,13 +142,6 @@
 - [나만 모르고 있던 HTTP2](http://www.popit.kr/%EB%82%98%EB%A7%8C-%EB%AA%A8%EB%A5%B4%EA%B3%A0-%EC%9E%88%EB%8D%98-http2/)  
 - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
 - [HTTPS는 어떻게 다를까?](https://parksb.github.io/article/24.html)
-#### API
-- [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
-- [API development tools](https://github.com/yosriady/api-development-tools)
-- [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
-- [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
-- [JSON:API Standard](https://jsonapi.org/)
-- [서버 개발자는 클라이언트를 믿지 마라 - 2020 수능 평가원 성적표 대란으로 알아본 흔히 마주치는 휴먼 에러와 폼 데이터 조작에 대응하기](https://juneyoung.io/article/1.html)
 ### JSON 관련
 #### NDJSON
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
@@ -157,10 +165,6 @@
 - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
 ### 국제화 관련
 - [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
-### CORS
-- [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
-- [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
-- [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors?fbclid=IwAR3g4df3shqau16v1PSYMXDa_8QO7thqQTyO8NnW3PlF8hlDaIXnkwuIam4)
 ### DNS
 - [Demystifying DNS for web developers](https://medium.com/@jgefroh/demystifying-dns-for-web-developers-ace5a3ae559f)  
 - [SOA Record](https://support.dnsimple.com/articles/soa-record/)
@@ -179,22 +183,26 @@
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
 
 ## Git
+### Git 구성 요소
+- [What is .gitignore exactly?](https://stackoverflow.com/a/27850270)
+### Commands
 - [git blame](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-Git%EC%9C%BC%EB%A1%9C-%EB%B2%84%EA%B7%B8-%EC%B0%BE%EA%B8%B0)  
-- [How to resolve merge conflict during pull request?](https://stackoverflow.com/a/45819784)  
-- [How do I update a GitHub forked repository?](https://stackoverflow.com/a/7244456)  
-- [What is .gitignore exactly?](https://stackoverflow.com/a/27850270)  
-- [.gitignore is ignored by Git](https://stackoverflow.com/a/11451731)  
-- [git rebase -i 사용하기](https://jupiny.com/2018/05/07/git-rebase-i-option/)  
+- [git rebase -i 사용하기](https://jupiny.com/2018/05/07/git-rebase-i-option/)
+### 이럴 땐 이렇게
+- [Oh shit, git!](https://ohshitgit.com)
+- [How to resolve merge conflict during pull request?](https://stackoverflow.com/a/45819784)
+- [How do I update a GitHub forked repository?](https://stackoverflow.com/a/7244456)
+- [.gitignore is ignored by Git](https://stackoverflow.com/a/11451731)
 - [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)  
-- [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)  
-- [Oh shit, git!](https://ohshitgit.com)  
+- [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 ### GitHub
 - [Pull Request를 이용한 개발 흐름을 적용해 보고 나서](https://blog.outsider.ne.kr/1199)
 - [GitHub의 Pull Request를 로컬로 가져오기](https://blog.outsider.ne.kr/1204?fbclid=IwAR38bv1LQCyXbgWoo2DfPnnjCu_BtitACL4jkJlIA0e-2pM-A37Jq7-fFBU)
 - [Reviewing proposed changes in a pull request](https://help.github.com/en/articles/reviewing-proposed-changes-in-a-pull-request)
 
-## Linux
+## 운영체제별 기반지식
+### Linux
 - [export, echo 명령어](http://keepcalmswag.blogspot.com/2018/06/linux-unix-export-echo_49.html)
 - [lsof 사용법](https://www.lesstif.com/pages/viewpage.action?pageId=20776078)  
 - [grep 사용법](https://zzsza.github.io/development/2017/12/16/linux-4/)  
@@ -203,10 +211,10 @@
 - [Crontab 사용법](https://jdm.kr/blog/2)  
 - [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
 
-## Mac
+### Mac
 - [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
 
-## CS
+## Computer Science
 ### 컴퓨터 이론
 - [유한 상태 기계(Finite State Machine)](https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%95%9C_%EC%83%81%ED%83%9C_%EA%B8%B0%EA%B3%84)
 ### 운영체제
@@ -225,7 +233,7 @@
 ### 네트워크
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 
-## 데이터 엔지니어링이나 수학에 가까운 것들
+## 데이터 엔지니어링, 수학
 - [Markov Chains - The University of Auckland](https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf?fbclid=IwAR0XxZEbI5xJbyrzrTSAp7fYUZACMAPDEGw_bbdUhs6e8gwNjLqPFNm3x4M)
 
 ## Marketing
@@ -245,39 +253,46 @@
 ### 백엔드
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 - [velog](https://github.com/velopert/velog)
-### 컴파일러
-- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 ## Websites to follow
 - [44bits.io](https://www.44bits.io)
 
-# 자기계발
-## 교육 사이트
-- [progate](https://progate.com/languages)
-## 영상
-- [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
-## 재미난 글
+# 교양 컨텐츠
+## 소프트웨어 마인드/철학
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
-- [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
-- [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
 - [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
 - [스타트업에서 성장한다는 주니어의 착각](https://brunch.co.kr/@goodgdg/43?fbclid=IwAR26GEeJxPTR-fgvmtmlWTQBQa4P6N6f1hpiF_yFjydbk4ii-1tVttKaf1g)
 - [나는 어떻게 더 나은 프로그래머가 되었는가](https://medium.com/@rinae/%EB%B2%88%EC%97%AD-%EB%82%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8D%94-%EB%82%98%EC%9D%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80-b84c45d8bf98)
+## 조직 문화
+- [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
+## UI/UX
+- [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+## 자기계발
+- [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
+
+# 학습
+## 교육 사이트
+- [progate](https://progate.com/languages)
+
+# 글 쓰기
 ## 글 쓰는 데 도움이 되는 것
 - [carbon](https://carbon.now.sh/)
 
 # 백엔드
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
-- [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)  
-- [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)  
-- [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)  
+- [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)
+- [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)
+### Ops
 - [Already learned DevOps? Great, now it’s time for GitOps](https://thenextweb.com/contributors/2018/12/08/all-you-need-to-know-about-gitops/)  
+### recovery/failover
 - [Failover & Disaster Recovery](https://stackoverflow.com/questions/120139/failover-disaster-recovery)
 - [What is failover?](https://searchstorage.techtarget.com/definition/failover)  
 - [What is High Availability?](https://www.digitalocean.com/community/tutorials/what-is-high-availability)  
 - [Disater Recovery Strategies](http://www.computepatterns.com/517/disaster-recovery-strategies/)
+### Deployment
+- [Blue/Green Deployment: What It Is and How it Reduces Your Risk](https://rollout.io/blog/blue-green-deployment/)  
 ## Docker
 - [초보를 위한 도커 안내서 - 1. 도커란 무엇인가?](https://subicura.com/2017/01/19/docker-guide-for-beginners-1.html)
 - [초보를 위한 도커 안내서 - 2. 설치하고 컨테이너 실행하기](https://subicura.com/2017/01/19/docker-guide-for-beginners-2.html)
@@ -312,8 +327,6 @@
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
 - [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)  
-## Deployment
-- [Blue/Green Deployment: What It Is and How it Reduces Your Risk](https://rollout.io/blog/blue-green-deployment/)  
 ## 웹서버 이야기
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
@@ -331,7 +344,7 @@
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)  
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)  
 ## DB
-### DB 자체에 대한 지식
+### DB 배경지식
 - [What is an ORM and where can I learn more about it?](https://stackoverflow.com/a/1279678)  
 - [DBMS는 어떻게 트랜잭션을 관리할까?](https://d2.naver.com/helloworld/407507)  
 - [A Detailed Guide to Database Denormalization with Examples](https://rubygarage.org/blog/database-denormalization-with-examples)  
