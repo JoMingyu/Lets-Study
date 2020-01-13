@@ -23,7 +23,8 @@
 - [유닛테스트에 대한 생각](https://blog.outsider.ne.kr/1275?fbclid=IwAR1Z9DPi-JJns_bSccrNZIo8zFo-0B8nAvIEHen3tu0_jaIUS34hY90FVJ0)  
 - [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
-#### Mock가 관련된 이야기
+- [Realizing quality improvement through test driven development: results and experiences of four industrial teams](https://github.com/tpn/pdfs/raw/master/Realizing%20Quality%20Improvement%20Through%20Test%20Driven%20Development%20-%20Results%20and%20Experiences%20of%20Four%20Industrial%20Teams%20(nagappan_tdd).pdf)
+#### Mock과 관련된 이야기
 - [Mocks Aren't Stubs](https://martinfowler.com/articles/mocksArentStubs.html)
     - [Classical vs Mockist testing](https://agilewarrior.wordpress.com/2015/04/18/classical-vs-mockist-testing/)  
 - [Testing Without Mocks: A Pattern Language](https://www.jamesshore.com/Blog/Testing-Without-Mocks.html)
@@ -61,6 +62,7 @@
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
 ### 좋은 코드를 작성하기 위한 노력
+- [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
@@ -86,15 +88,21 @@
 - [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
 - [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
 - [캐시가 동작하는 아주 구체적인 원리](https://parksb.github.io/article/29.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR2QTpnMNc9fbjbnj6SQWf_VQwJznCBUQ_4NWovcGXXugl-Nd2hDj44JoXI)
-### 기타
+### 용어
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)
+### 유틸리티
+#### Makefile
+- [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
 ## 프로토콜, 표준
+### 스펙
+- [What is the maximum length of a valid email address?](https://stackoverflow.com/questions/386294/what-is-the-maximum-length-of-a-valid-email-address/44317754)
 ### HTTP
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
 - [Websockets vs Long Polling](https://www.ably.io/blog/websockets-vs-long-polling/?utm_source=share&utm_medium=ios_app&fbclid=IwAR0ZAaLo_ZhFjL5xO21hsXKk5E_pRule-h0Bzs3gEl3uxB50Y3bi7ganH3w)
 - [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)  
 #### REST
+- [Architectural Styles and the Design of Network-based Software Architectures - Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - 그런 REST API로 괜찮은가
     - [그런 REST API로 괜찮은가 - 발표자료](http://slides.com/eungjun/rest#/)
@@ -109,6 +117,7 @@
 - [RESTfully design /login or /register resources?](https://stackoverflow.com/questions/7140074/restfully-design-login-or-register-resources)
 - [REST API의 이상향, HATEOAS](https://wallees.wordpress.com/2018/04/19/rest-api-hateoas/)
 - [Richardson Maturity Model](https://martinfowler.com/articles/richardsonMaturityModel.html)
+- [Best way to implement a restful toggle-action?](https://stackoverflow.com/questions/3266292/best-way-to-implement-a-restful-toggle-action)
 #### GraphQL
 - [So what’s this GraphQL thing I keep hearing about?](https://medium.freecodecamp.org/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf)
 - [GraphQL을 오해하다](https://medium.com/@FourwingsY/graphql%EC%9D%84-%EC%98%A4%ED%95%B4%ED%95%98%EB%8B%A4-3216f404134)
@@ -124,6 +133,7 @@
 - [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
 - [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
 - [JSON:API Standard](https://jsonapi.org/)
+- [서버 개발자는 클라이언트를 믿지 마라 - 2020 수능 평가원 성적표 대란으로 알아본 흔히 마주치는 휴먼 에러와 폼 데이터 조작에 대응하기](https://juneyoung.io/article/1.html)
 ### JSON 관련
 #### NDJSON
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
@@ -178,6 +188,7 @@
 - [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)  
 - [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)  
 - [Oh shit, git!](https://ohshitgit.com)  
+- [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 ### GitHub
 - [Pull Request를 이용한 개발 흐름을 적용해 보고 나서](https://blog.outsider.ne.kr/1199)
 - [GitHub의 Pull Request를 로컬로 가져오기](https://blog.outsider.ne.kr/1204?fbclid=IwAR38bv1LQCyXbgWoo2DfPnnjCu_BtitACL4jkJlIA0e-2pM-A37Jq7-fFBU)
@@ -192,7 +203,12 @@
 - [Crontab 사용법](https://jdm.kr/blog/2)  
 - [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
 
+## Mac
+- [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
+
 ## CS
+### 컴퓨터 이론
+- [유한 상태 기계(Finite State Machine)](https://ko.wikipedia.org/wiki/%EC%9C%A0%ED%95%9C_%EC%83%81%ED%83%9C_%EA%B8%B0%EA%B3%84)
 ### 운영체제
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
 - [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
@@ -205,6 +221,7 @@
 - [힙 정렬](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/)    
 - [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
 - [파이썬으로 정리하는 Quick-Sort](https://parksb.github.io/article/18.html)
+- [Dijkstra’s Shortest Path Algorithm in Python](https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064)
 ### 네트워크
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 
@@ -225,11 +242,12 @@
 
 # 벤치마킹
 ## 배울 점 많은 코드
+### 백엔드
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 - [velog](https://github.com/velopert/velog)
+### 컴파일러
+- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 ## Websites to follow
-- [Hackernoon - programming](https://hackernoon.com/tagged/programming)
-- [Reddit - programming](https://www.reddit.com/r/programming)
 - [44bits.io](https://www.44bits.io)
 
 # 자기계발
@@ -242,6 +260,12 @@
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
+- [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+- [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
+- [스타트업에서 성장한다는 주니어의 착각](https://brunch.co.kr/@goodgdg/43?fbclid=IwAR26GEeJxPTR-fgvmtmlWTQBQa4P6N6f1hpiF_yFjydbk4ii-1tVttKaf1g)
+- [나는 어떻게 더 나은 프로그래머가 되었는가](https://medium.com/@rinae/%EB%B2%88%EC%97%AD-%EB%82%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8D%94-%EB%82%98%EC%9D%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80-b84c45d8bf98)
+## 글 쓰는 데 도움이 되는 것
+- [carbon](https://carbon.now.sh/)
 
 # 백엔드
 ## 백엔드 관련 배경지식
@@ -331,6 +355,8 @@
 #### Common DML(INSERT, SELECT, UPDATE, DELETE)
 - [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
 - [SELECT 결과를 INSERT 하기](https://zetawiki.com/wiki/SQL_SELECT_%EA%B2%B0%EA%B3%BC%EB%A5%BC_INSERT_%ED%95%98%EA%B8%B0)
+- [Multiple select statements in Single query](https://stackoverflow.com/questions/1775168/multiple-select-statements-in-single-query)
+- [MySQL Orderby a number, Nulls last](https://stackoverflow.com/a/4195311)
 #### JOIN
 - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
 - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
@@ -415,6 +441,8 @@
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [ignoring backslash character in python](https://stackoverflow.com/questions/36623916/ignoring-backslash-character-in-python/36624018)
+- [Nicest way to pad zeroes to a string](https://stackoverflow.com/questions/339007/nicest-way-to-pad-zeroes-to-a-string)
+- [How to re-raise an exception in nested try/except blocks?](https://stackoverflow.com/questions/18188563/how-to-re-raise-an-exception-in-nested-try-except-blocks)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
@@ -456,6 +484,8 @@
 - [코드 테스트하기 - The Hitchhiker's Guide to Python](https://python-guide-kr.readthedocs.io/ko/latest/writing/tests.html)
 - [테스트에 걸리는 시간을 92% 줄이기](https://www.pycon.kr/program/talk-detail?id=67)
 - [Advanced Python testing techniques](https://www.pycon.kr/program/talk-detail?id=134)
+- [How should I verify a log message when testing Python code under nose?](https://stackoverflow.com/questions/899067/how-should-i-verify-a-log-message-when-testing-python-code-under-nose)
+- [Assert that logging has been called with specific string](https://stackoverflow.com/questions/31728497/assert-that-logging-has-been-called-with-specific-string)
 #### nose
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 #### coverage
@@ -522,6 +552,7 @@
 - [JSON - The Hitchhiker's Guide to Python](https://docs.python-guide.org/scenarios/json/)  
 #### Internet Protocols and Support
 - [UUID objects according to RFC 4122](https://docs.python.org/3/library/uuid.html)
+- [webbrowser](https://docs.python.org/3.7/library/webbrowser.html)
 
 ### 외부 라이브러리
 #### CLI
@@ -530,11 +561,13 @@
 - [aws-cli](https://github.com/aws/aws-cli)  
 - [click](https://github.com/pallets/click)
 - [cookiecutter](https://github.com/cookiecutter/cookiecutter)
-#### Data Types
+#### Dataclass Helper
 - [dacite](https://github.com/konradhalas/dacite)
+- [dataclass-json](https://github.com/lidatong/dataclasses-json)
+#### Data Types
 - [mongoquery](https://github.com/kapouille/mongoquery)
 - [stringcase](https://github.com/okunishinishi/python-stringcase)
-#### Schema Validation
+#### Schema
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
 - [schematics](https://github.com/schematics/schematics)  
@@ -587,6 +620,7 @@
 #### Testing
 - [sure](https://github.com/gabrielfalcao/sure)
 - [pytest-asyncio](https://github.com/pytest-dev/pytest-asyncio)
+- [responses](https://github.com/getsentry/responses)
 #### Others
 - [pyjwt](https://github.com/jpadilla/pyjwt)  
 - [cachetools](https://github.com/tkem/cachetools)  
@@ -665,7 +699,10 @@
 - [ECR(Elastic Container Repository)](https://aws.amazon.com/ko/ecr/)  
 ### Lambda
 - [Lambda](https://aws.amazon.com/ko/lambda/features/)  
-- [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)  
+- [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)
+### EKS
+- [Demo: Easy AWS EKS cluster provisioning and user access](https://www.youtube.com/watch?v=ITzAkaRAgG4)
+- [HashiCorp AWS EKS Introduction](https://learn.hashicorp.com/terraform/aws/eks-intro)
 ## 스토리지
 ### S3
 - [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
