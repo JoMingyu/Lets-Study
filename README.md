@@ -384,6 +384,7 @@
 - [Understanding MySQL Storage Engines](http://www.mysqltutorial.org/understand-mysql-table-types-innodb-myisam.aspx?fbclid=IwAR2SpjdINoy8rtFiHBpu7PMyAj3iuof5xM1A9-wYJe_c-_SLRKZh6I4DhuQ)
 - [How to declare a variable in MySQL?](https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql)
 - [Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='](https://stackoverflow.com/questions/11770074/illegal-mix-of-collations-utf8-unicode-ci-implicit-and-utf8-general-ci-implic)
+- [How to show the last queries executed on MySQL?](https://stackoverflow.com/questions/650238/how-to-show-the-last-queries-executed-on-mysql)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)  
 ### Druid
