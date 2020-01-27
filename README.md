@@ -260,6 +260,7 @@
 ## 소프트웨어 마인드/철학
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
 - [소프트웨어 개발자 되기는 왜 어려운가?](https://hl1itj.tistory.com/m/136?category=327240)
+- [\[번역\] 개발 배우기가 정말 어려운 이유](https://brunch.co.kr/@jypthemiracle/14)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
 - [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
 - [스타트업에서 성장한다는 주니어의 착각](https://brunch.co.kr/@goodgdg/43?fbclid=IwAR26GEeJxPTR-fgvmtmlWTQBQa4P6N6f1hpiF_yFjydbk4ii-1tVttKaf1g)
