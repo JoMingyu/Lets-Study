@@ -541,6 +541,7 @@
 - [functools](https://www.journaldev.com/17550/python-functools)
     - [What does functools.wraps do?](https://stackoverflow.com/questions/308999/what-does-functools-wraps-do)
     - [How does the functools partial work in Python?](https://stackoverflow.com/questions/15331726/how-does-the-functools-partial-work-in-python)
+- [operator](https://docs.python.org/ko/3.7/library/operator.html)
 #### Debugging and Profiling
 - [timeit](https://docs.python.org/3/library/timeit.html)  
 - [Python Debugging with Pdb](https://realpython.com/python-debugging-pdb/)  
