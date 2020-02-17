@@ -268,6 +268,7 @@
 - [Avoiding burnout as an ambitious developer](https://stackoverflow.blog/2020/01/13/avoiding-burnout-as-an-ambitious-developer/)
 ## 조직 문화
 - [에어비앤비 엔지니어가 일하는 게 행복한 이유](https://www.youtube.com/watch?v=iaNl6zKTBfg&feature=youtu.be&fbclid=IwAR19X3cC4bYMVlNUy4M4gpkjCxQrk0u0OcEplf1-7MlLnWnokk7iDd5OHik)
+- [기능 공장에서 일하고 있다는 12가지 신호](https://cojette.github.io/featurefactory/)
 ## UI/UX
 - [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
 ## 자기계발
