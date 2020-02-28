@@ -68,6 +68,7 @@
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
 - [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
 ### 좋은 코드를 작성하기 위한 노력
+- [개발자에게 유용한 법칙, 이론, 원칙, 그리고 패턴들 #hackerlaws](https://github.com/codeanddonuts/hacker-laws-kr)
 - [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
