@@ -237,6 +237,7 @@
 
 ## 데이터 엔지니어링, 수학
 - [Markov Chains - The University of Auckland](https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf?fbclid=IwAR0XxZEbI5xJbyrzrTSAp7fYUZACMAPDEGw_bbdUhs6e8gwNjLqPFNm3x4M)
+- [From “What is a Markov Model” to “Here is how Markov Models Work”](https://hackernoon.com/from-what-is-a-markov-model-to-here-is-how-markov-models-work-1ac5f4629b71)
 
 ## Marketing
 - [User Acquisition - appsflyer](https://www.appsflyer.com/mobile-attribution-glossary/user-acquisition/)  
