@@ -391,6 +391,7 @@
 - [How to declare a variable in MySQL?](https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql)
 - [Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='](https://stackoverflow.com/questions/11770074/illegal-mix-of-collations-utf8-unicode-ci-implicit-and-utf8-general-ci-implic)
 - [How to show the last queries executed on MySQL?](https://stackoverflow.com/questions/650238/how-to-show-the-last-queries-executed-on-mysql)
+- [MySQL cannot create foreign key constraint](https://stackoverflow.com/questions/21526055/mysql-cannot-create-foreign-key-constraint)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
