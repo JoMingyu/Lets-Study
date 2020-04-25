@@ -410,7 +410,9 @@
 - [ElasticSearch match vs term query](https://stackoverflow.com/questions/23150670/elasticsearch-match-vs-term-query)  
 - [Source filter](https://www.elastic.co/guide/en/elasticsearch/reference/2.4/search-request-source-filtering.html)  
 - [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
-- [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)  
+- [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html) 
+- [Exclude empty-string, null and non-existant](https://discuss.elastic.co/t/exclude-empty-string-null-and-non-existant/181140)
+
 #### Others
 - [Elastic APM](https://www.elastic.co/guide/en/apm/get-started/current/overview.html)  
 ## 웹 프레임워크
