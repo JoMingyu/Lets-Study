@@ -566,6 +566,7 @@
     - [Python type hinting without cyclic imports](https://stackoverflow.com/questions/39740632/python-type-hinting-without-cyclic-imports)
 - [unittest](https://docs.python.org/3/library/unittest.html)
     - [Unit test: Assert logger warning thrown](https://stackoverflow.com/questions/20715042/python-2-7-unit-test-assert-logger-warning-thrown)
+    - [Using Python mock to spy on calls to an existing object](https://stackoverflow.com/questions/18869141/using-python-mock-to-spy-on-calls-to-an-existing-object)
 #### Concurrent Execution
 - [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)  
 - [파이썬의 새로운 병렬처리 API – Concurrent.futures](https://soooprmx.com/archives/5669)
