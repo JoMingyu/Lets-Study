@@ -528,6 +528,7 @@
 #### Data Types
 - [datetime](https://www.programiz.com/python-programming/datetime)
     - [Find Monday's date with Python](https://stackoverflow.com/a/1622052)  
+    - [Python: get all months in range?](https://stackoverflow.com/questions/35650793/python-get-all-months-in-range)
 - [collections.OrderedDict](https://pymotw.com/2/collections/ordereddict.html)  
 - [collections.defaultdict](https://docs.python.org/3/library/collections.html#collections.defaultdict)  
 - [얕은 복사(shallow copy) vs 깊은 복사(deep copy)](https://blueshw.github.io/2016/01/20/shallow-copy-deep-copy/)  
