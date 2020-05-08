@@ -334,6 +334,7 @@
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
 - [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)
+- [전 세계 팬들이 모일 수 있는 플랫폼 만들기](https://www.slideshare.net/awskr/ss-223007438)
 ## 웹서버 이야기
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
