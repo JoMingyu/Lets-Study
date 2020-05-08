@@ -212,6 +212,7 @@
 - [htop Explained Visually](https://codeahoy.com/2017/01/20/hhtop-explained-visually/)  
 - [Crontab 사용법](https://jdm.kr/blog/2)  
 - [리눅스 명령어 sudo, su, su -](https://www.leafcats.com/168)
+- [리눅스 서버의 TCP 네트워크 성능을 결정짓는 커널 파라미터 이야기](https://meetup.toast.com/posts/53)
 
 ### Mac
 - [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
@@ -332,7 +333,7 @@
 - [[야생의 땅: 듀랑고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
-- [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)  
+- [타다 시스템 아키텍처](http://engineering.vcnc.co.kr/2019/01/tada-system-architecture/?fbclid=IwAR1TJy9RpUzM-iR0QZoF0W1pMNjCoZDDvs0tVf21uv01eCX59ulTI0QBT-8)
 ## 웹서버 이야기
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
