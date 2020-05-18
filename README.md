@@ -199,6 +199,8 @@
 - [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)  
 - [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+### Troubleshooting
+- [git not displaying unicode file names](https://stackoverflow.com/questions/34549040/git-not-displaying-unicode-file-names)
 ### GitHub
 - [Pull Request를 이용한 개발 흐름을 적용해 보고 나서](https://blog.outsider.ne.kr/1199)
 - [GitHub의 Pull Request를 로컬로 가져오기](https://blog.outsider.ne.kr/1204?fbclid=IwAR38bv1LQCyXbgWoo2DfPnnjCu_BtitACL4jkJlIA0e-2pM-A37Jq7-fFBU)
