@@ -74,9 +74,11 @@
 - [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
 - [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
-- [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
+### 객체지향 프로그래밍
+- [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
+- [Parametric Polymorphism](https://rosettacode.org/wiki/Parametric_polymorphism)
 #### 코드 퀄리티에 관한 SaaS
 - [Sonarqube](https://www.sonarqube.org/)  
 - [Scrutinizer](https://scrutinizer-ci.com/)
