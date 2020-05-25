@@ -148,6 +148,7 @@
 - [HTTP/2 소개 - Google Developers](https://developers.google.com/web/fundamentals/performance/http2/?hl=ko)  
 - [HTTPS는 어떻게 다를까?](https://parksb.github.io/article/24.html)
 ### JSON 관련
+- [커맨드라인 JSON 프로세서 jq - 기초 문법과 작동 원리](https://www.44bits.io/ko/post/cli_json_processor_jq_basic_syntax)
 #### NDJSON
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
 #### JSONSchema
