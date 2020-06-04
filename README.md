@@ -420,6 +420,7 @@
 - [Terms Aggregation](https://www.elastic.co/guide/en/elasticsearch/reference/current/search-aggregations-bucket-terms-aggregation.html)  
 - [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html) 
 - [Exclude empty-string, null and non-existant](https://discuss.elastic.co/t/exclude-empty-string-null-and-non-existant/181140)
+- [Best way to check if a field exist in an Elasticsearch document](https://stackoverflow.com/questions/32949321/best-way-to-check-if-a-field-exist-in-an-elasticsearch-document)
 
 #### Others
 - [Elastic APM](https://www.elastic.co/guide/en/apm/get-started/current/overview.html)  
