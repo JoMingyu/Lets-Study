@@ -603,6 +603,7 @@
 #### Data Types
 - [mongoquery](https://github.com/kapouille/mongoquery)
 - [stringcase](https://github.com/okunishinishi/python-stringcase)
+- [munch](https://github.com/Infinidat/munch)
 #### Schema
 - [jsonschmea](https://github.com/Julian/jsonschema)  
 - [schema](https://github.com/keleshev/schema)  
