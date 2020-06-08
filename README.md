@@ -714,6 +714,8 @@
 
 # AWS
 - [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
+## AWS Docker
+- [minio - ](https://github.com/minio/minio)
 ## 컴퓨팅
 ### EC2
 - [EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
