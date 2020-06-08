@@ -476,6 +476,8 @@
 - [ignoring backslash character in python](https://stackoverflow.com/questions/36623916/ignoring-backslash-character-in-python/36624018)
 - [Nicest way to pad zeroes to a string](https://stackoverflow.com/questions/339007/nicest-way-to-pad-zeroes-to-a-string)
 - [How to re-raise an exception in nested try/except blocks?](https://stackoverflow.com/questions/18188563/how-to-re-raise-an-exception-in-nested-try-except-blocks)
+- [What is the meaning of single and double underscore before an object name?
+](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-single-and-double-underscore-before-an-object-name)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
