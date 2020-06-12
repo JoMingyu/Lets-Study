@@ -232,6 +232,7 @@
 - [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
 ### 자료구조
 - [IEEE 754 - Rounding Rules](https://en.wikipedia.org/w/index.php?title=IEEE_754#Rounding_rules)
+- [Bankers Rounding](https://wiki.c2.com/?BankersRounding)
 ### 알고리즘
 - [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)  
 - [시간 복잡도 빠르게 이해하기](https://joshuajangblog.wordpress.com/2016/09/21/time_complexity_big_o_in_easy_explanation/)  
