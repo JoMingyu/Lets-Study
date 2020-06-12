@@ -476,12 +476,14 @@
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
 #### What is
 - [What is \_\_pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
-- [Is there a difference between “raise exception()” and “raise exception” without parenthesis?](https://stackoverflow.com/questions/16706956/is-there-a-difference-between-raise-exception-and-raise-exception-without)
 - [What is the meaning of single and double underscore before an object name?
 ](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-single-and-double-underscore-before-an-object-name)
+#### verses
+- [Is there a difference between “raise exception()” and “raise exception” without parenthesis?](https://stackoverflow.com/questions/16706956/is-there-a-difference-between-raise-exception-and-raise-exception-without)
 - [What is the difference between range and xrange functions in Python 2.X?](https://stackoverflow.com/questions/94935/what-is-the-difference-between-range-and-xrange-functions-in-python-2-x)
 - [Difference between <type 'generator'> and <type 'xrange'>](https://stackoverflow.com/questions/39070168/difference-between-type-generator-and-type-xrange)  
     memo : you should understand that an iterator and an generator are not the same thing.
+- [List comprehension vs map](https://stackoverflow.com/questions/1247486/list-comprehension-vs-map)
 #### How to
 - [Is PYTHONUNBUFFERED=TRUE a good idea?](https://github.com/awslabs/amazon-sagemaker-examples/issues/319)
 - [Python equivalent of golang's defer statement](https://stackoverflow.com/a/34625254)  
