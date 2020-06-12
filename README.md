@@ -231,6 +231,7 @@
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
 - [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
 ### 자료구조
+- [IEEE 754 - Rounding Rules](https://en.wikipedia.org/w/index.php?title=IEEE_754#Rounding_rules)
 ### 알고리즘
 - [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)  
 - [시간 복잡도 빠르게 이해하기](https://joshuajangblog.wordpress.com/2016/09/21/time_complexity_big_o_in_easy_explanation/)  
@@ -477,13 +478,15 @@
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)  
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
-- [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [ignoring backslash character in python](https://stackoverflow.com/questions/36623916/ignoring-backslash-character-in-python/36624018)
 - [Nicest way to pad zeroes to a string](https://stackoverflow.com/questions/339007/nicest-way-to-pad-zeroes-to-a-string)
 - [How to re-raise an exception in nested try/except blocks?](https://stackoverflow.com/questions/18188563/how-to-re-raise-an-exception-in-nested-try-except-blocks)
 - [What is the meaning of single and double underscore before an object name?
 ](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-single-and-double-underscore-before-an-object-name)
 - [Sort a list by multiple attributes?](https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes)
+#### Unexpected Behaviors
+- [wtfpython](https://github.com/satwikkansal/wtfpython)
+- [Python 3.x rounding behavior](https://stackoverflow.com/questions/10825926/python-3-x-rounding-behavior)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
