@@ -671,7 +671,7 @@
 - [SQLAlchemy 시작하기 - Part 1](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-1/)
 - [SQLAlchemy 시작하기 - Part 2](https://edykim.com/ko/post/getting-started-with-sqlalchemy-part-2/)  
 - [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
-- [SQLAlchemy에서 모든 테이블의 모든 자료 지우기](https://item4.blog/2016-03-30/Truncate-All-Tables-with-SQLAlchemy/). 
+- [SQLAlchemy에서 모든 테이블의 모든 자료 지우기](https://item4.blog/2016-03-30/Truncate-All-Tables-with-SQLAlchemy/)  
     memo : truncate하는 raw query는 FK 문제로 인해 잘 안 될 수 있으므로 SQLAlchemy를 통해 극복하는 내용
 #### ORM
 - [Basic Relationship Patterns](https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html)  
