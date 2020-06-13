@@ -65,6 +65,7 @@
 - [Runtime vs Compile time](https://stackoverflow.com/a/846421)
 - [A Python Tutorial To Understanding Scopes and Closures.](https://medium.com/@dannymcwaves/a-python-tutorial-to-understanding-scopes-and-closures-c6a3d3ba0937)
 - [Difference between Definition and Declaration](https://www.geeksforgeeks.org/difference-between-definition-and-declaration/)
+- [What is the difference between statically typed and dynamically typed languages?](https://stackoverflow.com/questions/1517582/what-is-the-difference-between-statically-typed-and-dynamically-typed-languages)
 ### 컴파일러에 가까운 이야기
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
