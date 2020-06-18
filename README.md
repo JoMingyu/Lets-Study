@@ -494,6 +494,9 @@
 - [How to re-raise an exception in nested try/except blocks?](https://stackoverflow.com/questions/18188563/how-to-re-raise-an-exception-in-nested-try-except-blocks)
 - [Sort a list by multiple attributes?](https://stackoverflow.com/questions/4233476/sort-a-list-by-multiple-attributes)
 - [How can the built-in range function take a single argument or three?](https://stackoverflow.com/questions/13366293/how-can-the-built-in-range-function-take-a-single-argument-or-three)
+#### Why
+- [Why True/False is capitalized in Python?](https://stackoverflow.com/questions/521476/why-true-false-is-capitalized-in-python)
+- [Why is bool a subclass of int?](https://stackoverflow.com/questions/8169001/why-is-bool-a-subclass-of-int)
 #### Unexpected Behaviors
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python 3.x rounding behavior](https://stackoverflow.com/questions/10825926/python-3-x-rounding-behavior)
