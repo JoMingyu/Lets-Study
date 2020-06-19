@@ -271,6 +271,9 @@
 ### 백엔드
 - [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
 - [velog](https://github.com/velopert/velog)
+- [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
+### 서비스 전체
+- [Corona Warn App](https://github.com/corona-warn-app)
 ## Websites to follow
 - [44bits.io](https://www.44bits.io)
 
@@ -698,7 +701,8 @@
 #### ORM
 - [Basic Relationship Patterns](https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html)  
 - [SQLAlchemy's "Lazy" Parameter](https://medium.com/@ns2586/sqlalchemys-relationship-and-lazy-parameter-4a553257d9ef)  
-- [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)  
+- [Column and Data Types](https://docs.sqlalchemy.org/en/latest/core/type_basics.html)
+- [synonym](https://docs.sqlalchemy.org/en/13/orm/mapped_attributes.html#synonyms)
 #### Query
 - [Literal SELECT](https://stackoverflow.com/a/7546802)  
 - [Query 객체로 WHERE절 작성하기(Common filter operators)](https://docs.sqlalchemy.org/en/latest/orm/tutorial.html#common-filter-operators)  
