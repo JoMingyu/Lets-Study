@@ -156,7 +156,7 @@
 #### JSONSchema
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
 - [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
-- [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies)  
+- [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies) 
 ### 인증 관련
 #### JWT
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
@@ -171,6 +171,7 @@
 - [List of tz database time zones](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones)  
 - [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
 - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
+- [DateTimeFormat(Joda-Time)](https://www.joda.org/joda-time/apidocs/org/joda/time/format/DateTimeFormat.html)
 ### 국제화 관련
 - [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
 ### DNS
