@@ -390,12 +390,13 @@
 - [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)  
 - [druid](http://druid.io/druid.html)  
 - [FluentD](https://blog.jonnung.com/system/2018/04/06/fluentd-log-collector-part1/)  
-### Common SQL
+### SQL
 #### Common DML(INSERT, SELECT, UPDATE, DELETE)
 - [Insert into a MySQL table or update if exists](https://stackoverflow.com/a/4205207)  
 - [SELECT 결과를 INSERT 하기](https://zetawiki.com/wiki/SQL_SELECT_%EA%B2%B0%EA%B3%BC%EB%A5%BC_INSERT_%ED%95%98%EA%B8%B0)
 - [Multiple select statements in Single query](https://stackoverflow.com/questions/1775168/multiple-select-statements-in-single-query)
 - [MySQL Orderby a number, Nulls last](https://stackoverflow.com/a/4195311)
+- [How to check for Is not Null And Is not Empty string in SQL server?](https://stackoverflow.com/questions/8660203/how-to-check-for-is-not-null-and-is-not-empty-string-in-sql-server)
 #### JOIN
 - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
 - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
