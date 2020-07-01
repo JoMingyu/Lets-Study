@@ -506,6 +506,7 @@
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python 3.x rounding behavior](https://stackoverflow.com/questions/10825926/python-3-x-rounding-behavior)
 - [How to round float 0.5 up to 1.0, while still rounding 0.45 to 0.0, as the usual school rounding?](https://stackoverflow.com/questions/43851273/how-to-round-float-0-5-up-to-1-0-while-still-rounding-0-45-to-0-0-as-the-usual?rq=1)
+- [Behaviour of increment and decrement operators in Python](https://stackoverflow.com/questions/1485841/behaviour-of-increment-and-decrement-operators-in-python)
 #### collections
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)  
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)  
