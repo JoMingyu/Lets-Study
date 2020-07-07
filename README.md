@@ -247,6 +247,10 @@
 ### 네트워크
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 
+## 보안
+### 암호화
+- [안전한 패스워드 저장](https://d2.naver.com/helloworld/318732)
+
 ## 데이터 엔지니어링, 수학
 - [Markov Chains - The University of Auckland](https://www.stat.auckland.ac.nz/~fewster/325/notes/ch8.pdf?fbclid=IwAR0XxZEbI5xJbyrzrTSAp7fYUZACMAPDEGw_bbdUhs6e8gwNjLqPFNm3x4M)
 - [From “What is a Markov Model” to “Here is how Markov Models Work”](https://hackernoon.com/from-what-is-a-markov-model-to-here-is-how-markov-models-work-1ac5f4629b71)
