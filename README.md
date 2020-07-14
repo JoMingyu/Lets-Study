@@ -297,6 +297,7 @@
 - [기능 공장에서 일하고 있다는 12가지 신호](https://cojette.github.io/featurefactory/)
 ## UI/UX
 - [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+- [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
 ## 자기계발
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 
