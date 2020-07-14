@@ -444,6 +444,14 @@
 ## 웹 프레임워크
 ### Python
 #### Flask
+- [flask-base](https://github.com/hack4impact/flask-base)
+- [fbone](https://github.com/imwilsonxu/fbone)
+- [cookiecutter-flask](https://github.com/cookiecutter-flask/cookiecutter-flask)
+- [flask-foundation](https://github.com/JackStouffer/Flask-Foundation)
+- [flask-rest-template](https://github.com/alexandre-old/flask-rest-template)
+- [flask-appbuilder](https://github.com/dpgaspar/Flask-AppBuilder)
+- [flask-realworld-example-app](https://github.com/gothinkster/flask-realworld-example-app)
+- [flask-large-application-example](https://github.com/Robpol86/Flask-Large-Application-Example)
 - [Flask 1.0 Quickstart](http://flask.pocoo.org/docs/1.0/quickstart/)
 - [Flask 1.0 공식 튜토리얼](http://flask.pocoo.org/docs/1.0/tutorial/)
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
