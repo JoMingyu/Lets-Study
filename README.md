@@ -157,6 +157,7 @@
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
 - [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
 - [object - Schema dependencies](https://json-schema.org/understanding-json-schema/reference/object.html#schema-dependencies) 
+- [JSON Schema: verifying object's values, without keys](https://stackoverflow.com/questions/31117586/json-schema-verifying-objects-values-without-keys)
 ### 인증 관련
 #### JWT
 - [Introduction to JSON Web Tokens](https://jwt.io/introduction/)  
