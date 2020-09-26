@@ -522,6 +522,7 @@
 - [Why True/False is capitalized in Python?](https://stackoverflow.com/questions/521476/why-true-false-is-capitalized-in-python)
 - [Why is bool a subclass of int?](https://stackoverflow.com/questions/8169001/why-is-bool-a-subclass-of-int)
 - [In python, why use logging instead of print?](https://stackoverflow.com/questions/6918493/in-python-why-use-logging-instead-of-print)
+- [Why is the order in dictionaries and sets arbitrary?](https://stackoverflow.com/questions/15479928/why-is-the-order-in-dictionaries-and-sets-arbitrary)
 #### Unexpected Behaviors
 - [wtfpython](https://github.com/satwikkansal/wtfpython)
 - [Python 3.x rounding behavior](https://stackoverflow.com/questions/10825926/python-3-x-rounding-behavior)
