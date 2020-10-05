@@ -407,7 +407,7 @@
 - [Multiple select statements in Single query](https://stackoverflow.com/questions/1775168/multiple-select-statements-in-single-query)
 - [MySQL Orderby a number, Nulls last](https://stackoverflow.com/a/4195311)
 - [How to check for Is not Null And Is not Empty string in SQL server?](https://stackoverflow.com/questions/8660203/how-to-check-for-is-not-null-and-is-not-empty-string-in-sql-server)
-- [How do I specify unique constraint for multiple columns in MySQL?](https://stackoverflow.com/questions/22156301/mysql-unique-key-not-working)
+- [MySQL UNIQUE key not working](https://stackoverflow.com/questions/22156301/mysql-unique-key-not-working)
 #### JOIN
 - [Review of SQL JOINS](https://medium.com/@josemarcialportilla/review-of-sql-joins-ac5463dc71c9)
 - [LEFT JOIN vs. LEFT OUTER JOIN in SQL Server](https://stackoverflow.com/questions/406294/left-join-vs-left-outer-join-in-sql-server)  
