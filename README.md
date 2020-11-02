@@ -246,6 +246,7 @@
 - [동적 계획법](https://www.zerocho.com/category/Algorithm/post/584b979a580277001862f182)   
 - [파이썬으로 정리하는 Quick-Sort](https://parksb.github.io/article/18.html)
 - [Dijkstra’s Shortest Path Algorithm in Python](https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064)
+- [Levenshtein Distance](https://madplay.github.io/post/levenshtein-distance-edit-distance)
 ### 네트워크
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 
