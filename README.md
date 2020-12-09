@@ -773,6 +773,10 @@
 ### 언어 자체에 대한 이야기
 - [고루틴은 어떻게 동작하는가?](https://stonzeteam.github.io/How-Goroutines-Work/)
 
+## Java
+### 언어 자체에 대한 이야기
+- [Evolution of Strings in Java to Compact Strings and Indify String Concatenation](https://arnaudroger.github.io/blog/2017/06/14/CompactStrings.html)
+
 # AWS
 - [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)  
 ## AWS Docker
