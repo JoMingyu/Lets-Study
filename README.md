@@ -286,6 +286,7 @@
 - [Corona Warn App](https://github.com/corona-warn-app)
 ## Websites to follow
 - [44bits.io](https://www.44bits.io)
+- [GeekNews](https://news.hada.io/)
 
 # 교양 컨텐츠
 ## 소프트웨어 마인드/철학
