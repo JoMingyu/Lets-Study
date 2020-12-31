@@ -78,6 +78,7 @@
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
 - [Clean Code: 5 Essential Takeaways](https://medium.com/better-programming/clean-code-5-essential-takeaways-2a0b17ccd05c)
+- [Why Premature Optimization Is the Root of All Evil](https://stackify.com/premature-optimization-evil/)
 ### 객체지향 프로그래밍
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 - [Parametric Polymorphism](https://rosettacode.org/wiki/Parametric_polymorphism)
