@@ -183,15 +183,10 @@
 - [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
 ### DNS
 - [Demystifying DNS for web developers](https://medium.com/@jgefroh/demystifying-dns-for-web-developers-ace5a3ae559f)  
-- [SOA Record](https://support.dnsimple.com/articles/soa-record/)
-- [NS Record](https://support.dnsimple.com/articles/ns-record/)
-- [A Record](https://support.dnsimple.com/articles/a-record/)
-- [AAAA Record](https://support.dnsimple.com/articles/aaaa-record/)
-- [MX Record](https://support.dnsimple.com/articles/mx-record/)
-- [CNAME Record](https://support.dnsimple.com/articles/cname-record/)
-- [Alias Record](https://support.dnsimple.com/articles/alias-record/)
-### 기타
+- [DNSimple](https://support.dnsimple.com/)
+### MQTT
 - [How does MQTT protocol work?](https://stackoverflow.com/a/9570898)  
+### RSS
 - [RSS 2.0 specification](https://validator.w3.org/feed/docs/rss2.html)  
 ### SEO
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
