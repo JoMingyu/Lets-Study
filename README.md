@@ -103,8 +103,11 @@
 #### Makefile
 - [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
+## 웹
+- [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
+
 ## 프로토콜, 표준, 가이드라인
-### 스펙(RFC, ISO standard 중 하나로 귀결되는)
+### 스펙(RFC, ISO standards)
 - [What is the maximum length of a valid email address?](https://stackoverflow.com/questions/386294/what-is-the-maximum-length-of-a-valid-email-address/44317754)
 ### HTTP
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)  
@@ -903,8 +906,6 @@
 ## iOS
 
 # 웹 프론트엔드
-## 이론
-- [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
 ## 코딩 없이 웹페이지 개발
 - [Webflow](https://webflow.com/)
 ## 웹 프로그래밍 자체
