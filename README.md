@@ -103,7 +103,7 @@
 #### Makefile
 - [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
-## 프로토콜, 표준
+## 프로토콜, 표준, 가이드라인
 ### 스펙(RFC, ISO standard 중 하나로 귀결되는)
 - [What is the maximum length of a valid email address?](https://stackoverflow.com/questions/386294/what-is-the-maximum-length-of-a-valid-email-address/44317754)
 ### HTTP
@@ -192,8 +192,8 @@
 - [RSS 2.0 specification](https://validator.w3.org/feed/docs/rss2.html)  
 ### SEO
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
-### 렌더링
-- [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
+### 가이드라인
+- [Command Line Interface Guidelines](https://clig.dev/)
 
 ## Git
 ### Git 구성 요소
@@ -903,6 +903,8 @@
 ## iOS
 
 # 웹 프론트엔드
+## 이론
+- [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
 ## 코딩 없이 웹페이지 개발
 - [Webflow](https://webflow.com/)
 ## 웹 프로그래밍 자체
