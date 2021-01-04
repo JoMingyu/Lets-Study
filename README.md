@@ -155,6 +155,7 @@
 - [커맨드라인 JSON 프로세서 jq - 기초 문법과 작동 원리](https://www.44bits.io/ko/post/cli_json_processor_jq_basic_syntax)
 #### NDJSON
 - [Newline delemited JSON is awesome](https://medium.com/@kandros/newline-delimited-json-is-awesome-8f6259ed4b4b)  
+- [JSON Lines](https://jsonlines.org/)
 #### JSONSchema
 - [JSONSchema](http://tcpschool.com/json/json_schema_schema)  
 - [object - pattern properties](https://json-schema.org/understanding-json-schema/reference/object.html#pattern-properties)  
