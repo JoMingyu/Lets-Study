@@ -270,6 +270,10 @@
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
 - [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 
+# 프로젝트 관리
+## PM
+- [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
+
 # 프로젝트
 - [Casbin](https://casbin.org/)  
     memo : An authorization library that supports access control models like ACL, RBAC, ABAC
