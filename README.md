@@ -270,9 +270,13 @@
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
 - [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 
-# 프로젝트 관리
-## PM
+# 협업
+## 프로젝트 관리
+### PM
 - [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
+## 커뮤니케이션
+- [기술 업계의 독성 말투 문제, 고칩시다!](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/#%EA%B1%B0%EB%93%A4%EB%A8%B9%EA%B1%B0%EB%A6%AC%EB%8A%94-%EB%A7%90%ED%88%AC)
+- [How to Write Awesome Tech Specs](https://eng.lyft.com/awesome-tech-specs-86eea8e45bb9)
 
 # 프로젝트
 - [Casbin](https://casbin.org/)  
