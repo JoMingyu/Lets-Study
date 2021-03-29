@@ -271,6 +271,8 @@
 - [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 
 # 협업
+## 조직 관리
+- [Manager's Playbook](https://github.com/ksindi/managers-playbook)
 ## 프로젝트 관리
 ### PM
 - [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
