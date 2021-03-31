@@ -575,6 +575,10 @@
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)  
 - [Force pipenv to create a new virtualenv](https://stackoverflow.com/a/49258323)  
 - [How to get pipenv running in docker?](https://stackoverflow.com/a/49705601)  
+
+#### poetry
+- [Poetry를 사용한 파이썬 패키지 관리](https://lhy.kr/python-poetry)
+
 ### 코드 스타일
 - [Google Python Style Guide](https://google.github.io/styleguide/pyguide.html?)
 #### Style Checker
