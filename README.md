@@ -191,6 +191,7 @@
 ### SEO
 - [검색엔진최적화(SEO) 쉬운 가이드](https://blog.usefulparadigm.com/%EA%B2%80%EC%83%89%EC%97%94%EC%A7%84%EC%B5%9C%EC%A0%81%ED%99%94-seo-%EC%89%AC%EC%9A%B4-%EA%B0%80%EC%9D%B4%EB%93%9C-f003911b0a79)
 - [Black Hat - White Hat SEO](https://seoguide.kr/2021/02/black-hat-white-hat-seo/)
+- [Zero-Click Search 논란, 65%의 검색이 클릭없이 끝난다?](https://seoguide.kr/2021/03/zero-click-search-65/)
 ### 가이드라인
 - [Command Line Interface Guidelines](https://clig.dev/)
 
