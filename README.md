@@ -70,6 +70,8 @@
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
 - [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+### 검색엔진 이야기
+- [Building a full-text search engine in 150 lines of Python code](https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/)
 ### 좋은 코드를 작성하기 위한 노력
 - [개발자에게 유용한 법칙, 이론, 원칙, 그리고 패턴들 #hackerlaws](https://github.com/codeanddonuts/hacker-laws-kr)
 - [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
