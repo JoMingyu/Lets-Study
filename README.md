@@ -329,6 +329,8 @@
 - [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
 ## 자기계발
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
+## 마음가짐
+- [노력은 배신해도, 게으름은 배신하지 않는다](https://ppss.kr/archives/240738)
 
 # 학습
 ## 교육 사이트
