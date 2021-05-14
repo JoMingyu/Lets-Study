@@ -498,6 +498,8 @@
 - [What is the purpose of Flask's context stacks?](https://stackoverflow.com/questions/20036520/what-is-the-purpose-of-flasks-context-stacks)
 - [Output Fields - Flask-RESTful documentation](https://flask-restful.readthedocs.io/en/0.3.5/fields.html)  
 - [Signals](http://flask.pocoo.org/docs/1.0/signals/)
+#### FastAPI
+- [Why I'm Leaving Flask](https://dev.to/dbanty/why-i-m-leaving-flask-3ki6)
 ### Java
 #### Spring
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
