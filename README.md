@@ -421,6 +421,7 @@
 - [데이터베이스 분포도(Database Selectivity)](https://jdm.kr/blog/169)
 - [What are the materialized views?](https://stackoverflow.com/questions/4463354/what-are-materialized-views)  
 - [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
+- [Lock으로 이해하는 Transaction의 Isolation Level](https://suhwan.dev/2019/06/09/transaction-isolation-level-and-lock/)
 ### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
 - [StatsD](https://github.com/etsy/statsd)  
