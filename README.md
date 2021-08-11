@@ -33,6 +33,7 @@
 - [codecov vs coveralls](http://text.youknowone.org/post/144201220021/codecov-vs-coveralls)
 ### 패턴
 #### 디자인 패턴
+- [디자인 패턴 종류](https://gmlwjd9405.github.io/2018/07/06/design-pattern.html)
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
 - Repository Pattern
     - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
