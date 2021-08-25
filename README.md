@@ -200,6 +200,7 @@
 ### Git 구성 요소
 - [What is .gitignore exactly?](https://stackoverflow.com/a/27850270)
 - [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까?](https://kwoncheol.me/posts/git-rename-inference)
+- [Commits are snapshots, not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/)
 ### Commands
 - [git blame](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-Git%EC%9C%BC%EB%A1%9C-%EB%B2%84%EA%B7%B8-%EC%B0%BE%EA%B8%B0)  
 - [git rebase -i 사용하기](https://jupiny.com/2018/05/07/git-rebase-i-option/)
