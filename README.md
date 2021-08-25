@@ -282,6 +282,7 @@
 # 협업
 ## 조직 관리
 - [Manager's Playbook](https://github.com/ksindi/managers-playbook)
+- ['팀의 건강'을 진단하는 방법의 진화](https://camp.lemonbase.com/teamhealthcheck2)
 ## 프로젝트 관리
 ### PM
 - [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
