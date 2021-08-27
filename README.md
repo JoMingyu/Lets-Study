@@ -461,6 +461,7 @@
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
+- [How can I stop a running MySQL query?](https://stackoverflow.com/questions/3787651/how-can-i-stop-a-running-mysql-query)
 ### Druid
 #### Query
 - [Querying - Overview](http://druid.io/docs/latest/querying/querying.html)
