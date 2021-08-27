@@ -766,6 +766,7 @@
 - [Flask-SQLAlchemy docs - Multiple Databases with Binds](http://flask-sqlalchemy.pocoo.org/2.3/binds/#binds)  
 - [SQLAlchemy에서 모든 테이블의 모든 자료 지우기](https://item4.blog/2016-03-30/Truncate-All-Tables-with-SQLAlchemy/)  
     memo : truncate하는 raw query는 FK 문제로 인해 잘 안 될 수 있으므로 SQLAlchemy를 통해 극복하는 내용
+- [SQLAlchemy에서 쿼리할 때 조인을 직접 명시해야 하는 경우는 별로 없다](https://blog.hongminhee.org/2013/10/30/65522658529/)
 #### ORM
 - [Basic Relationship Patterns](https://docs.sqlalchemy.org/en/latest/orm/basic_relationships.html)  
 - [SQLAlchemy's "Lazy" Parameter](https://medium.com/@ns2586/sqlalchemys-relationship-and-lazy-parameter-4a553257d9ef)  
