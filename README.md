@@ -458,6 +458,7 @@
 - [MySQL cannot create foreign key constraint](https://stackoverflow.com/questions/21526055/mysql-cannot-create-foreign-key-constraint)
 - [When to use SELECT … FOR UPDATE?](https://stackoverflow.com/questions/10935850/when-to-use-select-for-update)
 - [갭락(Gap Lock)과 넥스트 키 락(Next-Key Lock)](https://idea-sketch.tistory.com/46)
+- [varchar Fields - Is a Power of Two More Efficient?](https://stackoverflow.com/questions/593364/varchar-fields-is-a-power-of-two-more-efficient)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
