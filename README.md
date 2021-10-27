@@ -46,8 +46,8 @@
     - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)
     - [DI 란?](https://gmlwjd9405.github.io/2018/11/09/dependency-injection.html)  
     - [Dependency Injection in Python](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce) 
+    - [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
     - [Pinject](https://github.com/google/pinject)  
-        `"Dependency Injection" is a 25-dollar term for a 5-cent concept.`
 #### 아키텍처 패턴
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
