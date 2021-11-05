@@ -280,6 +280,7 @@
 ### Insight
 - [비슷해 보이지만 전혀 다른 두 회사, 블록버스터와 넷플릭스](https://sungmooncho.com/2010/03/20/netflix-2/)
 - [한국 인터넷에서 잘못 끼워진 첫 단추, 그 이름은 네이버 (NAVER)](https://sungmooncho.com/2010/03/21/naver/)
+- [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
 
 # 협업
 ## 조직 관리
