@@ -72,8 +72,7 @@
 - [Building a full-text search engine in 150 lines of Python code](https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/)
 ### 좋은 코드를 작성하기 위한 노력
 - [개발자에게 유용한 법칙, 이론, 원칙, 그리고 패턴들 #hackerlaws](https://github.com/codeanddonuts/hacker-laws-kr)
-- [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
-- [DRY code vs. WET code](https://www.codementor.io/joshuaaroke/dry-code-vs-wet-code-89xjwv11w)  
+- [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)  
 - [Red-Green-Refactor](https://www.jamesshore.com/Blog/Red-Green-Refactor.html)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)  
 - [점진적인 레거시 웹 어플리케이션 개선 과정](https://www.slideshare.net/arawnkr/ss-115339631)
@@ -85,7 +84,6 @@
 #### 코드 퀄리티에 관한 SaaS
 - [Sonarqube](https://www.sonarqube.org/)  
 - [Scrutinizer](https://scrutinizer-ci.com/)
-- [Codacy](https://app.codacy.com/projects)
 - [Code Climate](https://codeclimate.com/)
 ### CI
 - [Continuous Integration](https://www.martinfowler.com/articles/continuousIntegration.html)
@@ -120,8 +118,7 @@
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
 - [GET이냐 POST냐 그것이 문제로다](https://homoefficio.github.io/2019/12/25/GET%EC%9D%B4%EB%83%90-POST%EB%83%90-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EB%AC%B8%EC%A0%9C%EB%A1%9C%EB%8B%A4/)
 #### CORS
-- [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b)
-- [Understanding CORS - spring.io](https://spring.io/understanding/CORS)  
+- [Understanding CORS](https://medium.com/@baphemot/understanding-cors-18ad6b478e2b) 
 - [Developers don't understand CORS](https://fosterelli.co/developers-dont-understand-cors?fbclid=IwAR3g4df3shqau16v1PSYMXDa_8QO7thqQTyO8NnW3PlF8hlDaIXnkwuIam4)
 #### HTTP API
 - [API Security Checklist-ko](https://github.com/shieldfy/API-Security-Checklist/blob/master/README-ko.md)
@@ -129,7 +126,6 @@
 - [HTTP 응답코드 결정 다이어그램](https://github.com/for-GET/http-decision-diagram)
 - [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
 - [JSON:API Standard](https://jsonapi.org/)
-- [서버 개발자는 클라이언트를 믿지 마라 - 2020 수능 평가원 성적표 대란으로 알아본 흔히 마주치는 휴먼 에러와 폼 데이터 조작에 대응하기](https://juneyoung.io/article/1.html)
 #### REST
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - 그런 REST API로 괜찮은가
@@ -274,8 +270,7 @@
 - [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)  
 - [Single-Touch vs. Multi-Touch Marketing Attribution](https://www.rockerbox.com/blog/attribution-101-single-touch-versus-multi-touch)
 - [Retargeting](https://retargeter.com/what-is-retargeting-and-how-does-it-work/)
-- [Reattribution](https://www.adjust.com/glossary/reattribution/)
-- [알아두면 좋은 이메일마케팅 지표](https://blog.stibee.com/%EC%95%8C%EC%95%84%EB%91%90%EB%A9%B4-%EC%A2%8B%EC%9D%80-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%A7%88%EC%BC%80%ED%8C%85-%EC%A7%80%ED%91%9C-92161806525f0)  
+- [Reattribution](https://www.adjust.com/glossary/reattribution/)  
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
 - [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 - [고객(Customer)이 아닌 관객(Audience)을 모으는 것이 진짜 마케팅](https://sungmooncho.com/2010/03/29/marketin/)
@@ -350,6 +345,7 @@
 ## 백엔드 관련 배경지식
 - [Microservices with gRPC](https://medium.com/@goinhacker/microservices-with-grpc-d504133d191d)
 - [The Complete Guide to the ELK Stack - 2018](https://logz.io/learn/complete-guide-elk-stack/#intro)
+- [How To Install The ELK Stack - 2021](https://logit.io/blog/post/elk-stack-guide)
 - [Time Series Database and Tick Stack](https://www.slideshare.net/GianlucaArbezzano/time-series-database-and-tick-stack)
 ### Ops
 - [Already learned DevOps? Great, now it’s time for GitOps](https://thenextweb.com/contributors/2018/12/08/all-you-need-to-know-about-gitops/)  
@@ -404,8 +400,7 @@
 - [statuspage.io](https://www.statuspage.io/)  
 - [Super](https://super.so/)
 - [Oopy](https://www.oopy.io/)
-## 도움되는 툴
-- [Facebook Account Kit](https://developers.facebook.com/docs/accountkit/)  
+## 도움되는 툴 
 - [ab - HTTP 서버 벤치마킹 툴](https://httpd.apache.org/docs/2.4/en/programs/ab.html)
 - [wrk](https://github.com/wg/wrk)
 ## Serverless
@@ -506,8 +501,7 @@
 - [Flask 1.0에서 달라진 점](https://winterj.me/flask-release/)
 - [Patterns for Flask 1.0](http://flask.pocoo.org/docs/1.0/patterns/)
 - [Pynash: Proxy objects in Flask (and elsewhere)](http://pynash.org/2013/02/12/proxy-objects/)
-- [What is the purpose of Flask's context stacks?](https://stackoverflow.com/questions/20036520/what-is-the-purpose-of-flasks-context-stacks)
-- [Output Fields - Flask-RESTful documentation](https://flask-restful.readthedocs.io/en/0.3.5/fields.html)  
+- [What is the purpose of Flask's context stacks?](https://stackoverflow.com/questions/20036520/what-is-the-purpose-of-flasks-context-stacks)  
 - [Signals](http://flask.pocoo.org/docs/1.0/signals/)
 #### FastAPI
 - [Why I'm Leaving Flask](https://dev.to/dbanty/why-i-m-leaving-flask-3ki6)
@@ -626,7 +620,6 @@
 - [Basic usage : Options](https://nose.readthedocs.io/en/latest/usage.html#options)
 #### coverage
 - [Configuration files](https://coverage.readthedocs.io/en/coverage-4.4.2/config.html)  
-- [Coverage.py command line usage](https://coverage.readthedocs.io/en/coverage-4.2/cmd.html)
 ### 비동기 프로그래밍
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)  
 - [asyncio : 단일 스레드 기반의 Nonblocking 비동기 코루틴 완전 정복](https://soooprmx.com/archives/6882) 
@@ -675,7 +668,6 @@
     - [PEP 484 -- Type Hints](https://www.python.org/dev/peps/pep-0484/)  
     - [PEP 526 -- Syntax for Variable Annotations](https://www.python.org/dev/peps/pep-0526/)
     - [Python Type Hinting and Static Type Checking](https://www.pycon.kr/program/talk-detail?id=5)
-    - [the state of type hints in Python](https://www.bernat.tech/the-state-of-type-hints-in-python/)
     - [pyright](https://github.com/Microsoft/pyright)
     - [mypy](http://mypy-lang.org/)
     - [Type hinting in Python 2](https://stackoverflow.com/questions/35230635/type-hinting-in-python-2)
@@ -867,7 +859,6 @@
 ### RDS
 ### Aurora
 - [Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
-- [Aurora 로컬 스토리지 성능 테스트](http://woowabros.github.io/r-d/2019/03/22/localstorage.html)
 ### DynamoDB
 ### ElastiCache
 ### DocumentDB
