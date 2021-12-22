@@ -94,6 +94,7 @@
 ### 정규 표현식
 - [정규표현식의 개념과 기초 문법](https://soooprmx.com/archives/7718)
 - [regexr - 정규표현식을 연습할 수 있는 playground](https://regexr.com/)
+- [불규칙 속에서 규칙을 찾아내는 정규 표현식](https://evan-moon.github.io/2020/07/24/about-regular-expression/#greedy-vs-lazy)
 - [ignore case sensitivity](https://stackoverflow.com/questions/9655164/regex-ignore-case-sensitivity)
 ### Glossary
 - [Drop-in replacement](https://en.wikipedia.org/wiki/Drop-in_replacement)
