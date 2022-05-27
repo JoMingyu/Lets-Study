@@ -81,6 +81,7 @@
 ### 객체지향 프로그래밍
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 - [Parametric Polymorphism](https://rosettacode.org/wiki/Parametric_polymorphism)
+- [정적 팩토리 메서드(Static Factory Method)는 왜 사용할까?](https://tecoble.techcourse.co.kr/post/2020-05-26-static-factory-method/)
 #### 코드 퀄리티에 관한 SaaS
 - [Sonarqube](https://www.sonarqube.org/)  
 - [Scrutinizer](https://scrutinizer-ci.com/)
