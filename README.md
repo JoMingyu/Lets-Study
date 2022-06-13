@@ -291,6 +291,7 @@
 ## Product
 - [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
 - [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
+- [강남언니가 고객의 문제를 찾는 방법](https://blog.gangnamunni.com/post/userproblem/)
 ## Project
 ### PM
 - [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
