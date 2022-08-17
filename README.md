@@ -548,6 +548,7 @@
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)  
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)  
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
+- [Strings in Python](https://www.scaler.com/topics/python/strings-in-python/)
 #### What is
 - [What is \_\_pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
 - [What is the meaning of single and double underscore before an object name?
