@@ -340,6 +340,7 @@
 ## 마인드/마음가짐
 - [노력은 배신해도, 게으름은 배신하지 않는다](https://ppss.kr/archives/240738)
 - [코더](https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/)
+- [Developer Imposter Syndrome](https://medium.com/lemonbase/developer-imposter-syndrome-153f4d94c5d8)
 ## 개발자가 알아야 할 경제
 - [개발자가 알아야 할 스톡옵션의 모든 것](https://evan-moon.github.io/2021/12/04/what-is-stock-options/)
 
