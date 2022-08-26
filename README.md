@@ -290,6 +290,7 @@
 - ['팀의 건강'을 진단하는 방법의 진화](https://camp.lemonbase.com/teamhealthcheck2)
 - [Delegation 101: Figuring out what to delegate](https://leaddev.com/team/delegation-101-figuring-out-what-delegate)
 - [Engineering Ladders](https://wonderer80.github.io/engineeringladders/)
+- [팀장이 된 후에 알게 된 것들](https://brunch.co.kr/@zseo/42)
 ## Product
 - [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
 - [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
