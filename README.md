@@ -518,6 +518,7 @@
 #### FastAPI
 - [Why I'm Leaving Flask](https://dev.to/dbanty/why-i-m-leaving-flask-3ki6)
 - [FastAPI의 시대. 아직도 Flask 쓰시나요?](https://planb.hashnode.dev/fastapi-flask)
+- [fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
 ### Java
 #### Spring
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
