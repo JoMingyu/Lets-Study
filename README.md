@@ -589,6 +589,7 @@
 - [Exponentials in python x ** y vs math.pow(x, y)](https://stackoverflow.com/questions/20969773/exponentials-in-python-x-y-vs-math-powx-y)
 - [How did Python implement the built-in function pow()?](https://stackoverflow.com/questions/5246856/how-did-python-implement-the-built-in-function-pow)
 - [Dismissing Python Garbage Collection at Instagram](https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172?gi=7a89cec7ad8b)
+- [Memory Management in Python - Part 3: Object Lifetimes and Garbage Collection](https://anvil.works/articles/pointers-in-my-python-3)
 #### Python 3.7
 - [dataclasses](https://docs.python.org/ko/3/library/dataclasses.html)
 - [Python 3.7’s new builtin breakpoint — a quick tour](https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c)
