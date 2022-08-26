@@ -594,6 +594,7 @@
 - [Python 3.7’s new builtin breakpoint — a quick tour](https://hackernoon.com/python-3-7s-new-builtin-breakpoint-a-quick-tour-4f1aebc444c)
 #### Python 3.8
 - [What's coming in Python 3.8](https://lwn.net/SubscriberLink/793818/0c6f9dd271021cd4/)
+- [You Should Be Using Python's Walrus Operator - Here's Why](https://martinheinz.dev/blog/79)
 ### 개발 환경
 - [가상 환경 및 패키지](https://docs.python.org/ko/3/tutorial/venv.html)
 - [pyenv-win](https://pypi.org/project/pyenv-win/)  
