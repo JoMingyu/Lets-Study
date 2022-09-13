@@ -111,6 +111,9 @@
 ## 웹
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)  
 
+## 오해들
+- [awesome-falsehood](https://github.com/kdeldycke/awesome-falsehood)
+
 ## 프로토콜, 표준, 가이드라인
 ### 스펙(RFC, ISO standards)
 - [What is the maximum length of a valid email address?](https://stackoverflow.com/questions/386294/what-is-the-maximum-length-of-a-valid-email-address/44317754)
