@@ -309,6 +309,7 @@
 # 스타트업
 - [The Scoop: Inside Fast’s Rapid Collapse](https://newsletter.pragmaticengineer.com/p/the-scoop-fast?s=r)
 - [스타트업에서 성장한다는 주니어의 착각](https://brunch.co.kr/@goodgdg/43?fbclid=IwAR26GEeJxPTR-fgvmtmlWTQBQa4P6N6f1hpiF_yFjydbk4ii-1tVttKaf1g)
+- [B2B SaaS에서 세일즈보다 고객서비스가 더 중요한 이유](https://www.relate.kr/blog/fathom-customer-support)
 
 # 벤치마킹
 ## 배울 점 많은 코드
