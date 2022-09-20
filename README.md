@@ -185,6 +185,7 @@
 - [ISO 8601](https://ko.wikipedia.org/wiki/ISO_8601)  
 - [What's the difference between ISO 8601 and RFC 3339 Date Formats?](https://stackoverflow.com/questions/522251/whats-the-difference-between-iso-8601-and-rfc-3339-date-formats)  
 - [DateTimeFormat(Joda-Time)](https://www.joda.org/joda-time/apidocs/org/joda/time/format/DateTimeFormat.html)
+- [Deep Dive into DateTime](https://kciter.so/posts/deep-dive-into-datetime)
 ### 국제화 관련
 - [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
 ### DNS
