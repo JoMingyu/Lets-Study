@@ -544,6 +544,7 @@
 # 해킹
 ## HTTP
 - [Permanent URL Hijack Through HTTP 301 Redirect Cache Poisoning](https://blog.duszynski.eu/domain-hijack-through-http-301-cache-poisoning/)
+- [웹 개발을 위해 꼭 알아야하는 보안 공격](https://kciter.so/posts/basic-web-hacking)
 
 # 프로그래밍 언어
 ## Python
