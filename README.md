@@ -68,6 +68,7 @@
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
 - [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+- [How I wrote a self-hosting C compiler in 40 days](https://www.sigbus.info/how-i-wrote-a-self-hosting-c-compiler-in-40-days)
 ### 검색엔진 이야기
 - [Building a full-text search engine in 150 lines of Python code](https://bart.degoe.de/building-a-full-text-search-engine-150-lines-of-code/)
 ### 좋은 코드를 작성하기 위한 노력
