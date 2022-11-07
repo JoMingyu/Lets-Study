@@ -35,6 +35,7 @@
 #### 디자인 패턴
 - [디자인 패턴 종류](https://gmlwjd9405.github.io/2018/07/06/design-pattern.html)
 - [So Singletons are bad, then what?](https://softwareengineering.stackexchange.com/questions/40373/so-singletons-are-bad-then-what)
+- [Refactoring guru : design patterns](https://refactoring.guru/ko/design-patterns)
 - Repository Pattern
     - [Repository Design Pattern](https://medium.com/@pererikbergman/repository-design-pattern-e28c0f3e4a30)
     - [repository pattern vs ORM](https://stackoverflow.com/questions/10155517/repository-pattern-vs-orm)
