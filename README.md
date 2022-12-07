@@ -887,6 +887,7 @@
 ### EFS
 - [EFS(Elastic File System)](https://aws.amazon.com/ko/efs/)  
 ## 데이터베이스
+- [Next-Level Database Techniques For Developers](https://sqlfordevs.com/ebook)
 ### RDS
 ### Aurora
 - [Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
