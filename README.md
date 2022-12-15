@@ -450,6 +450,8 @@
 - [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 - [Lock으로 이해하는 Transaction의 Isolation Level](https://suhwan.dev/2019/06/09/transaction-isolation-level-and-lock/)
 - [CAP and PACELC : the basic theorem of distributed database system](https://speakerdeck.com/buzzvil/cap-and-pacelc-the-basic-theorem-of-distributed-database-system)
+- [Next-Level Database Techniques For Developers](https://sqlfordevs.com/ebook)
+- [DB 파티셔닝(Partitioning)이란](https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html)
 ### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
 - [StatsD](https://github.com/etsy/statsd)  
@@ -891,7 +893,6 @@
 ### EFS
 - [EFS(Elastic File System)](https://aws.amazon.com/ko/efs/)  
 ## 데이터베이스
-- [Next-Level Database Techniques For Developers](https://sqlfordevs.com/ebook)
 ### RDS
 ### Aurora
 - [Aurora Serverless - Features, Limitations, Glitches](https://medium.com/searce/amazon-aurora-serverless-features-limitations-glitches-d07f0374a2ab)  
