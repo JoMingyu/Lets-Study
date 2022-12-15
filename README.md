@@ -58,6 +58,7 @@
 - [WTF is Memoization](https://medium.com/@chialunwu/wtf-is-memoization-a2979594fb2a)  
 - [What is the difference between Caching and Memoization?](https://stackoverflow.com/a/6469470)  
 - [캐시가 동작하는 아주 구체적인 원리](https://parksb.github.io/article/29.html?utm_source=gaerae.com&utm_campaign=%EA%B0%9C%EB%B0%9C%EC%9E%90%EC%8A%A4%EB%9F%BD%EB%8B%A4&utm_medium=social&fbclid=IwAR2QTpnMNc9fbjbnj6SQWf_VQwJznCBUQ_4NWovcGXXugl-Nd2hDj44JoXI)
+- [Caching 전략 소개 및 사용 예제](https://wnsgml972.github.io/database/2020/12/13/Caching/)
 ### 언어론에 가까운 이야기
 - [Exression verses Statement](https://stackoverflow.com/a/19224)  
 - [Static/Dynamic vs Strong/Weak](https://stackoverflow.com/a/2351203)  
