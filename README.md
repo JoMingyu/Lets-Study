@@ -280,11 +280,13 @@
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
 - [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 - [고객(Customer)이 아닌 관객(Audience)을 모으는 것이 진짜 마케팅](https://sungmooncho.com/2010/03/29/marketin/)
+- [몰락 이후의 퍼포먼스 마케팅](https://eopla.net/magazines/1686#)
 
 ## Business
 ### Insight
 - [비슷해 보이지만 전혀 다른 두 회사, 블록버스터와 넷플릭스](https://sungmooncho.com/2010/03/20/netflix-2/)
 - [한국 인터넷에서 잘못 끼워진 첫 단추, 그 이름은 네이버 (NAVER)](https://sungmooncho.com/2010/03/21/naver/)
+- [당근마켓 전문가모드 광고의 가능성과 한계](https://brunch.co.kr/@mobiinside/4682)
 
 # 협업
 ## 조직 관리
