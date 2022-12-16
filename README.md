@@ -47,7 +47,6 @@
     - [Pinject](https://github.com/google/pinject)  
 #### 아키텍처 패턴
 - [10가지 소프트웨어 아키텍처 패턴](https://mingrammer.com/translation-10-common-software-architectural-patterns-in-a-nutshell/)  
-- [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 - [Clean architectures in Python: a step-by-step example](https://www.thedigitalcatonline.com/blog/2016/11/14/clean-architectures-in-python-a-step-by-step-example/)
 #### 캐싱
 - [What is difference between LRU and LFU?](https://stackoverflow.com/a/29225598)  
@@ -405,7 +404,7 @@
 - [테라폼(Terraform) 기초 튜토리얼 - AWS와 테라폼으로 구현하는 Infrastructure as Code](https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code)  
 - [Terraform을 이용한 Infrastructure as Code 실전 구성하기](https://www.slideshare.net/awskorea/configuring-practical-aws-based-infrastructure-as-code-using-terraform-byoun-jeonghun)  
 - [Ansible vs Terraform: Fight!](https://linuxacademy.com/blog/devops/ansible-vs-terraform-fight/)  
-## 서버 아키텍처 관련 블로깅/발표자료
+## 서버 아키텍처
 - [[야생의 땅: 듀랑고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
 - [[야생의 땅: 듀랑고] 서버 아키텍처 Vol. 2 (자막)](https://www.slideshare.net/sublee/lt-vol-2)
 - [DEVIEW 2016 참가 신청 기능 개발기](https://d2.naver.com/helloworld/5048491)  
@@ -413,6 +412,8 @@
 - [전 세계 팬들이 모일 수 있는 플랫폼 만들기](https://www.slideshare.net/awskr/ss-223007438)
 - [The Architecture Behind A One-Person Tech Startup](https://anthonynsimon.com/blog/one-man-saas-architecture/)
 - [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
+- [가상 면접 사례로 배우는 대규모 시스템 설계 기초 정리](https://github.com/cracking-interview/be-system-interview)
+- [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 ## 웹서버 이야기
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
