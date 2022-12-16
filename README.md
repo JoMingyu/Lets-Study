@@ -469,7 +469,7 @@
 - [MySQL ON vs USING?](https://stackoverflow.com/questions/11366006/mysql-on-vs-using)  
 #### Date, Time 연산 관련 쿼리
 - [When is a timestamp (auto) updated?](https://stackoverflow.com/questions/18962757/when-is-a-timestamp-auto-updated)  
-- [INTERVAL](http://www.mysqltutorial.org/mysql-interval/)  
+- [INTERVAL](http://www.mysqltutorial.org/mysql-interval/)
 ### MySQL
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)  
 - [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)  
@@ -491,6 +491,8 @@
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
+### NoSQL
+- [Why NoSQL Scales better than SQL](https://blog.devgenius.io/why-nosql-scales-better-than-sql-eb0b46b4aac5)
 ### Druid
 #### Query
 - [Querying - Overview](http://druid.io/docs/latest/querying/querying.html)
