@@ -493,6 +493,7 @@
 - [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
 - [MySQL Integers: INT, BIGINT, and more](https://planetscale.com/blog/mysql-data-types-integers)
 - [MySQL data types: VARCHAR and CHAR](https://planetscale.com/blog/mysql-data-types-varchar-and-char)
+- [Indexing JSON in MySQL](https://planetscale.com/blog/indexing-json-in-mysql)
 ### Postgres
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 ### PrestoDB
