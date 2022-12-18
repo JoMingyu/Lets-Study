@@ -416,6 +416,8 @@
 - [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 - [가상 면접 사례로 배우는 대규모 시스템 설계 기초 정리](https://github.com/cracking-interview/be-system-interview)
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
+- [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
+- [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
 ## 웹서버 이야기
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)  
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
@@ -447,11 +449,11 @@
 - [What is a stored procedure?](https://stackoverflow.com/questions/459457/what-is-a-stored-procedure?lq=1)  
 - [데이터베이스 분포도(Database Selectivity)](https://jdm.kr/blog/169)
 - [What are the materialized views?](https://stackoverflow.com/questions/4463354/what-are-materialized-views)  
-- [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 - [Lock으로 이해하는 Transaction의 Isolation Level](https://suhwan.dev/2019/06/09/transaction-isolation-level-and-lock/)
 - [CAP and PACELC : the basic theorem of distributed database system](https://speakerdeck.com/buzzvil/cap-and-pacelc-the-basic-theorem-of-distributed-database-system)
 - [Next-Level Database Techniques For Developers](https://sqlfordevs.com/ebook)
 - [DB 파티셔닝(Partitioning)이란](https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html)
+- [](https://planetscale.com/blog/how-do-database-indexes-work)
 ### DB Vendor
 - [InfluxDB](https://github.com/influxdata/influxdb)  
 - [StatsD](https://github.com/etsy/statsd)  
