@@ -490,6 +490,7 @@
 - [MySQL 성능최적화](https://daniel-hebn.github.io/2018/04/14/2018-04-14-MySQL-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-1/)
 - [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
 - [MySQL Integers: INT, BIGINT, and more](https://planetscale.com/blog/mysql-data-types-integers)
+- [MySQL data types: VARCHAR and CHAR](https://planetscale.com/blog/mysql-data-types-varchar-and-char)
 ### Postgres
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 ### PrestoDB
@@ -865,36 +866,24 @@
 - [minio - ](https://github.com/minio/minio)
 ## 컴퓨팅
 ### EC2
-- [EC2(Elastic Compute Cloud)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/concepts.html)  
 - [인스턴스 수명 주기](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/ec2-instance-lifecycle.html)
 - [인스턴스 유형](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-types.html)  
 - [인스턴스 구입 옵션](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/instance-purchasing-options.html)  
 - [Application Load Balancer 서비스 공개](https://aws.amazon.com/ko/blogs/korea/new-aws-application-load-balancer/)  
 - [배치 그룹(Placement Gorup)](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/placement-groups.html)  
 #### EBS
-- [EBS(Elastic Block Storage)](https://aws.amazon.com/ko/ebs/?nc=sn&loc=1)  
 - [EBS 최적화 인스턴스](https://docs.aws.amazon.com/ko_kr/AWSEC2/latest/UserGuide/EBSOptimized.html#enable-ebs-optimization)  
 #### ELB
-- [Application Load Balancer 시작하기](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/application-load-balancer-getting-started.html)  
 - [Application Load Balancer를 통한 경로 기반 라우팅 사용](https://docs.aws.amazon.com/ko_kr/elasticloadbalancing/latest/application/tutorial-load-balancer-routing.html)  
-### ECS
-- [ECS(Elastic Container Service)](https://docs.aws.amazon.com/ko_kr/AmazonECS/latest/developerguide/Welcome.html)  
-- [Fargate](https://aws.amazon.com/ko/blogs/korea/aws-fargate/)  
-### ECR
-- [ECR(Elastic Container Repository)](https://aws.amazon.com/ko/ecr/)  
 ### Lambda
-- [Lambda](https://aws.amazon.com/ko/lambda/features/)  
 - [Lambda Function Versioning and Aliases](https://docs.aws.amazon.com/lambda/latest/dg/versioning-aliases.html)
 ### EKS
 - [Demo: Easy AWS EKS cluster provisioning and user access](https://www.youtube.com/watch?v=ITzAkaRAgG4)
 - [HashiCorp AWS EKS Introduction](https://learn.hashicorp.com/terraform/aws/eks-intro)
 ## 스토리지
 ### S3
-- [S3 Storage Classes](https://aws.amazon.com/ko/s3/storage-classes/)  
 - [버킷 정책 예제 - 특정 IP 주소 액세스 제한](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-3)
 - [버킷 정책 예제 - Amazon CloudFront 오리진 자격 증명에 권한 부여](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-6)  
-### EFS
-- [EFS(Elastic File System)](https://aws.amazon.com/ko/efs/)  
 ## 데이터베이스
 ### RDS
 ### Aurora
@@ -902,14 +891,8 @@
 ### DynamoDB
 ### ElastiCache
 ### DocumentDB
-- [Amazon DocumentDB 신규 출시](https://aws.amazon.com/ko/blogs/korea/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/)  
-### TimeStream
-- [TimeStream](https://aws.amazon.com/ko/timestream/)  
+- [Amazon DocumentDB 신규 출시](https://aws.amazon.com/ko/blogs/korea/new-amazon-documentdb-with-mongodb-compatibility-fast-scalable-and-highly-available/) 
 ## 마이그레이션, 전송
-### DMS
-- [DMS(Database Migration Service)](https://aws.amazon.com/ko/dms/)  
-### Snowball
-- [Snowball](https://aws.amazon.com/ko/snowball/)  
 ## 네트워킹
 ### VPC
 - [만들면서 배우는 AWS VPC 입문](https://www.44bits.io/ko/post/understanding_aws_vpc)
@@ -920,37 +903,19 @@
 ## PaaS
 ### CodeStar
 - [AWS CodeStar로 1인 DevOps 코스프레하기](https://www.holaxprogramming.com/2017/10/16/devops-aws-codestar/)
-### CodeCommit
-- [AWS CodeCommit](https://docs.aws.amazon.com/ko_kr/codecommit/latest/userguide/welcome.html#welcome-introducing)  
 ### CodeBuild
-- [AWS CodeBuild](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/welcome.html)  
 - [CodeBuild의 build spec reference](https://docs.aws.amazon.com/ko_kr/codebuild/latest/userguide/build-spec-ref.html)  
 - [Environment variables not being set on AWS CodeBuild](https://stackoverflow.com/questions/50706276/environment-variables-not-being-set-on-aws-codebuild)  
 ### CodeDeploy
 - [AWS CodeDeploy를 통한 배포 자동화](http://blog.dramancompany.com/2017/04/aws-code-deploy%EB%A5%BC-%ED%86%B5%ED%95%9C-%EB%B0%B0%ED%8F%AC-%EC%9E%90%EB%8F%99%ED%99%94/)  
 ## 관리
 ### CloudWatch
-- [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)  
+- [일정에서 트리거되는 CloudWatch 이벤트 규칙 생성](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/events/Create-CloudWatch-Events-Scheduled-Rule.html)
 - [사용자 지정 메트릭 게시(put-metric-data)](https://docs.aws.amazon.com/ko_kr/AmazonCloudWatch/latest/monitoring/publishingMetrics.html)
 ### Auto Scaling
-## 분석
-### Athena
-### Redshift
-### EMR
-### ElasticSearch Service
-### Kinesis
 ## 보안, 자격 증명
 ### IAM
-- [AWS IAM](https://docs.aws.amazon.com/ko_kr/IAM/latest/UserGuide/introduction.html)  
 - [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/a/48182754)  
-### KMS
-### WAF
-- [AWS WAF](https://aws.amazon.com/ko/waf/)  
-## 어플리케이션 통합
-### Step Functions
-### Amazon MQ
-### SNS
-### SQS
 
 ## 고객 참여
 ### SES
