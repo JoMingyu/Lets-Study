@@ -489,6 +489,7 @@
 - [How can I stop a running MySQL query?](https://stackoverflow.com/questions/3787651/how-can-i-stop-a-running-mysql-query)
 - [MySQL 성능최적화](https://daniel-hebn.github.io/2018/04/14/2018-04-14-MySQL-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-1/)
 - [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
+- [MySQL Integers: INT, BIGINT, and more](https://planetscale.com/blog/mysql-data-types-integers)
 ### Postgres
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 ### PrestoDB
