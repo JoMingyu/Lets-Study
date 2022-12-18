@@ -494,6 +494,7 @@
 - [MySQL Integers: INT, BIGINT, and more](https://planetscale.com/blog/mysql-data-types-integers)
 - [MySQL data types: VARCHAR and CHAR](https://planetscale.com/blog/mysql-data-types-varchar-and-char)
 - [Indexing JSON in MySQL](https://planetscale.com/blog/indexing-json-in-mysql)
+- [Understanding Generated Columns](https://gabi.dev/2016/10/17/understanding-generated-columns/)
 ### Postgres
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 ### PrestoDB
