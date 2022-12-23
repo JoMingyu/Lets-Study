@@ -398,11 +398,12 @@
 - [Docker VOLUME vs COPY vs ADD](http://coderbro.com/docker/2017/10/24/docker-volumes-vs-copy.html)
 - [Automation of container creation and creating image with DB packed](https://forums.docker.com/t/automation-of-container-creation-and-creating-image-with-db-packed/4982)  
 ### Docker 써먹기
-- [kitematic](https://kitematic.com/)  
+- [kitematic](https://kitematic.com/)
 - [아마존 엘라스틱 컨테이너 서비스(ECS) 입문](https://www.44bits.io/ko/post/container-orchestration-101-with-docker-and-aws-elastic-container-service)
 - [ECS의 매니지드 컨테이너 AWS 파게이트 시작하기](https://www.44bits.io/ko/post/getting-started-with-ecs-fargate)
-### Docker Compose
-- [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)  
+### Orchestration
+- [Docker (Compose) 활용법](http://raccoonyy.github.io/docker-usages-for-dev-environment-setup/)
+- [도커 컨테이너 5분 만에 무료로 배포하기(feat. fly.io)](https://www.44bits.io/ko/post/docker-container-deploy-in-5-minitues-with-fly-io)
 ## Ansible
 - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)  
 ## Terraform
