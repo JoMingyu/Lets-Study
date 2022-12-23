@@ -501,6 +501,7 @@
 - [A graph a day, keeps the doctor away ! – MySQL History List Length](https://lefred.be/content/a-graph-a-day-keeps-the-doctor-away-mysql-history-list-length/)
 ### Postgres
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
+- [PostgreSQL Vacuum에 대한 거의 모든 것](https://techblog.woowahan.com/9478/)
 ### PrestoDB
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
