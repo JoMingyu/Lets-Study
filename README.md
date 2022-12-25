@@ -331,6 +331,10 @@
 - [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
 - [Realizing quality improvement through test driven development: results and experiences of four industrial teams](https://github.com/tpn/pdfs/raw/master/Realizing%20Quality%20Improvement%20Through%20Test%20Driven%20Development%20-%20Results%20and%20Experiences%20of%20Four%20Industrial%20Teams%20(nagappan_tdd).pdf)
 
+### DDD
+
+- [Kakao Tech : 추천팀의 DDD 도입기](https://tech.kakao.com/2022/12/12/ddd-of-recommender-team/)
+
 ## 컴퓨터과학
 
 ### 이론 컴퓨터 과학
@@ -383,6 +387,10 @@
 
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
+
+### 하드웨어
+
+- [개발자를 위한 SSD (Coding for SSD)](https://tech.kakao.com/2016/07/14/coding-for-ssd-part-2/)
 
 #### DNS
 
@@ -569,6 +577,10 @@
 - [Netlify](https://www.netlify.com/)
 - [Vercel](https://vercel.com/)
 
+### Optimization
+
+- [지연 시간 없이 웹폰트 서빙하기 - Feat. Safari & Edge functions](https://blog.banksalad.com/tech/font-preload-on-safari/)
+
 ### React
 
 - [Learning React 예제 한국어 번역](https://github.com/enshahar/learning-react-kor)
@@ -617,6 +629,7 @@
 - [가상 면접 사례로 배우는 대규모 시스템 설계 기초 정리](https://github.com/cracking-interview/be-system-interview)
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
 - [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)
+- [Ticket Servers: Distributed Unique Primary Keys on the Cheap](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
 
 ### Pattern
 
@@ -825,6 +838,11 @@
 ##### SELECT
 
 - [Multiple select statements in Single query](https://stackoverflow.com/questions/1775168/multiple-select-statements-in-single-query)
+
+###### Query Plan
+
+- [What is a query planner?](https://planetscale.com/blog/what-is-a-query-planner)
+- [SQLite : 차세대 쿼리 플래](https://www.sqlite.org/queryplanner-ng.html)
 
 ###### WHERE
 
