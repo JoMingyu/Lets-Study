@@ -630,6 +630,7 @@
 - [Serverless Architecture](https://www.slideshare.net/awskr/serverless-architecture-78022209)
 - [서버리스 아키텍쳐(Serverless)란?](https://velopert.com/3543)
 - [Ticket Servers: Distributed Unique Primary Keys on the Cheap](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
+- [CDC 너두 할 수 있어(feat. B2B 알림 서비스에 Kafka CDC 적용하기)](https://techblog.woowahan.com/10000/)
 
 ### Pattern
 
