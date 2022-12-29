@@ -1221,3 +1221,4 @@
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
 - [노력은 배신해도, 게으름은 배신하지 않는다](https://ppss.kr/archives/240738)
 - [타인이 이해가 되지 않는다면](https://json.media/blog/if_you_can%27t_understanding_others)
+- [무조건 상위 10% 안에 드는 방법](http://moneyman.kr/archives/4140)
