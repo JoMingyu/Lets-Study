@@ -1191,11 +1191,17 @@
 
 - [Manager's Playbook](https://github.com/ksindi/managers-playbook)
 - [Delegation 101: Figuring out what to delegate](https://leaddev.com/team/delegation-101-figuring-out-what-delegate)
-- [Engineering Ladders](https://wonderer80.github.io/engineeringladders/)
 - [팀장이 된 후에 알게 된 것들](https://brunch.co.kr/@zseo/42)
 - [미팅 가득한 팀장의 하루](https://brunch.co.kr/@zseo/44)
-- [Dreyfus Model](http://blog.lastmind.io/archives/593)
+
+### 조직 관리
+
 - [규칙은 마지막에 고려하세요](http://blog.lastmind.io/archives/992)
+
+### 조직 구성
+
+- [Dreyfus Model](http://blog.lastmind.io/archives/593)
+- [Engineering Ladders](https://wonderer80.github.io/engineeringladders/)
 
 ### 조직 문화
 
@@ -1215,6 +1221,7 @@
 - [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
 - [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
 - [강남언니가 고객의 문제를 찾는 방법](https://blog.gangnamunni.com/post/userproblem/)
+- [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
 
 ## Management
 
