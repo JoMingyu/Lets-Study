@@ -1205,6 +1205,7 @@
 
 ### 조직 구성
 
+- [채용에 대해](https://www.thestartupbible.com/2022/01/hire-as-if-today-is-your-last-day.html)
 - [Dreyfus Model](http://blog.lastmind.io/archives/593)
 - [Engineering Ladders](https://wonderer80.github.io/engineeringladders/)
 
