@@ -876,6 +876,10 @@
 
 #### Druid
 
+#### ScyllaDB
+
+- [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
+
 #### ElasticSearch
 
 ##### Query
@@ -1175,6 +1179,9 @@
 # 경제
 
 - [개발자가 알아야 할 스톡옵션의 모든 것](https://evan-moon.github.io/2021/12/04/what-is-stock-options/)
+
+# 법
+- ['아바타2' 보며 초장에 회 찍어 먹은 관객을 둘러싼 법적 쟁점 살펴보기](https://lawtalknews.co.kr/article/X51YZ3F3PXE6)
 
 # 협업
 
