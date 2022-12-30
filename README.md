@@ -1174,6 +1174,7 @@
 - [당근마켓 전문가모드 광고의 가능성과 한계](https://brunch.co.kr/@mobiinside/4682)
 - [직접 만들지 그랬어](https://otterletter.com/why-didnt-you-just-make-one)
 - [B2B SaaS에서 세일즈보다 고객서비스가 더 중요한 이유](https://www.relate.kr/blog/fathom-customer-support)
+- [보이는 게 전부가 아니다](https://www.thestartupbible.com/2022/09/there-is-always-more-than-what-meets-the-eye.html)
 
 ## 스타트업
 
