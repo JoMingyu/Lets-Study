@@ -873,6 +873,7 @@
 ### NoSQL
 
 - [Why NoSQL Scales better than SQL](https://blog.devgenius.io/why-nosql-scales-better-than-sql-eb0b46b4aac5)
+- [ScyllaDB University](https://university.scylladb.com/)
 
 #### Druid
 
