@@ -879,6 +879,7 @@
 #### ScyllaDB
 
 - [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
+- [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
 
 #### ElasticSearch
 
