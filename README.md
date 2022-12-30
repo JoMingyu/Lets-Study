@@ -1045,6 +1045,10 @@
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
 - [코더](https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/)
 
+### 커리어
+
+- [프론트엔드 엔지니어 커리어 로드맵: 주니어를 위한 3가지 전문성 트랙](https://steady-study.super.site/frontend-engineer-career-roadmap)
+
 ### 번아웃 관련
 
 - [Developer Imposter Syndrome](https://medium.com/lemonbase/developer-imposter-syndrome-153f4d94c5d8)
