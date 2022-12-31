@@ -594,6 +594,10 @@
 - [카카오페이지 웹 React 포팅 후기](https://medium.com/@ljs0705/%EC%B9%B4%EC%B9%B4%EC%98%A4%ED%8E%98%EC%9D%B4%EC%A7%80-%EC%9B%B9-react-%ED%8F%AC%ED%8C%85-%ED%9B%84%EA%B8%B0-76402cc5e031)
 - [When a rewrite isn’t: rebuilding Slack on the desktop](https://slack.engineering/rebuilding-slack-on-the-desktop-308d6fe94ae4)
 
+#### 상태 관리
+
+- [Recoil을 이용한 손쉬운 상태관리](https://techblog.yogiyo.co.kr/recoil%EC%9D%84-%EC%9D%B4%EC%9A%A9%ED%95%9C-%EC%86%90%EC%89%AC%EC%9A%B4-%EC%83%81%ED%83%9C%EA%B4%80%EB%A6%AC-b70b32650582)
+
 ### CSS
 
 #### PostCSS
