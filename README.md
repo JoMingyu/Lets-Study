@@ -1176,6 +1176,7 @@
 - [B2B SaaS에서 세일즈보다 고객서비스가 더 중요한 이유](https://www.relate.kr/blog/fathom-customer-support)
 - [보이는 게 전부가 아니다](https://www.thestartupbible.com/2022/09/there-is-always-more-than-what-meets-the-eye.html)
 - [한국인들의 7가지 실수](https://www.thestartupbible.com/2010/09/7.html)
+- [남이 해 주는 숙제](https://www.thestartupbible.com/2022/04/do-your-own-homework-because-nobody-else-will-do-it-better.html)
 
 ## 스타트업
 
