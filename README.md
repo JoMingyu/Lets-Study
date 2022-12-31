@@ -1181,6 +1181,7 @@
 
 - [The Scoop: Inside Fast’s Rapid Collapse](https://newsletter.pragmaticengineer.com/p/the-scoop-fast?s=r)
 - [행동력이 미친 창업 팀, 개발 없이 MVP 테스트하기](https://brunch.co.kr/@famelee/75)
+- [피치 덱](https://www.thestartupbible.com/2022/09/the-first-pitch-deck.html)
 
 ## 경영
 
