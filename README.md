@@ -1118,6 +1118,9 @@
 
 # 보안
 
+## 해킹
+- [Cracking encrypted Lastpass vaults](https://markuta.com/cracking-lastpass-vaults/)
+
 ## 네트워크
 
 ### HTTP
