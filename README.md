@@ -1137,6 +1137,10 @@
 
 - [안전한 패스워드 저장](https://d2.naver.com/helloworld/318732)
 
+## Insight
+
+- [South Korea’s online security dead end](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
+
 # 마케팅
 
 - [몰락 이후의 퍼포먼스 마케팅](https://eopla.net/magazines/1686#)
