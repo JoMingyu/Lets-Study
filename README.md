@@ -444,6 +444,10 @@
 - [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)
 - [Web API Pagination with the 'Timestamp_ID' Continuation Token](https://phauer.com/2018/web-api-pagination-timestamp-id-continuation-token/)
 
+### 유용한 도구
+
+- [ngrok으로 로컬 네트워크의 터널 열기](https://blog.outsider.ne.kr/1159)
+
 ### HTTP API
 
 - [HTTP API development tools](https://github.com/yosriady/api-development-tools)
