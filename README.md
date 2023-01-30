@@ -1059,6 +1059,7 @@
 - [\[번역\] 개발 배우기가 정말 어려운 이유](https://brunch.co.kr/@jypthemiracle/14)
 - [Cognitive Biases in Programming](https://hackernoon.com/cognitive-biases-in-programming-5e937707c27b)
 - [코더](https://sangminpark.blog/2021/05/11/%EC%BD%94%EB%8D%94/)
+- [20 Things I’ve Learned in my 20 Years as a Software Engineer](https://www.simplethread.com/20-things-ive-learned-in-my-20-years-as-a-software-engineer/)
 
 ### 커리어
 
