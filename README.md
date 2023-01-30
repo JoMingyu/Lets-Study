@@ -1244,6 +1244,7 @@
 - [사고를 쳐도 혼나지 않는 회사](https://brunch.co.kr/@svillustrated/13)
 - [Why Development Teams are Slow](https://medium.com/javascript-scene/why-development-teams-are-slow-89107985c75c)
 - [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
+- [왜 당신의 일일 스탠드업 미팅은 실패하는가](https://news.hada.io/topic?id=8352)
 
 ## 커뮤니케이션
 
