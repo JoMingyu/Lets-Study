@@ -555,6 +555,7 @@
 - [JWT 기반 로그인 구현 예제](https://github.com/szerhusenBC/jwt-spring-security-demo)
 - [폼 기반 인증 구현 튜토리얼](http://cusonar.tistory.com/8?category=607756)
 - [MVC 구조에서 service와 serviceImpl을 왜 만드는가](http://multifrontgarden.tistory.com/97)
+- [클래식한 스프링 웹 어플리케이션 구조](https://yjksw.github.io/spring-spring-web-application-architecture/)
 
 #### Node
 
