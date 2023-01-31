@@ -1200,6 +1200,7 @@
 - [보이는 게 전부가 아니다](https://www.thestartupbible.com/2022/09/there-is-always-more-than-what-meets-the-eye.html)
 - [한국인들의 7가지 실수](https://www.thestartupbible.com/2010/09/7.html)
 - [남이 해 주는 숙제](https://www.thestartupbible.com/2022/04/do-your-own-homework-because-nobody-else-will-do-it-better.html)
+- [평균 실종과 초버티칼화 현상](https://www.thestartupbible.com/2023/01/the-micro-verticalization-of-everything.html)
 
 ## 스타트업
 
