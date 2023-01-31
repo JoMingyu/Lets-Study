@@ -627,6 +627,11 @@
 
 ## 백엔드
 
+### Low-code
+
+- [Supabase | The Open Source Firebase Alternative](https://supabase.com/)
+- [Pocketbase | Open Source backend 1 in file](https://pocketbase.io/)
+
 ### Architecture
 
 - [[야생의 땅: 듀랑고] SPOF 없는 분산 MMORPG 서버](https://www.slideshare.net/sublee/spof-mmorpg)
