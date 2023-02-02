@@ -841,6 +841,7 @@
 
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 - [PostgreSQL Vacuum에 대한 거의 모든 것](https://techblog.woowahan.com/9478/)
+- [A BEGINNERS GUIDE TO POSTGRESQL’S UPDATE AND AUTOVACUUM](https://www.cybertec-postgresql.com/en/a-beginners-guide-to-postgresqls-update-and-autovacuum/)
 
 ##### PrestoDB
 
