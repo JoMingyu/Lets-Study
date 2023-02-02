@@ -668,6 +668,10 @@
 - [유저를 위한 시스템 개선기](https://techblog.gccompany.co.kr/%EC%9C%A0%EC%A0%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EC%84%A0%EA%B8%B0-2588880fbf12)
 - [대학생 멘토링: 우물 밖 내다보기](https://tech.kakao.com/2023/02/01/university-student-mentoring-get-out-from-the-well/)
 
+### Postmortem
+
+- [2022년 1월 100% 할인 이벤트 장애 부검](https://tech.inflab.com/202201-event-postmortem/)
+
 ### Protocol
 
 #### gRPC
