@@ -1073,6 +1073,9 @@
 
 - [프론트엔드 엔지니어 커리어 로드맵: 주니어를 위한 3가지 전문성 트랙](https://steady-study.super.site/frontend-engineer-career-roadmap)
 
+### 회고
+- [2021년 CTO 회고 by 향로](https://jojoldu.tistory.com/626)
+
 ### 번아웃 관련
 
 - [Developer Imposter Syndrome](https://medium.com/lemonbase/developer-imposter-syndrome-153f4d94c5d8)
