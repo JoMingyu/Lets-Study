@@ -605,6 +605,8 @@
 
 ### CSS
 
+- [스타일시트 및 관심사의 분리](https://ykss.netlify.app/translation/the_evolution_of_scalable_css/)
+
 #### PostCSS
 
 - [PostCSS](https://medium.com/@FourwingsY/postcss-%EC%86%8C%EA%B0%9C-727310aa6505)
