@@ -664,6 +664,7 @@
 - [채점 현황 속도 올리기 - 스타트링크](https://startlink.blog/2018/03/09/%EC%B1%84%EC%A0%90-%ED%98%84%ED%99%A9-%EC%86%8D%EB%8F%84-%EC%98%AC%EB%A6%AC%EA%B8%B0/)
 - [ipify: 300억 요청 처리, 그 너머로](http://www.haruair.com/blog/4108)
 - [유저를 위한 시스템 개선기](https://techblog.gccompany.co.kr/%EC%9C%A0%EC%A0%80%EB%A5%BC-%EC%9C%84%ED%95%9C-%EC%8B%9C%EC%8A%A4%ED%85%9C-%EA%B0%9C%EC%84%A0%EA%B8%B0-2588880fbf12)
+- [대학생 멘토링: 우물 밖 내다보기](https://tech.kakao.com/2023/02/01/university-student-mentoring-get-out-from-the-well/)
 
 ### Protocol
 
