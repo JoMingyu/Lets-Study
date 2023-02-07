@@ -1278,6 +1278,7 @@
 - [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
 - [강남언니가 고객의 문제를 찾는 방법](https://blog.gangnamunni.com/post/userproblem/)
 - [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
+- [단순한 제품을 만든다는 것에 대해](https://sungmooncho.com/2023/02/05/how-to-build-a-simple-product/)
 
 ## Management
 
