@@ -584,6 +584,10 @@
 
 - [Express에서 Sequelize를 사용할 때 Circular Import Problem을 해결하는 방법 - sequelize/express-example](https://github.com/sequelize/express-example)
 
+##### NestJS
+
+- [NestJS 환경에 맞는 Custom Decorator 만들기](https://toss.tech/article/nestjs-custom-decorator)
+
 ## 웹 프론트엔드
 
 - [웹 프로그래밍 튜토리얼 | PoiemaWeb](https://poiemaweb.com/)
