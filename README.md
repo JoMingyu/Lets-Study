@@ -591,6 +591,8 @@
 
 ### Fundamental
 
+- [똑똑하게 브라우저 Polyfill 관리하기](https://toss.tech/article/smart-polyfills)
+
 ### Useful Service
 
 #### Nocode
