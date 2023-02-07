@@ -545,7 +545,7 @@
 - [FastAPI의 시대. 아직도 Flask 쓰시나요?](https://planb.hashnode.dev/fastapi-flask)
 - [fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
 
-#### Java
+#### Java/Kotlin
 
 ##### Spring
 
@@ -556,6 +556,7 @@
 - [폼 기반 인증 구현 튜토리얼](http://cusonar.tistory.com/8?category=607756)
 - [MVC 구조에서 service와 serviceImpl을 왜 만드는가](http://multifrontgarden.tistory.com/97)
 - [클래식한 스프링 웹 어플리케이션 구조](https://yjksw.github.io/spring-spring-web-application-architecture/)
+- [Alternative to JPA](https://www.jongho.dev/java/Alternative-to-JPA/)
 
 #### Node
 
