@@ -571,6 +571,10 @@
 ###### Logging
 - [스프링 부트와 로깅](https://www.slideshare.net/whiteship/ss-47273947)
 
+###### Performance
+
+- [Jedis 보다 Lettuce를 쓰자](https://jojoldu.tistory.com/418)
+
 #### Node
 
 ##### Express
