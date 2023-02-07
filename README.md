@@ -1297,6 +1297,7 @@
 - [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
 - [왜 당신의 일일 스탠드업 미팅은 실패하는가](https://news.hada.io/topic?id=8352)
 - [윗사람과 아랫사람](https://jeho.page/essay/2021/11/02/%EC%9C%97%EC%82%AC%EB%9E%8C%EA%B3%BC-%EC%95%84%EB%9E%AB%EC%82%AC%EB%9E%8C.html)
+- [회사는 나의 놀이터](https://jeho.page/essay/2021/09/16/%ED%9A%8C%EC%82%AC%EB%8A%94-%EB%82%98%EC%9D%98-%EB%86%80%EC%9D%B4%ED%84%B0.html)
 
 ### 조직 성장
 
