@@ -1264,6 +1264,10 @@
 - [당신의 개발자들은 결코 느리지 않다.](http://tech.trenbe.com/?p=547)
 - [왜 당신의 일일 스탠드업 미팅은 실패하는가](https://news.hada.io/topic?id=8352)
 
+### 조직 성장
+
+- [Aligning the company growth](https://alexjklim.medium.com/aligning-the-company-growth-252bc6f1b51d)
+
 ## 커뮤니케이션
 
 - [기술 업계의 독성 말투 문제, 고칩시다!](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/#%EA%B1%B0%EB%93%A4%EB%A8%B9%EA%B1%B0%EB%A6%AC%EB%8A%94-%EB%A7%90%ED%88%AC)
