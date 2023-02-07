@@ -1250,6 +1250,7 @@
 ### 조직 구성
 
 - [채용에 대해](https://www.thestartupbible.com/2022/01/hire-as-if-today-is-your-last-day.html)
+- [How notion hires](https://www.notion.so/blog/how-notion-hires)
 - [리더와 팔로워](https://www.thestartupbible.com/2022/02/leaders-and-followers.html)
 - [Dreyfus Model](http://blog.lastmind.io/archives/593)
 - [Engineering Ladders](https://wonderer80.github.io/engineeringladders/)
