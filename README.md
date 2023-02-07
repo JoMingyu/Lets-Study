@@ -1238,6 +1238,8 @@
 
 ## Management
 
+### 관리자 되기
+
 - [Manager's Playbook](https://github.com/ksindi/managers-playbook)
 - [Delegation 101: Figuring out what to delegate](https://leaddev.com/team/delegation-101-figuring-out-what-delegate)
 - [팀장이 된 후에 알게 된 것들](https://brunch.co.kr/@zseo/42)
@@ -1246,6 +1248,7 @@
 ### 조직 관리
 
 - [규칙은 마지막에 고려하세요](http://blog.lastmind.io/archives/992)
+- [욕망 관리하기](https://jojoldu.tistory.com/688?category=689637)
 
 ### 조직 구성
 
