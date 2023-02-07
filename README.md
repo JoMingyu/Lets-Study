@@ -1302,6 +1302,7 @@
 ### 조직 성장
 
 - [Aligning the company growth](https://alexjklim.medium.com/aligning-the-company-growth-252bc6f1b51d)
+- [완성되지 않은 회사](https://jeho.page/essay/2022/05/02/kakao-ten-years.html)
 
 ## 커뮤니케이션
 
