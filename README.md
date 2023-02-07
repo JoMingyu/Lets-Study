@@ -12,6 +12,7 @@
 - [람다, 익명 함수, 클로저](https://hyunseob.github.io/2016/09/17/lambda-anonymous-function-closure/)
 - [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)
 - [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)
+- [좋은 함수 만들기 - 부작용과 거리두기](https://jojoldu.tistory.com/697)
 
 ### 테스팅
 
