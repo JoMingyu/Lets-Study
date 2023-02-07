@@ -379,6 +379,8 @@
 - [Dijkstra’s Shortest Path Algorithm in Python](https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064)
 - [Levenshtein Distance](https://madplay.github.io/post/levenshtein-distance-edit-distance)
 - [The Algorithms](https://the-algorithms.com/)
+- [2023 카카오 신입 공채 1차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-1/)
+- [2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-2/)
 
 ##### 알고리즘 패러다임
 
