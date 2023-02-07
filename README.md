@@ -19,6 +19,7 @@
 - [유닛테스트에 대한 생각](https://blog.outsider.ne.kr/1275?fbclid=IwAR1Z9DPi-JJns_bSccrNZIo8zFo-0B8nAvIEHen3tu0_jaIUS34hY90FVJ0)
 - [코드 커버리지 80% 넘긴 썰 - 테스팅을 잘 하기 위한 8퍼센트 개발팀의 삽질기](https://brunch.co.kr/@leehosung/43)
 - [테스트 코드에서 내부 구현 검증 피하기](https://jojoldu.tistory.com/614)
+- [[Jest] 파라미터화 테스트: test.each(), describe.each()](https://www.daleseo.com/jest-each/)
 
 #### Test Double
 
