@@ -449,13 +449,14 @@
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 
-#### Websocket
+#### Polling/Websocket/etcs
 
 - [Spring Websocket & STOMP](https://brunch.co.kr/@springboot/695)
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)
 - [Websockets vs Long Polling](https://www.ably.io/blog/websockets-vs-long-polling/?utm_source=share&utm_medium=ios_app&fbclid=IwAR0ZAaLo_ZhFjL5xO21hsXKk5E_pRule-h0Bzs3gEl3uxB50Y3bi7ganH3w)
 - [Ajax Polling vs Long-Polling vs WebSockets vs Server-Sent Events](https://medium.com/geekculture/ajax-polling-vs-long-polling-vs-websockets-vs-server-sent-events-e0d65033c9ba)
 - [HTTP/2 Server Push vs Websockets vs Server-Sent Events](https://lukeolney.me/readings/http2-server-push/)
+- [SSE를 이용한 실시간 웹앱](https://spoqa.github.io/2014/01/20/sse.html)
 
 ### 설계
 
