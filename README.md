@@ -402,6 +402,7 @@
 ### 데이터베이스
 
 - [Build Your Own Redis](https://build-your-own.org/blog/20230127_byor/)
+- [SQLite Internals](https://www.compileralchemy.com/books/sqlite-internals/)
 
 #### DNS
 
@@ -1026,6 +1027,12 @@
 ##### IAM
 
 - [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/a/48182754)
+
+## 머신러닝
+
+### Tutorial
+
+- [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 ## 협업
 - [Jamsync - rsync기반의 버전 컨트롤 시스템](https://jamsync.dev/)
