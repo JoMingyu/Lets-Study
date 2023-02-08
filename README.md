@@ -399,6 +399,10 @@
 
 - [개발자를 위한 SSD (Coding for SSD)](https://tech.kakao.com/2016/07/14/coding-for-ssd-part-2/)
 
+### 데이터베이스
+
+- [Build Your Own Redis](https://build-your-own.org/blog/20230127_byor/)
+
 #### DNS
 
 - [Demystifying DNS for web developers](https://medium.com/@jgefroh/demystifying-dns-for-web-developers-ace5a3ae559f)
