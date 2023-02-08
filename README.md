@@ -1299,6 +1299,7 @@
 - [Delegation 101: Figuring out what to delegate](https://leaddev.com/team/delegation-101-figuring-out-what-delegate)
 - [팀장이 된 후에 알게 된 것들](https://brunch.co.kr/@zseo/42)
 - [미팅 가득한 팀장의 하루](https://brunch.co.kr/@zseo/44)
+- [스타트업 CTO의 일](https://brunch.co.kr/@leehosung/40)
 
 ### 조직 관리
 
