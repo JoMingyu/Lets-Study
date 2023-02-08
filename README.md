@@ -449,6 +449,10 @@
 - [What is the difference between application server and web server?](https://stackoverflow.com/a/936257)
 - [Difference between proxy server and reverse proxy server](https://stackoverflow.com/a/366212)
 
+#### Websocket
+
+- [Spring Websocket & STOMP](https://brunch.co.kr/@springboot/695)
+
 ### 설계
 
 - [WebSocket과 Socket.io](https://d2.naver.com/helloworld/1336)
