@@ -1123,15 +1123,19 @@
 
 - [프론트엔드 엔지니어 커리어 로드맵: 주니어를 위한 3가지 전문성 트랙](https://steady-study.super.site/frontend-engineer-career-roadmap)
 
+### 성장
+
+- [개발자의 윗몸일으키기](https://jeho.page/essay/2022/02/10/sit-up-for-developers.html)
+- [나는 어떻게 더 나은 프로그래머가 되었는가](https://medium.com/@rinae/%EB%B2%88%EC%97%AD-%EB%82%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8D%94-%EB%82%98%EC%9D%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80-b84c45d8bf98)
+- [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/)
+
 ### 회고
 - [2021년 CTO 회고 by 향로](https://jojoldu.tistory.com/626)
 
 ### 번아웃 관련
 
 - [Developer Imposter Syndrome](https://medium.com/lemonbase/developer-imposter-syndrome-153f4d94c5d8)
-- [나는 어떻게 더 나은 프로그래머가 되었는가](https://medium.com/@rinae/%EB%B2%88%EC%97%AD-%EB%82%98%EB%8A%94-%EC%96%B4%EB%96%BB%EA%B2%8C-%EB%8D%94-%EB%82%98%EC%9D%80-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%98%EC%97%88%EB%8A%94%EA%B0%80-b84c45d8bf98)
 - [Avoiding burnout as an ambitious developer](https://stackoverflow.blog/2020/01/13/avoiding-burnout-as-an-ambitious-developer/)
-- [The Forty-Year Programmer](https://codefol.io/posts/the-forty-year-programmer/)
 
 ## 좋은 블로그
 
