@@ -691,6 +691,10 @@
 - [Ticket Servers: Distributed Unique Primary Keys on the Cheap](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
 - [CDC 너두 할 수 있어(feat. B2B 알림 서비스에 Kafka CDC 적용하기)](https://techblog.woowahan.com/10000/)
 
+#### Troubleshooting
+
+- [The Case of the Mysterious AWS ELB 504 Errors](https://sigopt.com/blog/the-case-of-the-mysterious-aws-elb-504-errors/)
+
 ### Pattern
 
 - [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
