@@ -694,6 +694,7 @@
 #### Troubleshooting
 
 - [The Case of the Mysterious AWS ELB 504 Errors](https://sigopt.com/blog/the-case-of-the-mysterious-aws-elb-504-errors/)
+- [AWS Timeouts: A Detective Story](https://dzone.com/articles/aws-elastic-beanstalk-timeouts-a-detective-story)
 
 ### Pattern
 
