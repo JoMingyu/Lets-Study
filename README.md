@@ -909,6 +909,10 @@
 - [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
 - [When to use SELECT … FOR UPDATE?](https://stackoverflow.com/questions/10935850/when-to-use-select-for-update)
 
+###### Fault Tolerance
+
+- [장애와 관련된 XtraBackup 적용기](https://techblog.woowahan.com/2576/)
+
 ##### Postgres
 
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
