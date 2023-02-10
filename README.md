@@ -763,6 +763,7 @@
 
 ##### Terraform
 
+- [테라폼 (Terraform) 개념 설명 및 AWS 인스턴스 생성하기](https://blog.naver.com/alice_k106/221489260596)
 - [테라폼(Terraform) 기초 튜토리얼 - AWS와 테라폼으로 구현하는 Infrastructure as Code](https://www.44bits.io/ko/post/terraform_introduction_infrastrucute_as_code)
 - [Terraform을 이용한 Infrastructure as Code 실전 구성하기](https://www.slideshare.net/awskorea/configuring-practical-aws-based-infrastructure-as-code-using-terraform-byoun-jeonghun)
 - [Ansible vs Terraform: Fight!](https://linuxacademy.com/blog/devops/ansible-vs-terraform-fight/)
