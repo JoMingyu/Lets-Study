@@ -735,6 +735,10 @@
 
 #### SRE
 
+##### Scenarios
+
+- [스플릿 브레인(Split Brain) 현상](https://blog.naver.com/alice_k106/221310093541)
+
 ##### Recovery/Failover
 
 - [Failover & Disaster Recovery](https://stackoverflow.com/questions/120139/failover-disaster-recovery)
