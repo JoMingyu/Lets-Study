@@ -1,3 +1,7 @@
+# Welcome!
+
+좋은 글을 마주치면 북마크처럼 정리해 두는 저장소입니다. 카테고리화를 열심히 했지만, 서버 개발자인 저의 개인 공부 과정에서 발견한 것들이라 그 향이 배어 있습니다.
+
 # 개발
 
 ## 프로그래밍
@@ -1106,26 +1110,6 @@
 
 - [How does Coconut Battery determine a Macbook battery's design capacity?](https://apple.stackexchange.com/questions/240406/how-does-coconut-battery-determine-a-macbook-batterys-design-capacity)
 
-## 좋은 오픈소스
-
-### Android
-
-- [WebToon](https://github.com/Pluu/WebToon)
-
-### Web Frontend
-
-- [velog-client](https://github.com/velopert/velog-client)
-
-### Backend
-
-- [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
-- [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
-- [velog-server](https://github.com/velopert/velog-server)
-
-### Whole Service
-
-- [Corona Warn App](https://github.com/corona-warn-app)
-
 ## 교양/마인드
 
 - [소프트웨어 환멸감(Software disenchantment)](https://muchtrans.com/translations/software-disenchantment.ko.html)
@@ -1159,6 +1143,26 @@
 
 - [44bits.io](https://www.44bits.io)
 - [GeekNews](https://news.hada.io/)
+
+## 좋은 오픈소스
+
+### Android
+
+- [WebToon](https://github.com/Pluu/WebToon)
+
+### Web Frontend
+
+- [velog-client](https://github.com/velopert/velog-client)
+
+### Backend
+
+- [pyconkr-api](https://github.com/pythonkr/pyconkr-api)
+- [SpaceX-API](https://github.com/r-spacex/SpaceX-API)
+- [velog-server](https://github.com/velopert/velog-server)
+
+### Whole Service
+
+- [Corona Warn App](https://github.com/corona-warn-app)
 
 ## 기타 배경지식
 
@@ -1297,10 +1301,7 @@
 
 - [개발자가 알아야 할 스톡옵션의 모든 것](https://evan-moon.github.io/2021/12/04/what-is-stock-options/)
 
-# 법
-- ['아바타2' 보며 초장에 회 찍어 먹은 관객을 둘러싼 법적 쟁점 살펴보기](https://lawtalknews.co.kr/article/X51YZ3F3PXE6)
-
-# 협업
+# Co-working
 
 ## Management
 
