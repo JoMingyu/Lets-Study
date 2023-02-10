@@ -912,6 +912,7 @@
 ###### Fault Tolerance
 
 - [장애와 관련된 XtraBackup 적용기](https://techblog.woowahan.com/2576/)
+- [MySQL MHA(Master High Availability)](https://hoing.io/archives/9175)
 
 ##### Postgres
 
