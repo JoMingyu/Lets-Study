@@ -979,20 +979,14 @@
 ### NoSQL
 
 - [Why NoSQL Scales better than SQL](https://blog.devgenius.io/why-nosql-scales-better-than-sql-eb0b46b4aac5)
-- [ScyllaDB University](https://university.scylladb.com/)
 
 #### Search Engine
 
+##### Meilisearch
+
 - [Meilisearch 1.0: the next stage in search](https://blog.meilisearch.com/v1-enterprise-ready-stable/)
 
-#### Druid
-
-#### ScyllaDB
-
-- [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
-- [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
-
-#### ElasticSearch
+##### ElasticSearch
 
 ##### Query
 
@@ -1005,6 +999,22 @@
 - [Term level query - range query](https://www.elastic.co/guide/en/elasticsearch/reference/current/query-dsl-range-query.html)
 - [Exclude empty-string, null and non-existant](https://discuss.elastic.co/t/exclude-empty-string-null-and-non-existant/181140)
 - [Best way to check if a field exist in an Elasticsearch document](https://stackoverflow.com/questions/32949321/best-way-to-check-if-a-field-exist-in-an-elasticsearch-document)
+
+#### OLAP
+
+##### Druid
+
+#### ScyllaDB
+
+- [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
+- [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
+- [ScyllaDB University](https://university.scylladb.com/)
+
+#### Cache
+
+##### Redis
+
+- [Redis 설치, 사용 방법, 데이터 백업을 위한 RDB & AOF 개념 및 간단한 Redis 사용 사례 연구](https://blog.naver.com/alice_k106/221553725569)
 
 ### NewSQL
 
