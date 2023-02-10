@@ -759,6 +759,7 @@
 ##### Ansible
 
 - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)
+- [Ansible (앤서블) 개념, 사용 환경 구성, 기초 사용법 정리](https://blog.naver.com/alice_k106/221333208746)
 
 ##### Terraform
 
