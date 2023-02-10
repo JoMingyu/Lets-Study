@@ -869,26 +869,44 @@
 
 ##### MySQL
 
+###### Query
+
 - [MySQL Orderby a number, Nulls last](https://stackoverflow.com/a/4195311)
-- [MySQL UNIQUE key not working](https://stackoverflow.com/questions/22156301/mysql-unique-key-not-working)
 - [Illegal mix of collations for operation 'like'](https://stackoverflow.com/a/18651057)
 - [Illegal mix of collations (utf8_unicode_ci,IMPLICIT) and (utf8_general_ci,IMPLICIT) for operation '='](https://stackoverflow.com/questions/11770074/illegal-mix-of-collations-utf8-unicode-ci-implicit-and-utf8-general-ci-implic)
-- [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)
-- [MySQL 중복 키 관리 방법](http://jason-heo.github.io/mysql/2014/03/05/manage-dup-key2.html)
-- [Understanding MySQL Storage Engines](http://www.mysqltutorial.org/understand-mysql-table-types-innodb-myisam.aspx?fbclid=IwAR2SpjdINoy8rtFiHBpu7PMyAj3iuof5xM1A9-wYJe_c-_SLRKZh6I4DhuQ)
 - [How to declare a variable in MySQL?](https://stackoverflow.com/questions/11754781/how-to-declare-a-variable-in-mysql)
 - [How to show the last queries executed on MySQL?](https://stackoverflow.com/questions/650238/how-to-show-the-last-queries-executed-on-mysql)
+- [How can I stop a running MySQL query?](https://stackoverflow.com/questions/3787651/how-can-i-stop-a-running-mysql-query)
+
+###### DDL
+
+- [MySQL UNIQUE key not working](https://stackoverflow.com/questions/22156301/mysql-unique-key-not-working)
+- [MySQL 중복 키 관리 방법](http://jason-heo.github.io/mysql/2014/03/05/manage-dup-key2.html)
 - [MySQL cannot create foreign key constraint](https://stackoverflow.com/questions/21526055/mysql-cannot-create-foreign-key-constraint)
 - [varchar Fields - Is a Power of Two More Efficient?](https://stackoverflow.com/questions/593364/varchar-fields-is-a-power-of-two-more-efficient)
-- [MySQL 5.7 FullText Search 이용하기 with ngram](https://gongzza.github.io/database/mysql-fulltext-search/)
-- [How can I stop a running MySQL query?](https://stackoverflow.com/questions/3787651/how-can-i-stop-a-running-mysql-query)
-- [MySQL 성능최적화](https://daniel-hebn.github.io/2018/04/14/2018-04-14-MySQL-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-1/)
-- [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
 - [MySQL Integers: INT, BIGINT, and more](https://planetscale.com/blog/mysql-data-types-integers)
 - [MySQL data types: VARCHAR and CHAR](https://planetscale.com/blog/mysql-data-types-varchar-and-char)
 - [Indexing JSON in MySQL](https://planetscale.com/blog/indexing-json-in-mysql)
 - [Understanding Generated Columns](https://gabi.dev/2016/10/17/understanding-generated-columns/)
+
+###### Structure
+
+- [Understanding MySQL Storage Engines](http://www.mysqltutorial.org/understand-mysql-table-types-innodb-myisam.aspx?fbclid=IwAR2SpjdINoy8rtFiHBpu7PMyAj3iuof5xM1A9-wYJe_c-_SLRKZh6I4DhuQ)
 - [A graph a day, keeps the doctor away ! – MySQL History List Length](https://lefred.be/content/a-graph-a-day-keeps-the-doctor-away-mysql-history-list-length/)
+
+###### Tips
+
+- [MySQL 쓰면서 하지 말아야 할 것 17가지](https://blog.lael.be/post/370)
+- [MySQL 5.7 FullText Search 이용하기 with ngram](https://gongzza.github.io/database/mysql-fulltext-search/)
+- [MySQL FullText Search, 제대로 이해하기](https://gngsn.tistory.com/162)
+
+###### Performance
+
+- [MySQL 성능최적화](https://daniel-hebn.github.io/2018/04/14/2018-04-14-MySQL-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-1/)
+
+###### Transaction
+
+- [MySQL8 skip locked / nowait 활용하기](https://kimdubi.github.io/mysql/skip_locked/)
 - [When to use SELECT … FOR UPDATE?](https://stackoverflow.com/questions/10935850/when-to-use-select-for-update)
 
 ##### Postgres
