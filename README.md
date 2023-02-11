@@ -441,6 +441,7 @@
 ### Identifier
 
 - [What Is a UUID and How Are They Generated?](https://betterprogramming.pub/what-is-a-uuid-and-how-are-they-generated-17f0acbd7233)
+- [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
 ## 웹 개발
 
@@ -707,7 +708,6 @@
 
 ### Pattern
 
-- [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 - [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 - [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
