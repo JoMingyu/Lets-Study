@@ -706,12 +706,13 @@
 - [The Case of the Mysterious AWS ELB 504 Errors](https://sigopt.com/blog/the-case-of-the-mysterious-aws-elb-504-errors/)
 - [AWS Timeouts: A Detective Story](https://dzone.com/articles/aws-elastic-beanstalk-timeouts-a-detective-story)
 
-### Pattern
+### System Design
 
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 - [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 - [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
 - [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)
+- [System Design Interview: Scalable Unique ID Generator (Twitter Snowflake or a similar service)](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
 
 ### Benchmark
 
@@ -1287,6 +1288,7 @@
 - [몰락 이후의 퍼포먼스 마케팅](https://eopla.net/magazines/1686#)
 - [고객(Customer)이 아닌 관객(Audience)을 모으는 것이 진짜 마케팅](https://sungmooncho.com/2010/03/29/marketin/)
 - [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)
+- [퍼포먼스 마케팅의 새로운 시대](https://brunch.co.kr/@amor30yk/42)
 
 ## SEO
 
