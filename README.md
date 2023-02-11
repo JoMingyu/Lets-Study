@@ -438,6 +438,10 @@
 
 - [en_US or en-US, which one should you use?](https://stackoverflow.com/questions/4904803/en-us-or-en-us-which-one-should-you-use)
 
+### Identifier
+
+- [What Is a UUID and How Are They Generated?](https://betterprogramming.pub/what-is-a-uuid-and-how-are-they-generated-17f0acbd7233)
+
 ## 웹 개발
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
