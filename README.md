@@ -836,6 +836,7 @@
 #### Fundamental
 
 - [CAP and PACELC : the basic theorem of distributed database system](https://speakerdeck.com/buzzvil/cap-and-pacelc-the-basic-theorem-of-distributed-database-system)
+- [CAP Theorem for System Design Interviews](https://medium.com/double-pointer/cap-theorem-for-system-design-interviews-698216f7af6f)
 
 ##### Transaction
 
