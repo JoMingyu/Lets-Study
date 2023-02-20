@@ -721,6 +721,7 @@
 #### Data Pipeline
 
 - [전사 구성원들이 사용하는 배치 데이터 플랫폼 만들기 - Airflow Advanced](https://tech.socarcorp.kr/data/2022/11/09/advanced-airflow-for-databiz.html)
+- [컬리의 BigQuery 도입기 - 1부](https://helloworld.kurly.com/blog/bigquery-1/)
 
 ### Benchmark
 
