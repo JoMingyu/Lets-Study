@@ -712,11 +712,15 @@
 
 ### System Design
 
-- [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
-- [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
-- [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
-- [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)
 - [System Design Interview: Scalable Unique ID Generator (Twitter Snowflake or a similar service)](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
+
+#### Microservice
+
+- [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
+
+#### Data Pipeline
+
+- [전사 구성원들이 사용하는 배치 데이터 플랫폼 만들기 - Airflow Advanced](https://tech.socarcorp.kr/data/2022/11/09/advanced-airflow-for-databiz.html)
 
 ### Benchmark
 
@@ -879,6 +883,9 @@
 
 - [Are soft deletes a good idea?](https://stackoverflow.com/questions/2549839/are-soft-deletes-a-good-idea/2549843)
 - [Next-Level Database Techniques For Developers](https://sqlfordevs.com/ebook)
+- [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
+- [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
+- [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)
 
 #### Optimize
 
