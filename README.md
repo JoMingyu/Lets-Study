@@ -648,6 +648,7 @@
 ### Optimization
 
 - [지연 시간 없이 웹폰트 서빙하기 - Feat. Safari & Edge functions](https://blog.banksalad.com/tech/font-preload-on-safari/)
+- [Optimize Time to First Byte](https://web.dev/optimize-ttfb/)
 
 ### React
 
