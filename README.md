@@ -1048,7 +1048,9 @@
 ### NewSQL
 
 #### CockroachDB
+
 - [CTO가 커리어를 걸고 비트 레벨까지 내려가서 DB를 해킹했던 이야기](https://tech.devsisters.com/posts/bit-level-database-hacking/)
+- [CockroachDB in Production](https://tech.devsisters.com/posts/cockroachdb-in-production/)
 
 ## 모바일
 
