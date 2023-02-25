@@ -455,6 +455,7 @@
 ## 웹 개발
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
+- [Local-First Web Development](https://localfirstweb.dev/)
 
 ### HTTP
 
