@@ -1340,7 +1340,11 @@
 
 ## 분석
 
+- [숫자 너머에 숨은 진실을 보는 법](https://designcompass.org/2023/02/27/beyond-numbers/)
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
+
+### DAU/MAU
+
 - [DAU/MAU Ratio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 - [DAU/MAU는 절대 만능이 될 수 없다.](https://brunch.co.kr/@ywkim36/108)
 
