@@ -1340,7 +1340,8 @@
 ## 분석
 
 - [ARPU / ARPPU](https://plbarts.tistory.com/223)
-- [DAU/MAU Reatio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
+- [DAU/MAU Ratio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
+- [DAU/MAU는 절대 만능이 될 수 없다.](https://brunch.co.kr/@ywkim36/108)
 
 ## 기여
 
