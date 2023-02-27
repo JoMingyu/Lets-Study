@@ -1316,6 +1316,7 @@
 - [고객(Customer)이 아닌 관객(Audience)을 모으는 것이 진짜 마케팅](https://sungmooncho.com/2010/03/29/marketin/)
 - [What is a tracking link?](https://support.rebrandly.com/hc/en-us/articles/360007299393-What-is-a-tracking-link-)
 - [퍼포먼스 마케팅의 새로운 시대](https://brunch.co.kr/@amor30yk/42)
+- [사용자는 바보가 아니야, 기만적인 기획과 마케팅](https://yozm.wishket.com/magazine/detail/1275/)
 
 ## SEO
 
