@@ -406,6 +406,7 @@
 
 ### 네트워크
 
+- [주니어 개발자를 위한 엄청 쉬운 네트워크 이야기](https://yozm.wishket.com/magazine/detail/1875/)
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
 
