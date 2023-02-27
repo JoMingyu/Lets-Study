@@ -1135,21 +1135,21 @@
 - [git은 폴더경로가 변경된 것을 어떻게 알 수 있을까?](https://kwoncheol.me/posts/git-rename-inference)
 - [Commits are snapshots, not diffs](https://github.blog/2020-12-17-commits-are-snapshots-not-diffs/)
 
-### Command
+#### Command
 
 - [git blame](https://git-scm.com/book/ko/v1/Git-%EB%8F%84%EA%B5%AC-Git%EC%9C%BC%EB%A1%9C-%EB%B2%84%EA%B7%B8-%EC%B0%BE%EA%B8%B0)
 - [git rebase -i 사용하기](https://jupiny.com/2018/05/07/git-rebase-i-option/)
 
-### How to
+#### How to
 
 - [How can one change the timestamp of an old commit in Git?](https://stackoverflow.com/questions/454734/how-can-one-change-the-timestamp-of-an-old-commit-in-git)
 - [How to change the commit author for one specific commit?](https://stackoverflow.com/questions/3042437/how-to-change-the-commit-author-for-one-specific-commit)
 
-### Guide
+#### Guide
 
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
 
-### Troubleshooting
+#### Troubleshooting
 
 - [Oh shit, git!](https://ohshitgit.com)
 - [How to resolve merge conflict during pull request?](https://stackoverflow.com/a/45819784)
@@ -1396,6 +1396,7 @@
 
 - [규칙은 마지막에 고려하세요](http://blog.lastmind.io/archives/992)
 - [욕망 관리하기](https://jojoldu.tistory.com/688?category=689637)
+- ["따르지 않을 거면 나가라"고 말하기 전에](https://eopla.net/magazines/2674)
 
 ### 조직 구성
 
@@ -1451,3 +1452,4 @@
 - [타인이 이해가 되지 않는다면](https://json.media/blog/if_you_can%27t_understanding_others)
 - [무조건 상위 10% 안에 드는 방법](http://moneyman.kr/archives/4140)
 - [거절하기](https://www.thestartupbible.com/2021/12/saying-no-is-the-best-stress-management-technique.html)
+- [90% 이기기](https://www.thestartupbible.com/2023/02/how-to-win-90-percent-of-your-market.html)
