@@ -479,6 +479,7 @@
 - [Ajax Polling vs Long-Polling vs WebSockets vs Server-Sent Events](https://medium.com/geekculture/ajax-polling-vs-long-polling-vs-websockets-vs-server-sent-events-e0d65033c9ba)
 - [HTTP/2 Server Push vs Websockets vs Server-Sent Events](https://lukeolney.me/readings/http2-server-push/)
 - [SSE를 이용한 실시간 웹앱](https://spoqa.github.io/2014/01/20/sse.html)
+- [Scalable Websocket Architecture](https://blog.hathora.dev/scalable-websocket-architecture/)
 
 ### 설계
 
