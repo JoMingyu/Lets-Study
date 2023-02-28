@@ -759,6 +759,8 @@
 
 #### SRE
 
+- [SRE Checklist](https://github.com/bregman-arie/sre-checklist)
+
 ##### Scenarios
 
 - [스플릿 브레인(Split Brain) 현상](https://blog.naver.com/alice_k106/221310093541)
