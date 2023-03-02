@@ -17,6 +17,7 @@
 - [자바스크립트의 호이스팅(Hoisting)](http://asfirstalways.tistory.com/197)
 - [코루틴 소개](https://medium.com/@jooyunghan/%EC%BD%94%EB%A3%A8%ED%8B%B4-%EC%86%8C%EA%B0%9C-504cecc89407)
 - [좋은 함수 만들기 - 부작용과 거리두기](https://jojoldu.tistory.com/697)
+- [좋은 함수 만들기 - 암묵적 입력/출력](https://jojoldu.tistory.com/703)
 
 ### 테스팅
 
@@ -1402,6 +1403,7 @@
 - [팀장이 된 후에 알게 된 것들](https://brunch.co.kr/@zseo/42)
 - [미팅 가득한 팀장의 하루](https://brunch.co.kr/@zseo/44)
 - [스타트업 CTO의 일](https://brunch.co.kr/@leehosung/40)
+- [일을 맡길 때는 권한까지 맡겨야 합니다](https://brunch.co.kr/@mobiinside/4895)
 
 ### 조직 관리
 
