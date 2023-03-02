@@ -1058,6 +1058,10 @@
 - [CTO가 커리어를 걸고 비트 레벨까지 내려가서 DB를 해킹했던 이야기](https://tech.devsisters.com/posts/bit-level-database-hacking/)
 - [CockroachDB in Production](https://tech.devsisters.com/posts/cockroachdb-in-production/)
 
+#### Vitess
+
+- [Vitess. CNCF Study in NaverLabs](https://medium.com/@goinhacker/vitess-e423634ff978)
+
 ## 모바일
 
 - [배달의민족 앱에 적용된 오프라인 모드에 대하여](http://woowabros.github.io/experience/2018/11/05/about_offline_mode.html)
