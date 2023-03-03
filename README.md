@@ -1445,6 +1445,10 @@
 
 - [기술 업계의 독성 말투 문제, 고칩시다!](https://edykim.com/ko/post/tech-has-a-toxic-tone-problem-lets-fix-it/#%EA%B1%B0%EB%93%A4%EB%A8%B9%EA%B1%B0%EB%A6%AC%EB%8A%94-%EB%A7%90%ED%88%AC)
 
+## 태도
+
+- [내가 틀렸네요](https://jojoldu.tistory.com/658)
+
 # Product
 
 - [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
