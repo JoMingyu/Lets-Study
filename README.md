@@ -336,6 +336,12 @@
 - [리멤버 웹 서비스 좌충우돌 Yarn Berry 도입기](https://blog.dramancompany.com/2023/02/%eb%a6%ac%eb%a9%a4%eb%b2%84-%ec%9b%b9-%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%a2%8c%ec%b6%a9%ec%9a%b0%eb%8f%8c-yarn-berry-%eb%8f%84%ec%9e%85%ea%b8%b0/)
 - [npm, yarn, pnpm 비교해보기](https://yceffort.kr/2022/05/npm-vs-yarn-vs-pnpm)
 
+#### Libraries
+
+##### TypeORM
+
+- [TypeOrm 0.3.X 업그레이드](https://medium.com/zigbang/typeorm-0-3-x-%EC%97%85%EA%B7%B8%EB%A0%88%EC%9D%B4%EB%93%9C-fac783aca6c8)
+
 ### Rust
 
 - [파이썬 프로그래머를 위한 러스트 입문](https://indosaram.github.io/rust-python-book/)
