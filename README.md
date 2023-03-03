@@ -700,6 +700,7 @@
 
 - [우리(Reddit)가 Typescript를 선택한 이유](https://medium.com/@constell99/%EC%9A%B0%EB%A6%AC%EA%B0%80-typescript%EB%A5%BC-%EC%84%A0%ED%83%9D%ED%95%9C-%EC%9D%B4%EC%9C%A0-b0a423654f1e)
 - [Conditional types in Typescript](https://artsy.github.io/blog/2018/11/21/conditional-types-in-typescript/)
+- [WebStorm 대신 VSCode 로 TypeScript 테스트와 디버깅 해보기 (with Jest)](https://medium.com/zigbang/webstorm-%EB%8C%80%EC%8B%A0-vscode-%EB%A1%9C-typescript-%ED%85%8C%EC%8A%A4%ED%8A%B8%EC%99%80-%EB%94%94%EB%B2%84%EA%B9%85-%ED%95%B4%EB%B3%B4%EA%B8%B0-with-jest-9ba01925e6ba)
 
 ## 백엔드
 
