@@ -465,6 +465,7 @@
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
 - [Local-First Web Development](https://localfirstweb.dev/)
+- [(번역) 2023년 웹 개발 트렌드 10가지](https://ykss.netlify.app/translation/10_web_development_trends_in_2023/)
 
 ### HTTP
 
