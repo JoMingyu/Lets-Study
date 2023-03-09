@@ -1376,6 +1376,10 @@
 - [DAU/MAU Ratio](https://www.geckoboard.com/learn/kpi-examples/startup-kpis/dau-mau-ratio/)
 - [DAU/MAU는 절대 만능이 될 수 없다.](https://brunch.co.kr/@ywkim36/108)
 
+### Retention
+
+- [리텐션을 측정하는 세 가지 방법](https://blog.ab180.co/posts/retention-series-3-1)
+
 ## 기여
 
 - [Single-Touch vs. Multi-Touch Marketing Attribution](https://www.rockerbox.com/blog/attribution-101-single-touch-versus-multi-touch)
