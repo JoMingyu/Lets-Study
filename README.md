@@ -1503,3 +1503,4 @@
 ## 일 잘 하기
 
 - [복잡함이 좋아하는 먹이는 시간이다](https://tonyinweekly.stibee.com/p/9/)
+- [발먼저 딛고, 그담에 생각하세요](https://tonyinweekly.stibee.com/p/15/)
