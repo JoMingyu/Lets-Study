@@ -1493,3 +1493,4 @@
 - [거절하기](https://www.thestartupbible.com/2021/12/saying-no-is-the-best-stress-management-technique.html)
 - [90% 이기기](https://www.thestartupbible.com/2023/02/how-to-win-90-percent-of-your-market.html)
 - [아무나 함부로 들이지 마라](http://moneyman.kr/archives/15260)
+- [지금이라도 알게되어 다행인, 새해 계획 잘 세우는 법](https://www.slideshare.net/dharmasean/ss-240601166)
