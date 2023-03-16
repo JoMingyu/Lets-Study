@@ -1414,6 +1414,7 @@
 # 경제
 
 - [개발자가 알아야 할 스톡옵션의 모든 것](https://evan-moon.github.io/2021/12/04/what-is-stock-options/)
+- [왜 학생들은 항상 할인 혜택을 받을 수 있는 걸까?](https://blog.toss.im/article/student-discount)
 
 # Co-working
 
