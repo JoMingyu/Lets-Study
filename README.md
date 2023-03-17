@@ -1081,7 +1081,7 @@
 ### Flutter
 
 - [회사나 고객에게 효과적으로 Flutter 소개하는 방법을 알려드립니다](https://developers-kr.googleblog.com/2019/01/pitching-flutter.html?fbclid=IwAR1b8eLPhcZDvXTTr_x0rhVWSOVP8gkJxBThmcHX2Ktvro0OKw5blX7PFM8)
-- [](https://engineering.linecorp.com/ko/blog/demaecan-2nd-recode-kmm-to-flutter)
+- [멀쩡한 앱을 Flutter 앱으로 다시 짠 이유 - 일본 1위 배달 앱, 두 번째 Recode](https://engineering.linecorp.com/ko/blog/demaecan-2nd-recode-kmm-to-flutter)
 
 ### Android
 
