@@ -351,6 +351,10 @@
 
 - [progate](https://progate.com/languages)
 
+## 기술 부채
+
+- [Tech Debt Isn't a Burden, It's a Strategic Lever for Success](https://www.reforge.com/blog/managing-tech-debt)
+
 ## 방법론
 
 ### TDD
