@@ -1463,6 +1463,7 @@
 - [Aligning the company growth](https://alexjklim.medium.com/aligning-the-company-growth-252bc6f1b51d)
 - [완성되지 않은 회사](https://jeho.page/essay/2022/05/02/kakao-ten-years.html)
 - [스타트업 성장의 법칙과 초기 멤버들의 심리적 부상, 그리고 성장통](https://kimchihill.com/2020/03/26/kr-growing-pains-the-law-of-startup-physics-and-psychological-injury/)
+- [마이크로 매니지먼트와 위임](https://sonujung.com/delegation-of-authority)
 
 ## 커뮤니케이션
 
