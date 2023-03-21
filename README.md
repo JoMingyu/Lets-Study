@@ -1230,6 +1230,7 @@
 - [프론트엔드 엔지니어 커리어 로드맵: 주니어를 위한 3가지 전문성 트랙](https://steady-study.super.site/frontend-engineer-career-roadmap)
 - [1. 우아한형제들 부검 - 왜 떠나는지](https://jojoldu.tistory.com/562)
 - [망했을때 어떻게 할 것인가](https://jojoldu.tistory.com/599)
+- [누구나 프로그래머가 될 수 있다](https://medium.com/@totuworld/%EB%88%84%EA%B5%AC%EB%82%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4-bf1cdd89cef2)
 
 ### 성장
 
