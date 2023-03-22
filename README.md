@@ -1463,6 +1463,7 @@
 - [회사는 나의 놀이터](https://jeho.page/essay/2021/09/16/%ED%9A%8C%EC%82%AC%EB%8A%94-%EB%82%98%EC%9D%98-%EB%86%80%EC%9D%B4%ED%84%B0.html)
 - [획기적 성과를 내는 스타트업 주간회의](https://tonyinweekly.stibee.com/p/1/)
 - [누구랑 일할텐가](https://tonyinweekly.stibee.com/p/2/)
+- [넷플릭스의 문화 - 탁월함을 추구하다](https://jobs.netflix.com/culture?lang=%ED%95%9C%EA%B5%AD%EC%96%B4)
 
 ### 조직 성장
 
