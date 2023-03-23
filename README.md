@@ -870,6 +870,7 @@
 ##### Kubernetes
 
 - [Kubernetes Learning Roadmap](https://github.com/techiescamp/kubernetes-learning-path)
+- [Kubernetes CronJob의 스케줄 변경 시 소급 적용된다?](https://blog.outsider.ne.kr/1662)
 
 ## Database
 
