@@ -1426,6 +1426,27 @@
 
 ## 경영
 
+# Product
+
+- [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
+- [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
+- [강남언니가 고객의 문제를 찾는 방법](https://blog.gangnamunni.com/post/userproblem/)
+- [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
+- [단순한 제품을 만든다는 것에 대해](https://sungmooncho.com/2023/02/05/how-to-build-a-simple-product/)
+
+## Management
+
+- [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
+
+## UI/UX
+
+- [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
+- [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
+
+## 분석/개선
+
+- [퍼널은 줄일수록 좋은걸까?](https://medium.com/delightroom/%ED%8D%BC%EB%84%90%EC%9D%80-%EC%A4%84%EC%9D%BC%EC%88%98%EB%A1%9D-%EC%A2%8B%EC%9D%80%EA%B1%B8%EA%B9%8C-652280c76e2d)
+
 # 경제
 
 - [개발자가 알아야 할 스톡옵션의 모든 것](https://evan-moon.github.io/2021/12/04/what-is-stock-options/)
@@ -1487,23 +1508,6 @@
 ## 태도
 
 - [내가 틀렸네요](https://jojoldu.tistory.com/658)
-
-# Product
-
-- [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
-- [B2B 프로덕트 디자이너가 신경 써야 할 B2B 프로덕트의 특징](https://yozm.wishket.com/magazine/detail/1160/)
-- [강남언니가 고객의 문제를 찾는 방법](https://blog.gangnamunni.com/post/userproblem/)
-- [How to develop product sense](https://www.lennysnewsletter.com/p/product-sense)
-- [단순한 제품을 만든다는 것에 대해](https://sungmooncho.com/2023/02/05/how-to-build-a-simple-product/)
-
-## Management
-
-- [실리콘밸리PM 무엇이든 물어보세요!](https://www.notion.so/PM-fe42daa7b9be4ef0ba914928953453b9)
-
-## UI/UX
-
-- [따릉아! 문제는 UI/UX야!](https://brunch.co.kr/@supernova9/180?fbclid=IwAR2A4e1swo4tUHN8jyCvq9S8KvUzzzhwjqRCG_L4bkeMgbuYbL7M9P7OJfY)
-- [Why is Vertical Rhythm an Important Typography Practice?](https://zellwk.com/blog/why-vertical-rhythms/)
 
 # 마인드
 
