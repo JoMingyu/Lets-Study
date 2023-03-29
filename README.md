@@ -467,6 +467,10 @@
 - [What Is a UUID and How Are They Generated?](https://betterprogramming.pub/what-is-a-uuid-and-how-are-they-generated-17f0acbd7233)
 - [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
+### Image
+
+- [Learn Images](https://web.dev/learn/images/)
+
 ## 웹 개발
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
