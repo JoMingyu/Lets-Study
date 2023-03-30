@@ -970,6 +970,7 @@
 ###### Performance
 
 - [MySQL 성능최적화](https://daniel-hebn.github.io/2018/04/14/2018-04-14-MySQL-%EC%84%B1%EB%8A%A5%EC%B5%9C%EC%A0%81%ED%99%94-1/)
+- [How to read MySQL EXPLAINs](https://planetscale.com/blog/how-read-mysql-explains)
 
 ###### Transaction
 
