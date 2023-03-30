@@ -1160,8 +1160,9 @@
 
 ## 머신러닝
 
-### Tutorial
+### Newral Networks
 
+- [Deconvolution and Checkerboard Artifacts](https://distill.pub/2016/deconv-checkerboard/)
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 ## 협업
