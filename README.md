@@ -926,6 +926,7 @@
 - [Are junction tables a good practice?](https://dba.stackexchange.com/questions/106001/are-junction-tables-a-good-practice)
 - [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
 - [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)
+- [Time Ranges without Overlapping](https://sqlfordevs.com/non-overlapping-time-ranges)
 
 #### Optimize
 
