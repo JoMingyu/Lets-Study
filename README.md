@@ -80,11 +80,12 @@
 
 ### 클린 코드
 
-#### 법칙
+#### 법칙/원칙
 
 - [개발자에게 유용한 법칙, 이론, 원칙, 그리고 패턴들 #hackerlaws](https://github.com/codeanddonuts/hacker-laws-kr)
 - [Why Premature Optimization Is the Root of All Evil](https://stackify.com/premature-optimization-evil/)
 - [Why is global state so evil?](https://softwareengineering.stackexchange.com/questions/148108/why-is-global-state-so-evil)
+- [프론트엔드와 SOLID 원칙](https://fe-developers.kakaoent.com/2023/230330-frontend-solid)
 
 #### 가이드라인
 
