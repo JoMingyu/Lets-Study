@@ -1255,6 +1255,7 @@
 - [스타트업에서 성장한다는 주니어의 착각](https://brunch.co.kr/@goodgdg/43?fbclid=IwAR26GEeJxPTR-fgvmtmlWTQBQa4P6N6f1hpiF_yFjydbk4ii-1tVttKaf1g)
 - [프로그래밍의 종말](https://yozm.wishket.com/magazine/detail/1873/)
 - [넓고 얕게 알기 vs 좁고 깊게 알기](https://wormwlrm.github.io/2023/03/26/Generality-vs-Specialty.html)
+- [더 많은 일을 하면서 더 빨리 하기](http://agile.egloos.com/1762301)
 
 ### 회고
 - [2021년 CTO 회고 by 향로](https://jojoldu.tistory.com/626)
