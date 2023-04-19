@@ -1163,6 +1163,8 @@
 
 #### 보안, 자격 증명
 
+- [aws-vault 사용법: AWS의 인증 정보 안전하게 사용하기](https://www.44bits.io/ko/post/securing-aws-credentials-with-aws-vault)
+
 ##### IAM
 
 - [Difference between IAM role and IAM user in AWS](https://stackoverflow.com/a/48182754)
