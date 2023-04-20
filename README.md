@@ -430,7 +430,7 @@
 
 #### Load Balancing
 
-- [Load Balancing](https://samwho.dev/load-balancing/))
+- [Load Balancing](https://samwho.dev/load-balancing/)
 
 ### 하드웨어
 
@@ -937,6 +937,7 @@
 - [The Slotted Counter Pattern](https://planetscale.com/blog/the-slotted-counter-pattern)
 - [Reduce MySQL Memory Utilization with ProxySQL](https://medium.com/searce/reduce-mysql-memory-utilization-with-proxysql-multiplexing-cbe09da7921c)
 - [Time Ranges without Overlapping](https://sqlfordevs.com/non-overlapping-time-ranges)
+- [Pagination in MySQL](https://planetscale.com/blog/mysql-pagination)
 
 #### Optimize
 
