@@ -1548,6 +1548,7 @@
 - [무조건 상위 10% 안에 드는 방법](http://moneyman.kr/archives/4140)
 - [90% 이기기](https://www.thestartupbible.com/2023/02/how-to-win-90-percent-of-your-market.html)
 - [지금이라도 알게되어 다행인, 새해 계획 잘 세우는 법](https://www.slideshare.net/dharmasean/ss-240601166)
+- [게으른 우리를 위한 갓생 게임화 프레임워크 (ft. 찰리와 걷기)](https://expnews.substack.com/p/8-ft)
 
 ## 일 잘 하기
 
