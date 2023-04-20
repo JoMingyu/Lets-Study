@@ -1447,6 +1447,7 @@
 - [행동력이 미친 창업 팀, 개발 없이 MVP 테스트하기](https://brunch.co.kr/@famelee/75)
 - [피치 덱](https://www.thestartupbible.com/2022/09/the-first-pitch-deck.html)
 - [모던 소프트웨어 경쟁 전략](https://www.canda.blog/modern-software-moats/)
+- [We Don't Sell Saddles Here](https://blog.naver.com/bizucafe/223080140906)
 
 ## 경영
 
