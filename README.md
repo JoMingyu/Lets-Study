@@ -428,6 +428,10 @@
 - [Top-Down으로 접근하는 네트워크](https://parksb.github.io/article/23.html)
 - [What are the advantages and disadvantages of using a content delivery network(CDN)?](https://stackoverflow.com/a/2145389)
 
+#### Load Balancing
+
+- [Load Balancing](https://samwho.dev/load-balancing/))
+
 ### 하드웨어
 
 - [개발자를 위한 SSD (Coding for SSD)](https://tech.kakao.com/2016/07/14/coding-for-ssd-part-2/)
