@@ -436,11 +436,6 @@
 
 - [개발자를 위한 SSD (Coding for SSD)](https://tech.kakao.com/2016/07/14/coding-for-ssd-part-2/)
 
-### 데이터베이스
-
-- [Build Your Own Redis](https://build-your-own.org/blog/20230127_byor/)
-- [SQLite Internals](https://www.compileralchemy.com/books/sqlite-internals/)
-
 #### DNS
 
 - [Demystifying DNS for web developers](https://medium.com/@jgefroh/demystifying-dns-for-web-developers-ace5a3ae559f)
@@ -1011,6 +1006,10 @@
 - [Date and Time Functions and Operators](https://prestodb.io/docs/current/functions/datetime.html)
 - [Presto equivalent of MySQL group_concat](https://stackoverflow.com/questions/44142356/presto-equivalent-of-mysql-group-concat)
 
+##### SQLite
+
+- [SQLite Internals](https://www.compileralchemy.com/books/sqlite-internals/)
+
 ### SQL
 
 - [What is a stored procedure?](https://stackoverflow.com/questions/459457/what-is-a-stored-procedure?lq=1)
@@ -1029,7 +1028,7 @@
 ###### Query Plan
 
 - [What is a query planner?](https://planetscale.com/blog/what-is-a-query-planner)
-- [SQLite : 차세대 쿼리 플래](https://www.sqlite.org/queryplanner-ng.html)
+- [SQLite : 차세대 쿼리 플래너](https://www.sqlite.org/queryplanner-ng.html)
 
 ###### WHERE
 
@@ -1090,11 +1089,16 @@
 - [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
 - [ScyllaDB University](https://university.scylladb.com/)
 
+#### RocksDB
+
+- [How RocksDB Works](https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/)
+
 #### Cache
 
 ##### Redis
 
 - [Redis 설치, 사용 방법, 데이터 백업을 위한 RDB & AOF 개념 및 간단한 Redis 사용 사례 연구](https://blog.naver.com/alice_k106/221553725569)
+- [Build Your Own Redis](https://build-your-own.org/blog/20230127_byor/)
 
 ### NewSQL
 
