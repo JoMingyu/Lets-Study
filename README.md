@@ -768,6 +768,10 @@
 - [전사 구성원들이 사용하는 배치 데이터 플랫폼 만들기 - Airflow Advanced](https://tech.socarcorp.kr/data/2022/11/09/advanced-airflow-for-databiz.html)
 - [컬리의 BigQuery 도입기 - 1부](https://helloworld.kurly.com/blog/bigquery-1/)
 
+#### Message Queue
+
+- [AWS SQS와 Lambda 동시성의 밀당 (Set Visibility Timeout)](https://medium.com/zigbang/aws-sqs%EC%99%80-lambda-%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%98-%EB%B0%80%EB%8B%B9-set-visibility-timeout-2e8f630b0159)
+
 ### Benchmark
 
 - [ab - HTTP 서버 벤치마킹 툴](https://httpd.apache.org/docs/2.4/en/programs/ab.html)
