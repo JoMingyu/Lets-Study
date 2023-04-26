@@ -822,6 +822,10 @@
 
 #### Automation
 
+##### Cloudformation
+
+- [AWS CloudFormation으로 인프라 자동화 시작하기](https://medium.com/pplink/aws-cloudformation%EC%9C%BC%EB%A1%9C-%EC%9D%B8%ED%94%84%EB%9D%BC-%EC%9E%90%EB%8F%99%ED%99%94-%EC%8B%9C%EC%9E%91%ED%95%98%EA%B8%B0-9fe13cdf08c9)
+
 ##### Ansible
 
 - [Ansible 101](https://medium.com/@denot/ansible-101-d6dc9f86df0a)
