@@ -1194,6 +1194,7 @@
 #### 보안, 자격 증명
 
 - [aws-vault 사용법: AWS의 인증 정보 안전하게 사용하기](https://www.44bits.io/ko/post/securing-aws-credentials-with-aws-vault)
+- [What every developer should know about aws vault](https://blog.symops.com/2023/04/20/aws-vault/)
 
 ##### IAM
 
