@@ -758,6 +758,7 @@
 ### System Design
 
 - [System Design Interview: Scalable Unique ID Generator (Twitter Snowflake or a similar service)](https://medium.com/double-pointer/system-design-interview-scalable-unique-id-generator-twitter-snowflake-or-a-similar-service-18af22d74343)
+- [System Design: Design a Geo-Spatial index for real-time location search](https://kousiknath.medium.com/system-design-design-a-geo-spatial-index-for-real-time-location-search-10968fe62b9c)
 
 #### Microservice
 
