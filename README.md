@@ -1157,6 +1157,12 @@
 
 - [AWS 101 : Regions and Availability Zones](https://blog.rackspace.com/aws-101-regions-availability-zones)
 
+#### 컴퓨팅
+
+##### ECS
+
+- [ECS Fargate 운영 문제해결 사례](https://techblog.tabling.co.kr/ecs-fargate-%EC%9A%B4%EC%98%81-%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0-%EC%82%AC%EB%A1%80-2e34eae1a213)
+
 #### 네트워킹
 
 ##### VPC
