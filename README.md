@@ -414,6 +414,10 @@
 - [2023 카카오 신입 공채 1차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-1/)
 - [2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-2/)
 
+###### 분산 알고리즘
+
+- [Paxos Made Simple](https://johngrib.github.io/wiki/clipping/leslie-lamport/paxos-made-simple/)
+
 ##### 알고리즘 패러다임
 
 ### 운영체제
