@@ -664,7 +664,11 @@
 
 - [똑똑하게 브라우저 Polyfill 관리하기](https://toss.tech/article/smart-polyfills)
 
-### 역사
+### Environment
+
+- [프론트엔드 개발 환경 체크리스트 (2023)](https://blog.shiren.dev/2023-03-20/)
+
+### History
 
 - [프론트엔드 역사와 미래, 업무 분야 ... 그리고 잘하는 프론트엔드 개발자란?](https://velog.io/@teo/frontend)
 
