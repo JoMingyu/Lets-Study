@@ -1250,6 +1250,7 @@
 #### Guide
 
 - [좋은 git commit 메시지를 위한 영어 사전](https://blog.ull.im/engineering/2019/03/10/logs-on-git.html)
+- [더 나은 Git 워크플로우를 향해서](https://black7375.tistory.com/92)
 
 #### Troubleshooting
 
