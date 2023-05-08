@@ -904,6 +904,7 @@
 
 - [Kubernetes Learning Roadmap](https://github.com/techiescamp/kubernetes-learning-path)
 - [Kubernetes CronJob의 스케줄 변경 시 소급 적용된다?](https://blog.outsider.ne.kr/1662)
+- [2023년 쿠버네티스 표준 아키텍처](https://yozm.wishket.com/magazine/detail/1998)
 
 ## Database
 
