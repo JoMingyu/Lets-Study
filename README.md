@@ -332,6 +332,10 @@
 - [Ryan Dahl: 내가 Node.js에 대해 후회하는 것 10가지(JSConf EU, 2018)](https://medium.com/tech-confs-in-korean/ryan-dahl-%EB%82%B4%EA%B0%80-node-js%EC%97%90-%EB%8C%80%ED%95%B4-%ED%9B%84%ED%9A%8C%ED%95%98%EB%8A%94-%EA%B2%83-10%EA%B0%80%EC%A7%80-jsconf-eu-2018-c4c3cbb6b5ef)
 - [no-return-await 는 항상 정답일까](https://jojoldu.tistory.com/699)
 
+#### Better way
+
+- [Promise Pool로 성능 개선하기 (feat. Promise.all)](https://jojoldu.tistory.com/714)
+
 #### Environment
 
 ##### Package
