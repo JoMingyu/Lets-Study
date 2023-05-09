@@ -334,9 +334,13 @@
 
 #### Environment
 
+##### Package
 - [리멤버 웹 서비스 좌충우돌 Yarn Berry 도입기](https://blog.dramancompany.com/2023/02/%eb%a6%ac%eb%a9%a4%eb%b2%84-%ec%9b%b9-%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%a2%8c%ec%b6%a9%ec%9a%b0%eb%8f%8c-yarn-berry-%eb%8f%84%ec%9e%85%ea%b8%b0/)
 - [npm, yarn, pnpm 비교해보기](https://yceffort.kr/2022/05/npm-vs-yarn-vs-pnpm)
 - [Yarn 대신 pnpm으로 넘어간 3가지 이유](https://hiddenest.dev/yarn-pnpm-3)
+
+##### Version Manager
+- [fnm: Fast and Simple Node.js Version Manager](https://medium.com/hackernoon/fnm-fast-and-simple-node-js-version-manager-df82c37d4e87)
 
 #### Code Style
 
