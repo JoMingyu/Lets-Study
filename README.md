@@ -1438,6 +1438,7 @@
 - [Zero-Click Search 논란, 65%의 검색이 클릭없이 끝난다?](https://seoguide.kr/2021/03/zero-click-search-65/)
 - [Black Hat - White Hat SEO](https://seoguide.kr/2021/02/black-hat-white-hat-seo/)
 - [‘쉽게 설명한’ 구글의 페이지 랭크 알고리즘](https://sungmooncho.com/2012/08/26/pagerank/)
+- [기술 블로그를 위한 SEO](https://wormwlrm.github.io/2023/05/07/SEO-for-Technical-Blog.html)
 
 ## 유입
 
