@@ -1428,6 +1428,10 @@
 
 - [안전한 패스워드 저장](https://d2.naver.com/helloworld/318732)
 
+## Operation
+
+- [Infisical: 오픈소스 시크릿 관리 플랫폼](https://blog.outsider.ne.kr/1669)
+
 ## Insight
 
 - [South Korea’s online security dead end](https://palant.info/2023/01/02/south-koreas-online-security-dead-end/)
