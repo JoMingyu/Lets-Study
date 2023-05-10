@@ -1590,6 +1590,10 @@
 - [거절하기](https://www.thestartupbible.com/2021/12/saying-no-is-the-best-stress-management-technique.html)
 - [아무나 함부로 들이지 마라](http://moneyman.kr/archives/15260)
 
+## 커리어
+
+- [인턴 지원서](https://sungmooncho.com/2019/03/02/internship/)
+
 ## 성장
 
 - [잘하려 하면 잘 안 되는 이유](http://moneyman.kr/archives/1666)
