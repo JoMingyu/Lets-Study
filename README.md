@@ -922,6 +922,10 @@
 - [What are OLTP and OLAP. What is the difference between them?](https://stackoverflow.com/questions/21900185/what-are-oltp-and-olap-what-is-the-difference-between-them)
 - [MySQL timestamp 와 Y2K38 Problem](https://medium.com/finda-tech/mysql-timestamp-%EC%99%80-y2k38-problem-d43b8f119ce5)
 
+### Operation
+
+- [Backward compatible database changes](https://planetscale.com/blog/backward-compatible-databases-changes)
+
 ### RDB
 
 #### Fundamental
