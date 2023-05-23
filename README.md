@@ -137,14 +137,14 @@
 #### Fundamentals
 
 - [제너레이터와 코루틴](https://soooprmx.com/archives/5622)
-- [파이썬 언더스코어(_)에 대하여](https://mingrammer.com/underscore-in-python/)
-- [Python __getitem__과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)
+- [파이썬 언더스코어(\_)에 대하여](https://mingrammer.com/underscore-in-python/)
+- [Python **getitem**과 slice의 이해](https://item4.github.io/2015-10-26/Understanding-Python-__getitem__-and-slice/)
 - [파이썬의 변수](https://www.slideshare.net/ChrisCho2/pycon-korea-2019)
 - [시간 복잡도로 살펴보는 파이썬 내장 자료형의 효율적인 활용](https://www.pycon.kr/program/talk-detail?id=137)
 - [리얼월드 메타클래스](https://www.pycon.kr/program/talk-detail?id=6)
 - [Hidden features of Python](https://stackoverflow.com/questions/101268/hidden-features-of-python)
 - [Strings in Python](https://www.scaler.com/topics/python/strings-in-python/)
-- [What is \_\_pycache__?](https://stackoverflow.com/questions/16869024/what-is-pycache)
+- [What is \_\_pycache\_\_?](https://stackoverflow.com/questions/16869024/what-is-pycache)
 - [What is the meaning of single and double underscore before an object name?](https://stackoverflow.com/questions/1301346/what-is-the-meaning-of-single-and-double-underscore-before-an-object-name)
 - [Difference between <type 'generator'> and <type 'xrange'>](https://stackoverflow.com/questions/39070168/difference-between-type-generator-and-type-xrange)
 - [Is there a difference between “raise exception()” and “raise exception” without parenthesis?](https://stackoverflow.com/questions/16706956/is-there-a-difference-between-raise-exception-and-raise-exception-without)
@@ -184,8 +184,8 @@
 
 - [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
-- [\_\_slots__ magic](http://book.pythontips.com/en/latest/__slots__magic.html)
-- [Exponentials in python x ** y vs math.pow(x, y)](https://stackoverflow.com/questions/20969773/exponentials-in-python-x-y-vs-math-powx-y)
+- [\_\_slots\_\_ magic](http://book.pythontips.com/en/latest/__slots__magic.html)
+- [Exponentials in python x \*\* y vs math.pow(x, y)](https://stackoverflow.com/questions/20969773/exponentials-in-python-x-y-vs-math-powx-y)
 - [How did Python implement the built-in function pow()?](https://stackoverflow.com/questions/5246856/how-did-python-implement-the-built-in-function-pow)
 - [Dismissing Python Garbage Collection at Instagram](https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172?gi=7a89cec7ad8b)
 - [Memory Management in Python - Part 3: Object Lifetimes and Garbage Collection](https://anvil.works/articles/pointers-in-my-python-3)
@@ -339,11 +339,13 @@
 #### Environment
 
 ##### Package
+
 - [리멤버 웹 서비스 좌충우돌 Yarn Berry 도입기](https://blog.dramancompany.com/2023/02/%eb%a6%ac%eb%a9%a4%eb%b2%84-%ec%9b%b9-%ec%84%9c%eb%b9%84%ec%8a%a4-%ec%a2%8c%ec%b6%a9%ec%9a%b0%eb%8f%8c-yarn-berry-%eb%8f%84%ec%9e%85%ea%b8%b0/)
 - [npm, yarn, pnpm 비교해보기](https://yceffort.kr/2022/05/npm-vs-yarn-vs-pnpm)
 - [Yarn 대신 pnpm으로 넘어간 3가지 이유](https://hiddenest.dev/yarn-pnpm-3)
 
 ##### Version Manager
+
 - [fnm: Fast and Simple Node.js Version Manager](https://medium.com/hackernoon/fnm-fast-and-simple-node-js-version-manager-df82c37d4e87)
 
 #### Code Style
@@ -373,7 +375,7 @@
 ### TDD
 
 - [테스트 주도 개발이란](http://www.ecogwiki.com/%ED%85%8C%EC%8A%A4%ED%8A%B8_%EC%A3%BC%EB%8F%84_%EA%B0%9C%EB%B0%9C%EC%9D%B4%EB%9E%80)
-- [Realizing quality improvement through test driven development: results and experiences of four industrial teams](https://github.com/tpn/pdfs/raw/master/Realizing%20Quality%20Improvement%20Through%20Test%20Driven%20Development%20-%20Results%20and%20Experiences%20of%20Four%20Industrial%20Teams%20(nagappan_tdd).pdf)
+- [Realizing quality improvement through test driven development: results and experiences of four industrial teams](<https://github.com/tpn/pdfs/raw/master/Realizing%20Quality%20Improvement%20Through%20Test%20Driven%20Development%20-%20Results%20and%20Experiences%20of%20Four%20Industrial%20Teams%20(nagappan_tdd).pdf>)
 
 ### DDD
 
@@ -557,8 +559,8 @@
 
 - [REST API 제대로 알고 사용하기](http://meetup.toast.com/posts/92)
 - 그런 REST API로 괜찮은가
-    - [그런 REST API로 괜찮은가 - 발표자료](http://slides.com/eungjun/rest#/)
-    - [그런 REST API로 괜찮은가 - 영상](https://tv.naver.com/v/2292653)
+  - [그런 REST API로 괜찮은가 - 발표자료](http://slides.com/eungjun/rest#/)
+  - [그런 REST API로 괜찮은가 - 영상](https://tv.naver.com/v/2292653)
 - [REST 의 Uniform Interface에 대하여](http://midnightcow.tistory.com/entry/REST-What-is-REST-2)
 - [Architectural Styles and the Design of Network-based Software Architectures - Roy Fielding](https://www.ics.uci.edu/~fielding/pubs/dissertation/fielding_dissertation.pdf)
 - [바쁜 개발자들을 위한 REST 논문 요약](https://blog.npcode.com/2017/03/02/%EB%B0%94%EC%81%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%84-%EC%9C%84%ED%95%9C-rest-%EB%85%BC%EB%AC%B8-%EC%9A%94%EC%95%BD/)
@@ -650,9 +652,11 @@
 - [클래식한 스프링 웹 어플리케이션 구조](https://yjksw.github.io/spring-spring-web-application-architecture/)
 
 ###### JPA
+
 - [Alternative to JPA](https://www.jongho.dev/java/Alternative-to-JPA/)
 
 ###### Logging
+
 - [스프링 부트와 로깅](https://www.slideshare.net/whiteship/ss-47273947)
 
 ###### Performance
@@ -1233,6 +1237,7 @@
 - [Neural Networks: Zero to Hero](https://karpathy.ai/zero-to-hero.html)
 
 ## 협업
+
 - [Jamsync - rsync기반의 버전 컨트롤 시스템](https://jamsync.dev/)
 
 ### 코드 리뷰
@@ -1244,6 +1249,7 @@
 - [코드 리뷰](https://johngrib.github.io/wiki/software-engineering/code-review/)
 
 ### Git
+
 #### Fundamental
 
 - [What is .gitignore exactly?](https://stackoverflow.com/a/27850270)
@@ -1325,6 +1331,7 @@
 - [더 많은 일을 하면서 더 빨리 하기](http://agile.egloos.com/1762301)
 
 ### 회고
+
 - [2021년 CTO 회고 by 향로](https://jojoldu.tistory.com/626)
 
 ### 번아웃 관련
@@ -1415,6 +1422,7 @@
 # 보안
 
 ## 해킹
+
 - [Cracking encrypted Lastpass vaults](https://markuta.com/cracking-lastpass-vaults/)
 
 ## 네트워크
@@ -1507,6 +1515,8 @@
 - [We Don't Sell Saddles Here](https://blog.naver.com/bizucafe/223080140906)
 
 ## 경영
+
+- [높은 성과급은 높은 성과를 보장하는가?](https://thepllab.com/post/490)
 
 # Product
 
