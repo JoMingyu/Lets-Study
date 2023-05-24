@@ -196,6 +196,7 @@
 - [The Hitchhiker’s Guide to Python](https://docs.python-guide.org/)
 - [Intermediate Python](http://book.pythontips.com/en/latest/index.html)
 - [A collection of design patterns/idioms in Python](https://github.com/faif/python-patterns)
+- [Writing Python like it's Rust](https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html)
 
 #### Version specific
 
