@@ -666,6 +666,8 @@
 
 #### Node
 
+- [API 문서화, TS 타입만 있으면 해결! – Tspec](https://ridicorp.com/story/tspec-api-documentation)
+
 ##### Express
 
 - [Express에서 Sequelize를 사용할 때 Circular Import Problem을 해결하는 방법 - sequelize/express-example](https://github.com/sequelize/express-example)
