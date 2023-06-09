@@ -1335,6 +1335,10 @@
 - [더 많은 일을 하면서 더 빨리 하기](http://agile.egloos.com/1762301)
 - [성장하는 프로그래머가 되는 법: 주니어편](https://novemberde.github.io/post/2023/06/07/junior-engineer-growth-guide/)
 
+### Professional
+
+- [스포츠를 통해 배운 프로처럼 일하는 방법](https://novemberde.github.io/post/2022/12/13/professional-player/)
+
 ### 회고
 
 - [2021년 CTO 회고 by 향로](https://jojoldu.tistory.com/626)
