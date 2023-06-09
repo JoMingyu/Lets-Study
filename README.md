@@ -52,6 +52,7 @@
 - [How I wrote a self-hosting C compiler in 40 days](https://www.sigbus.info/how-i-wrote-a-self-hosting-c-compiler-in-40-days)
 - [LLVM 프로젝트](https://joone.net/2023/01/19/49-llvm-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-1-2/)
 - [Advanced C: The UB and optimizations that trick good programmers.](https://youtu.be/w3_e9vZj7D8)
+- [Building a Programming Language in Twenty-Four Hours](https://ersei.net/en/blog/diy-programming-language)
 
 ### 디자인 패턴
 
