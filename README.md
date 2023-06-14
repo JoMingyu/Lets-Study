@@ -710,6 +710,8 @@
 
 - [지연 시간 없이 웹폰트 서빙하기 - Feat. Safari & Edge functions](https://blog.banksalad.com/tech/font-preload-on-safari/)
 - [Optimize Time to First Byte](https://web.dev/optimize-ttfb/)
+- [FE 성능개선기 1부: 주문하기](https://tech.kakao.com/2023/06/13/fe-performance-improvement-1/)
+- [FE 성능개선기 2부: 카카오 비즈니스폼](https://tech.kakao.com/2023/06/13/fe-performance-improvement-2/)
 
 ### React
 
