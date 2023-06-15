@@ -1559,6 +1559,8 @@
 
 ## Management
 
+- [HR과 사람들 (1) '좋은'​ 사람들이 모이면 일이 '알아서 잘'​ 될까?](https://www.linkedin.com/pulse/hr%EA%B3%BC-%EC%82%AC%EB%9E%8C%EB%93%A4-1-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EB%AA%A8%EC%9D%B4%EB%A9%B4-%EC%9D%BC%EC%9D%B4-%EC%95%8C%EC%95%84%EC%84%9C-%EC%9E%98-%EB%90%A0%EA%B9%8C-taeho-song/)
+
 ### 관리자 되기
 
 - [Manager's Playbook](https://github.com/ksindi/managers-playbook)
