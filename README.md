@@ -1211,6 +1211,7 @@
 
 - [버킷 정책 예제 - 특정 IP 주소 액세스 제한](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-3)
 - [버킷 정책 예제 - Amazon CloudFront 오리진 자격 증명에 권한 부여](https://docs.aws.amazon.com/ko_kr/AmazonS3/latest/dev/example-bucket-policies.html#example-bucket-policies-use-case-6)
+- [How Canva saves millions annually in Amazon S3 costs](https://www.canva.dev/blog/engineering/optimising-s3-savings/)
 
 #### 개발자 도구
 
