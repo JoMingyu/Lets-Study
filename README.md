@@ -79,6 +79,12 @@
 - [Dependency Injection in Python](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce)
 - [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
 
+### 아키텍처 패턴
+
+#### Hexgonal Architecture
+
+- [Spring Boot Kotlin Multi Module로 구성해보는 헥사고날 아키텍처](https://techblog.woowahan.com/12720/)
+
 ### 클린 코드
 
 #### 법칙/원칙
