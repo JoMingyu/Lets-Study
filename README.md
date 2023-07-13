@@ -648,6 +648,7 @@
 - [스프링부트로 웹 서비스 출시하기](http://jojoldu.tistory.com/250?category=635883)
 - [Gradle + SpringBoot + Travis CI + Coveralls + 텔레그램 연동하기](http://jojoldu.tistory.com/275)
 - [스프링 부트 2.0 레퍼런스 코딩](https://github.com/keesun/study/blob/master/spring-boot-reference-coding.md)
+- [스프링 부트 시작할 때 알아야 하는 것](https://yozm.wishket.com/magazine/detail/2115/)
 
 ###### Auth
 
