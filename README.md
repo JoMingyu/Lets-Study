@@ -1052,6 +1052,7 @@
 - [PostgreSQL Vacuum에 대한 거의 모든 것](https://techblog.woowahan.com/9478/)
 - [A BEGINNERS GUIDE TO POSTGRESQL’S UPDATE AND AUTOVACUUM](https://www.cybertec-postgresql.com/en/a-beginners-guide-to-postgresqls-update-and-autovacuum/)
 - [Nine ways to shoot yourself in the foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
+- [Create an advanced search engine with PostgreSQL](https://xata.io/blog/postgres-full-text-search-engine)
 
 ##### PrestoDB
 
