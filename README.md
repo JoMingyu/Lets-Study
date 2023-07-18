@@ -435,6 +435,7 @@
 ###### 분산 알고리즘
 
 - [Paxos Made Simple](https://johngrib.github.io/wiki/clipping/leslie-lamport/paxos-made-simple/)
+- [Gossip Protocol](https://systemdesign.one/gossip-protocol/)
 
 ##### 알고리즘 패러다임
 
