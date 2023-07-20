@@ -944,6 +944,10 @@
 
 - [Backward compatible database changes](https://planetscale.com/blog/backward-compatible-databases-changes)
 
+#### Migration
+
+- [사용법과 함께 작성해본 좌충우돌 AWS DMS 사용기 - feat. RDS 통합 이야기](https://blog.banksalad.com/tech/dms)
+
 ### RDB
 
 #### Fundamental
