@@ -464,6 +464,7 @@
 #### Load Balancing
 
 - [Load Balancing](https://samwho.dev/load-balancing/)
+- [로드밸런싱(Load Balancing)과 고가용성(HA)](https://prohannah.tistory.com/62)
 - [Load Balancing And Rate Limiting for Dummies (Part 1)](https://medium.com/@lakshay.bhambri/load-balancing-and-rate-limiting-for-dummies-part-1-2e56c4892056)
 
 ### 하드웨어
