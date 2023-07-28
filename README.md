@@ -464,6 +464,7 @@
 #### Load Balancing
 
 - [Load Balancing](https://samwho.dev/load-balancing/)
+- [Load Balancing And Rate Limiting for Dummies (Part 1)](https://medium.com/@lakshay.bhambri/load-balancing-and-rate-limiting-for-dummies-part-1-2e56c4892056)
 
 ### 하드웨어
 
