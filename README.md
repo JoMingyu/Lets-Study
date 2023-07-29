@@ -825,7 +825,15 @@
 
 - [Consistent hashing](https://www.joinc.co.kr/w/man/12/hash/consistent)
 
-##### Consensus Protocol
+##### Consistency Model
+
+###### CAP Theorem
+
+###### Vector Clock
+
+- [[Amazon Dynamo] Vector Clock와 Quorum vote 기본 개념](https://darkstart.tistory.com/144)
+
+##### Consensus Protocols
 
 ###### Paxos
 
