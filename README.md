@@ -437,11 +437,6 @@
 - [2023 카카오 신입 공채 1차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-1/)
 - [2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-2/)
 
-###### 분산 알고리즘
-
-- [Paxos Made Simple](https://johngrib.github.io/wiki/clipping/leslie-lamport/paxos-made-simple/)
-- [Gossip Protocol](https://systemdesign.one/gossip-protocol/)
-
 ##### 알고리즘 패러다임
 
 ### 운영체제
@@ -818,9 +813,46 @@
 
 - [AWS SQS와 Lambda 동시성의 밀당 (Set Visibility Timeout)](https://medium.com/zigbang/aws-sqs%EC%99%80-lambda-%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%98-%EB%B0%80%EB%8B%B9-set-visibility-timeout-2e8f630b0159)
 
-#### High Availability
+#### Distributed System
+
+##### Multi-Region
 
 - [Active-Active for Multi-Regional Resiliency](https://netflixtechblog.com/active-active-for-multi-regional-resiliency-c47719f6685b)
+
+##### Partitioning Strategies
+
+###### Consistent Hashing
+
+- [Consistent hashing](https://www.joinc.co.kr/w/man/12/hash/consistent)
+
+##### Consensus Protocol
+
+###### Paxos
+
+- [Paxos Made Simple](https://johngrib.github.io/wiki/clipping/leslie-lamport/paxos-made-simple/)
+
+###### Gossip
+
+- [Gossip Protocol](https://systemdesign.one/gossip-protocol/)
+
+###### Raft
+
+##### Distrubted DB
+
+###### ScyllaDB
+
+- [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
+- [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
+- [ScyllaDB University](https://university.scylladb.com/)
+
+###### CockroachDB
+
+- [CTO가 커리어를 걸고 비트 레벨까지 내려가서 DB를 해킹했던 이야기](https://tech.devsisters.com/posts/bit-level-database-hacking/)
+- [CockroachDB in Production](https://tech.devsisters.com/posts/cockroachdb-in-production/)
+
+###### Vitess
+
+- [Vitess. CNCF Study in NaverLabs](https://medium.com/@goinhacker/vitess-e423634ff978)
 
 ### Benchmark
 
@@ -1154,12 +1186,6 @@
 
 ##### Druid
 
-#### ScyllaDB
-
-- [ScyllaDB 기본 이론 맛보기 - NoSQL과 ScyllaDB](https://sabarada.tistory.com/230)
-- [[Scylla] 세상에서 가장 빠른 NoSQL의 Architecture](https://blog.whitekiwi.link/scylla-%EC%84%B8%EC%83%81%EC%97%90%EC%84%9C-%EA%B0%80%EC%9E%A5-%EB%B9%A0%EB%A5%B8-nosql%EC%9D%98-architecture-67fff59dccdf)
-- [ScyllaDB University](https://university.scylladb.com/)
-
 #### RocksDB
 
 - [How RocksDB Works](https://artem.krylysov.com/blog/2023/04/19/how-rocksdb-works/)
@@ -1170,17 +1196,6 @@
 
 - [Redis 설치, 사용 방법, 데이터 백업을 위한 RDB & AOF 개념 및 간단한 Redis 사용 사례 연구](https://blog.naver.com/alice_k106/221553725569)
 - [Build Your Own Redis](https://build-your-own.org/blog/20230127_byor/)
-
-### NewSQL
-
-#### CockroachDB
-
-- [CTO가 커리어를 걸고 비트 레벨까지 내려가서 DB를 해킹했던 이야기](https://tech.devsisters.com/posts/bit-level-database-hacking/)
-- [CockroachDB in Production](https://tech.devsisters.com/posts/cockroachdb-in-production/)
-
-#### Vitess
-
-- [Vitess. CNCF Study in NaverLabs](https://medium.com/@goinhacker/vitess-e423634ff978)
 
 ## 모바일
 
