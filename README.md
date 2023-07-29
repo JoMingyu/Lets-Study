@@ -501,7 +501,6 @@
 ### Identifier
 
 - [What Is a UUID and How Are They Generated?](https://betterprogramming.pub/what-is-a-uuid-and-how-are-they-generated-17f0acbd7233)
-- [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
 ### Image
 
@@ -850,6 +849,10 @@
 - [Gossip Protocol](https://systemdesign.one/gossip-protocol/)
 
 ###### Raft
+
+##### ID Generation
+
+- [Announcing Snowflake by Twitter](https://blog.twitter.com/engineering/en_us/a/2010/announcing-snowflake)
 
 ##### Distrubted DB
 
