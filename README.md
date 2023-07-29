@@ -815,6 +815,8 @@
 
 #### Distributed System
 
+- [awesome-distributed-systems](https://github.com/theanalyst/awesome-distributed-systems)
+
 ##### Multi-Region
 
 - [Active-Active for Multi-Regional Resiliency](https://netflixtechblog.com/active-active-for-multi-regional-resiliency-c47719f6685b)
