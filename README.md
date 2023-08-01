@@ -416,6 +416,10 @@
 
 ##### 자료구조
 
+###### Tree
+
+- [트리(Tree) - 트라이 트리(Trie tree)](https://it-and-life.tistory.com/166)
+
 ##### 점근 표기법
 
 - [점근 표기법](https://ratsgo.github.io/data%20structure&algorithm/2017/09/13/asymptotic/)
