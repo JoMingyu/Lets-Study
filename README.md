@@ -678,6 +678,10 @@
 
 - [Jedis 보다 Lettuce를 쓰자](https://jojoldu.tistory.com/418)
 
+###### Docs
+
+- [내가 만든 API를 널리 알리기 - Spring REST Docs 가이드편](https://helloworld.kurly.com/blog/spring-rest-docs-guide/)
+
 #### Node
 
 - [API 문서화, TS 타입만 있으면 해결! – Tspec](https://ridicorp.com/story/tspec-api-documentation)
