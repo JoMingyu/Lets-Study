@@ -419,6 +419,7 @@
 ###### Hash
 
 - [Bloom Filters Explained](https://systemdesign.one/bloom-filters-explained/)
+- [BloomFilter는 언제 쓰나요?](https://meetup.nhncloud.com/posts/192)
 
 ###### Tree
 
