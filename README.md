@@ -543,6 +543,10 @@
 - [SSE를 이용한 실시간 웹앱](https://spoqa.github.io/2014/01/20/sse.html)
 - [Scalable Websocket Architecture](https://blog.hathora.dev/scalable-websocket-architecture/)
 
+#### HTTPS
+
+- [How HTTPS Works](https://howhttps.works/)
+
 ### 설계
 
 - [웹 기술로 구현하는 Adaptive HTTP Streaming](https://meetup.toast.com/posts/131)
