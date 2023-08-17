@@ -1126,13 +1126,14 @@
 - [MySQL MHA(Master High Availability)](https://hoing.io/archives/9175)
 - [Fault Tolerance 소프트웨어 패턴](https://youtu.be/OLsv7oG0VPo)
 
-##### Postgres
+##### PostgreSQL
 
 - [Just Use Postgres for Everything](https://www.amazingcto.com/postgres-for-everything/)
 - [PostgreSQL Vacuum에 대한 거의 모든 것](https://techblog.woowahan.com/9478/)
 - [A BEGINNERS GUIDE TO POSTGRESQL’S UPDATE AND AUTOVACUUM](https://www.cybertec-postgresql.com/en/a-beginners-guide-to-postgresqls-update-and-autovacuum/)
 - [Nine ways to shoot yourself in the foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
 - [Create an advanced search engine with PostgreSQL](https://xata.io/blog/postgres-full-text-search-engine)
+- [Postgresql Sequence vs Serial](https://stackoverflow.com/questions/34034702/postgresql-sequence-vs-serial)
 
 ##### PrestoDB
 
