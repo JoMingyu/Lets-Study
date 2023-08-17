@@ -1508,6 +1508,7 @@
 ## 해킹
 
 - [Cracking encrypted Lastpass vaults](https://markuta.com/cracking-lastpass-vaults/)
+- [How They Bypass Youtube Video Download Throttling](https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/)
 
 ## 네트워크
 
