@@ -654,6 +654,7 @@
 - [FastAPI의 시대. 아직도 Flask 쓰시나요?](https://planb.hashnode.dev/fastapi-flask)
 - [fastapi-best-practices](https://github.com/zhanymkanov/fastapi-best-practices)
 - [Migrating from Flask to FastAPI](https://engineering.forethought.ai/blog/2022/12/01/migrating-from-flask-to-fastapi-part-1/)
+- [How to profile a FastAPI asynchronous request](https://blog.balthazar-rouberol.com/how-to-profile-a-fastapi-asynchronous-request)
 
 #### Java/Kotlin
 
