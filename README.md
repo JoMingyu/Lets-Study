@@ -338,6 +338,7 @@
 #### Garbage Collection
 
 - [Java Garbage Collection](https://d2.naver.com/helloworld/1329)
+- [ZGC의 기본 개념 이해하기](https://d2.naver.com/helloworld/0128759)
 
 ### Node.js
 
