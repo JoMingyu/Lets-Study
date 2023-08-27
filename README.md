@@ -1043,6 +1043,7 @@
 - [How do database indexes work?](https://planetscale.com/blog/how-do-database-indexes-work)
 - [How does database indexing work?](https://stackoverflow.com/a/1130)
 - [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/a/1251652)
+- [Database Indexing Strategies](https://blog.bytebytego.com/p/database-indexing-strategies)
 
 ##### Normalization
 
