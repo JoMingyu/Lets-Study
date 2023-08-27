@@ -1412,6 +1412,7 @@
 - [넓고 얕게 알기 vs 좁고 깊게 알기](https://wormwlrm.github.io/2023/03/26/Generality-vs-Specialty.html)
 - [더 많은 일을 하면서 더 빨리 하기](http://agile.egloos.com/1762301)
 - [성장하는 프로그래머가 되는 법: 주니어편](https://novemberde.github.io/post/2023/06/07/junior-engineer-growth-guide/)
+- [무엇이 탁월한 개발자를 만드는가](https://steady-study.super.site/what-makes-a-great-software-engineer)
 
 ### Professional
 
