@@ -48,10 +48,14 @@
 
 - [What is Short Circuiting?](https://stackoverflow.com/questions/9344305/what-is-short-circuiting-and-how-is-it-used-when-programming-in-java)
 - [자바스크립트 개발자를 위한 AST](https://gyujincho.github.io/2018-06-19/AST-for-JS-devlopers)
-- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
-- [How I wrote a self-hosting C compiler in 40 days](https://www.sigbus.info/how-i-wrote-a-self-hosting-c-compiler-in-40-days)
 - [LLVM 프로젝트](https://joone.net/2023/01/19/49-llvm-%ed%94%84%eb%a1%9c%ec%a0%9d%ed%8a%b8-1-2/)
 - [Advanced C: The UB and optimizations that trick good programmers.](https://youtu.be/w3_e9vZj7D8)
+
+#### 컴파일러 만들기
+
+- [난해한 프로그래밍 언어 만들어보기](https://kciter.so/posts/crafting-esolang)
+- [The super tiny compiler](https://github.com/jamiebuilds/the-super-tiny-compiler)
+- [How I wrote a self-hosting C compiler in 40 days](https://www.sigbus.info/how-i-wrote-a-self-hosting-c-compiler-in-40-days)
 - [Building a Programming Language in Twenty-Four Hours](https://ersei.net/en/blog/diy-programming-language)
 
 ### 디자인 패턴
