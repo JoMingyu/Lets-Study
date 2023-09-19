@@ -700,6 +700,7 @@
 ###### Docs
 
 - [내가 만든 API를 널리 알리기 - Spring REST Docs 가이드편](https://helloworld.kurly.com/blog/spring-rest-docs-guide/)
+- [[Kotlin] Spring Rest Docs 적용하기 build.gradle.kts](https://shanepark.tistory.com/424)
 
 #### Node
 
