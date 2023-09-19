@@ -702,6 +702,10 @@
 - [내가 만든 API를 널리 알리기 - Spring REST Docs 가이드편](https://helloworld.kurly.com/blog/spring-rest-docs-guide/)
 - [[Kotlin] Spring Rest Docs 적용하기 build.gradle.kts](https://shanepark.tistory.com/424)
 
+###### Testing
+
+- [[Kotlin] Kotlin DSL + Spring REST Docs + MockMvc 적용기 (2)](https://kth990303.tistory.com/348)
+
 #### Node
 
 - [API 문서화, TS 타입만 있으면 해결! – Tspec](https://ridicorp.com/story/tspec-api-documentation)
