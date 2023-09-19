@@ -706,6 +706,7 @@
 ###### Testing
 
 - [[Kotlin] Kotlin DSL + Spring REST Docs + MockMvc 적용기 (2)](https://kth990303.tistory.com/348)
+- [왜 Kotest를 사용해야 할까?](https://jaehhh.tistory.com/118)
 
 #### Node
 
