@@ -693,6 +693,10 @@
 
 - [Jedis 보다 Lettuce를 쓰자](https://jojoldu.tistory.com/418)
 
+###### Configuration
+
+- [[spring-boot] 2.4 부터 변경된 구성파일 처리방식 살펴보기](http://honeymon.io/tech/2021/01/16/spring-boot-config-data-migration.html)
+
 ###### Docs
 
 - [내가 만든 API를 널리 알리기 - Spring REST Docs 가이드편](https://helloworld.kurly.com/blog/spring-rest-docs-guide/)
