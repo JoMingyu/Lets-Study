@@ -138,6 +138,10 @@
 
 - [Caching 전략 소개 및 사용 예제](https://wnsgml972.github.io/database/2020/12/13/Caching/)
 
+### 로깅
+
+- [Tracing: structured logging, but better in every way](https://andydote.co.uk/2023/09/19/tracing-is-better/)
+
 ## 프로그래밍 언어
 
 ### Python
