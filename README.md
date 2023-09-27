@@ -1001,6 +1001,7 @@
 #### Fundamental
 
 - [왜 굳이 도커(컨테이너)를 써야 하나요?](https://www.44bits.io/ko/post/why-should-i-use-docker-container)
+- [Explaining Docker with Pizza](https://fariabriya.substack.com/p/riyas-medley-3-explaining-docker)
 - [개발자가 처음 Docker 접할때 오는 멘붕 몇가지](https://www.popit.kr/%EA%B0%9C%EB%B0%9C%EC%9E%90%EA%B0%80-%EC%B2%98%EC%9D%8C-docker-%EC%A0%91%ED%95%A0%EB%95%8C-%EC%98%A4%EB%8A%94-%EB%A9%98%EB%B6%95-%EB%AA%87%EA%B0%80%EC%A7%80/)
 - [Docker images - types. Slim vs slim-stretch vs stretch vs alpine](https://stackoverflow.com/questions/54954187/docker-images-types-slim-vs-slim-stretch-vs-stretch-vs-alpine)
 - [Docker 데이터 볼륨 사용하기](http://pyrasis.com/book/DockerForTheReallyImpatient/Chapter06/04)
