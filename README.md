@@ -851,6 +851,7 @@
 #### Message Queue
 
 - [AWS SQS와 Lambda 동시성의 밀당 (Set Visibility Timeout)](https://medium.com/zigbang/aws-sqs%EC%99%80-lambda-%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%98-%EB%B0%80%EB%8B%B9-set-visibility-timeout-2e8f630b0159)
+- [Choose Postgres queue technology](https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/)
 
 #### Distributed System
 
