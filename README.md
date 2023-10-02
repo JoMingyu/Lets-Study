@@ -195,6 +195,7 @@
 - [Blocking-NonBlocking-Synchronous-Asynchronous](https://homoefficio.github.io/2017/02/19/Blocking-NonBlocking-Synchronous-Asynchronous/)
 - [비동기 프로그래밍 동작 원리 (asyncio)](https://it-eldorado.tistory.com/159)
 - [비동기적으로 Python 다루기](https://hwangheek.github.io/2019/asynchronous-python/)
+- [백엔드 개발자들이 알아야할 동시성 6 — Coroutine](https://choi-geonu.medium.com/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A0-%EB%8F%99%EC%8B%9C%EC%84%B1-6-coroutine-9eecdbeb2d2d)
 
 #### Performance
 
