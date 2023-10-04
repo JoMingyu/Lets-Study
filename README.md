@@ -1072,6 +1072,7 @@
 - [How does database indexing work?](https://stackoverflow.com/a/1130)
 - [What do Clustered and Non clustered index actually mean?](https://stackoverflow.com/a/1251652)
 - [Database Indexing Strategies](https://blog.bytebytego.com/p/database-indexing-strategies)
+- [색인(index)의 두 가지 형태 : LSM 트리 & B 트리](https://jaeyeong951.medium.com/%EC%83%89%EC%9D%B8-index-%EC%9D%98-%EB%91%90-%EA%B0%80%EC%A7%80-%ED%98%95%ED%83%9C-lsm-%ED%8A%B8%EB%A6%AC-b-%ED%8A%B8%EB%A6%AC-7a4ab7887db5)
 
 ##### Normalization
 
