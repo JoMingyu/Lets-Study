@@ -526,6 +526,10 @@
 
 - [Learn Images](https://web.dev/learn/images/)
 
+### Text
+
+- [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
+
 ## 웹 개발
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
