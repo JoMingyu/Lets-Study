@@ -856,7 +856,7 @@
 
 #### Message Queue
 
-- [AWS SQS와 Lambda 동시성의 밀당 (Set Visibility Timeout)](https://medium.com/zigbang/aws-sqs%EC%99%80-lambda-%EB%8F%99%EC%8B%9C%EC%84%B1%EC%9D%98-%EB%B0%80%EB%8B%B9-set-visibility-timeout-2e8f630b0159)
+- [AWS SQS와 Lambda 동시성의 밀당 (Set Visibility Timeout)](https://medium.com/zigbang/aws-sqs%EC%99%80-lambda-%EB%8F%99%EC%8B%9C%#EC%84%B1%EC%9D%98-%EB%B0%80%EB%8B%B9-set-visibility-timeout-2e8f630b0159)
 - [Choose Postgres queue technology](https://adriano.fyi/posts/2023-09-24-choose-postgres-queue-technology/)
 
 #### Realtime Multiplay
@@ -1437,6 +1437,7 @@
 - [망했을때 어떻게 할 것인가](https://jojoldu.tistory.com/599)
 - [누구나 프로그래머가 될 수 있다](https://medium.com/@totuworld/%EB%88%84%EA%B5%AC%EB%82%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4-bf1cdd89cef2)
 - [전염시키기](https://jojoldu.tistory.com/710)
+- [The Tech Promotion Algorithm: A Structured Guide to Moving Up](https://blog.bytebytego.com/p/the-tech-promotion-algorithm-a-structured)
 
 ### 성장
 
