@@ -672,6 +672,7 @@
 - [Migrating from Flask to FastAPI](https://engineering.forethought.ai/blog/2022/12/01/migrating-from-flask-to-fastapi-part-1/)
 - [How to profile a FastAPI asynchronous request](https://blog.balthazar-rouberol.com/how-to-profile-a-fastapi-asynchronous-request)
 - [FastAPI: Depends 톺아보기](https://rumbarum.oopy.io/post/how-fastapi-depends-work)
+- [Building Custom Middleware in FastAPI](https://semaphoreci.com/blog/custom-middleware-fastapi)
 
 #### Java/Kotlin
 
