@@ -866,6 +866,7 @@
 
 - [How Figma’s multiplayer technology works](https://www.figma.com/blog/how-figmas-multiplayer-technology-works/)
 - [An Interactive Intro to CRDTs](https://jakelazaroff.com/words/an-interactive-intro-to-crdts/)
+- [Ready Player Two](https://rocicorp.dev/blog/ready-player-two)
 
 #### Distributed System
 
