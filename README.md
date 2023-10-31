@@ -634,6 +634,7 @@
 
 - [Casbin](https://casbin.org/)
 - [Authorization Policy Showdown: RBAC vs. ABAC vs. ReBAC](https://www.permit.io/blog/rbac-vs-abac-vs-rebac)
+- [Open-Sourcing AWS Cedar is a Gamechanger for IAM](https://www.permit.io/blog/oss-aws-cedar-is-a-gamechanger-for-iam)
 
 ### Framework
 
