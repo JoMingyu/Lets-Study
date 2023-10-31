@@ -633,6 +633,7 @@
 ##### IAM
 
 - [Casbin](https://casbin.org/)
+- [Authorization Policy Showdown: RBAC vs. ABAC vs. ReBAC](https://www.permit.io/blog/rbac-vs-abac-vs-rebac)
 
 ### Framework
 
