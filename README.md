@@ -1190,6 +1190,7 @@
 ### SQL
 
 - [What is a stored procedure?](https://stackoverflow.com/questions/459457/what-is-a-stored-procedure?lq=1)
+- [SQLBolt - Learn SQL with simple, interactive exercises.](https://sqlbolt.com/)
 
 #### DML
 
