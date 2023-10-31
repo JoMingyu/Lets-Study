@@ -1462,6 +1462,7 @@
 ### Professional
 
 - [스포츠를 통해 배운 프로처럼 일하는 방법](https://novemberde.github.io/post/2022/12/13/professional-player/)
+- [상위 1% 엔지니어의 7가지 간단한 습관](https://news.hada.io/topic?id=11362)
 
 ### 회고
 
