@@ -1689,6 +1689,7 @@
 - [미팅 가득한 팀장의 하루](https://brunch.co.kr/@zseo/44)
 - [스타트업 CTO의 일](https://brunch.co.kr/@leehosung/40)
 - [일을 맡길 때는 권한까지 맡겨야 합니다](https://brunch.co.kr/@mobiinside/4895)
+- [나는 나 자신의 위선적 상태를 알아차리고 있는가?](https://www.facebook.com/sambomcoach/posts/5941606049222659)
 
 ### 조직 관리
 
