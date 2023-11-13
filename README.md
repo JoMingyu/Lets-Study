@@ -583,6 +583,7 @@
 
 #### Design Principle
 
+- [How to (and how not to) design REST APIs](https://github.com/stickfigure/blog/wiki/How-to-(and-how-not-to)-design-REST-APIs)
 - [The Little Manual of API Design](https://github.com/papers-we-love/papers-we-love/blob/master/api_design/api-design.pdf)
 - [JSON:API Standard](https://jsonapi.org/)
 - [GET이냐 POST냐 그것이 문제로다](https://homoefficio.github.io/2019/12/25/GET%EC%9D%B4%EB%83%90-POST%EB%83%90-%EA%B7%B8%EA%B2%83%EC%9D%B4-%EB%AC%B8%EC%A0%9C%EB%A1%9C%EB%8B%A4/)
