@@ -391,6 +391,10 @@
 
 - [progate](https://progate.com/languages)
 
+### AI
+
+- [Generative AI for Beginners](https://microsoft.github.io/generative-ai-for-beginners/#/)
+
 ## 기술 부채
 
 - [Tech Debt Isn't a Burden, It's a Strategic Lever for Success](https://www.reforge.com/blog/managing-tech-debt)
