@@ -466,6 +466,10 @@
 - [컴퓨터가 코드를 읽는 아주 구체적인 원리](https://parksb.github.io/article/25.html)
 - [Race condition 발생시키고 Mutex lock으로 해결하기](https://parksb.github.io/article/16.html)
 
+### 문자열
+
+- [KLED: 한국어를 지원하는 퍼지 검색 라이브러리](https://taegon.kim/archives/10671)
+
 ### 검색 엔진
 
 - [파이썬으로 풀어보는 아주 심플한 검색엔진의 원리](https://www.youtube.com/watch?v=SIsyo9ZHWrE)
