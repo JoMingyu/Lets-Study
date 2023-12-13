@@ -1697,7 +1697,7 @@
 
 - [HR과 사람들 (1) '좋은'​ 사람들이 모이면 일이 '알아서 잘'​ 될까?](https://www.linkedin.com/pulse/hr%EA%B3%BC-%EC%82%AC%EB%9E%8C%EB%93%A4-1-%EC%A2%8B%EC%9D%80-%EC%82%AC%EB%9E%8C%EB%93%A4%EC%9D%B4-%EB%AA%A8%EC%9D%B4%EB%A9%B4-%EC%9D%BC%EC%9D%B4-%EC%95%8C%EC%95%84%EC%84%9C-%EC%9E%98-%EB%90%A0%EA%B9%8C-taeho-song/)
 
-### 관리자 되기
+### 리더쉽
 
 - [Manager's Playbook](https://github.com/ksindi/managers-playbook)
 - [Delegation 101: Figuring out what to delegate](https://leaddev.com/team/delegation-101-figuring-out-what-delegate)
@@ -1706,6 +1706,7 @@
 - [스타트업 CTO의 일](https://brunch.co.kr/@leehosung/40)
 - [일을 맡길 때는 권한까지 맡겨야 합니다](https://brunch.co.kr/@mobiinside/4895)
 - [나는 나 자신의 위선적 상태를 알아차리고 있는가?](https://www.facebook.com/sambomcoach/posts/5941606049222659)
+- [이끌거나, 따르거나, 아니면 비키거나](https://www.thestartupbible.com/2023/11/lead-follow-or-get-out-of-the-way.html)
 
 ### 조직 관리
 
