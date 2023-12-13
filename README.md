@@ -76,13 +76,14 @@
 - [Don't use DAO, use Repository](https://thinkinginobjects.com/2012/08/26/dont-use-dao-use-repository/)
 - [Difference between Repository and Service Layer?](https://stackoverflow.com/questions/5049363/difference-between-repository-and-service-layer)
 
-#### Dependency Injection
+#### DI(Dependency Injection, 의존성 주입)
 
 - [What is dependency injection?](https://stackoverflow.com/questions/130794/what-is-dependency-injection)
 - [Dependency Injection Demystified](https://www.jamesshore.com/Blog/Dependency-Injection-Demystified.html)
 - [DI 란?](https://gmlwjd9405.github.io/2018/11/09/dependency-injection.html)
 - [Dependency Injection in Python](https://medium.com/@shivama205/dependency-injection-python-cb2b5f336dce)
 - [Inversion of Control Containers and the Dependency Injection pattern](https://martinfowler.com/articles/injection.html)
+- [의존성 주입에 대한 오해와 진실](https://soojin.ro/blog/dependency-injection-basics)
 
 ### 아키텍처 패턴
 
