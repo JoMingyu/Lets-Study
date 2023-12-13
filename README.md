@@ -894,6 +894,7 @@
 ###### Consistent Hashing
 
 - [Consistent hashing](https://www.joinc.co.kr/w/man/12/hash/consistent)
+- [Everything You Need to Know About Consistent Hashing](https://newsletter.systemdesign.one/p/what-is-consistent-hashing)
 
 ##### Consistency Model
 
