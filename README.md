@@ -1736,6 +1736,7 @@
 - [획기적 성과를 내는 스타트업 주간회의](https://tonyinweekly.stibee.com/p/1/)
 - [누구랑 일할텐가](https://tonyinweekly.stibee.com/p/2/)
 - [넷플릭스의 문화 - 탁월함을 추구하다](https://jobs.netflix.com/culture?lang=%ED%95%9C%EA%B5%AD%EC%96%B4)
+- [](https://jeho.page/essay/2023/11/29/welfare-of-company.html)
 
 ### 조직 성장
 
