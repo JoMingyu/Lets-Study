@@ -121,6 +121,7 @@
 - [객체지향 개발 5대 원리: SOLID](http://www.nextree.co.kr/p6960/)
 - [Parametric Polymorphism](https://rosettacode.org/wiki/Parametric_polymorphism)
 - [정적 팩토리 메서드(Static Factory Method)는 왜 사용할까?](https://tecoble.techcourse.co.kr/post/2020-05-26-static-factory-method/)
+- [Anti-OOP : if 를 피하고 싶어서](https://redutan.github.io/2016/03/31/anti-oop-if)
 
 ### 캐싱
 
