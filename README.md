@@ -1757,6 +1757,7 @@
 ### 질문
 
 - [직장 필살기: 질문의 기술](https://brunch.co.kr/@hyungsukkim/58)
+- [질문엔 답을 한다](https://brunch.co.kr/@hyungsukkim/72)
 
 ## 태도
 
