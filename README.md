@@ -1671,6 +1671,10 @@
 
 - [높은 성과급은 높은 성과를 보장하는가?](https://thepllab.com/post/490)
 
+## 프레임워크
+
+- [7 Powers: 전략의 본질](https://www.canda.blog/7-powers/)
+
 # Product
 
 - [고객을 모르면 프로덕트는 키메라가 된다](https://brunch.co.kr/@outandouter/26)
