@@ -1760,6 +1760,10 @@
 - [직장 필살기: 질문의 기술](https://brunch.co.kr/@hyungsukkim/58)
 - [질문엔 답을 한다](https://brunch.co.kr/@hyungsukkim/72)
 
+### 텍스트
+
+- [신입사원을 위한 메일쓰기](https://brunch.co.kr/@hyungsukkim/62)
+
 ## 태도
 
 - [내가 틀렸네요](https://jojoldu.tistory.com/658)
