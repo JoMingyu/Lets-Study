@@ -1756,6 +1756,7 @@
 
 ### 질문
 
+- [질문할 때, 생각할 때, 실행할 때](https://brunch.co.kr/@hyungsukkim/89)
 - [직장 필살기: 질문의 기술](https://brunch.co.kr/@hyungsukkim/58)
 - [질문엔 답을 한다](https://brunch.co.kr/@hyungsukkim/72)
 
