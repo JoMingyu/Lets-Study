@@ -1578,6 +1578,10 @@
 - [How They Bypass Youtube Video Download Throttling](https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/)
 - [Exploiting the iPhone 4, Part 1: Gaining Entry](https://axleos.com/exploiting-the-iphone-4-part-1-gaining-entry/)
 
+### BoF
+
+- [해커 지망자들이 알아야 할 Buffer Overflow의 기초](https://t1.daumcdn.net/cfile/tistory/242BA84757A6D12C32?original)
+
 ## 네트워크
 
 ### HTTP
