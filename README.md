@@ -1124,6 +1124,7 @@
 - [How to scale your database and when to shard](https://planetscale.com/blog/how-to-scale-your-database-and-when-to-shard)
 - [Sharding Pinterest: How we scaled our MySQL fleet](https://medium.com/pinterest-engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
 - [Sharding & IDs at Instagram](https://instagram-engineering.com/sharding-ids-at-instagram-1cf5a71e5a5c)
+- [The growing pains of database architecture](https://www.figma.com/blog/how-figma-scaled-to-multiple-databases)
 
 #### Pattern
 
