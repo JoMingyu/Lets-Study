@@ -1122,6 +1122,7 @@
 - [DB 파티셔닝(Partitioning)이란](https://gmlwjd9405.github.io/2018/09/24/db-partitioning.html)
 - [주문서비스 ShardingSphere-Proxy 도입기](https://techblog.yogiyo.co.kr/%EC%A3%BC%EB%AC%B8%EC%84%9C%EB%B9%84%EC%8A%A4-shardingsphere-proxy-%EB%8F%84%EC%9E%85%EA%B8%B0-46d83084586b)
 - [How to scale your database and when to shard](https://planetscale.com/blog/how-to-scale-your-database-and-when-to-shard)
+- [Sharding Pinterest: How we scaled our MySQL fleet](https://medium.com/pinterest-engineering/sharding-pinterest-how-we-scaled-our-mysql-fleet-3f341e96ca6f)
 
 #### Pattern
 
