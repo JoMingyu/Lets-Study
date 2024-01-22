@@ -1524,6 +1524,7 @@
 ### JSON
 
 - [커맨드라인 JSON 프로세서 jq - 기초 문법과 작동 원리](https://www.44bits.io/ko/post/cli_json_processor_jq_basic_syntax)
+- [숫자 1은 올바른 JSON 형식인가?](https://wormwlrm.github.io/2024/01/21/Standardization-of-JSON.html)
 
 #### NDJSON
 
