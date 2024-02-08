@@ -1582,6 +1582,7 @@
 - [Cracking encrypted Lastpass vaults](https://markuta.com/cracking-lastpass-vaults/)
 - [How They Bypass Youtube Video Download Throttling](https://blog.0x7d0.dev/history/how-they-bypass-youtube-video-download-throttling/)
 - [Exploiting the iPhone 4, Part 1: Gaining Entry](https://axleos.com/exploiting-the-iphone-4-part-1-gaining-entry/)
+- [I looked through attacks in my access logs. Here's what I found](https://nishtahir.com/i-looked-through-attacks-in-my-access-logs-heres-what-i-found/)
 
 ### BoF
 
