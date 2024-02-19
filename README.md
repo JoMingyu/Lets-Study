@@ -220,6 +220,8 @@
 
 #### Version specific
 
+- [Summary of Major Changes Between Python Versions](https://www.nicholashairs.com/posts/major-changes-between-python-versions/)
+
 ##### 3.7
 
 - [Why is Python 3.7 fastest](https://speakerdeck.com/jungwinter/why-is-python-3-dot-7-fastest?slide=137)
