@@ -854,6 +854,7 @@
 - [Ticket Servers: Distributed Unique Primary Keys on the Cheap](https://code.flickr.net/2010/02/08/ticket-servers-distributed-unique-primary-keys-on-the-cheap/)
 - [CDC 너두 할 수 있어(feat. B2B 알림 서비스에 Kafka CDC 적용하기)](https://techblog.woowahan.com/10000/)
 - [Real-time Messaging - Slack Engineering](https://slack.engineering/real-time-messaging/)
+- [Startup Infrastructure: Scaling from Zero to Enterprise](https://vadimkravcenko.com/shorts/infrastructure-from-zero-to-enterprise/)
 
 #### Troubleshooting
 
