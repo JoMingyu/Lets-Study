@@ -435,6 +435,7 @@
 - [HTML을 정규 표현식만으로 파싱할 수 있을까?](https://evan-moon.github.io/2021/05/07/why-regexp-called-regexp/)
 - [ignore case sensitivity](https://stackoverflow.com/questions/9655164/regex-ignore-case-sensitivity)
 - [A comprehensive guide to the dangers of Regular Expressions in JavaScript](https://www.sonarsource.com/blog/vulnerable-regular-expressions-javascript/)
+- [프론트엔드의 한글 정규식, 어떻게 쓸 것인가.](https://helia-17.tistory.com/16)
 
 #### 계산 복잡도 이론
 
