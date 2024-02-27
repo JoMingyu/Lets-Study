@@ -200,15 +200,16 @@
 - [비동기적으로 Python 다루기](https://hwangheek.github.io/2019/asynchronous-python/)
 - [백엔드 개발자들이 알아야할 동시성 6 — Coroutine](https://choi-geonu.medium.com/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A0-%EB%8F%99%EC%8B%9C%EC%84%B1-6-coroutine-9eecdbeb2d2d)
 
-#### Performance
+#### Internals
 
+- [Exponentials in python x \*\* y vs math.pow(x, y)](https://stackoverflow.com/questions/20969773/exponentials-in-python-x-y-vs-math-powx-y)
+- [Dismissing Python Garbage Collection at Instagram](https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172?gi=7a89cec7ad8b)
 - [Python GIL](https://medium.com/@mjhans83/python-gil-f940eac0bef9)
 - [Python GC가 작동하는 원리](https://winterj.me/python-gc/)
 - [\_\_slots\_\_ magic](http://book.pythontips.com/en/latest/__slots__magic.html)
-- [Exponentials in python x \*\* y vs math.pow(x, y)](https://stackoverflow.com/questions/20969773/exponentials-in-python-x-y-vs-math-powx-y)
 - [How did Python implement the built-in function pow()?](https://stackoverflow.com/questions/5246856/how-did-python-implement-the-built-in-function-pow)
-- [Dismissing Python Garbage Collection at Instagram](https://instagram-engineering.com/dismissing-python-garbage-collection-at-instagram-4dca40b29172?gi=7a89cec7ad8b)
 - [Memory Management in Python - Part 3: Object Lifetimes and Garbage Collection](https://anvil.works/articles/pointers-in-my-python-3)
+- [Performance Analysis of Python’s dict() and {}](https://madebyme.today/blog/python-dict-vs-curly-brackets/)
 
 #### Better way
 
