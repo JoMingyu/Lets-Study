@@ -875,6 +875,7 @@
 
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
 - [Python 기반 대규모 마이크로 서비스에서 Circuit Breaker 도입의 여정](https://techblog.yogiyo.co.kr/%ED%8C%8C%EC%9D%B4%EC%8D%AC-%EA%B8%B0%EB%B0%98%EC%9D%98-%EB%8C%80%EA%B7%9C%EB%AA%A8-%EB%A7%88%EC%9D%B4%ED%81%AC%EB%A1%9C-%EC%84%9C%EB%B9%84%EC%8A%A4%EC%97%90%EC%84%9C-circuit-breaker-%EB%8F%84%EC%9E%85-%EC%97%AC%EC%A0%95-b694d83cbf48)
+- [5 Microservices Design Patterns Every DevOps Team Should Know](https://devops.com/5-microservices-design-patterns-every-devops-team-should-know/)
 
 #### Data Pipeline
 
