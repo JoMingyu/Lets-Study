@@ -1004,6 +1004,10 @@
 
 - [Already learned DevOps? Great, now it’s time for GitOps](https://thenextweb.com/contributors/2018/12/08/all-you-need-to-know-about-gitops/)
 
+#### FinOps
+
+- [스타트업 엔지니어의 AWS 비용 최적화 경험기](https://tech.inflab.com/20240227-finops-for-startup/)
+
 #### Automation
 
 ##### Cloudformation
