@@ -396,6 +396,9 @@
 
 - [파이썬 프로그래머를 위한 러스트 입문](https://indosaram.github.io/rust-python-book/)
 
+## Gotcha
+- [소프트웨어 개발에서 배운 교훈들](https://news.hada.io/topic?id=13641)
+
 ## 학습
 
 - [progate](https://progate.com/languages)
