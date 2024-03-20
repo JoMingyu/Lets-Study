@@ -556,6 +556,10 @@
 
 - [The Absolute Minimum Every Software Developer Must Know About Unicode in 2023 (Still No Excuses!)](https://tonsky.me/blog/unicode/)
 
+### Identifying
+
+- [기획자가 알아두어야 할 CI, DI 개념 정리](https://yozm.wishket.com/magazine/detail/2488/)
+
 ## 웹 개발
 
 - [What are the differences between server-side and client-side programming?](https://softwareengineering.stackexchange.com/a/171210)
