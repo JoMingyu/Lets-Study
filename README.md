@@ -466,6 +466,7 @@
 
 ##### 알고리즘
 
+- [Khan Academy - Algorithm](https://ko.khanacademy.org/computing/computer-science/algorithms)
 - [루프 불변성](http://egloos.zum.com/kuphy00/v/2475164)
 - [분할정복](https://ko.khanacademy.org/computing/computer-science/algorithms/merge-sort/a/overview-of-merge-sort)
 - [힙 정렬](https://ratsgo.github.io/data%20structure&algorithm/2017/09/27/heapsort/)
