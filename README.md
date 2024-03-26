@@ -659,6 +659,7 @@
 ##### OAuth
 
 - [구글 API를 통해서 배우는 인증 (oauth 2.0)](https://opentutorials.org/course/2473/16571)
+- [Learn OAuth 2.0 by Building Your Own OAuth Client](https://annotate.dev/p/hello-world/learn-oauth-2-0-by-building-your-own-oauth-client-U2HaZNtvQojn4F)
 
 ##### IAM
 
