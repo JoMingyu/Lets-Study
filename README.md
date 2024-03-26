@@ -478,6 +478,10 @@
 - [2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-2/)
 - [Tim sort에 대해 알아보자](https://d2.naver.com/helloworld/0315536)
 
+###### 압축
+
+- [컨텐츠 압축을 위한 배경지식](https://blog.cometkim.kr/posts/content-compression-101/)
+
 ##### 알고리즘 패러다임
 
 ### 운영체제
