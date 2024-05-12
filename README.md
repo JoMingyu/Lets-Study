@@ -1452,6 +1452,10 @@
 - [.gitignore is ignored by Git](https://stackoverflow.com/a/11451731)
 - [git not displaying unicode file names](https://stackoverflow.com/questions/34549040/git-not-displaying-unicode-file-names)
 
+#### Advanced
+
+- [Git as debugging tool](https://lucasoshiro.github.io/posts-en/2023-02-13-git-debug/)
+
 ### GitHub
 
 - [Pull Request를 이용한 개발 흐름을 적용해 보고 나서](https://blog.outsider.ne.kr/1199)
