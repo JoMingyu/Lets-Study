@@ -266,16 +266,19 @@
 - [Python Virtualenv](https://medium.com/@Joachim8675309/python-virtualenv-c77e22bf5243)
 - [pyenv-virtualenv](https://github.com/pyenv/pyenv-virtualenv)
 
-##### pipenv
+##### Package management
+###### pipenv
 
 - [pipenv란 무엇인가](https://medium.com/@erish/python-pipenv-%EB%9E%80-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80-961b00d4f42f)
 - [pipenv로 Python 프로젝트 관리하기](https://cjh5414.github.io/how-to-manage-python-project-with-pipenv/)
 - [Force pipenv to create a new virtualenv](https://stackoverflow.com/a/49258323)
 - [How to get pipenv running in docker?](https://stackoverflow.com/a/49705601)
 
-##### poetry
-
+###### poetry
 - [Poetry를 사용한 파이썬 패키지 관리](https://lhy.kr/python-poetry)
+
+###### uv
+- [astral-sh/uv](https://github.com/astral-sh/uv)
 
 #### Testing
 
