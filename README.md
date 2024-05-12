@@ -210,6 +210,7 @@
 - [How did Python implement the built-in function pow()?](https://stackoverflow.com/questions/5246856/how-did-python-implement-the-built-in-function-pow)
 - [Memory Management in Python - Part 3: Object Lifetimes and Garbage Collection](https://anvil.works/articles/pointers-in-my-python-3)
 - [Performance Analysis of Python’s dict() and {}](https://madebyme.today/blog/python-dict-vs-curly-brackets/)
+- [Why Do Python Lists Multiply Oddly? Exploring the CPython Source Code](https://codeconfessions.substack.com/p/why-do-python-lists-multiply-oddly)
 
 #### Better way
 
