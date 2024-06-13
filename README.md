@@ -288,6 +288,9 @@
 - [How should I verify a log message when testing Python code under nose?](https://stackoverflow.com/questions/899067/how-should-i-verify-a-log-message-when-testing-python-code-under-nose)
 - [Assert that logging has been called with specific string](https://stackoverflow.com/questions/31728497/assert-that-logging-has-been-called-with-specific-string)
 
+##### pytest
+- [A Beginner's Guide to Unit Testing with Pytest](https://betterstack.com/community/guides/testing/pytest-guide/)
+
 #### Libraries
 
 ##### SQLAlchemy
