@@ -794,6 +794,7 @@
 ### History
 
 - [프론트엔드 역사와 미래, 업무 분야 ... 그리고 잘하는 프론트엔드 개발자란?](https://velog.io/@teo/frontend)
+- [[번역] 2016년에 자바스크립트를 배우는 것](https://blog.kesuskim.com/2016/10/learning-js-in-2016/)
 
 ### Useful Service
 
