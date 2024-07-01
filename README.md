@@ -481,9 +481,12 @@
 - [Dijkstra’s Shortest Path Algorithm in Python](https://medium.com/cantors-paradise/dijkstras-shortest-path-algorithm-in-python-d955744c7064)
 - [Levenshtein Distance](https://madplay.github.io/post/levenshtein-distance-edit-distance)
 - [The Algorithms](https://the-algorithms.com/)
+
+###### 문제풀이
 - [2023 카카오 신입 공채 1차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-1/)
 - [2023 카카오 신입 공채 2차 온라인 코딩 테스트 for Tech developers 문제해설](https://tech.kakao.com/2023/01/25/2023-kakao-recruitment-round-2/)
 - [Tim sort에 대해 알아보자](https://d2.naver.com/helloworld/0315536)
+- [Python - 스도쿠 문제 풀이](https://soooprmx.com/python-%ec%8a%a4%eb%8f%84%ec%bf%a0-%eb%ac%b8%ec%a0%9c-%ed%92%80%ec%9d%b4/)
 
 ###### 압축
 
