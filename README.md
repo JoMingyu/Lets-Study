@@ -188,7 +188,7 @@
 - [Removing duplicates in lists](https://stackoverflow.com/a/7961390)
 - [Difference between append vs. extend list methods in Python](https://stackoverflow.com/a/252711)
 
-##### Concurrent Programming
+##### Concurrent/Async Programming
 
 - [비동기 파이썬](https://mingrammer.com/translation-asynchronous-python/)
 - [Intro to Threads and Processes in Python](https://medium.com/@bfortuner/python-multithreading-vs-multiprocessing-73072ce5600b)
@@ -199,6 +199,7 @@
 - [비동기 프로그래밍 동작 원리 (asyncio)](https://it-eldorado.tistory.com/159)
 - [비동기적으로 Python 다루기](https://hwangheek.github.io/2019/asynchronous-python/)
 - [백엔드 개발자들이 알아야할 동시성 6 — Coroutine](https://choi-geonu.medium.com/%EB%B0%B1%EC%97%94%EB%93%9C-%EA%B0%9C%EB%B0%9C%EC%9E%90%EB%93%A4%EC%9D%B4-%EC%95%8C%EC%95%84%EC%95%BC%ED%95%A0-%EB%8F%99%EC%8B%9C%EC%84%B1-6-coroutine-9eecdbeb2d2d)
+- [async for 구문의 작동 원리](https://soooprmx.com/async-for-%ea%b5%ac%eb%ac%b8%ec%9d%98-%ec%9e%91%eb%8f%99-%ec%9b%90%eb%a6%ac/)
 
 #### Internals
 
