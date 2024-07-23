@@ -1510,6 +1510,7 @@
 - [누구나 프로그래머가 될 수 있다](https://medium.com/@totuworld/%EB%88%84%EA%B5%AC%EB%82%98-%ED%94%84%EB%A1%9C%EA%B7%B8%EB%9E%98%EB%A8%B8%EA%B0%80-%EB%90%A0-%EC%88%98-%EC%9E%88%EB%8B%A4-bf1cdd89cef2)
 - [전염시키기](https://jojoldu.tistory.com/710)
 - [The Tech Promotion Algorithm: A Structured Guide to Moving Up](https://blog.bytebytego.com/p/the-tech-promotion-algorithm-a-structured)
+- [A Bunch of Programming Advice I’d Give To Myself 15 Years Ago](https://mbuffett.com/posts/programming-advice-younger-self/)
 
 ### 성장
 
