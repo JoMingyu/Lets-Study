@@ -565,6 +565,7 @@
 ### Identifier
 
 - [What Is a UUID and How Are They Generated?](https://betterprogramming.pub/what-is-a-uuid-and-how-are-they-generated-17f0acbd7233)
+- [UUIDv7 in 33 languages](https://antonz.org/uuidv7/)
 
 ### Image
 
