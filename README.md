@@ -887,6 +887,10 @@
 - [Real-time Messaging - Slack Engineering](https://slack.engineering/real-time-messaging/)
 - [Startup Infrastructure: Scaling from Zero to Enterprise](https://vadimkravcenko.com/shorts/infrastructure-from-zero-to-enterprise/)
 
+#### Rate Limiting
+
+- [Visualizing algorithms for rate limiting](https://smudge.ai/blog/ratelimit-algorithms)
+
 #### Troubleshooting
 
 - [The Case of the Mysterious AWS ELB 504 Errors](https://sigopt.com/blog/the-case-of-the-mysterious-aws-elb-504-errors/)
