@@ -510,6 +510,7 @@
 
 - [파이썬으로 풀어보는 아주 심플한 검색엔진의 원리](https://www.youtube.com/watch?v=SIsyo9ZHWrE)
 - [검색 엔진은 어떻게 작동하는가](https://xo.dev/articles/how-search-engine-works)
+- [Build a search index in Python](https://jamesg.blog/2024/07/16/build-a-search-index/)
 
 ### 네트워크
 
