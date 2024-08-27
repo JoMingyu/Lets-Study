@@ -905,6 +905,10 @@
 - [ByteByteGoHq/system-design-101](https://github.com/ByteByteGoHq/system-design-101)
 - [ByteByteGo](https://www.youtube.com/@ByteByteGo/videos)
 
+#### Rate Limiting
+
+- [Visualizing algorithms for rate limiting](https://smudge.ai/blog/ratelimit-algorithms)
+
 #### Microservice
 
 - [Circuit breaker 패턴을 이용한 장애에 강한 MSA 서비스 구현하기](https://bcho.tistory.com/1247)
@@ -1245,6 +1249,7 @@
 - [Nine ways to shoot yourself in the foot with PostgreSQL](https://philbooth.me/blog/nine-ways-to-shoot-yourself-in-the-foot-with-postgresql)
 - [Create an advanced search engine with PostgreSQL](https://xata.io/blog/postgres-full-text-search-engine)
 - [Postgresql Sequence vs Serial](https://stackoverflow.com/questions/34034702/postgresql-sequence-vs-serial)
+- [How does COPY work and why is it so much faster than INSERT?](https://stackoverflow.com/questions/46715354/how-does-copy-work-and-why-is-it-so-much-faster-than-insert)
 
 ##### PrestoDB
 
