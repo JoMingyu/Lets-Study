@@ -1609,6 +1609,12 @@
 
 - [What does @: (at symbol colon) mean in a Makefile?](https://stackoverflow.com/questions/8610799/what-does-at-symbol-colon-mean-in-a-makefile)
 
+### Streaming
+
+#### HLS
+
+- [How HLS Works](https://jazco.dev/2024/07/05/hls/)
+
 ### 수학
 
 #### 통계학
